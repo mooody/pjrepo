@@ -2,7 +2,7 @@
 {
   "title": "Biologiskt växtskydd i praktiken",
   "description": "Egna observationer av bladlöss och små djur i odlingen.",
-  "draft": false,
+  "draft": true,
   "projectStatus": "pågår"
 }
 ---

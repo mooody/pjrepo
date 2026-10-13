@@ -2,7 +2,7 @@
 {
   "title": "Bladlöss",
   "description": "Små växtsugande insekter som också är föda för många nyttodjur.",
-  "draft": true,
+  "draft": false,
   "scientificName": "Aphidoidea",
   "tags": [
     "bladlöss",
@@ -28,7 +28,8 @@
       "href": "/nyttodjur/parasitsteklar/"
     }
   ],
-  "identification": "preliminär"
+  "identification": "preliminär",
+  "reviewed": "2026-10-13"
 }
 ---
 
@@ -40,3 +41,6 @@ Kontrollera tillväxt, angreppets omfattning och förekomsten av naturliga fiend
 
 ## Åtgärder
 På tåliga växter kan en försiktig vattenstråle minska antalet löss. Biologiska metoder bör väljas efter art och miljö. Följ alltid leverantörens råd för inköpta nyttodjur.
+
+## Jämför bilder
+[RHS visar namngivna exempelbilder av bladlössens naturliga fiender](https://www.rhs.org.uk/biodiversity/aphid-predators). Jämför både grupp och livsstadium; referensbilderna är inte våra egna fynd.

@@ -2,7 +2,7 @@
 {
   "title": "Kompost och växtmaterial",
   "description": "Återför material med hänsyn till råvara, mognad och användning.",
-  "draft": false,
+  "draft": true,
   "tags": [
     "jord",
     "kompost"

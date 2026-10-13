@@ -4,7 +4,7 @@
   "description": "Chiliodling som redan pågår, med plats för dokumentation och nya frågor.",
   "draft": false,
   "projectStatus": "pågår",
-  "image": "chiliplanta"
+  "image": "rod-chili"
 }
 ---
 
@@ -14,4 +14,4 @@ Olika chilisorter har odlats i krukor och utomhus. Skörden har använts i förs
 ## Fortsatt dokumentation
 Sort, odlingsplats, datum och växtförhållanden ska hållas ihop med varje anteckning. Egna upplevelser av en säsong är inte kontrollerade jämförelser mellan odlingsmetoder.
 
-[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/) och [följ odlingsdagboken](/blogg/).
+[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

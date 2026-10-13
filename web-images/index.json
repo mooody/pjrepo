@@ -6,109 +6,54 @@
   },
   "images": [
     {
-      "id": "odlingslotten",
+      "id": "tradgardsdrommar-logo",
       "ownership": "own",
       "position": "centre",
       "variants": {
         "full": [
           {
-            "file": "odlingslotten-full-480.webp",
+            "file": "tradgardsdrommar-logo-full-480.webp",
             "width": 480,
-            "height": 640
+            "height": 480
           },
           {
-            "file": "odlingslotten-full-800.webp",
+            "file": "tradgardsdrommar-logo-full-800.webp",
             "width": 800,
-            "height": 1067
+            "height": 800
           },
           {
-            "file": "odlingslotten.webp",
-            "width": 1152,
+            "file": "tradgardsdrommar-logo.webp",
+            "width": 1536,
             "height": 1536
           }
         ],
         "card": [
           {
-            "file": "odlingslotten-card-480.webp",
+            "file": "tradgardsdrommar-logo-card-480.webp",
             "width": 480,
             "height": 320
           },
           {
-            "file": "odlingslotten-card-800.webp",
+            "file": "tradgardsdrommar-logo-card-800.webp",
             "width": 800,
             "height": 533
           }
         ],
         "hero": [
           {
-            "file": "odlingslotten-hero-480.webp",
+            "file": "tradgardsdrommar-logo-hero-480.webp",
             "width": 480,
             "height": 600
           },
           {
-            "file": "odlingslotten-hero-800.webp",
+            "file": "tradgardsdrommar-logo-hero-800.webp",
             "width": 800,
             "height": 1000
           }
         ],
         "sharing": [
           {
-            "file": "odlingslotten-sharing-1200.webp",
-            "width": 1152,
-            "height": 605
-          }
-        ]
-      }
-    },
-    {
-      "id": "chiliplanta",
-      "ownership": "own",
-      "position": "centre",
-      "variants": {
-        "full": [
-          {
-            "file": "chiliplanta-full-480.webp",
-            "width": 480,
-            "height": 360
-          },
-          {
-            "file": "chiliplanta-full-800.webp",
-            "width": 800,
-            "height": 600
-          },
-          {
-            "file": "chiliplanta.webp",
-            "width": 1536,
-            "height": 1152
-          }
-        ],
-        "card": [
-          {
-            "file": "chiliplanta-card-480.webp",
-            "width": 480,
-            "height": 320
-          },
-          {
-            "file": "chiliplanta-card-800.webp",
-            "width": 800,
-            "height": 533
-          }
-        ],
-        "hero": [
-          {
-            "file": "chiliplanta-hero-480.webp",
-            "width": 480,
-            "height": 600
-          },
-          {
-            "file": "chiliplanta-hero-800.webp",
-            "width": 800,
-            "height": 1000
-          }
-        ],
-        "sharing": [
-          {
-            "file": "chiliplanta-sharing-1200.webp",
+            "file": "tradgardsdrommar-logo-sharing-1200.webp",
             "width": 1200,
             "height": 630
           }
@@ -116,54 +61,439 @@
       }
     },
     {
-      "id": "fermenteringskarl",
+      "id": "marmeladgrupp",
       "ownership": "own",
       "position": "centre",
       "variants": {
         "full": [
           {
-            "file": "fermenteringskarl-full-480.webp",
+            "file": "marmeladgrupp-full-480.webp",
             "width": 480,
-            "height": 640
+            "height": 480
           },
           {
-            "file": "fermenteringskarl-full-800.webp",
+            "file": "marmeladgrupp-full-800.webp",
             "width": 800,
-            "height": 1067
+            "height": 800
           },
           {
-            "file": "fermenteringskarl.webp",
-            "width": 1600,
-            "height": 2135
+            "file": "marmeladgrupp.webp",
+            "width": 1536,
+            "height": 1536
           }
         ],
         "card": [
           {
-            "file": "fermenteringskarl-card-480.webp",
+            "file": "marmeladgrupp-card-480.webp",
             "width": 480,
             "height": 320
           },
           {
-            "file": "fermenteringskarl-card-800.webp",
+            "file": "marmeladgrupp-card-800.webp",
             "width": 800,
             "height": 533
           }
         ],
         "hero": [
           {
-            "file": "fermenteringskarl-hero-480.webp",
+            "file": "marmeladgrupp-hero-480.webp",
             "width": 480,
             "height": 600
           },
           {
-            "file": "fermenteringskarl-hero-800.webp",
+            "file": "marmeladgrupp-hero-800.webp",
             "width": 800,
             "height": 1000
           }
         ],
         "sharing": [
           {
-            "file": "fermenteringskarl-sharing-1200.webp",
+            "file": "marmeladgrupp-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "burkar",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "burkar-full-480.webp",
+            "width": 480,
+            "height": 640
+          },
+          {
+            "file": "burkar-full-800.webp",
+            "width": 800,
+            "height": 1067
+          },
+          {
+            "file": "burkar.webp",
+            "width": 1152,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "burkar-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "burkar-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "burkar-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "burkar-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "burkar-sharing-1200.webp",
+            "width": 1152,
+            "height": 605
+          }
+        ]
+      }
+    },
+    {
+      "id": "cowboy-candy",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "cowboy-candy-full-480.webp",
+            "width": 480,
+            "height": 480
+          },
+          {
+            "file": "cowboy-candy-full-800.webp",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "file": "cowboy-candy.webp",
+            "width": 1536,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "cowboy-candy-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "cowboy-candy-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "cowboy-candy-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "cowboy-candy-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "cowboy-candy-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "cowboy-candy-miljo",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "cowboy-candy-miljo-full-480.webp",
+            "width": 480,
+            "height": 853
+          },
+          {
+            "file": "cowboy-candy-miljo-full-800.webp",
+            "width": 800,
+            "height": 1422
+          },
+          {
+            "file": "cowboy-candy-miljo.webp",
+            "width": 864,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "cowboy-candy-miljo-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "cowboy-candy-miljo-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "cowboy-candy-miljo-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "cowboy-candy-miljo-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "cowboy-candy-miljo-sharing-1200.webp",
+            "width": 864,
+            "height": 454
+          }
+        ]
+      }
+    },
+    {
+      "id": "gul-chili",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "gul-chili-full-480.webp",
+            "width": 480,
+            "height": 640
+          },
+          {
+            "file": "gul-chili-full-800.webp",
+            "width": 800,
+            "height": 1067
+          },
+          {
+            "file": "gul-chili.webp",
+            "width": 1152,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "gul-chili-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "gul-chili-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "gul-chili-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "gul-chili-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "gul-chili-sharing-1200.webp",
+            "width": 1152,
+            "height": 605
+          }
+        ]
+      }
+    },
+    {
+      "id": "rod-chili",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "rod-chili-full-480.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "file": "rod-chili-full-800.webp",
+            "width": 800,
+            "height": 600
+          },
+          {
+            "file": "rod-chili.webp",
+            "width": 1536,
+            "height": 1152
+          }
+        ],
+        "card": [
+          {
+            "file": "rod-chili-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "rod-chili-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "rod-chili-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "rod-chili-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "rod-chili-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "brun-chili",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "brun-chili-full-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "brun-chili-full-800.webp",
+            "width": 800,
+            "height": 1000
+          },
+          {
+            "file": "brun-chili.webp",
+            "width": 1229,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "brun-chili-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "brun-chili-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "brun-chili-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "brun-chili-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "brun-chili-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "rod-skrynklig-chili",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "rod-skrynklig-chili-full-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "rod-skrynklig-chili-full-800.webp",
+            "width": 800,
+            "height": 1000
+          },
+          {
+            "file": "rod-skrynklig-chili.webp",
+            "width": 1229,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "rod-skrynklig-chili-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "rod-skrynklig-chili-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "rod-skrynklig-chili-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "rod-skrynklig-chili-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "rod-skrynklig-chili-sharing-1200.webp",
             "width": 1200,
             "height": 630
           }
@@ -226,56 +556,56 @@
       }
     },
     {
-      "id": "burkar",
+      "id": "fermenteringskarl",
       "ownership": "own",
       "position": "centre",
       "variants": {
         "full": [
           {
-            "file": "burkar-full-480.webp",
+            "file": "fermenteringskarl-full-480.webp",
             "width": 480,
             "height": 640
           },
           {
-            "file": "burkar-full-800.webp",
+            "file": "fermenteringskarl-full-800.webp",
             "width": 800,
             "height": 1067
           },
           {
-            "file": "burkar.webp",
-            "width": 1152,
-            "height": 1536
+            "file": "fermenteringskarl.webp",
+            "width": 1600,
+            "height": 2135
           }
         ],
         "card": [
           {
-            "file": "burkar-card-480.webp",
+            "file": "fermenteringskarl-card-480.webp",
             "width": 480,
             "height": 320
           },
           {
-            "file": "burkar-card-800.webp",
+            "file": "fermenteringskarl-card-800.webp",
             "width": 800,
             "height": 533
           }
         ],
         "hero": [
           {
-            "file": "burkar-hero-480.webp",
+            "file": "fermenteringskarl-hero-480.webp",
             "width": 480,
             "height": 600
           },
           {
-            "file": "burkar-hero-800.webp",
+            "file": "fermenteringskarl-hero-800.webp",
             "width": 800,
             "height": 1000
           }
         ],
         "sharing": [
           {
-            "file": "burkar-sharing-1200.webp",
-            "width": 1152,
-            "height": 605
+            "file": "fermenteringskarl-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
           }
         ]
       }

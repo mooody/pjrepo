@@ -2,7 +2,7 @@
 {
   "title": "Täckodling",
   "description": "Ett material på jordytan kan påverka fukt, ogräs och arbetet i odlingen.",
-  "draft": false,
+  "draft": true,
   "tags": [
     "jord",
     "odlingsmetoder"

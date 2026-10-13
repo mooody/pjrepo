@@ -14,7 +14,7 @@ async function files(folder) {
 }
 test('alla interna länkar och bildfiler i byggda sidor finns', async () => {
   const pages = (await files('dist')).filter((p) => p.endsWith('.html'));
-  assert.ok(pages.length >= 30);
+  assert.ok(pages.length >= 20);
   for (const file of pages) {
     const html = await readFile(file, 'utf8');
     for (const match of html.matchAll(
@@ -89,3 +89,15 @@ test('CMS använder rätt repo, redaktionellt flöde och alla innehållssamlinga
     }
   }
 });
+
+ test('förenklad offentlig struktur och exakt varumärke', async () => {
+ const settings=JSON.parse(await readFile('src/data/settings.json','utf8'));
+ assert.equal(settings.tagline,'odlat med omsorg, förädlat med passion');
+ assert.equal(settings.logo,'/media/tradgardsdrommar-logo.webp');
+ for(const path of ['blogg','odla','observationer','odlingsmetoder/biologisk-mangfald']) await assert.rejects(access(`dist/${path}/index.html`));
+ const home=await readFile('dist/index.html','utf8');
+ assert.doesNotMatch(home,/odlingsdagbok|biologisk mångfald|fältobservationer/i);
+ const config=YAML.parse(await readFile('public/admin/config.yml','utf8'));
+ assert.equal(config.backend.branch,'main');
+ for(const name of ['habanero','chocolate-habanero','habanero-lemon','red-savina','ghost-pepper','carolina-reaper','jalapeno-leon','pequena-amarilla']) await access(`dist/chilisorter/${name}/index.html`);
+ });

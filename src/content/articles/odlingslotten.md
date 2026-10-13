@@ -2,7 +2,7 @@
 {
   "title": "En odlingsplats att utveckla",
   "description": "Marken som utgångspunkt för nästa steg i odlingen.",
-  "draft": false,
+  "draft": true,
   "category": "Odling och planering",
   "image": "odlingslotten",
   "tags": [

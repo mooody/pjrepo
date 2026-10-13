@@ -1,11 +1,11 @@
 {
   "name": "Trädgårdsdrömmar",
-  "tagline": "Småskalig odling. Stora samband.",
-  "description": "Egen odling, hantverksmässig förädling och livet i trädgården.",
+  "tagline": "odlat med omsorg, förädlat med passion",
+  "description": "Chili från egen odling, hantverksmässig förädling och kunskap om nyttodjur.",
   "url": "https://www.tradgardsdrommar.se",
   "email": "",
   "social": [],
-  "logo": "",
+  "logo": "/media/tradgardsdrommar-logo.webp",
   "colors": {
     "earth": "#241F1A",
     "olive": "#38372C",
@@ -20,25 +20,21 @@
   },
   "navigation": [
     {
-      "label": "Odla",
-      "href": "/odla/"
-    },
-    {
-      "label": "Livet i trädgården",
-      "href": "/biologisk-odling/"
+      "label": "Chilisorter",
+      "href": "/chilisorter/"
     },
     {
       "label": "Förädla",
       "href": "/foradla/"
     },
     {
-      "label": "Odlingsdagbok",
-      "href": "/blogg/"
+      "label": "Livet i trädgården",
+      "href": "/biologisk-odling/"
     },
     {
       "label": "Om Trädgårdsdrömmar",
       "href": "/om/"
     }
   ],
-  "sharingImage": "odlingslotten"
+  "sharingImage": "marmeladgrupp"
 }

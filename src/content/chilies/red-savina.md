@@ -1,10 +1,10 @@
 ---
 {
   "title": "Red Savina",
-  "description": "Lär känna Red Savina: utseende, ungefärlig hetta och odlingsförutsättningar.",
+  "description": "Red Savina: sortfakta, användning och erfarenheter från våra försök.",
   "draft": false,
   "species": "Capsicum chinense",
-  "growth": "Se den gemensamma guiden om plats, värme och säsong.",
+  "growth": "Förkultiveras med ljus och värme. En skyddad odlingsplats ger en längre användbar säsong. Se odlingsguiden för gemensamma råd.",
   "tags": [
     "mycket het",
     "Capsicum chinense"
@@ -17,6 +17,10 @@
     {
       "title": "New Mexico State University: Heat – tested peppers",
       "url": "https://cpi.nmsu.edu/chile-info/heat.html"
+    },
+    {
+      "title": "Renee’s Garden: Red Savina",
+      "url": "https://www.reneesgarden.com/collections/vegetables/products/pepper-habanero-red-savina"
     }
   ],
   "example": false,
@@ -27,12 +31,18 @@
     }
   ],
   "reviewed": "2026-10-13",
-  "heatNote": "Chile Pepper Institute redovisar 500 000 SHU för provat material benämnt Red Savina Habanero. Det är ett källspecifikt testvärde, inte ett sortintervall eller en mätning av vår skörd."
+  "heatNote": "380 000–500 000 SHU är Renee’s Gardens uppgift för deras Red Savina. Det är ett leverantörsintervall, inte en mätning av vår skörd.",
+  "appearance": "Röda frukter; Renee’s Garden beskriver formen som lanternliknande.",
+  "flavor": "Fruktig enligt Renee’s Gardens sortbeskrivning.",
+  "heatMin": 380000,
+  "heatMax": 500000
 }
 ---
 
-## Om sortnamnet
-Red Savina ingår i webbplatsens sortregister. Ursprung och smak kompletteras när en relevant sortkälla har kopplats till namnet. Ett fotografi ensamt fastställer inte sortidentiteten.
+## Röd habanero med hög hetta
+Red Savina är en habanerosort som Renee’s Garden beskriver som fruktig, med röda, lanternliknande frukter. Leverantörens styrkeintervall står ovan tillsammans med källan.
 
-## Att odla
-[Läs den gemensamma odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/). Egna erfarenheter publiceras med odlingsplats och datum när de kan kopplas till rätt planta.
+## Odling och skörd
+En lång, varm säsong är viktig. Förkultivera och välj en skyddad plats. I våra förädlingsdiskussioner har Red Savina varit en av sorterna att prova i olika små satser.
+
+[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

@@ -5,14 +5,14 @@ test('startsida på dator: navigation, tillgänglighet och layout', async ({
 }) => {
   await page.goto('/');
   await expect(page.getByRole('heading', { level: 1 })).toContainText(
-    'Från levande jord',
+    'Chili att odla',
   );
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
   await page
     .getByRole('navigation')
-    .getByRole('link', { name: 'Odla' })
+    .getByRole('link', { name: 'Chilisorter' })
     .click();
-  await expect(page).toHaveURL(/odla/);
+  await expect(page).toHaveURL(/chilisorter/);
 });
 test('mobilmeny går att öppna, använda och stänga', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
@@ -46,12 +46,12 @@ test('sökning och ämnesfilter visar rätt sorter och tomt resultat', async ({
   await expect(page.getByRole('status')).toHaveText('1 träffar');
   await page.getByRole('searchbox').fill('');
   await page.getByLabel('Filtrera efter ämne').selectOption('Capsicum chinense');
-  await expect(page.locator('.search-entry:visible')).toHaveCount(5);
+  await expect(page.locator('.search-entry:visible')).toHaveCount(6);
   await page.getByRole('searchbox').fill('finnsinte');
   await expect(page.getByText('Inga träffar.')).toBeVisible();
 });
 test('faktasida är tillgänglig och visar källor', async ({ page }) => {
-  await page.goto('/odlingsmetoder/tackodling/');
+  await page.goto('/chilisorter/jalapeno-leon/');
   await expect(
     page.getByRole('heading', { name: 'Källor och granskning' }),
   ).toBeVisible();

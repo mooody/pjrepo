@@ -25,10 +25,10 @@
   "observationNotice": "En dokumenterad observation beskriver vad som noterats. Möjliga förklaringar och preliminära identifieringar anges separat.",
   "placeholder": "Bild saknas ännu",
   "biology": {
-    "eyebrow": "En levande trädgård",
+    "eyebrow": "Nyttodjur och växtskydd",
     "title": "Livet i trädgården",
-    "description": "Utforska biologisk mångfald, små djur och odlingens samband.",
-    "intro": "Lär känna det som händer mellan växterna. Här möts faktasidor om små djur och odlingsmetoder med daterade erfarenheter från den egna trädgården.",
+    "description": "Kunskap om nyttodjur och biologiskt växtskydd i chiliodlingen.",
+    "intro": "Bladlöss och andra små djur kan påverka odlingen. Här finns en introduktion till nyttodjur och växtskydd, med tydlig skillnad mellan allmän kunskap och egna erfarenheter.",
     "linkLabel": "Utforska"
   },
   "notFoundTitle": "Sidan finns inte",

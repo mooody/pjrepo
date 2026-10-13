@@ -25,4 +25,4 @@ Inköpta naturliga fiender behöver passa skadegörare och odlingsmiljö. Frilan
 ## Följ förändringen
 Notera utgångsläge, datum och andra åtgärder. En minskning efter en insats är en observation, men visar inte ensam hur stor del av förändringen insatsen orsakade.
 
-[Läs den egna berättelsen från kålen till chilin](/blogg/fran-kalen-till-chilin/).
+[Utforska nyttodjur och växtskydd](/biologisk-odling/).

@@ -12,7 +12,7 @@ export async function protectedPath(directory, file) {
   return path;
 }
 async function marked(buffer, image, settings, inputDir) {
-  if (image.ownership !== 'own') return sharp(buffer).webp({quality:82}).toBuffer();
+  if (image.ownership !== 'own' || image.kind === 'brand') return sharp(buffer).webp({quality:82}).toBuffer();
   const {width,height} = await sharp(buffer).metadata();
   const {text,opacity,logo} = settings.watermark;
   if (!(opacity >= .15 && opacity <= 1)) throw new Error('Ogiltig opacitet.');

@@ -1,10 +1,10 @@
 ---
 {
-  "title": "Chocolate Habanero",
-  "description": "Lär känna Chocolate Habanero: utseende, ungefärlig hetta och odlingsförutsättningar.",
+  "title": "Habanero Chocolate",
+  "description": "Habanero Chocolate: sortfakta, användning och erfarenheter från våra försök.",
   "draft": false,
   "species": "Capsicum chinense",
-  "growth": "Se den gemensamma guiden om plats, värme och säsong.",
+  "growth": "Baker Creek beskriver en sort med lång säsong. Skyddad, varm odling är en bra utgångspunkt i svenskt klimat.",
   "tags": [
     "mycket het",
     "Capsicum chinense"
@@ -17,6 +17,10 @@
     {
       "title": "New Mexico State University: Heat – tested peppers",
       "url": "https://cpi.nmsu.edu/chile-info/heat.html"
+    },
+    {
+      "title": "Baker Creek: Chocolate Habanero",
+      "url": "https://www.rareseeds.com/hot-pepper-seeds-chocolate-habanero"
     }
   ],
   "example": false,
@@ -27,12 +31,19 @@
     }
   ],
   "reviewed": "2026-10-13",
-  "heatNote": "Chile Pepper Institute redovisar 700 000 SHU för provat material benämnt Chocolate Habanero. Det är ett källspecifikt testvärde, inte ett sortintervall eller en mätning av vår skörd."
+  "heatNote": "Chile Pepper Institute redovisar 700 000 SHU för provat material benämnt Chocolate Habanero. Det är ett källspecifikt testvärde, inte ett sortintervall eller en mätning av vår skörd.",
+  "image": "brun-chili",
+  "appearance": "Bruna frukter vid mognad; det är färgen som ligger bakom namnet Chocolate."
 }
 ---
 
-## Om sortnamnet
-Chocolate Habanero ingår i webbplatsens sortregister. Ursprung och smak kompletteras när en relevant sortkälla har kopplats till namnet. Ett fotografi ensamt fastställer inte sortidentiteten.
+## Chokladbrun vid mognad
+Namnet syftar på fruktens färg. Våra Habanero Chocolate syns på bilden, med den veckade formen och den bruna ytan.
 
-## Att odla
-[Läs den gemensamma odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/). Egna erfarenheter publiceras med odlingsplats och datum när de kan kopplas till rätt planta.
+## Tid att mogna
+Baker Creek beskriver en habanero med lång odlingssäsong. Förkultivering och en varm, skyddad plats ger en användbar utgångspunkt i vårt klimat.
+
+## I förädlingen
+Sorten finns med bland chilin som diskuterats och provats i marmeladarbetet. Smakbeskrivningar från egen jämförande provsmakning läggs till när de dokumenterats.
+
+[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

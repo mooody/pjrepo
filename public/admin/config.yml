@@ -1261,12 +1261,6 @@ collections:
             display_fields:
               - title
             multiple: true
-          - name: projectTitle
-            label: Projektrubrik
-            widget: string
-          - name: projectText
-            label: Projekttext
-            widget: text
           - name: primaryLabel
             label: primaryLabel
             widget: string
@@ -1294,21 +1288,6 @@ collections:
           - name: chiliLink
             label: chiliLink
             widget: string
-          - name: diaryEyebrow
-            label: diaryEyebrow
-            widget: string
-          - name: diaryTitle
-            label: diaryTitle
-            widget: string
-          - name: diaryLink
-            label: diaryLink
-            widget: string
-          - name: projectEyebrow
-            label: projectEyebrow
-            widget: string
-          - name: projectLink
-            label: projectLink
-            widget: string
           - name: processingTitle
             label: processingTitle
             widget: string
@@ -1320,6 +1299,9 @@ collections:
             widget: string
           - name: processingImage
             label: processingImage
+            widget: string
+          - name: philosophyHref
+            label: philosophyHref
             widget: string
       - name: images
         label: Bildbibliotek – skyddade webbexporter
@@ -1370,6 +1352,14 @@ collections:
                   - east
                   - west
                 default: centre
+              - name: kind
+                label: Bildtyp
+                widget: select
+                options:
+                  - photo
+                  - brand
+                default: photo
+                required: false
       - name: sections
         label: Faktabibliotekets rubriker och introduktioner
         file: src/data/sections.json

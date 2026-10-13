@@ -1,10 +1,10 @@
 ---
 {
   "title": "Ghost Pepper",
-  "description": "Lär känna Ghost Pepper: utseende, ungefärlig hetta och odlingsförutsättningar.",
+  "description": "Ghost Pepper: sortfakta, användning och erfarenheter från våra försök.",
   "draft": false,
   "species": "Capsicum chinense",
-  "growth": "Se den gemensamma guiden om plats, värme och säsong.",
+  "growth": "Förkultiveras med ljus och värme. En skyddad odlingsplats ger en längre användbar säsong. Se odlingsguiden för gemensamma råd.",
   "tags": [
     "mycket het",
     "Capsicum chinense"
@@ -35,11 +35,13 @@
 }
 ---
 
-## Om sortnamnet
-Ghost Pepper ingår i webbplatsens sortregister. Ursprung och smak kompletteras när en relevant sortkälla har kopplats till namnet. Ett fotografi ensamt fastställer inte sortidentiteten.
+## Bhut Jolokia
+Ghost Pepper är ett vanligt namn för Bhut Jolokia. Bosland och Baral beskriver material från Assam i Indien som Capsicum chinense, med möjliga genetiska inslag från C. frutescens.
 
-## Att odla
-[Läs den gemensamma odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/). Egna erfarenheter publiceras med odlingsplats och datum när de kan kopplas till rätt planta.
+## Mycket hög hetta
+Sorten hör till de mycket starka chilierna. En publicerad försöksmätning eller rekorduppgift säger inte exakt hur stark en enskild frukt i den egna odlingen är.
 
-## Art och namn
-Bosland och Baral beskriver Bhut Jolokia som en Capsicum chinense-sort med möjliga genetiska inslag från C. frutescens. En äldre rekorduppgift fastställer inte styrkan hos alla frukter som säljs under namnet.
+## Våra försök
+Ghost Pepper finns med i dokumenterade marmeladtester och bland sorterna i förädlingsarbetet. Här skiljs råvarumängderna i testen från allmänna sortuppgifter.
+
+[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

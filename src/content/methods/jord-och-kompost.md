@@ -2,7 +2,7 @@
 {
   "title": "Jord, vatten och luft",
   "description": "Utgå från jordens förutsättningar innan du väljer åtgärd.",
-  "draft": false,
+  "draft": true,
   "tags": [
     "jord"
   ],

@@ -2,7 +2,7 @@
 {
   "title": "Kålen och de blommande rädisorna",
   "description": "En förändrad bladluskoloni och frågor om livet runt odlingen.",
-  "draft": false,
+  "draft": true,
   "date": "2026-09-12",
   "category": "Egen observation",
   "tags": [

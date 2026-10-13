@@ -102,12 +102,6 @@ const { Content } = await render(entry);
         ))}
       </div>
     )}
-    {(['observations'].includes(section.collection) || (section.collection === 'articles' && d.evidence !== 'etablerad')) && (
-      <aside class="metadata">
-        <p>{ui.evidenceLabel}: {d.evidence}. {d.identification && `${ui.identificationLabel}: ${d.identification}.`}</p>
-        <p>{ui.observationNotice}</p>
-      </aside>
-    )}
     {d.sources.length > 0 && (
       <aside class="sources">
         <h2>{ui.sourcesTitle}</h2>

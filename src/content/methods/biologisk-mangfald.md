@@ -2,7 +2,7 @@
 {
   "title": "Biologisk mångfald i odlingen",
   "description": "Variation av livsmiljöer kan göra trädgården rikare.",
-  "draft": false,
+  "draft": true,
   "tags": [
     "odlingsmetoder"
   ],

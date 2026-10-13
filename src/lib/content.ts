@@ -5,9 +5,7 @@ const definitions = [
   { collection: 'beneficials', path: 'nyttodjur' },
   { collection: 'pests', path: 'skadedjur' },
   { collection: 'methods', path: 'odlingsmetoder' },
-  { collection: 'observations', path: 'observationer' },
   { collection: 'projects', path: 'projekt' },
-  { collection: 'articles', path: 'blogg' },
 ] as const;
 export const sections = definitions.map((section) => ({
   ...section,

@@ -2,7 +2,7 @@
 {
   "title": "Guldögonsländor",
   "description": "En introduktion till naturliga fiender och deras roll i odlingen.",
-  "draft": true,
+  "draft": false,
   "scientificName": "Chrysopidae",
   "tags": [
     "nyttodjur",
@@ -24,15 +24,16 @@
       "href": "/odlingsmetoder/biologisk-bekampning/"
     }
   ],
-  "identification": "preliminär"
+  "identification": "preliminär",
+  "reviewed": "2026-10-13"
 }
 ---
 
 ## Roll i odlingen
 Larver hos flera arter äter små insekter, bland annat bladlöss. Vuxnas födoval varierar mellan arter. Familjen kan kännas igen på tunna, nätådriga vingar, men säker artbestämning kan kräva expertis.
 
-## Skapa förutsättningar
-Variation i växtlighet och blomning kan ge skydd och föda. Undvik att utgå från att alla individer i en grupp har samma livscykel eller födoval.
+## Vid ett fynd
+Fotografera gärna fynd och notera datum, plats och värdväxt. Den här sidan beskriver en grupp. För ett eget fynd behövs bilder och relevanta kännetecken innan en säkrare bestämning kan göras.
 
-## Observation och artbestämning
-Fotografera gärna fynd och notera datum, plats och värdväxt. Dessa texter beskriver grupper; de identifierar inte ett konkret fynd.
+## Jämför bilder
+[RHS visar namngivna exempelbilder av bladlössens naturliga fiender](https://www.rhs.org.uk/biodiversity/aphid-predators). Jämför både grupp och livsstadium; referensbilderna är inte våra egna fynd.

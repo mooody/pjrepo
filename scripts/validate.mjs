@@ -49,8 +49,6 @@ for (const field of [
   'philosophy',
   'chiliTitle',
   'chiliText',
-  'projectTitle',
-  'projectText',
 ])
   if (typeof home[field] !== 'string' || !home[field].trim())
     throw new Error(`Startsidan saknar ${field}`);

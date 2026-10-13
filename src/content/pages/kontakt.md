@@ -7,4 +7,4 @@
 ---
 
 ## Följ arbetet
-En offentlig kontaktväg läggs till när den är klar. Under tiden finns aktuella erfarenheter i [odlingsdagboken](/blogg/) och bakgrunden på [Om Trädgårdsdrömmar](/om/).
+En offentlig kontaktväg läggs till när den är klar. Bakgrunden finns på [Om Trädgårdsdrömmar](/om/).

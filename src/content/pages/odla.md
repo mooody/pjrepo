@@ -2,7 +2,7 @@
 {
   "title": "Odla",
   "description": "Från val av gröda till jord, vatten och en plats att växa.",
-  "draft": false,
+  "draft": true,
   "image": "odlingslotten"
 }
 ---

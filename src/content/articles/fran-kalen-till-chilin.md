@@ -2,7 +2,7 @@
 {
   "title": "Från kålen till chilin",
   "description": "Ett eget försök med parasitsteklar – och vad som återstår att förstå.",
-  "draft": false,
+  "draft": true,
   "date": "2026-10-02",
   "category": "Egen erfarenhet",
   "evidence": "observation",
