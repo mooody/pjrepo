@@ -5,4 +5,5 @@ export default defineConfig({
   site: process.env.SITE_URL || settings.url,
   integrations: [sitemap()],
   output: 'static',
+  base: process.env.SITE_BASE || '/',
 });

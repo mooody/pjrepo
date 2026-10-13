@@ -1,14 +1,16 @@
 ---
 import Base from '../layouts/Base.astro';
+import ui from '../data/interface.json';
+import { sitePath } from '../lib/urls';
 ---
 
-<Base title="Sidan finns inte">
+<Base title={ui.notFoundTitle}>
   <section class="section">
     <p class="eyebrow">404</p>
-    <h1>Här växer inget ännu.</h1>
-    <p>Sidan kunde inte hittas.</p>
-    <a class="button" href="/">
-      Till startsidan
+    <h1>{ui.notFoundHeading}</h1>
+    <p>{ui.notFoundText}</p>
+    <a class="button" href={sitePath("/")}>
+      {ui.homeLink}
     </a>
   </section>
 </Base>

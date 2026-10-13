@@ -8,16 +8,20 @@
   ],
   "sources": [
     {
-      "title": "Royal Horticultural Society: Soil, composts and mulches",
-      "url": "https://www.rhs.org.uk/soil-composts-mulches"
+      "title": "RHS: Wildlife in gardens",
+      "url": "https://www.rhs.org.uk/wildlife/in-gardens"
     }
   ],
-  "related": []
+  "related": [],
+  "reviewed": "2026-10-13"
 }
 ---
 
-## Grundprincip
-Blomning över säsongen, varierad vegetation och ostörda platser kan ge föda och skydd för olika organismer. Planera för lokala förhållanden och välj växter som passar platsen. Mångfald är inget löfte om att skadegörare försvinner.
+## Ge plats åt olika livsmiljöer
+Variation i växtlighet, blomning och skyddade platser kan ge fler organismer möjlighet att använda trädgården. Utgå från vad som redan finns och välj växter som passar platsen.
 
-## Att följa upp
-Notera utgångsläge och förändringar över tid. Skilj det du observerar från möjliga förklaringar.
+## Följ vad som händer
+Anteckna blomning och besök utan att anta att fler blommor automatiskt ger en viss effekt på skadedjur. En rik trädgård rymmer också växtätare.
+
+## Egna erfarenheter
+[Läs om kålen och de blommande rädisorna](/blogg/kalen-och-radisorna/). Där skiljs den observerade förändringen från möjliga förklaringar.

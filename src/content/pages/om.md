@@ -1,16 +1,22 @@
 ---
 {
-  "title": "Om verksamheten",
-  "description": "Småskalighet, hantverk och nyfikenhet på naturens samband.",
-  "draft": false
+  "title": "Om Trädgårdsdrömmar",
+  "description": "Egen odling, hantverk och nyfikenhet på naturens samband.",
+  "draft": false,
+  "image": "odlingslotten"
 }
 ---
 
 ## En verksamhet som får växa
-Trädgårdsdrömmar är arbetsnamnet för en planerad småskalig verksamhet med chiliodling, förädling och kunskapsförmedling som utgångspunkt.
+Trädgårdsdrömmar är arbetsnamnet för en bred trädgårdsverksamhet som växer fram steg för steg. Utgångspunkten är egen odling, förädling av skörden och ett intresse för biologiska samband.
 
-## Nyfikenhet och noggrannhet
-Här ska etablerad kunskap, egna observationer och idéer kunna mötas utan att blandas ihop. Webbplatsen byggs för att utvecklas tillsammans med verksamheten.
+## Från chili till en större trädgård
+Chilin har fått stort utrymme i början, men riktningen är större än en enskild gröda. Jord, odlingsmetoder, biologisk mångfald och livet runt växterna hör också till berättelsen.
+
+## Bakom projektet
+Bakom projektet finns Micke. Här samlas kunskap och dokumenterade erfarenheter från odlingen. När något är ett eget försök anges det som ett försök. När en förklaring fortfarande är osäker får den vara det.
 
 ## Framåt
-På längre sikt kan inriktningen omfatta plantskola och växthussystem. Detta är planer, inte färdiga erbjudanden.
+På längre sikt kan verksamheten utvecklas inom fler delar av trädgård och odling. Framtida inriktningar beskrivs som planer tills de faktiskt finns på plats.
+
+[Läs om pågående arbete och planer](/projekt/).

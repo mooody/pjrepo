@@ -28,32 +28,11 @@ jobs:
         run: npm run build
         env:
           SITE_URL: https://mooody.github.io
+          SITE_BASE: /pjrepo/
           ASTRO_TELEMETRY_DISABLED: '1'
           REPOSITORY_PRIVATE: ${{ github.event.repository.private }}
-      - name: Adjust built links for /pjrepo/ preview
-        run: |
-          node --input-type=module <<'JS'
-          import { readdir, readFile, writeFile } from 'node:fs/promises';
-          import { join } from 'node:path';
-          async function visit(dir) {
-            for (const item of await readdir(dir, { withFileTypes: true })) {
-              const path = join(dir, item.name);
-              if (item.isDirectory()) {
-                await visit(path);
-              } else if (/\.(?:html|xml)$/.test(item.name)) {
-                const input = await readFile(path, 'utf8');
-                const output = input
-                  .replace(/\b(href|src|action|poster)=(["'])\/(?!\/)/g, '$1=$2/pjrepo/')
-                  .replaceAll('https://mooody.github.io/', 'https://mooody.github.io/pjrepo/')
-                  .replace(/<head>/, '<head><meta name="robots" content="noindex,nofollow">');
-                if (output !== input) await writeFile(path, output);
-              }
-            }
-          }
-          await visit('dist');
-          await writeFile('dist/robots.txt', 'User-agent: *\nDisallow: /\n');
-          await writeFile('dist/.nojekyll', '');
-          JS
+      - name: Mark preview as non-indexable
+        run: node scripts/preview-meta.mjs
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact

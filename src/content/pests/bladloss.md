@@ -2,7 +2,7 @@
 {
   "title": "Bladlöss",
   "description": "Små växtsugande insekter som också är föda för många nyttodjur.",
-  "draft": false,
+  "draft": true,
   "scientificName": "Aphidoidea",
   "tags": [
     "bladlöss",
@@ -27,7 +27,8 @@
       "label": "Parasitsteklar",
       "href": "/nyttodjur/parasitsteklar/"
     }
-  ]
+  ],
+  "identification": "preliminär"
 }
 ---
 

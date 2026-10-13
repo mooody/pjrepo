@@ -543,3 +543,26 @@ footer a {
     scroll-behavior: auto;
   }
 }
+/* Exported variants already contain their final crop and watermark. */
+.hero figure img { width: 100%; height: auto; min-height: 0; max-height: none; border-radius: 8px; }
+.card-image img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+.image-pending { font-size: .85rem; color: var(--sand); border-left: 2px solid var(--terracotta); padding-left: 1rem; }
+.processing { display: grid; grid-template-columns: 1fr 1.2fr; gap: 3rem; align-items: center; }
+.processing img { max-height: 420px; width: auto; margin: auto; border-radius: 5px; }
+.gallery { display: grid; gap: 2rem; margin-top: 2rem; }
+.gallery img { max-height: 650px; margin: auto; }
+.eyebrow { border-left: 2px solid var(--terracotta); padding-left: .75rem; }
+.philosophy .eyebrow { border-left: 0; }
+.card { background: #38372c55; }
+@media (max-width: 700px) {
+  .menu-toggle { display: none; }
+  nav { display: flex; }
+  .js .menu-toggle { display: block; }
+  .js nav { display: none; }
+  .js nav.open { display: flex; }
+  .section { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .hero figure img { min-height: 0; max-height: none; }
+  .processing { grid-template-columns: 1fr; gap: 1.5rem; }
+  .processing img { max-height: none; width: 100%; }
+  .brand { white-space: normal; }
+}

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, rm, mkdir, readdir, symlink } from 'node:fs/promises';
+import { mkdtemp, rm, mkdir, readdir, symlink, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import sharp from 'sharp';
@@ -31,7 +31,22 @@ async function fixture(t) {
 test('egna bilder förminskas, får inbränd vattenstämpel och publiceras utan original', async (t) => {
   const f = await fixture(t);
   await processImages({ ...f, images: [image] });
-  assert.deepEqual(await readdir(f.outputDir), ['test-image.webp']);
+  assert.ok((await readdir(f.outputDir)).includes('test-image.webp'));
+  const index = JSON.parse(await readFile(join(f.outputDir, 'index.json'), 'utf8'));
+  for (const group of Object.values(index.images[0].variants)) {
+    for (const variant of group) {
+      const meta = await sharp(join(f.outputDir, variant.file)).metadata();
+      assert.equal(meta.width, variant.width);
+      assert.equal(meta.height, variant.height);
+      assert.equal(meta.exif, undefined);
+      const {data, info} = await sharp(join(f.outputDir, variant.file)).raw().toBuffer({resolveWithObject:true});
+      let bright = 0;
+      for(let y=Math.max(0, info.height-80); y<info.height; y++)
+        for(let x=Math.floor(info.width*.4); x<info.width; x++)
+          if(data[(y*info.width+x)*info.channels]>100) bright++;
+      assert.ok(bright>20, `watermark missing in ${variant.file}`);
+    }
+  }
   const result = sharp(join(f.outputDir, 'test-image.webp'));
   const meta = await result.metadata();
   assert.equal(meta.width, 1600);
@@ -93,7 +108,7 @@ test('logotyp vattenstämplas och tomt varumärke stoppas', async (t) => {
     settings: { watermark: { ...settings.watermark, logo: 'logo.png' } },
     images: [image],
   });
-  assert.equal((await readdir(f.outputDir)).length, 1);
+  assert.ok((await readdir(f.outputDir)).includes('test-image.webp'));
   await assert.rejects(
     processImages({
       ...f,

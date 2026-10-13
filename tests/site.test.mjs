@@ -36,6 +36,12 @@ test('utkast och originalbilder publiceras inte; metadata och sitemap finns', as
     access('dist/observationer/exempel-observation/index.html'),
   );
   await assert.rejects(access('dist/private-images'));
+  const publicImages = JSON.parse(await readFile('src/data/images.json', 'utf8')).images;
+  assert.ok(publicImages.length > 0);
+  assert.ok(publicImages.every(i => !i.source));
+  const imageConfig = YAML.parse(await readFile('public/admin/config.yml','utf8')).collections.find(c=>c.name==='configuration').files.find(f=>f.name==='images');
+  assert.ok(imageConfig.fields[0].fields.every(f=>f.widget!=='image'));
+
   for (const name of ['sitemap-index.xml', 'sitemap-0.xml', 'robots.txt'])
     await access(`dist/${name}`);
   const html = await readFile('dist/index.html', 'utf8');

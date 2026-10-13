@@ -1,14 +1,17 @@
 ---
 {
   "title": "Småskalig chiliodling",
-  "description": "Ett framtida projekt inom Trädgårdsdrömmar.",
+  "description": "Chiliodling som redan pågår, med plats för dokumentation och nya frågor.",
   "draft": false,
-  "projectStatus": "idé",
-  "tags": [
-    "projekt"
-  ]
+  "projectStatus": "pågår",
+  "image": "chiliplanta"
 }
 ---
 
-## Idé och nästa steg
-Planen är att utforska utvalda chilisorter, odlingsmetoder och möjlig förädling. Inga skördemängder eller produkter utlovas. Framtida observationer ska dokumenteras med datum, sort och odlingsförhållanden.
+## Pågående odling
+Olika chilisorter har odlats i krukor och utomhus. Skörden har använts i försök med såser och marmelader.
+
+## Fortsatt dokumentation
+Sort, odlingsplats, datum och växtförhållanden ska hållas ihop med varje anteckning. Egna upplevelser av en säsong är inte kontrollerade jämförelser mellan odlingsmetoder.
+
+[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/) och [följ odlingsdagboken](/blogg/).

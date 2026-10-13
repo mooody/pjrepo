@@ -1,12 +1,14 @@
 ---
 import Image from './Image.astro';
+import ui from '../data/interface.json';
+import { sitePath } from '../lib/urls';
 import { formatDate } from '../lib/content';
 const { entry, href } = Astro.props;
 ---
 
 <article class="card">
-  <a class="card-image" href={href} tabindex="-1" aria-hidden="true">
-    <Image id={entry.data.image} decorative />
+  <a class="card-image" href={sitePath(href)} tabindex="-1" aria-hidden="true">
+    <Image id={entry.data.image} decorative variant="card" />
   </a>
   <div class="card-body">
     <div class="eyebrow">
@@ -14,11 +16,11 @@ const { entry, href } = Astro.props;
       {entry.data.date && ` · ${formatDate(entry.data.date)}`}
     </div>
     <h3>
-      <a href={href}>{entry.data.title}</a>
+      <a href={sitePath(href)}>{entry.data.title}</a>
     </h3>
     <p>{entry.data.description}</p>
-    <a class="text-link" href={href}>
-      Läs mer <span aria-hidden="true">↗</span>
+    <a class="text-link" href={sitePath(href)}>
+      {ui.readMore} <span aria-hidden="true">↗</span>
       <span class="sr-only"> om {entry.data.title}</span>
     </a>
   </div>

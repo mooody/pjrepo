@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import ui from '../../data/interface.json';
 import Card from '../../components/Card.astro';
 import { sections, published, hrefFor } from '../../lib/content';
 export async function getStaticPaths() {
@@ -15,30 +16,30 @@ const tags = [...new Set(entries.flatMap((e) => e.data.tags))].sort();
 ---
 
 <Base title={section.title} description={section.intro}>
-  <section class="section">
-    <p class="eyebrow">Kunskap som får växa</p>
+  <section class="section" data-result-label={ui.resultLabel}>
+    <p class="eyebrow">{ui.searchEyebrow}</p>
     <h1>{section.title}</h1>
     <p class="lead narrow">{section.intro}</p>
     <div class="filters">
       <label>
-        Sök i {section.title.toLowerCase()}
+        {ui.searchLabel}
         <input
           type="search"
           id="search"
-          placeholder="Sök namn eller innehåll…"
+          placeholder={ui.searchPlaceholder}
         />
       </label>
       <label>
-        Filtrera efter ämne
+        {ui.filterLabel}
         <select id="filter">
-          <option value="">Alla ämnen</option>
+          <option value="">{ui.allTopics}</option>
           {tags.map((tag) => (
             <option value={tag}>{tag}</option>
           ))}
         </select>
       </label>
       <p id="count" role="status" aria-live="polite">
-        {entries.length} träffar
+        {entries.length} {ui.resultLabel}
       </p>
     </div>
     <div class="grid" id="results">
@@ -55,10 +56,10 @@ const tags = [...new Set(entries.flatMap((e) => e.data.tags))].sort();
       ))}
     </div>
     <p id="empty" hidden>
-      Inga träffar. Prova en annan sökning.
+      {ui.emptySearch}
     </p>
     {entries.length === 0 && (
-      <p>Här kommer innehåll när de första texterna publiceras.</p>
+      <p>{ui.emptySection}</p>
     )}
   </section>
 </Base>
@@ -79,7 +80,7 @@ const tags = [...new Set(entries.flatMap((e) => e.data.tags))].sort();
       if (show) count++;
     }
     const counter = document.querySelector('#count');
-    if (counter) counter.textContent = `${count} träffar`;
+    if (counter) counter.textContent = `${count} ${document.querySelector<HTMLElement>('[data-result-label]')?.dataset.resultLabel || ''}`;
     const empty = document.querySelector<HTMLElement>('#empty');
     if (empty) empty.hidden = count !== 0;
   }

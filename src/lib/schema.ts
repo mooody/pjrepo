@@ -14,13 +14,14 @@ const rawSchema = z
     heatMax: z.number().nonnegative().optional(),
     appearance: z.string().default(''),
     flavor: z.string().default(''),
+    heatNote: z.string().default(''),
     origin: z.string().default(''),
     growth: z.string().default(''),
     experiences: z.string().default(''),
     evidence: z
       .enum(['etablerad', 'observation', 'hypotes'])
       .default('etablerad'),
-    identification: z.enum(['säker', 'preliminär', 'osäker']).default('säker'),
+    identification: z.enum(['säker', 'preliminär', 'osäker']).default('preliminär'),
     reviewed: z.coerce.date().optional(),
     sources: z.array(z.object({ title: z.string(), url: z.url() })).default([]),
     related: z

@@ -1,23 +1,29 @@
 ---
 {
-  "title": "Jord, kompost och biokol",
-  "description": "Börja med jordens förutsättningar och växternas behov.",
+  "title": "Jord, vatten och luft",
+  "description": "Utgå från jordens förutsättningar innan du väljer åtgärd.",
   "draft": false,
   "tags": [
-    "odlingsmetoder"
+    "jord"
   ],
   "sources": [
     {
-      "title": "Royal Horticultural Society: Soil, composts and mulches",
-      "url": "https://www.rhs.org.uk/soil-composts-mulches"
+      "title": "RHS: Composting",
+      "url": "https://www.rhs.org.uk/soil-composts-mulches/composting"
     }
   ],
-  "related": []
+  "reviewed": "2026-10-13",
+  "image": "odlingslotten"
 }
 ---
 
-## Grundprincip
-Kompost kan tillföra organiskt material och växtnäring. Innehållet varierar med råvaror och mognad. Biokol är ett annat material vars egenskaper beror på tillverkning och råvara. Undvik generella doseringsråd utan jordanalys och produktuppgifter.
+## Börja med observation
+Undersök hur jorden känns, hur vatten rör sig genom ytan och hur rötterna ser ut. En bild på bearbetad mark räcker inte för att avgöra näringsinnehåll eller jordart.
 
-## Att följa upp
-Notera utgångsläge och förändringar över tid. Skilj det du observerar från möjliga förklaringar.
+## Skilj materialen åt
+Jord i ett land, trädgårdskompost och kruksubstrat fyller olika roller. Kompost kan bidra till markens organiska material, men är inte automatiskt en komplett blandning för krukodling.
+
+## Från fråga till kontroll
+Formulera först vad du vill förbättra: exempelvis vattenhållning eller struktur. Dokumentera vilket material som tillförs. Jordprov kan ge underlag för näringsfrågor; egna odlingsobservationer behöver också följas över tid.
+
+[Läs om kompost](/odlingsmetoder/kompost/) och [täckodling](/odlingsmetoder/tackodling/).
