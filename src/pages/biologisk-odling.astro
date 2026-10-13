@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import { sections } from '../lib/content';
+const groups = sections.filter((s) =>
+  ['beneficials', 'pests', 'methods', 'observations'].includes(s.collection),
+);
+---
+
+<Base
+  title="Biologisk odling"
+  description="Utforska nyttodjur, skadedjur, jord och metoder för en levande trädgård."
+>
+  <section class="section">
+    <p class="eyebrow">En levande trädgård</p>
+    <h1>Biologisk odling</h1>
+    <p class="lead narrow">
+      Förstå livet i odlingen. Här samlar vi kunskap om biologisk mångfald, jord
+      och växtskydd — med plats för frågor och noggranna observationer.
+    </p>
+    <div class="grid topic-grid">
+      {groups.map((group) => (
+        <article class="topic">
+          <span class="topic-icon" aria-hidden="true">
+            ✳
+          </span>
+          <h2>
+            <a href={`/${group.path}/`}>{group.title}</a>
+          </h2>
+          <p>{group.intro}</p>
+          <a class="text-link" href={`/${group.path}/`}>
+            Utforska {group.title.toLowerCase()} ↗
+          </a>
+        </article>
+      ))}
+    </div>
+  </section>
+</Base>

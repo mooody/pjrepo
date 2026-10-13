@@ -1,0 +1,1368 @@
+backend:
+  name: github
+  repo: mooody/pjrepo
+  branch: main
+  base_url: https://oauth.example.com
+  auth_endpoint: auth
+publish_mode: editorial_workflow
+locale: sv
+media_folder: private-images
+public_folder: /private-images
+site_url: https://example.com
+display_url: https://example.com
+collections:
+  - name: pages
+    label: Vanliga sidor
+    folder: src/content/pages
+    create: true
+    slug: "{{slug}}"
+    format: frontmatter
+    extension: md
+    fields:
+      - name: title
+        label: Rubrik
+        widget: string
+      - name: description
+        label: Kort beskrivning
+        widget: text
+      - name: draft
+        label: Utkast (visas inte på webbplatsen)
+        widget: boolean
+        default: true
+      - name: example
+        label: Exempeltext
+        widget: boolean
+        default: false
+      - name: date
+        label: Datum
+        widget: datetime
+        required: false
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        picker_utc: true
+      - name: category
+        label: Kategori
+        widget: string
+        required: false
+      - name: tags
+        label: Taggar
+        widget: list
+        required: false
+      - name: image
+        label: Bild
+        widget: relation
+        required: false
+        collection: configuration
+        file: images
+        search_fields:
+          - images.*.id
+        value_field: images.*.id
+        display_fields:
+          - images.*.id
+      - name: imageAlt
+        label: Alternativ bildtext
+        widget: string
+        required: false
+      - name: gallery
+        label: Fler bilder
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Bild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
+          - name: alt
+            label: Alt-text
+            widget: string
+      - name: sources
+        label: Källor
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Källans titel
+            widget: string
+          - name: url
+            label: Källans URL
+            widget: string
+            pattern:
+              - ^https://
+              - Ange en HTTPS-adress
+      - name: reviewed
+        label: Granskningsdatum
+        widget: datetime
+        required: false
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - name: related
+        label: Relaterat innehåll
+        widget: list
+        required: false
+        fields:
+          - name: label
+            label: Länktext
+            widget: string
+          - name: href
+            label: Intern adress
+            widget: string
+            pattern:
+              - ^/[a-z0-9/-]+/$
+              - Ange en intern adress med avslutande snedstreck
+      - name: body
+        label: Text
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-two
+          - heading-three
+          - quote
+          - bulleted-list
+          - numbered-list
+        editor_components: []
+  - name: articles
+    label: Bloggartiklar
+    folder: src/content/articles
+    create: true
+    slug: "{{slug}}"
+    format: frontmatter
+    extension: md
+    fields:
+      - name: title
+        label: Rubrik
+        widget: string
+      - name: description
+        label: Kort beskrivning
+        widget: text
+      - name: draft
+        label: Utkast (visas inte på webbplatsen)
+        widget: boolean
+        default: true
+      - name: example
+        label: Exempeltext
+        widget: boolean
+        default: false
+      - name: date
+        label: Datum
+        widget: datetime
+        required: false
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        picker_utc: true
+      - name: category
+        label: Kategori
+        widget: string
+        required: false
+      - name: tags
+        label: Taggar
+        widget: list
+        required: false
+      - name: image
+        label: Bild
+        widget: relation
+        required: false
+        collection: configuration
+        file: images
+        search_fields:
+          - images.*.id
+        value_field: images.*.id
+        display_fields:
+          - images.*.id
+      - name: imageAlt
+        label: Alternativ bildtext
+        widget: string
+        required: false
+      - name: gallery
+        label: Fler bilder
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Bild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
+          - name: alt
+            label: Alt-text
+            widget: string
+      - name: sources
+        label: Källor
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Källans titel
+            widget: string
+          - name: url
+            label: Källans URL
+            widget: string
+            pattern:
+              - ^https://
+              - Ange en HTTPS-adress
+      - name: reviewed
+        label: Granskningsdatum
+        widget: datetime
+        required: false
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - name: related
+        label: Relaterat innehåll
+        widget: list
+        required: false
+        fields:
+          - name: label
+            label: Länktext
+            widget: string
+          - name: href
+            label: Intern adress
+            widget: string
+            pattern:
+              - ^/[a-z0-9/-]+/$
+              - Ange en intern adress med avslutande snedstreck
+      - name: body
+        label: Text
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-two
+          - heading-three
+          - quote
+          - bulleted-list
+          - numbered-list
+        editor_components: []
+  - name: chilies
+    label: Chilisorter
+    folder: src/content/chilies
+    create: true
+    slug: "{{slug}}"
+    format: frontmatter
+    extension: md
+    fields:
+      - name: title
+        label: Rubrik
+        widget: string
+      - name: description
+        label: Kort beskrivning
+        widget: text
+      - name: draft
+        label: Utkast (visas inte på webbplatsen)
+        widget: boolean
+        default: true
+      - name: example
+        label: Exempeltext
+        widget: boolean
+        default: false
+      - name: date
+        label: Datum
+        widget: datetime
+        required: false
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        picker_utc: true
+      - name: category
+        label: Kategori
+        widget: string
+        required: false
+      - name: tags
+        label: Taggar
+        widget: list
+        required: false
+      - name: image
+        label: Bild
+        widget: relation
+        required: false
+        collection: configuration
+        file: images
+        search_fields:
+          - images.*.id
+        value_field: images.*.id
+        display_fields:
+          - images.*.id
+      - name: imageAlt
+        label: Alternativ bildtext
+        widget: string
+        required: false
+      - name: gallery
+        label: Fler bilder
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Bild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
+          - name: alt
+            label: Alt-text
+            widget: string
+      - name: species
+        label: Vetenskaplig art
+        widget: string
+        required: false
+      - name: heatMin
+        label: Scoville minimum
+        widget: number
+        required: false
+        value_type: int
+        min: 0
+      - name: heatMax
+        label: Scoville maximum
+        widget: number
+        required: false
+        value_type: int
+        min: 0
+      - name: appearance
+        label: Färg och utseende
+        widget: text
+        required: false
+      - name: flavor
+        label: Smakprofil
+        widget: text
+        required: false
+      - name: origin
+        label: Ursprung
+        widget: text
+        required: false
+      - name: growth
+        label: Växtsätt och odling
+        widget: text
+        required: false
+      - name: experiences
+        label: Egna erfarenheter (endast dokumenterade)
+        widget: text
+        required: false
+      - name: sources
+        label: Källor
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Källans titel
+            widget: string
+          - name: url
+            label: Källans URL
+            widget: string
+            pattern:
+              - ^https://
+              - Ange en HTTPS-adress
+      - name: reviewed
+        label: Granskningsdatum
+        widget: datetime
+        required: false
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - name: related
+        label: Relaterat innehåll
+        widget: list
+        required: false
+        fields:
+          - name: label
+            label: Länktext
+            widget: string
+          - name: href
+            label: Intern adress
+            widget: string
+            pattern:
+              - ^/[a-z0-9/-]+/$
+              - Ange en intern adress med avslutande snedstreck
+      - name: body
+        label: Text
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-two
+          - heading-three
+          - quote
+          - bulleted-list
+          - numbered-list
+        editor_components: []
+  - name: beneficials
+    label: Nyttodjur
+    folder: src/content/beneficials
+    create: true
+    slug: "{{slug}}"
+    format: frontmatter
+    extension: md
+    fields:
+      - name: title
+        label: Rubrik
+        widget: string
+      - name: description
+        label: Kort beskrivning
+        widget: text
+      - name: draft
+        label: Utkast (visas inte på webbplatsen)
+        widget: boolean
+        default: true
+      - name: example
+        label: Exempeltext
+        widget: boolean
+        default: false
+      - name: date
+        label: Datum
+        widget: datetime
+        required: false
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        picker_utc: true
+      - name: category
+        label: Kategori
+        widget: string
+        required: false
+      - name: tags
+        label: Taggar
+        widget: list
+        required: false
+      - name: image
+        label: Bild
+        widget: relation
+        required: false
+        collection: configuration
+        file: images
+        search_fields:
+          - images.*.id
+        value_field: images.*.id
+        display_fields:
+          - images.*.id
+      - name: imageAlt
+        label: Alternativ bildtext
+        widget: string
+        required: false
+      - name: gallery
+        label: Fler bilder
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Bild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
+          - name: alt
+            label: Alt-text
+            widget: string
+      - name: scientificName
+        label: Vetenskapligt namn
+        widget: string
+        required: false
+      - name: evidence
+        label: Typ av underlag
+        widget: select
+        options:
+          - etablerad
+          - observation
+          - hypotes
+        default: etablerad
+      - name: identification
+        label: Artbestämning
+        widget: select
+        options:
+          - säker
+          - preliminär
+          - osäker
+        default: preliminär
+      - name: sources
+        label: Källor
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Källans titel
+            widget: string
+          - name: url
+            label: Källans URL
+            widget: string
+            pattern:
+              - ^https://
+              - Ange en HTTPS-adress
+      - name: reviewed
+        label: Granskningsdatum
+        widget: datetime
+        required: false
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - name: related
+        label: Relaterat innehåll
+        widget: list
+        required: false
+        fields:
+          - name: label
+            label: Länktext
+            widget: string
+          - name: href
+            label: Intern adress
+            widget: string
+            pattern:
+              - ^/[a-z0-9/-]+/$
+              - Ange en intern adress med avslutande snedstreck
+      - name: body
+        label: Text
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-two
+          - heading-three
+          - quote
+          - bulleted-list
+          - numbered-list
+        editor_components: []
+  - name: pests
+    label: Skadedjur
+    folder: src/content/pests
+    create: true
+    slug: "{{slug}}"
+    format: frontmatter
+    extension: md
+    fields:
+      - name: title
+        label: Rubrik
+        widget: string
+      - name: description
+        label: Kort beskrivning
+        widget: text
+      - name: draft
+        label: Utkast (visas inte på webbplatsen)
+        widget: boolean
+        default: true
+      - name: example
+        label: Exempeltext
+        widget: boolean
+        default: false
+      - name: date
+        label: Datum
+        widget: datetime
+        required: false
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        picker_utc: true
+      - name: category
+        label: Kategori
+        widget: string
+        required: false
+      - name: tags
+        label: Taggar
+        widget: list
+        required: false
+      - name: image
+        label: Bild
+        widget: relation
+        required: false
+        collection: configuration
+        file: images
+        search_fields:
+          - images.*.id
+        value_field: images.*.id
+        display_fields:
+          - images.*.id
+      - name: imageAlt
+        label: Alternativ bildtext
+        widget: string
+        required: false
+      - name: gallery
+        label: Fler bilder
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Bild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
+          - name: alt
+            label: Alt-text
+            widget: string
+      - name: scientificName
+        label: Vetenskapligt namn
+        widget: string
+        required: false
+      - name: evidence
+        label: Typ av underlag
+        widget: select
+        options:
+          - etablerad
+          - observation
+          - hypotes
+        default: etablerad
+      - name: identification
+        label: Artbestämning
+        widget: select
+        options:
+          - säker
+          - preliminär
+          - osäker
+        default: preliminär
+      - name: sources
+        label: Källor
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Källans titel
+            widget: string
+          - name: url
+            label: Källans URL
+            widget: string
+            pattern:
+              - ^https://
+              - Ange en HTTPS-adress
+      - name: reviewed
+        label: Granskningsdatum
+        widget: datetime
+        required: false
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - name: related
+        label: Relaterat innehåll
+        widget: list
+        required: false
+        fields:
+          - name: label
+            label: Länktext
+            widget: string
+          - name: href
+            label: Intern adress
+            widget: string
+            pattern:
+              - ^/[a-z0-9/-]+/$
+              - Ange en intern adress med avslutande snedstreck
+      - name: body
+        label: Text
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-two
+          - heading-three
+          - quote
+          - bulleted-list
+          - numbered-list
+        editor_components: []
+  - name: methods
+    label: Odlingsmetoder
+    folder: src/content/methods
+    create: true
+    slug: "{{slug}}"
+    format: frontmatter
+    extension: md
+    fields:
+      - name: title
+        label: Rubrik
+        widget: string
+      - name: description
+        label: Kort beskrivning
+        widget: text
+      - name: draft
+        label: Utkast (visas inte på webbplatsen)
+        widget: boolean
+        default: true
+      - name: example
+        label: Exempeltext
+        widget: boolean
+        default: false
+      - name: date
+        label: Datum
+        widget: datetime
+        required: false
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        picker_utc: true
+      - name: category
+        label: Kategori
+        widget: string
+        required: false
+      - name: tags
+        label: Taggar
+        widget: list
+        required: false
+      - name: image
+        label: Bild
+        widget: relation
+        required: false
+        collection: configuration
+        file: images
+        search_fields:
+          - images.*.id
+        value_field: images.*.id
+        display_fields:
+          - images.*.id
+      - name: imageAlt
+        label: Alternativ bildtext
+        widget: string
+        required: false
+      - name: gallery
+        label: Fler bilder
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Bild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
+          - name: alt
+            label: Alt-text
+            widget: string
+      - name: scientificName
+        label: Vetenskapligt namn
+        widget: string
+        required: false
+      - name: evidence
+        label: Typ av underlag
+        widget: select
+        options:
+          - etablerad
+          - observation
+          - hypotes
+        default: etablerad
+      - name: identification
+        label: Artbestämning
+        widget: select
+        options:
+          - säker
+          - preliminär
+          - osäker
+        default: preliminär
+      - name: sources
+        label: Källor
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Källans titel
+            widget: string
+          - name: url
+            label: Källans URL
+            widget: string
+            pattern:
+              - ^https://
+              - Ange en HTTPS-adress
+      - name: reviewed
+        label: Granskningsdatum
+        widget: datetime
+        required: false
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - name: related
+        label: Relaterat innehåll
+        widget: list
+        required: false
+        fields:
+          - name: label
+            label: Länktext
+            widget: string
+          - name: href
+            label: Intern adress
+            widget: string
+            pattern:
+              - ^/[a-z0-9/-]+/$
+              - Ange en intern adress med avslutande snedstreck
+      - name: body
+        label: Text
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-two
+          - heading-three
+          - quote
+          - bulleted-list
+          - numbered-list
+        editor_components: []
+  - name: observations
+    label: Fältobservationer
+    folder: src/content/observations
+    create: true
+    slug: "{{slug}}"
+    format: frontmatter
+    extension: md
+    fields:
+      - name: title
+        label: Rubrik
+        widget: string
+      - name: description
+        label: Kort beskrivning
+        widget: text
+      - name: draft
+        label: Utkast (visas inte på webbplatsen)
+        widget: boolean
+        default: true
+      - name: example
+        label: Exempeltext
+        widget: boolean
+        default: false
+      - name: date
+        label: Datum
+        widget: datetime
+        required: false
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        picker_utc: true
+      - name: category
+        label: Kategori
+        widget: string
+        required: false
+      - name: tags
+        label: Taggar
+        widget: list
+        required: false
+      - name: image
+        label: Bild
+        widget: relation
+        required: false
+        collection: configuration
+        file: images
+        search_fields:
+          - images.*.id
+        value_field: images.*.id
+        display_fields:
+          - images.*.id
+      - name: imageAlt
+        label: Alternativ bildtext
+        widget: string
+        required: false
+      - name: gallery
+        label: Fler bilder
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Bild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
+          - name: alt
+            label: Alt-text
+            widget: string
+      - name: scientificName
+        label: Vetenskapligt namn
+        widget: string
+        required: false
+      - name: evidence
+        label: Typ av underlag
+        widget: select
+        options:
+          - etablerad
+          - observation
+          - hypotes
+        default: etablerad
+      - name: identification
+        label: Artbestämning
+        widget: select
+        options:
+          - säker
+          - preliminär
+          - osäker
+        default: preliminär
+      - name: sources
+        label: Källor
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Källans titel
+            widget: string
+          - name: url
+            label: Källans URL
+            widget: string
+            pattern:
+              - ^https://
+              - Ange en HTTPS-adress
+      - name: reviewed
+        label: Granskningsdatum
+        widget: datetime
+        required: false
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - name: related
+        label: Relaterat innehåll
+        widget: list
+        required: false
+        fields:
+          - name: label
+            label: Länktext
+            widget: string
+          - name: href
+            label: Intern adress
+            widget: string
+            pattern:
+              - ^/[a-z0-9/-]+/$
+              - Ange en intern adress med avslutande snedstreck
+      - name: body
+        label: Text
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-two
+          - heading-three
+          - quote
+          - bulleted-list
+          - numbered-list
+        editor_components: []
+  - name: projects
+    label: Projekt
+    folder: src/content/projects
+    create: true
+    slug: "{{slug}}"
+    format: frontmatter
+    extension: md
+    fields:
+      - name: title
+        label: Rubrik
+        widget: string
+      - name: description
+        label: Kort beskrivning
+        widget: text
+      - name: draft
+        label: Utkast (visas inte på webbplatsen)
+        widget: boolean
+        default: true
+      - name: example
+        label: Exempeltext
+        widget: boolean
+        default: false
+      - name: date
+        label: Datum
+        widget: datetime
+        required: false
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        picker_utc: true
+      - name: category
+        label: Kategori
+        widget: string
+        required: false
+      - name: tags
+        label: Taggar
+        widget: list
+        required: false
+      - name: image
+        label: Bild
+        widget: relation
+        required: false
+        collection: configuration
+        file: images
+        search_fields:
+          - images.*.id
+        value_field: images.*.id
+        display_fields:
+          - images.*.id
+      - name: imageAlt
+        label: Alternativ bildtext
+        widget: string
+        required: false
+      - name: gallery
+        label: Fler bilder
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Bild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
+          - name: alt
+            label: Alt-text
+            widget: string
+      - name: projectStatus
+        label: Projektstatus
+        widget: select
+        options:
+          - idé
+          - planering
+          - pågår
+          - klart
+        default: idé
+      - name: sources
+        label: Källor
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Källans titel
+            widget: string
+          - name: url
+            label: Källans URL
+            widget: string
+            pattern:
+              - ^https://
+              - Ange en HTTPS-adress
+      - name: reviewed
+        label: Granskningsdatum
+        widget: datetime
+        required: false
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+      - name: related
+        label: Relaterat innehåll
+        widget: list
+        required: false
+        fields:
+          - name: label
+            label: Länktext
+            widget: string
+          - name: href
+            label: Intern adress
+            widget: string
+            pattern:
+              - ^/[a-z0-9/-]+/$
+              - Ange en intern adress med avslutande snedstreck
+      - name: body
+        label: Text
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-two
+          - heading-three
+          - quote
+          - bulleted-list
+          - numbered-list
+        editor_components: []
+  - name: configuration
+    label: Webbplatsinställningar
+    files:
+      - name: settings
+        label: Identitet, meny och inställningar
+        file: src/data/settings.json
+        fields:
+          - name: name
+            label: Företagsnamn
+            widget: string
+          - name: tagline
+            label: Slogan
+            widget: string
+          - name: description
+            label: Webbplatsbeskrivning
+            widget: text
+          - name: url
+            label: Publik webbplatsadress
+            widget: string
+            pattern:
+              - ^https://
+              - Ange en HTTPS-adress
+          - name: email
+            label: E-postadress
+            widget: string
+            required: false
+          - name: logo
+            label: Logotyp (bearbetad bildadress, exempel /media/logo.webp)
+            widget: string
+            required: false
+          - name: social
+            label: Sociala länkar
+            widget: list
+            required: false
+            fields:
+              - name: label
+                label: Namn
+                widget: string
+              - name: url
+                label: URL
+                widget: string
+          - name: navigation
+            label: Meny
+            widget: list
+            fields:
+              - name: label
+                label: Länktext
+                widget: string
+              - name: href
+                label: Intern adress
+                widget: string
+          - name: colors
+            label: Färger
+            widget: object
+            fields:
+              - name: earth
+                label: Jordbrun
+                widget: color
+              - name: olive
+                label: Olivgrå
+                widget: color
+              - name: sand
+                label: Sand
+                widget: color
+              - name: terracotta
+                label: Terrakotta
+                widget: color
+              - name: sage
+                label: Salviagrön
+                widget: color
+          - name: watermark
+            label: Vattenstämpel
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: string
+              - name: opacity
+                label: Opacitet
+                widget: number
+                value_type: float
+                min: 0.15
+                max: 1
+                step: 0.05
+              - name: logo
+                label: Logotyp-original (valfri sökväg i private-images)
+                widget: string
+                required: false
+      - name: home
+        label: Startsidan
+        file: src/data/home.json
+        fields:
+          - name: eyebrow
+            label: Överrubrik
+            widget: string
+          - name: title
+            label: Huvudrubrik
+            widget: text
+          - name: intro
+            label: Introduktion
+            widget: text
+          - name: heroImage
+            label: Huvudbild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
+          - name: heroAlt
+            label: Huvudbildens alt-text
+            widget: string
+            required: false
+          - name: philosophyTitle
+            label: Filosofirubrik
+            widget: string
+          - name: philosophy
+            label: Filosofitext
+            widget: text
+          - name: chiliTitle
+            label: Chilirubrik
+            widget: string
+          - name: chiliText
+            label: Chilitext
+            widget: text
+          - name: featuredChilies
+            label: Utvalda chilisorter
+            widget: relation
+            collection: chilies
+            search_fields:
+              - title
+            value_field: "{{slug}}"
+            display_fields:
+              - title
+            multiple: true
+          - name: projectTitle
+            label: Projektrubrik
+            widget: string
+          - name: projectText
+            label: Projekttext
+            widget: text
+      - name: images
+        label: Bildbibliotek (privat repo krävs)
+        file: src/data/images.json
+        fields:
+          - name: images
+            label: Bilder
+            widget: list
+            fields:
+              - name: id
+                label: Unikt bild-ID
+                widget: string
+                pattern:
+                  - ^[a-z0-9]+(-[a-z0-9]+)*$
+                  - Små bokstäver, siffror och bindestreck
+              - name: source
+                label: Originalfil
+                widget: image
+                media_folder: /private-images
+                public_folder: /private-images
+              - name: alt
+                label: Alt-text
+                widget: string
+              - name: caption
+                label: Bildtext
+                widget: string
+                required: false
+              - name: photographer
+                label: Fotograf
+                widget: string
+              - name: ownership
+                label: Ägare
+                widget: select
+                options:
+                  - label: Företagets egen bild
+                    value: own
+                  - label: Tredjepartsbild
+                    value: third-party
+              - name: license
+                label: Licens / återanvändningsvillkor
+                widget: string
+              - name: licenseUrl
+                label: Licensadress (krävs för tredjepartsbild)
+                widget: string
+                required: false
+      - name: sections
+        label: Faktabibliotekets rubriker och introduktioner
+        file: src/data/sections.json
+        fields:
+          - name: chilies
+            label: Chilisorter
+            widget: object
+            fields:
+              - name: title
+                label: Rubrik
+                widget: string
+              - name: intro
+                label: Introduktion
+                widget: text
+          - name: beneficials
+            label: Nyttodjur
+            widget: object
+            fields:
+              - name: title
+                label: Rubrik
+                widget: string
+              - name: intro
+                label: Introduktion
+                widget: text
+          - name: pests
+            label: Skadedjur
+            widget: object
+            fields:
+              - name: title
+                label: Rubrik
+                widget: string
+              - name: intro
+                label: Introduktion
+                widget: text
+          - name: methods
+            label: Odlingsmetoder
+            widget: object
+            fields:
+              - name: title
+                label: Rubrik
+                widget: string
+              - name: intro
+                label: Introduktion
+                widget: text
+          - name: observations
+            label: Fältobservationer
+            widget: object
+            fields:
+              - name: title
+                label: Rubrik
+                widget: string
+              - name: intro
+                label: Introduktion
+                widget: text
+          - name: projects
+            label: Odling & projekt
+            widget: object
+            fields:
+              - name: title
+                label: Rubrik
+                widget: string
+              - name: intro
+                label: Introduktion
+                widget: text
+          - name: articles
+            label: Blogg & odlingsdagbok
+            widget: object
+            fields:
+              - name: title
+                label: Rubrik
+                widget: string
+              - name: intro
+                label: Introduktion
+                widget: text

@@ -1,0 +1,90 @@
+---
+import Base from '../layouts/Base.astro';
+import Image from '../components/Image.astro';
+import Card from '../components/Card.astro';
+import home from '../data/home.json';
+import { published, hrefFor } from '../lib/content';
+const chili = (await published('chilies')).filter((e) =>
+  home.featuredChilies.includes(e.id),
+);
+const articles = (await published('articles')).slice(0, 3);
+const projects = (await published('projects')).slice(0, 3);
+---
+
+<Base>
+  <section class="hero section">
+    <div>
+      <p class="eyebrow">{home.eyebrow}</p>
+      <h1>{home.title}</h1>
+      <p class="lead">{home.intro}</p>
+      <div class="actions">
+        <a class="button" href="/chilisorter/">
+          Upptäck våra chilisorter <span aria-hidden="true">↗</span>
+        </a>
+        <a class="text-link" href="/om/">
+          Lär känna verksamheten
+        </a>
+      </div>
+      <p class="hero-note">Chili · Biologisk mångfald · Hantverk</p>
+    </div>
+    <Image id={home.heroImage} alt={home.heroAlt} hero />
+  </section>
+  <section class="section philosophy">
+    <p class="eyebrow">Vår filosofi</p>
+    <h2>{home.philosophyTitle}</h2>
+    <p class="lead">{home.philosophy}</p>
+    <a class="text-link" href="/biologisk-odling/">
+      Utforska biologisk odling ↗
+    </a>
+  </section>
+  <section class="section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Färg, smak & odlingsglädje</p>
+        <h2>{home.chiliTitle}</h2>
+        <p>{home.chiliText}</p>
+      </div>
+      <a class="text-link" href="/chilisorter/">
+        Alla chilisorter ↗
+      </a>
+    </div>
+    <div class="grid">
+      {chili.map((entry) => (
+        <Card entry={entry} href={hrefFor('chilies', entry.id)} />
+      ))}
+    </div>
+  </section>
+  <section class="section tinted">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Kunskap & inspiration</p>
+        <h2>Från odlingsdagboken</h2>
+      </div>
+      <a class="text-link" href="/blogg/">
+        Alla artiklar ↗
+      </a>
+    </div>
+    <div class="grid">
+      {articles.map((entry) => (
+        <Card entry={entry} href={hrefFor('articles', entry.id)} />
+      ))}
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Odling & projekt</p>
+        <h2>{home.projectTitle}</h2>
+        <p>{home.projectText}</p>
+      </div>
+      <a class="text-link" href="/projekt/">
+        Alla projekt ↗
+      </a>
+    </div>
+    <div class="grid">
+      {projects.map((entry) => (
+        <Card entry={entry} href={hrefFor('projects', entry.id)} />
+      ))}
+    </div>
+  </section>
+</Base>

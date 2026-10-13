@@ -1,0 +1,30 @@
+{
+  "chilies": {
+    "title": "Chilisorter",
+    "intro": "Ett faktabibliotek för dig som vill lära känna chili. Styrka och smak varierar med sort, växtförhållanden och mognad."
+  },
+  "beneficials": {
+    "title": "Nyttodjur",
+    "intro": "Möt några av trädgårdens naturliga hjälpare."
+  },
+  "pests": {
+    "title": "Skadedjur",
+    "intro": "Lär känna djuren och börja med att observera innan du väljer en åtgärd."
+  },
+  "methods": {
+    "title": "Odlingsmetoder",
+    "intro": "Kunskap om jord, mångfald och biologiskt växtskydd."
+  },
+  "observations": {
+    "title": "Fältobservationer",
+    "intro": "Här skiljer vi egna observationer från fakta och hypoteser."
+  },
+  "projects": {
+    "title": "Odling & projekt",
+    "intro": "Planer, experiment och idéer för en småskalig verksamhet."
+  },
+  "articles": {
+    "title": "Blogg & odlingsdagbok",
+    "intro": "Tankar och kunskap från frö till en levande trädgård."
+  }
+}

@@ -1,0 +1,64 @@
+---
+import manifest from '../data/images.json';
+const { id, alt, hero = false, decorative = false } = Astro.props;
+const record = manifest.images.find(
+  (image: { id: string }) => image.id === id,
+) as
+  | {
+      id: string;
+      alt: string;
+      caption?: string;
+      photographer?: string;
+      license?: string;
+      licenseUrl?: string;
+    }
+  | undefined;
+---
+
+{record ? (
+  <figure>
+    <img
+      src={`/media/${record.id}.webp`}
+      alt={decorative ? '' : alt || record.alt}
+      loading={hero ? 'eager' : 'lazy'}
+      decoding="async"
+      width="1600"
+      height="1067"
+    />
+    {!decorative &&
+      (record.caption || record.photographer || record.license) && (
+        <figcaption>
+          {record.caption}{' '}
+          {record.photographer && `Foto: ${record.photographer}.`}{' '}
+          {record.licenseUrl ? (
+            <a href={record.licenseUrl}>{record.license}</a>
+          ) : (
+            record.license
+          )}
+        </figcaption>
+      )}
+  </figure>
+) : (
+  <div
+    class:list={['image-placeholder', { hero }]}
+    role="img"
+    aria-label="Illustrativ bildplatshållare – egen bild kommer senare"
+  >
+    <svg viewBox="0 0 600 440" aria-hidden="true">
+      <circle cx="445" cy="94" r="55" fill="currentColor" opacity=".2" />
+      <path
+        d="M300 400C290 300 330 210 320 80M314 235C230 220 213 164 212 150C275 142 312 188 314 235M319 168C396 151 422 93 423 75C358 83 326 113 319 168M301 322C385 294 403 245 406 222C341 230 305 270 301 322"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="12"
+        stroke-linecap="round"
+      />
+      <path
+        d="M0 410Q160 352 290 396T600 370V440H0Z"
+        fill="currentColor"
+        opacity=".25"
+      />
+    </svg>
+    <span>Illustration · bild kommer senare</span>
+  </div>
+)}

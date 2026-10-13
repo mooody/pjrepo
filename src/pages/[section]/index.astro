@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { sections, published, hrefFor } from '../../lib/content';
+export async function getStaticPaths() {
+  return Promise.all(
+    sections.map(async (section) => ({
+      params: { section: section.path },
+      props: { section, entries: await published(section.collection) },
+    })),
+  );
+}
+const { section, entries } = Astro.props;
+const tags = [...new Set(entries.flatMap((e) => e.data.tags))].sort();
+---
+
+<Base title={section.title} description={section.intro}>
+  <section class="section">
+    <p class="eyebrow">Kunskap som får växa</p>
+    <h1>{section.title}</h1>
+    <p class="lead narrow">{section.intro}</p>
+    <div class="filters">
+      <label>
+        Sök i {section.title.toLowerCase()}
+        <input
+          type="search"
+          id="search"
+          placeholder="Sök namn eller innehåll…"
+        />
+      </label>
+      <label>
+        Filtrera efter ämne
+        <select id="filter">
+          <option value="">Alla ämnen</option>
+          {tags.map((tag) => (
+            <option value={tag}>{tag}</option>
+          ))}
+        </select>
+      </label>
+      <p id="count" role="status" aria-live="polite">
+        {entries.length} träffar
+      </p>
+    </div>
+    <div class="grid" id="results">
+      {entries.map((entry) => (
+        <div
+          class="search-entry"
+          data-search={`${entry.data.title} ${entry.data.description} ${entry.data.species} ${entry.data.tags.join(' ')}`.toLocaleLowerCase(
+            'sv',
+          )}
+          data-tags={JSON.stringify(entry.data.tags)}
+        >
+          <Card entry={entry} href={hrefFor(section.collection, entry.id)} />
+        </div>
+      ))}
+    </div>
+    <p id="empty" hidden>
+      Inga träffar. Prova en annan sökning.
+    </p>
+    {entries.length === 0 && (
+      <p>Här kommer innehåll när de första texterna publiceras.</p>
+    )}
+  </section>
+</Base>
+<script>
+  const input = document.querySelector<HTMLInputElement>('#search');
+  const select = document.querySelector<HTMLSelectElement>('#filter');
+  const entries = [...document.querySelectorAll<HTMLElement>('.search-entry')];
+  function update() {
+    let count = 0;
+    for (const entry of entries) {
+      const tags = JSON.parse(entry.dataset.tags || '[]') as string[];
+      const show =
+        (entry.dataset.search || '').includes(
+          (input?.value || '').trim().toLocaleLowerCase('sv'),
+        ) &&
+        (!select?.value || tags.includes(select.value));
+      entry.hidden = !show;
+      if (show) count++;
+    }
+    const counter = document.querySelector('#count');
+    if (counter) counter.textContent = `${count} träffar`;
+    const empty = document.querySelector<HTMLElement>('#empty');
+    if (empty) empty.hidden = count !== 0;
+  }
+  input?.addEventListener('input', update);
+  select?.addEventListener('change', update);
+</script>

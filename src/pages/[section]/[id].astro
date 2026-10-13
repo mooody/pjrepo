@@ -1,0 +1,142 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Image from '../../components/Image.astro';
+import { sections, published, formatDate } from '../../lib/content';
+export async function getStaticPaths() {
+  const lists = await Promise.all(
+    sections.map(async (section) =>
+      (await published(section.collection)).map((entry) => ({
+        params: { section: section.path, id: entry.id },
+        props: { section, entry },
+      })),
+    ),
+  );
+  return lists.flat();
+}
+const { section, entry } = Astro.props;
+const d = entry.data;
+const { Content } = await render(entry);
+---
+
+<Base title={d.title} description={d.description}>
+  <article class="section detail">
+    <a class="text-link" href={`/${section.path}/`}>
+      ← {section.title}
+    </a>
+    <header>
+      <p class="eyebrow">
+        {d.category || section.title}
+        {d.date && ` · ${formatDate(d.date)}`}
+      </p>
+      <h1>{d.title}</h1>
+      <p class="lead">{d.description}</p>
+      {d.example && (
+        <p class="notice">
+          Exempeltext för första versionen. Beskriver inte genomförda odlingar
+          eller egna resultat.
+        </p>
+      )}
+    </header>
+    <Image id={d.image} alt={d.imageAlt} />
+    {(d.species || d.scientificName || d.heatMin !== undefined) && (
+      <dl class="facts">
+        {d.species && (
+          <>
+            <dt>Art</dt>
+            <dd>
+              <i>{d.species}</i>
+            </dd>
+          </>
+        )}
+        {d.scientificName && (
+          <>
+            <dt>Vetenskapligt namn</dt>
+            <dd>
+              <i>{d.scientificName}</i>
+            </dd>
+          </>
+        )}
+        {d.heatMin !== undefined && (
+          <>
+            <dt>Ungefärlig styrka</dt>
+            <dd>
+              {d.heatMin.toLocaleString('sv-SE')}–
+              {d.heatMax?.toLocaleString('sv-SE')} SHU
+            </dd>
+          </>
+        )}
+        {[
+          ['Utseende', d.appearance],
+          ['Smakprofil', d.flavor],
+          ['Ursprung', d.origin],
+          ['Växtsätt och odling', d.growth],
+        ]
+          .filter(([, value]) => value)
+          .map(([label, value]) => (
+            <>
+              <dt>{label}</dt>
+              <dd>{value}</dd>
+            </>
+          ))}
+      </dl>
+    )}
+    {section.collection === 'projects' && (
+      <p class="notice">Projektstatus: {d.projectStatus}</p>
+    )}
+    <div class="prose">
+      <Content />
+      {d.experiences && (
+        <>
+          <h2>Egna erfarenheter</h2>
+          <p>{d.experiences}</p>
+        </>
+      )}
+    </div>
+    {d.gallery.length > 0 && (
+      <div class="gallery">
+        {d.gallery.map((item) => (
+          <Image id={item.image} alt={item.alt} />
+        ))}
+      </div>
+    )}
+    {['beneficials', 'pests', 'observations'].includes(section.collection) && (
+      <aside class="metadata">
+        <p>
+          Underlag: {d.evidence}. Artbestämning: {d.identification}.
+        </p>
+        <p>
+          Uppgifterna är en introduktion och ersätter inte artbestämning av ett
+          specifikt fynd.
+        </p>
+      </aside>
+    )}
+    {d.sources.length > 0 && (
+      <aside class="sources">
+        <h2>Källor & granskning</h2>
+        <ul>
+          {d.sources.map((source) => (
+            <li>
+              <a href={source.url}>{source.title}</a>
+            </li>
+          ))}
+        </ul>
+        {d.reviewed && (
+          <p>Senast redaktionellt granskad: {formatDate(d.reviewed)}</p>
+        )}
+      </aside>
+    )}
+    {d.related.length > 0 && (
+      <aside>
+        <h2>Läs vidare</h2>
+        <ul>
+          {d.related.map((link) => (
+            <li>
+              <a href={link.href}>{link.label}</a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
+  </article>
+</Base>

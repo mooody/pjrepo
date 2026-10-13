@@ -1,0 +1,14 @@
+{
+  "eyebrow": "Från frö till framtid",
+  "title": "En liten odling.\nEn värld av möjligheter.",
+  "intro": "Vi utforskar chili, biologisk odling och livet som gör en trädgård rik. Här samlar vi kunskap och idéer för en småskalig verksamhet som får växa i sin egen takt.",
+  "heroImage": "",
+  "heroAlt": "",
+  "philosophyTitle": "Allt börjar med en levande jord",
+  "philosophy": "En trädgård är mer än det vi planterar. Jord, växter och djur hör ihop. Vi vill förstå sambanden och skapa plats för både goda skördar och biologisk mångfald.",
+  "chiliTitle": "Chili med många nyanser",
+  "chiliText": "Fruktig, blommig, het eller mild. Lär känna sorterna och deras förutsättningar innan du väljer vad du vill odla.",
+  "featuredChilies": ["habanero", "chocolate-habanero", "ghost-pepper"],
+  "projectTitle": "Idéer som får växa",
+  "projectText": "Från chiliodling till ett modulärt växthus. Följ planerna och se vad som ännu är på idéstadiet."
+}

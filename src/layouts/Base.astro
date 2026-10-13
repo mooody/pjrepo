@@ -1,0 +1,98 @@
+---
+import settings from '../data/settings.json';
+import '../styles/global.css';
+const { title, description = settings.description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const colors = settings.colors;
+const variables = `--earth:${colors.earth};--olive:${colors.olive};--sand:${colors.sand};--terracotta:${colors.terracotta};--sage:${colors.sage}`;
+---
+
+<!doctype html>
+<html lang="sv" style={variables}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} · ${settings.name}` : settings.name}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title || settings.name} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta name="theme-color" content={colors.earth} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">
+      Hoppa till innehållet
+    </a>
+    <header class="site-header">
+      <a class="brand" href="/">
+        {settings.logo ? (
+          <img src={settings.logo} alt="" width="42" height="42" />
+        ) : (
+          <span class="brand-mark" aria-hidden="true">
+            ✳
+          </span>
+        )}
+        <span>
+          {settings.name}
+          <small>{settings.tagline}</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        Meny <span aria-hidden="true">☰</span>
+      </button>
+      <nav id="navigation" aria-label="Huvudmeny">
+        {settings.navigation.map((item) => (
+          <a
+            href={item.href}
+            aria-current={
+              Astro.url.pathname.startsWith(item.href) ? 'page' : undefined
+            }
+          >
+            {item.label}
+          </a>
+        ))}
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer>
+      <div>
+        <a class="footer-brand" href="/">
+          {settings.name}
+        </a>
+        <p>{settings.description}</p>
+      </div>
+      <div>
+        <a href="/kontakt/">Kontakt</a>
+        <a href="/bildvillkor/">Bildvillkor</a>
+        <a href="/admin/">Administration</a>
+        <p>
+          © {new Date().getFullYear()} {settings.name}
+        </p>
+      </div>
+    </footer>
+    <script>
+      const button = document.querySelector<HTMLButtonElement>('.menu-toggle');
+      const nav = document.querySelector<HTMLElement>('#navigation');
+      button?.addEventListener('click', () => {
+        const open = button.getAttribute('aria-expanded') !== 'true';
+        button.setAttribute('aria-expanded', String(open));
+        nav?.classList.toggle('open', open);
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          button?.setAttribute('aria-expanded', 'false');
+          nav?.classList.remove('open');
+        }
+      });
+    </script>
+  </body>
+</html>
