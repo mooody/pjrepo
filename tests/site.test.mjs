@@ -36,6 +36,12 @@ test('utkast och originalbilder publiceras inte; metadata och sitemap finns', as
     access('dist/observationer/exempel-observation/index.html'),
   );
   await assert.rejects(access('dist/private-images'));
+  const publicImages = JSON.parse(await readFile('src/data/images.json', 'utf8')).images;
+  assert.ok(publicImages.length > 0);
+  assert.ok(publicImages.every(i => !i.source));
+  const imageConfig = YAML.parse(await readFile('public/admin/config.yml','utf8')).collections.find(c=>c.name==='configuration').files.find(f=>f.name==='images');
+  assert.ok(imageConfig.fields[0].fields.every(f=>f.widget!=='image'));
+
   for (const name of ['sitemap-index.xml', 'sitemap-0.xml', 'robots.txt'])
     await access(`dist/${name}`);
   const html = await readFile('dist/index.html', 'utf8');
@@ -50,6 +56,13 @@ test('CMS använder rätt repo, redaktionellt flöde och alla innehållssamlinga
   assert.equal(config.backend.branch, 'main');
   assert.equal(config.publish_mode, 'editorial_workflow');
   assert.equal(config.locale, 'sv');
+  for(const collection of config.collections) {
+    const items=collection.files||collection.fields||[];
+    assert.equal(new Set(items.map(item=>item.name)).size,items.length,`Duplicate CMS field/file in ${collection.name}`);
+  }
+  const ui=JSON.parse(await readFile('src/data/interface.json','utf8'));
+  const interfaceFile=config.collections.find(c=>c.name==='configuration').files.find(f=>f.name==='interface');
+  assert.deepEqual(interfaceFile.fields.map(f=>f.name).sort(),Object.keys(ui).sort());
   for (const name of [
     'pages',
     'articles',

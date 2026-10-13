@@ -17,14 +17,14 @@
   },
   "observations": {
     "title": "Fältobservationer",
-    "intro": "Här skiljer vi egna observationer från fakta och hypoteser."
+    "intro": "Fynd och händelser från den egna odlingen, med observation och tolkning i separata avsnitt."
   },
   "projects": {
     "title": "Odling & projekt",
     "intro": "Planer, experiment och idéer för en småskalig verksamhet."
   },
   "articles": {
-    "title": "Blogg & odlingsdagbok",
-    "intro": "Tankar och kunskap från frö till en levande trädgård."
+    "title": "Odlingsdagbok",
+    "intro": "Daterade erfarenheter från odling och förädling. Samtalsdatum anges när det exakta observationsdatumet saknas."
   }
 }

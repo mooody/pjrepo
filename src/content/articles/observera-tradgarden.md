@@ -2,7 +2,7 @@
 {
   "title": "Att observera en levande trädgård",
   "description": "En enkel anteckningsbok kan bli början på bättre förståelse.",
-  "draft": false,
+  "draft": true,
   "date": "2026-10-02",
   "category": "Biologisk odling",
   "tags": [

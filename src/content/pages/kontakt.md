@@ -1,10 +1,10 @@
 ---
 {
   "title": "Kontakt",
-  "description": "Här hittar du kontaktvägar när verksamheten öppnar.",
+  "description": "Kontakt och information om Trädgårdsdrömmar.",
   "draft": false
 }
 ---
 
-## Håll kontakten
-Kontaktuppgifter och sociala länkar läggs till när de finns klara.
+## Följ arbetet
+En offentlig kontaktväg läggs till när den är klar. Under tiden finns aktuella erfarenheter i [odlingsdagboken](/blogg/) och bakgrunden på [Om Trädgårdsdrömmar](/om/).

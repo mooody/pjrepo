@@ -1,14 +1,16 @@
 ---
 {
   "title": "Biologiskt växtskydd i praktiken",
-  "description": "Ett framtida projekt inom Trädgårdsdrömmar.",
+  "description": "Egna observationer av bladlöss och små djur i odlingen.",
   "draft": false,
-  "projectStatus": "idé",
-  "tags": [
-    "projekt"
-  ]
+  "projectStatus": "pågår"
 }
 ---
 
-## Idé och nästa steg
-Ett planerat projekt för att följa skadegörare och naturliga fiender i odlingen. Observationer ska dokumenteras utan att orsakssamband antas i förväg.
+## Från observation till uppföljning
+Bladlöss, larver och mumieliknande bladlöss har diskuterats och fotograferats i odlingen. Under hösten har ett försök gjorts med att flytta parasitsteklar från kålen till inomhuschilin.
+
+## Vad underlaget kan visa
+Händelserna beskrivs som egna erfarenheter. Exakta arter och effekten av en enskild åtgärd är inte fastställda.
+
+[Läs berättelsen från kålen till chilin](/blogg/fran-kalen-till-chilin/).

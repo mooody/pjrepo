@@ -5,14 +5,14 @@ test('startsida på dator: navigation, tillgänglighet och layout', async ({
 }) => {
   await page.goto('/');
   await expect(page.getByRole('heading', { level: 1 })).toContainText(
-    'En liten odling',
+    'Från levande jord',
   );
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
   await page
     .getByRole('navigation')
-    .getByRole('link', { name: 'Chilisorter' })
+    .getByRole('link', { name: 'Odla' })
     .click();
-  await expect(page).toHaveURL(/chilisorter/);
+  await expect(page).toHaveURL(/odla/);
 });
 test('mobilmeny går att öppna, använda och stänga', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
@@ -27,9 +27,9 @@ test('mobilmeny går att öppna, använda och stänga', async ({ page }) => {
   await menu.click();
   await page
     .getByRole('navigation')
-    .getByRole('link', { name: 'Kontakt', exact: true })
+    .getByRole('link', { name: 'Om Trädgårdsdrömmar', exact: true })
     .click();
-  await expect(page).toHaveURL(/kontakt/);
+  await expect(page).toHaveURL(/om/);
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= window.innerWidth,
@@ -45,26 +45,20 @@ test('sökning och ämnesfilter visar rätt sorter och tomt resultat', async ({
   await expect(page.locator('.search-entry:visible')).toHaveCount(1);
   await expect(page.getByRole('status')).toHaveText('1 träffar');
   await page.getByRole('searchbox').fill('');
-  await page.getByLabel('Filtrera efter ämne').selectOption('het');
-  await expect(page.locator('.search-entry:visible')).toHaveCount(2);
+  await page.getByLabel('Filtrera efter ämne').selectOption('Capsicum chinense');
+  await expect(page.locator('.search-entry:visible')).toHaveCount(5);
   await page.getByRole('searchbox').fill('finnsinte');
   await expect(page.getByText('Inga träffar.')).toBeVisible();
 });
 test('faktasida är tillgänglig och visar källor', async ({ page }) => {
-  await page.goto('/skadedjur/bladloss/');
+  await page.goto('/odlingsmetoder/tackodling/');
   await expect(
-    page.getByRole('heading', { name: 'Källor & granskning' }),
+    page.getByRole('heading', { name: 'Källor och granskning' }),
   ).toBeVisible();
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
 });
-test('Decap laddar och visar GitHub-inloggning utan konfigurationsfel', async ({
-  page,
-}) => {
-  const errors: string[] = [];
-  page.on('pageerror', (error) => errors.push(error.message));
+test('admin förklarar saknad OAuth utan att starta felaktig inloggning', async ({ page }) => {
   await page.goto('/admin/');
-  await expect(page.getByRole('button', { name: /GitHub/i })).toBeVisible({
-    timeout: 30000,
-  });
-  expect(errors).toEqual([]);
+  await expect(page.getByRole('status')).toContainText('OAuth-förmedlare');
+  await expect(page.getByRole('button', { name: /GitHub/i })).toHaveCount(0);
 });

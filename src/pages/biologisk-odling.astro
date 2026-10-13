@@ -1,5 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
+import ui from '../data/interface.json';
+import { sitePath } from '../lib/urls';
 import { sections } from '../lib/content';
 const groups = sections.filter((s) =>
   ['beneficials', 'pests', 'methods', 'observations'].includes(s.collection),
@@ -7,15 +9,14 @@ const groups = sections.filter((s) =>
 ---
 
 <Base
-  title="Biologisk odling"
-  description="Utforska nyttodjur, skadedjur, jord och metoder för en levande trädgård."
+  title={ui.biology.title}
+  description={ui.biology.description}
 >
   <section class="section">
-    <p class="eyebrow">En levande trädgård</p>
-    <h1>Biologisk odling</h1>
+    <p class="eyebrow">{ui.biology.eyebrow}</p>
+    <h1>{ui.biology.title}</h1>
     <p class="lead narrow">
-      Förstå livet i odlingen. Här samlar vi kunskap om biologisk mångfald, jord
-      och växtskydd — med plats för frågor och noggranna observationer.
+      {ui.biology.intro}
     </p>
     <div class="grid topic-grid">
       {groups.map((group) => (
@@ -24,11 +25,11 @@ const groups = sections.filter((s) =>
             ✳
           </span>
           <h2>
-            <a href={`/${group.path}/`}>{group.title}</a>
+            <a href={sitePath(`/${group.path}/`)}>{group.title}</a>
           </h2>
           <p>{group.intro}</p>
-          <a class="text-link" href={`/${group.path}/`}>
-            Utforska {group.title.toLowerCase()} ↗
+          <a class="text-link" href={sitePath(`/${group.path}/`)}>
+            {ui.biology.linkLabel} {group.title.toLowerCase()} ↗
           </a>
         </article>
       ))}

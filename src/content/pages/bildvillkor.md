@@ -1,16 +1,16 @@
 ---
 {
   "title": "Bildvillkor",
-  "description": "Egna bilder och tredjepartsbilder har olika villkor.",
+  "description": "Återanvändning av egna bilder och villkor för andra bildkällor.",
   "draft": false
 }
 ---
 
-## Företagets egna bilder
-Företagets egna publicerade fotografier får användas fritt med bibehållen vattenstämpel. Fotografens namn anges vid bilden. Villkoret gäller enbart bilder märkta som företagets egna.
+## Egna fotografier
+Trädgårdsdrömmars egna publicerade fotografier får användas fritt om den synliga vattenstämpeln behålls. Tillåtelsen gäller bilder som uttryckligen anges som våra egna. Beskärning och bearbetning får inte ta bort eller dölja vattenstämpeln.
 
-## Tredjepartsbilder
-För bilder från andra rättighetshavare gäller licensen som anges vid respektive bild. Vår generella tillåtelse omfattar inte dessa bilder.
+## Andra bildkällor
+För bilder från andra rättighetshavare gäller villkoren vid respektive bild. Illustrationer och bearbetade bilder märks när det behövs för att förstå vad de visar.
 
-## Illustrationer och platshållare
-De enkla växtillustrationerna i första versionen är bildplatshållare, inte fotografier av verksamheten. Originalfotografier publiceras inte av byggprocessen.
+## Dokumentation och webbversioner
+Originalfotografier ingår inte i den publika webbplatsen. De publicerade versionerna är beskurna eller förminskade för webbvisning. På identifieringsbilder ändras inte diagnostiska kännetecken.

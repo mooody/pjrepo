@@ -2,14 +2,14 @@ backend:
   name: github
   repo: mooody/pjrepo
   branch: main
-  base_url: https://oauth.example.com
+  base_url: ""
   auth_endpoint: auth
 publish_mode: editorial_workflow
 locale: sv
-media_folder: private-images
-public_folder: /private-images
-site_url: https://example.com
-display_url: https://example.com
+media_folder: web-images
+public_folder: /media
+site_url: https://www.tradgardsdrommar.se
+display_url: https://www.tradgardsdrommar.se
 collections:
   - name: pages
     label: Vanliga sidor
@@ -410,6 +410,10 @@ collections:
           - bulleted-list
           - numbered-list
         editor_components: []
+      - name: heatNote
+        label: Källspecifikt testvärde och förklaring
+        widget: text
+        required: false
   - name: beneficials
     label: Nyttodjur
     folder: src/content/beneficials
@@ -502,6 +506,7 @@ collections:
           - preliminär
           - osäker
         default: preliminär
+        required: false
       - name: sources
         label: Källor
         widget: list
@@ -643,6 +648,7 @@ collections:
           - preliminär
           - osäker
         default: preliminär
+        required: false
       - name: sources
         label: Källor
         widget: list
@@ -784,6 +790,7 @@ collections:
           - preliminär
           - osäker
         default: preliminär
+        required: false
       - name: sources
         label: Källor
         widget: list
@@ -925,6 +932,7 @@ collections:
           - preliminär
           - osäker
         default: preliminär
+        required: false
       - name: sources
         label: Källor
         widget: list
@@ -1192,6 +1200,17 @@ collections:
                 label: Logotyp-original (valfri sökväg i private-images)
                 widget: string
                 required: false
+          - name: sharingImage
+            label: Delningsbild
+            widget: relation
+            required: false
+            collection: configuration
+            file: images
+            search_fields:
+              - images.*.id
+            value_field: images.*.id
+            display_fields:
+              - images.*.id
       - name: home
         label: Startsidan
         file: src/data/home.json
@@ -1248,8 +1267,62 @@ collections:
           - name: projectText
             label: Projekttext
             widget: text
+          - name: primaryLabel
+            label: primaryLabel
+            widget: string
+          - name: primaryHref
+            label: primaryHref
+            widget: string
+          - name: secondaryLabel
+            label: secondaryLabel
+            widget: string
+          - name: secondaryHref
+            label: secondaryHref
+            widget: string
+          - name: heroNote
+            label: heroNote
+            widget: string
+          - name: philosophyEyebrow
+            label: philosophyEyebrow
+            widget: string
+          - name: philosophyLink
+            label: philosophyLink
+            widget: string
+          - name: chiliEyebrow
+            label: chiliEyebrow
+            widget: string
+          - name: chiliLink
+            label: chiliLink
+            widget: string
+          - name: diaryEyebrow
+            label: diaryEyebrow
+            widget: string
+          - name: diaryTitle
+            label: diaryTitle
+            widget: string
+          - name: diaryLink
+            label: diaryLink
+            widget: string
+          - name: projectEyebrow
+            label: projectEyebrow
+            widget: string
+          - name: projectLink
+            label: projectLink
+            widget: string
+          - name: processingTitle
+            label: processingTitle
+            widget: string
+          - name: processingText
+            label: processingText
+            widget: text
+          - name: processingLink
+            label: processingLink
+            widget: string
+          - name: processingImage
+            label: processingImage
+            widget: string
       - name: images
-        label: Bildbibliotek (privat repo krävs)
+        label: Bildbibliotek – skyddade webbexporter
         file: src/data/images.json
         fields:
           - name: images
@@ -1262,11 +1335,6 @@ collections:
                 pattern:
                   - ^[a-z0-9]+(-[a-z0-9]+)*$
                   - Små bokstäver, siffror och bindestreck
-              - name: source
-                label: Originalfil
-                widget: image
-                media_folder: /private-images
-                public_folder: /private-images
               - name: alt
                 label: Alt-text
                 widget: string
@@ -1292,6 +1360,16 @@ collections:
                 label: Licensadress (krävs för tredjepartsbild)
                 widget: string
                 required: false
+              - name: position
+                label: Beskärning vid nästa skyddade export
+                widget: select
+                options:
+                  - centre
+                  - north
+                  - south
+                  - east
+                  - west
+                default: centre
       - name: sections
         label: Faktabibliotekets rubriker och introduktioner
         file: src/data/sections.json
@@ -1366,3 +1444,121 @@ collections:
               - name: intro
                 label: Introduktion
                 widget: text
+      - name: interface
+        label: Gränssnitt och sidtexter
+        file: src/data/interface.json
+        fields:
+          - name: skip
+            label: skip
+            widget: string
+          - name: menu
+            label: menu
+            widget: string
+          - name: readMore
+            label: readMore
+            widget: string
+          - name: sourcesTitle
+            label: sourcesTitle
+            widget: string
+          - name: relatedTitle
+            label: relatedTitle
+            widget: string
+          - name: galleryTitle
+            label: galleryTitle
+            widget: string
+          - name: exampleNotice
+            label: exampleNotice
+            widget: string
+          - name: projectStatusLabel
+            label: projectStatusLabel
+            widget: string
+          - name: contactPending
+            label: contactPending
+            widget: text
+          - name: contactLabel
+            label: contactLabel
+            widget: string
+          - name: imageTermsLabel
+            label: imageTermsLabel
+            widget: string
+          - name: adminLabel
+            label: adminLabel
+            widget: string
+          - name: emptySection
+            label: emptySection
+            widget: string
+          - name: emptySearch
+            label: emptySearch
+            widget: string
+          - name: searchLabel
+            label: searchLabel
+            widget: string
+          - name: filterLabel
+            label: filterLabel
+            widget: string
+          - name: allTopics
+            label: allTopics
+            widget: string
+          - name: resultLabel
+            label: resultLabel
+            widget: string
+          - name: experiencesTitle
+            label: experiencesTitle
+            widget: string
+          - name: reviewedLabel
+            label: reviewedLabel
+            widget: string
+          - name: groupLabel
+            label: groupLabel
+            widget: string
+          - name: identificationLabel
+            label: identificationLabel
+            widget: string
+          - name: evidenceLabel
+            label: evidenceLabel
+            widget: string
+          - name: observationNotice
+            label: observationNotice
+            widget: text
+          - name: placeholder
+            label: placeholder
+            widget: string
+          - name: biology
+            label: biology
+            widget: object
+            fields:
+              - name: eyebrow
+                label: eyebrow
+                widget: string
+              - name: title
+                label: title
+                widget: string
+              - name: description
+                label: description
+                widget: string
+              - name: intro
+                label: intro
+                widget: text
+              - name: linkLabel
+                label: linkLabel
+                widget: string
+          - name: notFoundTitle
+            label: notFoundTitle
+            widget: string
+          - name: notFoundHeading
+            label: notFoundHeading
+            widget: string
+          - name: notFoundText
+            label: notFoundText
+            widget: string
+          - name: homeLink
+            label: homeLink
+            widget: string
+          - name: searchEyebrow
+            label: searchEyebrow
+            widget: string
+          - name: searchPlaceholder
+            label: searchPlaceholder
+            widget: string
+media_library:
+  name: protected-exports

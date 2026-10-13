@@ -4,12 +4,7 @@
   "description": "Lär känna Ghost Pepper: utseende, ungefärlig hetta och odlingsförutsättningar.",
   "draft": false,
   "species": "Capsicum chinense",
-  "heatMin": 800000,
-  "heatMax": 1041427,
-  "appearance": "Vanligen röd, avlång och skrynklig frukt.",
-  "flavor": "Fruktig med mycket hög hetta.",
-  "origin": "Nordöstra Indien; även känd som Bhut Jolokia.",
-  "growth": "Värmekrävande, förgrenad planta. Odlas ofta i kruka eller växthus i Sverige.",
+  "growth": "Se den gemensamma guiden om plats, värme och säsong.",
   "tags": [
     "mycket het",
     "Capsicum chinense"
@@ -18,23 +13,33 @@
     {
       "title": "Royal Horticultural Society: Chilli peppers – growing guide",
       "url": "https://www.rhs.org.uk/vegetables/chilli-pepper/grow-your-own"
+    },
+    {
+      "title": "New Mexico State University: Heat – tested peppers",
+      "url": "https://cpi.nmsu.edu/chile-info/heat.html"
+    },
+    {
+      "title": "Bosland och Baral (2007): Bhut Jolokia",
+      "url": "https://asi.ucdavis.edu/sites/g/files/dgvnsk5751/files/inline-files/pepperproject-bhutjolokiahortsciart_0.pdf"
     }
   ],
-  "example": true,
+  "example": false,
   "related": [
     {
-      "label": "Planerad chiliodling",
-      "href": "/projekt/chiliodling/"
+      "label": "Odlingsguide för chili",
+      "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
-  ]
+  ],
+  "reviewed": "2026-10-13",
+  "heatNote": "Chile Pepper Institute redovisar cirka 1 miljon SHU för provat material benämnt Bhut Jolokia. Det är ett källspecifikt testvärde, inte ett sortintervall eller en mätning av vår skörd."
 }
 ---
 
-## Att odla Ghost Pepper
-Chili behöver värme och ljus. Förkultivering inomhus ger plantorna en längre växtsäsong i svenskt klimat. Avhärda plantorna stegvis och skydda dem mot kyla. Vattna jämnt utan att låta jorden stå blöt.
+## Om sortnamnet
+Ghost Pepper ingår i webbplatsens sortregister. Ursprung och smak kompletteras när en relevant sortkälla har kopplats till namnet. Ett fotografi ensamt fastställer inte sortidentiteten.
 
-## Om styrkeuppgifterna
-Scoville-intervallen är ungefärliga orienteringsvärden, inte en garanti för en viss frukt. Sortidentitet, mognad och odlingsförhållanden påverkar styrkan. De behöver kontrolleras mot en dokumenterad sortkälla före användning i produktmärkning.
+## Att odla
+[Läs den gemensamma odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/). Egna erfarenheter publiceras med odlingsplats och datum när de kan kopplas till rätt planta.
 
-## Egna erfarenheter
-Inga egna odlingsresultat är publicerade ännu. Här kan dokumenterade erfarenheter läggas till senare.
+## Art och namn
+Bosland och Baral beskriver Bhut Jolokia som en Capsicum chinense-sort med möjliga genetiska inslag från C. frutescens. En äldre rekorduppgift fastställer inte styrkan hos alla frukter som säljs under namnet.

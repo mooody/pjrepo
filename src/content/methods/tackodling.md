@@ -1,23 +1,27 @@
 ---
 {
   "title": "Täckodling",
-  "description": "Ett marktäcke kan skydda jorden och minska avdunstningen.",
+  "description": "Ett material på jordytan kan påverka fukt, ogräs och arbetet i odlingen.",
   "draft": false,
   "tags": [
+    "jord",
     "odlingsmetoder"
   ],
   "sources": [
     {
-      "title": "Royal Horticultural Society: Soil, composts and mulches",
-      "url": "https://www.rhs.org.uk/soil-composts-mulches"
+      "title": "RHS: Mulches and mulching",
+      "url": "https://www.rhs.org.uk/soil-composts-mulches/mulch"
     }
   ],
-  "related": []
+  "reviewed": "2026-10-13"
 }
 ---
 
-## Grundprincip
-Organiskt material på jordytan kan bidra till jämnare fukt och minska ogräs. Effekten beror på material, tjocklek och klimat. Kontrollera fukten under täcket och håll känsliga stambaser fria.
+## Vad ett täcke kan göra
+Täckmaterial kan minska avdunstning och hålla tillbaka ogräs. Organiskt material kan också bidra till jorden när det bryts ned. Effekten beror på material, plats och tjocklek.
 
-## Att följa upp
-Notera utgångsläge och förändringar över tid. Skilj det du observerar från möjliga förklaringar.
+## Börja på en avgränsad yta
+Anteckna vilket material du använder och kontrollera fukten under täcket. Håll känsliga stambaser fria. Gör skillnad på ett täcke för jordförbättring och ett substrat som ska fylla en kruka.
+
+## Följ upp
+Fotografera ytan före och efter. Notera vattning och väder. En egen jämförelse kan ge användbara frågor, men behöver fler observationer innan resultatet generaliseras.

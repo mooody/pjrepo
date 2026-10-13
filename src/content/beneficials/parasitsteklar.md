@@ -2,7 +2,7 @@
 {
   "title": "Parasitsteklar",
   "description": "En introduktion till naturliga fiender och deras roll i odlingen.",
-  "draft": false,
+  "draft": true,
   "scientificName": "Hymenoptera (flera familjer)",
   "tags": [
     "nyttodjur",
@@ -23,7 +23,8 @@
       "label": "Biologisk bekämpning av bladlöss",
       "href": "/odlingsmetoder/biologisk-bekampning/"
     }
-  ]
+  ],
+  "identification": "preliminär"
 }
 ---
 

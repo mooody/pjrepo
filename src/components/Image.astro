@@ -1,64 +1,21 @@
 ---
 import manifest from '../data/images.json';
-const { id, alt, hero = false, decorative = false } = Astro.props;
-const record = manifest.images.find(
-  (image: { id: string }) => image.id === id,
-) as
-  | {
-      id: string;
-      alt: string;
-      caption?: string;
-      photographer?: string;
-      license?: string;
-      licenseUrl?: string;
-    }
-  | undefined;
+import exports from '../../web-images/index.json';
+import ui from '../data/interface.json';
+import { sitePath } from '../lib/urls';
+const { id, alt, hero = false, decorative = false, variant = hero ? 'hero' : 'full' } = Astro.props;
+const record = manifest.images.find(image => image.id === id);
+const output = exports.images.find(image => image.id === id);
+const variants = output?.variants[variant as keyof typeof output.variants] || output?.variants.full;
+const largest = variants?.at(-1);
 ---
-
-{record ? (
+{record && largest ? (
   <figure>
-    <img
-      src={`/media/${record.id}.webp`}
-      alt={decorative ? '' : alt || record.alt}
-      loading={hero ? 'eager' : 'lazy'}
-      decoding="async"
-      width="1600"
-      height="1067"
-    />
-    {!decorative &&
-      (record.caption || record.photographer || record.license) && (
-        <figcaption>
-          {record.caption}{' '}
-          {record.photographer && `Foto: ${record.photographer}.`}{' '}
-          {record.licenseUrl ? (
-            <a href={record.licenseUrl}>{record.license}</a>
-          ) : (
-            record.license
-          )}
-        </figcaption>
-      )}
+    <img src={sitePath(`/media/${largest.file}`)}
+      srcset={variants?.map(v => `${sitePath(`/media/${v.file}`)} ${v.width}w`).join(', ')}
+      sizes={variant === 'card' ? '(max-width: 700px) 88vw, (max-width: 1050px) 30vw, 400px' : hero ? '(max-width: 700px) 88vw, 560px' : '(max-width: 900px) 88vw, 800px'}
+      alt={decorative ? '' : alt || record.alt} loading={hero ? 'eager' : 'lazy'}
+      fetchpriority={hero ? 'high' : 'auto'} decoding="async" width={largest.width} height={largest.height} />
+    {!decorative && <figcaption>{record.caption} Foto: {record.photographer}. {record.license}</figcaption>}
   </figure>
-) : (
-  <div
-    class:list={['image-placeholder', { hero }]}
-    role="img"
-    aria-label="Illustrativ bildplatshållare – egen bild kommer senare"
-  >
-    <svg viewBox="0 0 600 440" aria-hidden="true">
-      <circle cx="445" cy="94" r="55" fill="currentColor" opacity=".2" />
-      <path
-        d="M300 400C290 300 330 210 320 80M314 235C230 220 213 164 212 150C275 142 312 188 314 235M319 168C396 151 422 93 423 75C358 83 326 113 319 168M301 322C385 294 403 245 406 222C341 230 305 270 301 322"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="12"
-        stroke-linecap="round"
-      />
-      <path
-        d="M0 410Q160 352 290 396T600 370V440H0Z"
-        fill="currentColor"
-        opacity=".25"
-      />
-    </svg>
-    <span>Illustration · bild kommer senare</span>
-  </div>
-)}
+) : !decorative ? <p class="image-pending">{ui.placeholder}</p> : null}

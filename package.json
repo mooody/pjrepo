@@ -11,7 +11,7 @@
     "check": "astro check",
     "images": "node scripts/images.mjs",
     "cms": "node scripts/cms.mjs",
-    "build": "npm run validate && npm run cms && npm run images && astro build",
+    "build": "npm run validate && npm run cms && npm run images && astro build && node scripts/base-links.mjs",
     "preview": "astro preview",
     "test": "node --test tests/*.test.mjs",
     "verify": "npm run check && npm run build && npm test && npm run test:browser",

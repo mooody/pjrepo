@@ -2,7 +2,7 @@
 {
   "title": "Att välja chili till sin första odling",
   "description": "Börja med odlingsplats, säsong och vad du vill använda frukterna till.",
-  "draft": false,
+  "draft": true,
   "date": "2026-10-01",
   "category": "Chili",
   "tags": [

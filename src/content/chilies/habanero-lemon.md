@@ -4,12 +4,7 @@
   "description": "Lär känna Habanero Lemon: utseende, ungefärlig hetta och odlingsförutsättningar.",
   "draft": false,
   "species": "Capsicum chinense",
-  "heatMin": 100000,
-  "heatMax": 350000,
-  "appearance": "Gul frukt vid full mognad.",
-  "flavor": "Ofta beskriven som fruktig.",
-  "origin": "Namnet används för gulfruktiga habanerotyper; kontrollera fröleverantörens sortbeskrivning.",
-  "growth": "Värmekrävande, förgrenad planta. Odlas ofta i kruka eller växthus i Sverige.",
+  "growth": "Se den gemensamma guiden om plats, värme och säsong.",
   "tags": [
     "het",
     "Capsicum chinense"
@@ -20,21 +15,19 @@
       "url": "https://www.rhs.org.uk/vegetables/chilli-pepper/grow-your-own"
     }
   ],
-  "example": true,
+  "example": false,
   "related": [
     {
-      "label": "Planerad chiliodling",
-      "href": "/projekt/chiliodling/"
+      "label": "Odlingsguide för chili",
+      "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
-  ]
+  ],
+  "reviewed": "2026-10-13"
 }
 ---
 
-## Att odla Habanero Lemon
-Chili behöver värme och ljus. Förkultivering inomhus ger plantorna en längre växtsäsong i svenskt klimat. Avhärda plantorna stegvis och skydda dem mot kyla. Vattna jämnt utan att låta jorden stå blöt.
+## Om sortnamnet
+Habanero Lemon ingår i webbplatsens sortregister. Specifika uppgifter om styrka, ursprung och smak kompletteras först när rätt sortkälla har kopplats till namnet. Ett fotografi ensamt fastställer inte sortidentiteten.
 
-## Om styrkeuppgifterna
-Scoville-intervallen är ungefärliga orienteringsvärden, inte en garanti för en viss frukt. Sortidentitet, mognad och odlingsförhållanden påverkar styrkan. De behöver kontrolleras mot en dokumenterad sortkälla före användning i produktmärkning.
-
-## Egna erfarenheter
-Inga egna odlingsresultat är publicerade ännu. Här kan dokumenterade erfarenheter läggas till senare.
+## Att odla
+[Läs den gemensamma odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/). Egna erfarenheter publiceras med odlingsplats och datum när de kan kopplas till rätt planta.

@@ -1,8 +1,8 @@
 {
   "name": "Trädgårdsdrömmar",
   "tagline": "Småskalig odling. Stora samband.",
-  "description": "Chili, biologisk odling och idéer för en levande trädgård.",
-  "url": "https://example.com",
+  "description": "Egen odling, hantverksmässig förädling och livet i trädgården.",
+  "url": "https://www.tradgardsdrommar.se",
   "email": "",
   "social": [],
   "logo": "",
@@ -14,34 +14,31 @@
     "sage": "#8C9A68"
   },
   "watermark": {
-    "text": "Trädgårdsdrömmar",
-    "opacity": 0.65,
+    "text": "Trädgårdsdrömmar · tradgardsdrommar.se",
+    "opacity": 0.55,
     "logo": ""
   },
   "navigation": [
     {
-      "label": "Chilisorter",
-      "href": "/chilisorter/"
+      "label": "Odla",
+      "href": "/odla/"
     },
     {
-      "label": "Biologisk odling",
+      "label": "Livet i trädgården",
       "href": "/biologisk-odling/"
     },
     {
-      "label": "Odling & projekt",
-      "href": "/projekt/"
+      "label": "Förädla",
+      "href": "/foradla/"
     },
     {
       "label": "Odlingsdagbok",
       "href": "/blogg/"
     },
     {
-      "label": "Om oss",
+      "label": "Om Trädgårdsdrömmar",
       "href": "/om/"
-    },
-    {
-      "label": "Kontakt",
-      "href": "/kontakt/"
     }
-  ]
+  ],
+  "sharingImage": "odlingslotten"
 }

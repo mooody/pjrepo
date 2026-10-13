@@ -4,12 +4,7 @@
   "description": "Lär känna Red Savina: utseende, ungefärlig hetta och odlingsförutsättningar.",
   "draft": false,
   "species": "Capsicum chinense",
-  "heatMin": 250000,
-  "heatMax": 577000,
-  "appearance": "Röd, veckad frukt.",
-  "flavor": "Fruktig med hög hetta.",
-  "origin": "En selekterad habanerosort från USA.",
-  "growth": "Värmekrävande, förgrenad planta. Odlas ofta i kruka eller växthus i Sverige.",
+  "growth": "Se den gemensamma guiden om plats, värme och säsong.",
   "tags": [
     "mycket het",
     "Capsicum chinense"
@@ -18,23 +13,26 @@
     {
       "title": "Royal Horticultural Society: Chilli peppers – growing guide",
       "url": "https://www.rhs.org.uk/vegetables/chilli-pepper/grow-your-own"
+    },
+    {
+      "title": "New Mexico State University: Heat – tested peppers",
+      "url": "https://cpi.nmsu.edu/chile-info/heat.html"
     }
   ],
-  "example": true,
+  "example": false,
   "related": [
     {
-      "label": "Planerad chiliodling",
-      "href": "/projekt/chiliodling/"
+      "label": "Odlingsguide för chili",
+      "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
-  ]
+  ],
+  "reviewed": "2026-10-13",
+  "heatNote": "Chile Pepper Institute redovisar 500 000 SHU för provat material benämnt Red Savina Habanero. Det är ett källspecifikt testvärde, inte ett sortintervall eller en mätning av vår skörd."
 }
 ---
 
-## Att odla Red Savina
-Chili behöver värme och ljus. Förkultivering inomhus ger plantorna en längre växtsäsong i svenskt klimat. Avhärda plantorna stegvis och skydda dem mot kyla. Vattna jämnt utan att låta jorden stå blöt.
+## Om sortnamnet
+Red Savina ingår i webbplatsens sortregister. Ursprung och smak kompletteras när en relevant sortkälla har kopplats till namnet. Ett fotografi ensamt fastställer inte sortidentiteten.
 
-## Om styrkeuppgifterna
-Scoville-intervallen är ungefärliga orienteringsvärden, inte en garanti för en viss frukt. Sortidentitet, mognad och odlingsförhållanden påverkar styrkan. De behöver kontrolleras mot en dokumenterad sortkälla före användning i produktmärkning.
-
-## Egna erfarenheter
-Inga egna odlingsresultat är publicerade ännu. Här kan dokumenterade erfarenheter läggas till senare.
+## Att odla
+[Läs den gemensamma odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/). Egna erfarenheter publiceras med odlingsplats och datum när de kan kopplas till rätt planta.
