@@ -56,6 +56,13 @@ test('CMS använder rätt repo, redaktionellt flöde och alla innehållssamlinga
   assert.equal(config.backend.branch, 'main');
   assert.equal(config.publish_mode, 'editorial_workflow');
   assert.equal(config.locale, 'sv');
+  for(const collection of config.collections) {
+    const items=collection.files||collection.fields||[];
+    assert.equal(new Set(items.map(item=>item.name)).size,items.length,`Duplicate CMS field/file in ${collection.name}`);
+  }
+  const ui=JSON.parse(await readFile('src/data/interface.json','utf8'));
+  const interfaceFile=config.collections.find(c=>c.name==='configuration').files.find(f=>f.name==='interface');
+  assert.deepEqual(interfaceFile.fields.map(f=>f.name).sort(),Object.keys(ui).sort());
   for (const name of [
     'pages',
     'articles',

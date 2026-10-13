@@ -20,7 +20,7 @@
 - Originalbilder från äldre insektfynd behöver återfinnas och granskas igen. Nyttodjurs- och skadedjurstexterna är redaktionella utkast tills bildstöd och innehåll har kontrollerats. Direktadresserna för dessa utkast är inte publicerade.
 - Fler sortbilder kräver säker koppling till rätt planta/sortunderlag.
 - Biokol, droppbevattning, livsstadier och blomningsplan har arbetsutkast i CMS, utan påhittade resultat eller doseringsråd.
-- Visuell mobil-/datorgranskning och CMS-inloggning är inte verifierade. Tidigare webbläsaråtkomst nekades och kringgås inte genom alternativ rendering.
+- GitHub Actions har verifierat byggning, enhetstester och automatiserade webbläsartester för dator, mobil, tillgänglighet och filtrering. Manuell visuell granskning av den publicerade sidan återstår; tidigare direkt webbläsaråtkomst nekades. Verklig CMS-inloggning är fortfarande inte verifierad.
 - Nya foton behöver tas enligt docs/photography-plan.md.
 - Produktionspublicering på Debian/Nginx är inte utförd här. Behåll statiskt upplägg utan webbshop eller databas.
 
