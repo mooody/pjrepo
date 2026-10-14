@@ -19,6 +19,14 @@
     {
       "image": "rod-skrynklig-chili",
       "alt": "Röd skrynklig chilifrukt på en ljus yta"
+    },
+    {
+      "image": "bhut-jolokia",
+      "alt": "Bhut Jolokia (Ghost) på en träyta"
+    },
+    {
+      "image": "jalapeno-leon",
+      "alt": "Jalapeño Leon på en träyta"
     }
   ]
 }

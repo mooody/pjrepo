@@ -1,7 +1,7 @@
 ---
 {
-  "title": "Ghost Pepper",
-  "description": "Ghost Pepper: sortfakta, användning och erfarenheter från våra försök.",
+  "title": "Bhut Jolokia (Ghost)",
+  "description": "Bhut Jolokia (Ghost): sortfakta, användning och erfarenheter från våra försök.",
   "draft": false,
   "species": "Capsicum chinense",
   "growth": "Förkultiveras med ljus och värme. En skyddad odlingsplats ger en längre användbar säsong. Se odlingsguiden för gemensamma råd.",
@@ -31,7 +31,8 @@
     }
   ],
   "reviewed": "2026-10-13",
-  "heatNote": "Chile Pepper Institute redovisar cirka 1 miljon SHU för provat material benämnt Bhut Jolokia. Det är ett källspecifikt testvärde, inte ett sortintervall eller en mätning av vår skörd."
+  "heatNote": "Chile Pepper Institute redovisar cirka 1 miljon SHU för provat material benämnt Bhut Jolokia. Det är ett källspecifikt testvärde, inte ett sortintervall eller en mätning av vår skörd.",
+  "image": "bhut-jolokia"
 }
 ---
 
@@ -42,6 +43,6 @@ Ghost Pepper är ett vanligt namn för Bhut Jolokia. Bosland och Baral beskriver
 Sorten hör till de mycket starka chilierna. En publicerad försöksmätning eller rekorduppgift säger inte exakt hur stark en enskild frukt i den egna odlingen är.
 
 ## Våra försök
-Ghost Pepper finns med i dokumenterade marmeladtester och bland sorterna i förädlingsarbetet. Här skiljs råvarumängderna i testen från allmänna sortuppgifter.
+Bhut Jolokia (Ghost) finns med i dokumenterade marmeladtester och bland sorterna i förädlingsarbetet. Här skiljs råvarumängderna i testen från allmänna sortuppgifter.
 
 [Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

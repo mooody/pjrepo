@@ -131,6 +131,30 @@
       "license": "Fri användning med bibehållen vattenstämpel",
       "licenseUrl": "",
       "position": "centre"
+    },
+    {
+      "id": "bhut-jolokia",
+      "source": "",
+      "alt": "Röda och orange Bhut Jolokia-frukter på en träyta",
+      "caption": "Bhut Jolokia (Ghost). Eget foto med bearbetat ljus och bakgrund.",
+      "position": "centre",
+      "ownership": "own",
+      "kind": "photo",
+      "photographer": "Micke",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": ""
+    },
+    {
+      "id": "jalapeno-leon",
+      "source": "",
+      "alt": "Jalapeño Leon-frukter i en grupp på en träyta",
+      "caption": "Jalapeño Leon. Sorten bekräftad av odlaren.",
+      "position": "centre",
+      "ownership": "own",
+      "kind": "photo",
+      "photographer": "Micke",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": ""
     }
   ]
 }

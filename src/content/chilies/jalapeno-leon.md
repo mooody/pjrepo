@@ -17,7 +17,8 @@
       "url": "https://www.reinsaat.at/shop/EN/chilli_peppers_chill/leon/"
     }
   ],
-  "reviewed": "2026-10-13"
+  "reviewed": "2026-10-13",
+  "image": "jalapeno-leon"
 }
 ---
 

@@ -609,6 +609,116 @@
           }
         ]
       }
+    },
+    {
+      "id": "bhut-jolokia",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "bhut-jolokia-full-480.webp",
+            "width": 480,
+            "height": 640
+          },
+          {
+            "file": "bhut-jolokia-full-800.webp",
+            "width": 800,
+            "height": 1067
+          },
+          {
+            "file": "bhut-jolokia.webp",
+            "width": 1086,
+            "height": 1448
+          }
+        ],
+        "card": [
+          {
+            "file": "bhut-jolokia-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "bhut-jolokia-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "bhut-jolokia-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "bhut-jolokia-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "bhut-jolokia-sharing-1200.webp",
+            "width": 1086,
+            "height": 570
+          }
+        ]
+      }
+    },
+    {
+      "id": "jalapeno-leon",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "jalapeno-leon-full-480.webp",
+            "width": 480,
+            "height": 640
+          },
+          {
+            "file": "jalapeno-leon-full-800.webp",
+            "width": 800,
+            "height": 1067
+          },
+          {
+            "file": "jalapeno-leon.webp",
+            "width": 1152,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "jalapeno-leon-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "jalapeno-leon-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "jalapeno-leon-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "jalapeno-leon-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "jalapeno-leon-sharing-1200.webp",
+            "width": 1152,
+            "height": 605
+          }
+        ]
+      }
     }
   ]
 }
