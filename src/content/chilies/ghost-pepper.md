@@ -1,7 +1,7 @@
 ---
 {
   "title": "Bhut Jolokia Red",
-  "description": "Bhut Jolokia Red: sortfakta, användning och erfarenheter från våra försök.",
+  "description": "Bhut Jolokia Red, även kallad Ghost Pepper: sortfakta, användning och erfarenheter från våra försök.",
   "draft": false,
   "species": "Capsicum chinense",
   "growth": "Förkultiveras med ljus och värme. En skyddad odlingsplats ger en längre användbar säsong. Se odlingsguiden för gemensamma råd.",
