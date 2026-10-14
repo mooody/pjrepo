@@ -4,6 +4,7 @@
   "description": "Fotografier från plantor och skörd.",
   "draft": false,
   "gallery": [
+    {"image": "red-savina", "alt": "Red Savina på en ljus skiva"},
     {
       "image": "gul-chili",
       "alt": "Gul chilifrukt på en planta"
@@ -22,7 +23,7 @@
     },
     {
       "image": "bhut-jolokia",
-      "alt": "Bhut Jolokia (Ghost) på en träyta"
+      "alt": "Bhut Jolokia Red på en träyta"
     },
     {
       "image": "jalapeno-leon",

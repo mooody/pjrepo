@@ -1,6 +1,7 @@
 ---
 {
   "title": "Red Savina",
+  "image": "red-savina",
   "description": "Red Savina: sortfakta, användning och erfarenheter från våra försök.",
   "draft": false,
   "species": "Capsicum chinense",

@@ -719,6 +719,61 @@
           }
         ]
       }
+    },
+    {
+      "id": "red-savina",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "red-savina-full-480.webp",
+            "width": 480,
+            "height": 640
+          },
+          {
+            "file": "red-savina-full-800.webp",
+            "width": 800,
+            "height": 1067
+          },
+          {
+            "file": "red-savina.webp",
+            "width": 1086,
+            "height": 1448
+          }
+        ],
+        "card": [
+          {
+            "file": "red-savina-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "red-savina-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "red-savina-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "red-savina-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "red-savina-sharing-1200.webp",
+            "width": 1086,
+            "height": 570
+          }
+        ]
+      }
     }
   ]
 }
