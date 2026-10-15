@@ -1,0 +1,17 @@
+# Kopiera denna mall till ny-produkt.md i samma mapp.
+# Ändelsen .example gör att mallen inte visas som en produkt.
+---
+title: "Ny produkt"
+description: "Kort beskrivning."
+year: 2026
+category: "Marmelad"
+batch: ""
+order: 100
+productImage: /product-images/ny-produkt-foto.webp
+labelImage: /product-images/ny-produkt-etikett.webp
+productImageAlt: "Beskriv produktfotot"
+labelImageAlt: "Etiketten och innehållsförteckningen"
+draft: true
+---
+
+Beskriv produkten. Låt draft stå som true tills bildfilerna och texten är klara.

@@ -11,6 +11,26 @@ public_folder: /media
 site_url: https://www.tradgardsdrommar.se
 display_url: https://www.tradgardsdrommar.se
 collections:
+  - name: products
+    label: Produkter
+    folder: src/content/products
+    create: true
+    slug: "{{slug}}"
+    format: frontmatter
+    extension: md
+    fields:
+      - { name: title, label: Produktnamn, widget: string }
+      - { name: description, label: Kort beskrivning, widget: text }
+      - { name: year, label: År, widget: number, value_type: int, default: 2026 }
+      - { name: category, label: Kategori, widget: string }
+      - { name: batch, label: Satsnummer, widget: string, required: false }
+      - { name: order, label: Sorteringsordning, widget: number, value_type: int, default: 100 }
+      - { name: productImage, label: "WebP-adress till produktbild", widget: string, hint: "Exempel: /product-images/ny-produkt-foto.webp" }
+      - { name: labelImage, label: "WebP-adress till etikett", widget: string, hint: "Exempel: /product-images/ny-produkt-etikett.webp" }
+      - { name: productImageAlt, label: Bildbeskrivning, widget: string }
+      - { name: labelImageAlt, label: Etikettbeskrivning, widget: string }
+      - { name: draft, label: Utkast, widget: boolean, default: true }
+      - { name: body, label: Produktinformation, widget: markdown }
   - name: pages
     label: Vanliga sidor
     folder: src/content/pages

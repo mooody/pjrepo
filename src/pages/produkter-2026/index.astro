@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { sitePath } from '../../lib/urls';
+const products = (await getCollection('products', ({data}) => !data.draft && data.year === 2026))
+  .sort((a,b)=>a.data.order-b.data.order || a.data.title.localeCompare(b.data.title, 'sv'));
+---
+<Base title="Produkter 2026" description="Såser, marmelader och andra förädlade produkter från 2026.">
+  <section class="section products-list">
+    <p class="eyebrow">Från odling till förädling</p>
+    <h1>Produkter 2026</h1>
+    <p class="lead">Här hittar du produkter från årets förädling. Klicka på en etikett för att se produktbilden, hela etiketten och mer information.</p>
+    <div class="product-grid">
+      {products.map(product => (
+        <a class="product-card" href={sitePath('/produkter-2026/' + product.id + '/')}>
+          <div class="product-card-label">
+            <img src={sitePath(product.data.labelImage)} alt={'Etikett för ' + product.data.title} loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card-content">
+            <p class="eyebrow">{product.data.category} · {product.data.batch}</p>
+            <h2>{product.data.title}</h2>
+            <p>{product.data.description}</p>
+            <span class="text-link">Visa produkten ↗</span>
+          </div>
+        </a>
+      ))}
+    </div>
+    <p class="product-disclaimer">Detta är ett produktarkiv. Beställning och betalning finns inte på webbplatsen ännu.</p>
+  </section>
+</Base>

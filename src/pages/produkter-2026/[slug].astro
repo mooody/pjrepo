@@ -1,0 +1,35 @@
+---
+import { render, getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { sitePath } from '../../lib/urls';
+export async function getStaticPaths() {
+  const products = await getCollection('products', ({ data }) => !data.draft && data.year === 2026);
+  return products.map(entry => ({ params: { slug: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const product = entry.data;
+const { Content } = await render(entry);
+---
+<Base title={product.title} description={product.description}>
+  <article class="section product-detail">
+    <a class="text-link" href={sitePath('/produkter-2026/')}>← Alla produkter 2026</a>
+    <p class="eyebrow">{product.category} · {product.year} {product.batch && '· ' + product.batch}</p>
+    <h1>{product.title}</h1>
+    <p class="lead">{product.description}</p>
+    <figure class="product-hero-image">
+      <img src={sitePath(product.productImage)} alt={product.productImageAlt} fetchpriority="high" decoding="async" />
+      <figcaption>Produktbild · {product.title}</figcaption>
+    </figure>
+    <div class="product-description prose"><Content /></div>
+    <section class="product-label-section" aria-labelledby="product-label-title">
+      <h2 id="product-label-title">Etikett och innehåll</h2>
+      <p>Här visas originaletiketten med innehållsförteckning och övriga uppgifter.</p>
+      <a href={sitePath(product.labelImage)} target="_blank" rel="noopener noreferrer" aria-label={'Öppna etiketten till ' + product.title + ' i full storlek'}>
+        <img src={sitePath(product.labelImage)} alt={product.labelImageAlt} loading="lazy" decoding="async" />
+      </a>
+      <p><a class="text-link" href={sitePath(product.labelImage)} target="_blank" rel="noopener noreferrer">Visa etiketten i större format ↗</a></p>
+    </section>
+    {product.batch && <p class="product-batch">Sats: <strong>{product.batch}</strong></p>}
+    <a class="text-link" href={sitePath('/produkter-2026/')}>← Tillbaka till alla produkter</a>
+  </article>
+</Base>
