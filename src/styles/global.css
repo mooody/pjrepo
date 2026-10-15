@@ -584,3 +584,34 @@ footer a {
  .menu-toggle { font-size: .8rem; padding: .4rem .5rem; }
  .gallery { grid-template-columns: 1fr; }
 }
+
+/* Produkter 2026: visa hela etiketter utan beskärning. */
+.product-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;margin-top:3rem; }
+.product-card { display:flex;flex-direction:column;text-decoration:none;overflow:hidden;background:var(--olive);border:1px solid #ffffff23;border-radius:8px;transition:border-color .2s,transform .2s; }
+.product-card:hover { border-color:var(--sand);transform:translateY(-2px);color:inherit; }
+.product-card:focus-visible { outline:3px solid #f4c077; }
+.product-card-label { display:flex;align-items:center;justify-content:center;padding:1.2rem;background:#f4efe7;aspect-ratio:1.4; }
+.product-card-label img { max-height:100%;width:100%;object-fit:contain; }
+.product-card-content { padding:1.5rem 1.7rem 1.9rem; }
+.product-card-content h2 { font-size:clamp(1.8rem,2.6vw,2.5rem);margin:.2rem 0 .8rem; }
+.product-card-content p:not(.eyebrow) { color:#e1d6c2; }
+.product-card-content .eyebrow { margin:0; }
+.product-disclaimer { font-size:.84rem;color:var(--sand);margin-top:2rem; }
+.product-detail { max-width:960px; }
+.product-detail > .eyebrow { margin:2rem 0 1rem; }
+.product-detail h1 { font-size:clamp(2.7rem,5vw,4.7rem); }
+.product-hero-image { margin:2.5rem 0; }
+.product-hero-image img { margin:auto;width:100%;max-height:650px;object-fit:contain;border-radius:8px;background:var(--olive); }
+.product-description { max-width:760px;margin:2rem 0 3rem; }
+.product-label-section { border-top:1px solid #ffffff33;padding-top:3rem;margin-top:2rem; }
+.product-label-section > a { display:block;background:#f5f1e9;padding:1.5rem;border-radius:7px;margin:1.5rem 0; }
+.product-label-section img { display:block;max-height:760px;width:100%;object-fit:contain; }
+.product-label-section a:hover { color:var(--terracotta); }
+.product-batch { margin-top:2rem;color:var(--sand); }
+@media(max-width:700px) {
+ .product-grid { grid-template-columns:1fr;gap:1.25rem; }
+ .product-card-label { aspect-ratio:1.35; }
+ .product-card-content { padding:1.25rem; }
+ .product-label-section > a { padding:.5rem; }
+}
+

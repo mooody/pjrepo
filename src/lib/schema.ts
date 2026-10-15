@@ -50,3 +50,17 @@ export const contentSchema = z.preprocess((value) => {
     );
   return value;
 }, rawSchema);
+/** Produkter hålls skilda från kunskapsartiklar inför framtida webbshop. */
+export const productSchema = z.object({
+  title: z.string().min(1),
+  description: z.string().min(1),
+  year: z.number().int().min(2020),
+  category: z.string().min(1),
+  batch: z.string().default(''),
+  order: z.number().int().nonnegative().default(0),
+  productImage: z.string().regex(/^\/product-images\/[a-z0-9-]+\.webp$/),
+  labelImage: z.string().regex(/^\/product-images\/[a-z0-9-]+\.webp$/),
+  productImageAlt: z.string().min(1),
+  labelImageAlt: z.string().min(1),
+  draft: z.boolean().default(true),
+});
