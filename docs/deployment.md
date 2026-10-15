@@ -1,65 +1,120 @@
-# Publicera på Debian 13
+# Publicera Trädgårdsdrömmar på Debian 13
 
-Inga serverändringar har gjorts av kodassistenten. GitHub Actions bygger och testar; automatisk VPS-publicering är avstängd från början. VPS:en behöver endast Nginx, SSH, rsync och vid behov Certbot. Webbplatsen kräver ingen Node.js, databas eller CMS-process där.
+**Arkitektur (15 oktober 2026):** GitHub är källan till koden och bygger Astro-sajten med Node.js 24. Endast färdiga statiska filer från `dist/` skickas via SSH/rsync till STRATO-VPS. Nginx serverar `/var/www/tradgardsdrommar.se/public/`. VPS:en behöver **inte** köra Node.js eller innehålla Git-repot.
 
-## Förbered domän och bygg
+Det här skiljer sig från det tidigare förslaget med `releases/` och `current`-symlänk. För denna lilla statiska webbplats har vi valt ett enklare flöde utan sparade releaser på servern. Git-historiken i sig ersätter dock inte en riktig backup eller en omedelbar rollback av färdigbyggda filer.
 
-Ange din domän i `src/data/settings.json` (`url`) och `public/admin/config.yml`. `SITE_URL` kan användas som byggvariabel, men den normala källan är CMS-inställningen. Uppdatera kontaktuppgifter och granska exempeltexterna.
+## Befintlig server
 
-```sh
-npm ci
-npm run build
-```
+- Debian 13, Nginx och HTTPS med Let's Encrypt.
+- Domän: `tradgardsdrommar.se` och `www.tradgardsdrommar.se`.
+- Dokumentrot för Nginx: `/var/www/tradgardsdrommar.se/public`.
+- Brandvägg UFW tillåter SSH (22), HTTP (80), HTTPS (443).
 
-Publicera innehållet i `dist/`. Kopiera inte projektkatalogen, `private-images/` eller `node_modules/` till webbservern.
+Nginx ska ha `root /var/www/tradgardsdrommar.se/public;`, och `nginx -t` ska lyckas. `/var/www/tradgardsdrommar.se/source` är en äldre lokal klon och behövs inte för den valda publiceringen.
 
-## Server, som du själv konfigurerar
+## GitHub Actions: bygga och publicera
 
-Exempel på katalogstruktur:
+Workflowen `.github/workflows/verify.yml` bygger och testar med Node.js 24 och laddar upp `dist/` som artefakten `website`. Den kör automatiskt vid ändringar i `main`.
 
-```text
-/var/www/tradgardsdrommar/
-  releases/
-    20261013-1/
-    20261014-1/
-  current -> releases/20261014-1
-```
+Publiceringsjobbet är spärrat tills repository-variabeln `DEPLOY_ENABLED` sätts till `true` och produktionsmiljön är förberedd.
 
-Skapa en separat SSH-användare med skrivrätt till den här katalogen och utan behov av sudo för publicering. Installera Nginx och rsync. Anpassa `docs/nginx.conf` med riktig domän och katalog, lägg den under `/etc/nginx/sites-available/`, aktivera och kör `nginx -t` innan reload. Domänens DNS ska peka på VPS:en.
+### Förbered SSH på VPS
 
-För HTTPS: installera `certbot` och `python3-certbot-nginx`, kör `sudo certbot --nginx -d din-domän.se` och kontrollera `sudo certbot renew --dry-run`. Öppna HTTP/HTTPS i serverns brandvägg. Konfigurationen i repot är en HTTP-grund som Certbot kompletterar.
+Rekommenderat: skapa ett separat Linuxkonto utan sudo för deploy, till exempel `td-deploy`. Använd en *egen* Ed25519-nyckel för GitHub Actions, inte den privata nyckeln från Macens ordinarie SSH-inloggning.
 
-## Manuell publicering
-
-Skapa en ny releasekatalog, överför `dist/` med rsync och byt `current` först när alla filer finns på plats. `scripts/deploy.sh` kan användas från din dator:
+På Debian (som `micke`):
 
 ```sh
-DEPLOY_HOST=din-server.se DEPLOY_USER=deploy \
-DEPLOY_PATH=/var/www/tradgardsdrommar RELEASE_ID=20261013-1 \
-bash scripts/deploy.sh
+sudo apt update
+sudo apt install -y rsync
+sudo adduser --disabled-password --gecos "" td-deploy
+sudo install -d -m 700 -o td-deploy -g td-deploy /home/td-deploy/.ssh
 ```
 
-SSH-nyckel och verifierad host key ska redan vara konfigurerade på datorn. Skriptet accepterar ett enkelt värdnamn, användarnamn och sökväg under `/var/www/`. Symlink-bytet görs atomärt efter lyckad överföring.
+Placera sedan **endast den publika** nyckeln från det dedikerade nyckelparet i `/home/td-deploy/.ssh/authorized_keys`. Sätt `chown td-deploy:td-deploy`, rättigheter 600 på authorized_keys, och se till att användaren kan skriva i Nginx-dokumentroten:
 
-## Valfri GitHub Actions-publicering
+```sh
+sudo chown -R td-deploy:www-data /var/www/tradgardsdrommar.se/public
+sudo chmod 755 /var/www/tradgardsdrommar.se/public
+```
 
-Byggjobbet kör automatiskt på `main` och pull requests. Den färdiga webbplatsen finns som artefakten `website` i Actions. Ladda ner, packa upp och publicera den manuellt om du vill.
+Om `public/` redan innehåller en fungerande testsida bör den lämnas kvar tills hela kedjan är verifierad.
 
-För automatisk överföring behöver du själv skapa GitHub Environment `production` och följande inställningar. Lägg gärna till environment approval och branch protection.
+### Skapa dedikerad nyckel för deploy
 
-| Typ | Namn | Värde |
-| --- | --- | --- |
-| Variable | `DEPLOY_HOST` | VPS-domän/IP |
-| Variable | `DEPLOY_USER` | Separat publiceringsanvändare |
-| Variable | `DEPLOY_PATH` | `/var/www/tradgardsdrommar` |
-| Secret | `DEPLOY_SSH_KEY` | Privat SSH-nyckel för publicering |
-| Secret | `DEPLOY_KNOWN_HOSTS` | Verifierad SSH-hostnyckelrad |
-| Repository variable | `DEPLOY_ENABLED` | `true` när du vill aktivera överföringen |
+På Mac:
 
-Verifiera serverns hostnyckelfingeravtryck via en betrodd kanal. Flödet använder aldrig `StrictHostKeyChecking=no`. Sätt inte `DEPLOY_ENABLED=true` innan servern är förberedd. När variabeln saknas eller är `false` sker endast byggning och tester.
+```sh
+ssh-keygen -t ed25519 -f ~/.ssh/tradgardsdrommar-deploy -C "github-actions-tradgardsdrommar"
+```
 
-## Återställning och backup
+Lägg endast `.pub`-innehållet i serverns `authorized_keys`; spara den **privata** nyckelns innehåll i GitHub Actions Secret `DEPLOY_SSH_KEY` via GitHubs inställningar. Skicka den aldrig i chatt och checka aldrig in den i Git.
 
-Återställ `current` till en tidigare komplett release med en temporär symlink och atomärt `mv -Tf`. Nginx behöver inte startas om när symlänken byts. Behåll några releaser och rensa äldre manuellt efter kontroll.
+Verifiera serverns SSH-hostnyckel via servern, till exempel genom fingeravtrycket från:
 
-Säkerhetskopiera GitHub-repositoryt inklusive Git-historik, privata bildoriginal, Nginx-konfiguration och åtkomstkonfiguration. Förvara hemligheter i en separat säker lösenordshanterare/backup; aldrig i Git. Testa återställning genom en ny checkout och byggning. Om GitHub eller CMS är nere fortsätter Nginx att visa senast publicerade statiska filer.
+```sh
+sudo ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub
+```
+
+Hämta sedan `known_hosts`-raden från en betrodd dator med `ssh-keyscan -t ed25519 217.154.118.103`, kontrollera fingeravtrycket och lägg den verifierade raden i GitHub Secret `DEPLOY_KNOWN_HOSTS`. Hoppa inte över hostnyckelkontrollen.
+
+### GitHub Repository Settings → Secrets and variables → Actions
+
+Variabler:
+
+| Namn | Värde |
+| --- | --- |
+| `DEPLOY_HOST` | `217.154.118.103` |
+| `DEPLOY_USER` | `td-deploy` |
+| `DEPLOY_PATH` | `/var/www/tradgardsdrommar.se/public` |
+| `DEPLOY_ENABLED` | `true`, **först när allt är testat** |
+
+Secrets:
+
+| Namn | Innehåll |
+| --- | --- |
+| `DEPLOY_SSH_KEY` | Privat deploy-nyckel skapad för GitHub Actions |
+| `DEPLOY_KNOWN_HOSTS` | Verifierad hostnyckelrad för VPS:en |
+
+Konfigurera gärna miljön `production` för att kräva godkännande före publicering. Workflowen har redan `environment: production`. Lägg aldrig tokens eller lösenord i webbplatskoden.
+
+## Hur publicering går till
+
+1. Ändra innehåll/kod i GitHub, slå ihop till `main`.
+2. Workflowen kör tester och `npm run build`.
+3. Artefakten `website` innehåller `dist/`.
+4. Om `DEPLOY_ENABLED=true`, skickas endast `dist/` till Nginx dokumentrot via `scripts/deploy.sh`.
+5. Kontrollera `https://www.tradgardsdrommar.se/` och Nginx-loggarna.
+
+Skriptet tillåter av säkerhetsskäl **bara** `DEPLOY_PATH=/var/www/tradgardsdrommar.se/public`. Det testar att `dist/index.html` finns, att SSH-anslutningen fungerar och att målkatalogen redan finns och är skrivbar. Överföring görs med rsync `--delete --delay-updates`. Detta är **inte helt atomärt**; vid stora uppdateringar kan webbplatsen kortvarigt visa en blandning av nya och gamla filer. Om det blir ett problem kan vi senare återgå till versionerade releaser.
+
+`/.well-known/` på servern bevaras vid rsync för eventuell certifikat-/domänverifiering. Övriga filer i public/ som inte längre ingår i `dist/` kan tas bort av rsync.
+
+## Gör repositoryt privat efter verifierad publicering
+
+`mooody/pjrepo` används för tillfället även av GitHub Pages via `.github/workflows/pages-preview.yml`. När STRATO-publiceringen fungerar:
+
+1. Avaktivera GitHub Pages-previewen (och dess workflow) om den inte längre behövs.
+2. Ändra `pjrepo` till **Private** under GitHub Settings → General → Danger Zone.
+3. Kontrollera att GitHub Actions fortfarande kan bygga och publicera till VPS:en.
+
+GitHub Free tillåter obegränsat antal privata repositories, så Weetech kan behålla sitt separata privata repo.
+
+## CMS
+
+Decap CMS ligger statiskt på `/admin/` men kräver en separat OAuth-förmedlare för GitHub-inloggning. Se `docs/oauth.md`. Publicera inte OAuth-hemligheter eller API-token i Git.
+
+## Kontroll och felsökning
+
+```sh
+sudo nginx -t
+sudo systemctl status nginx
+sudo ufw status
+curl -I https://www.tradgardsdrommar.se
+sudo tail -n 50 /var/log/nginx/tradgardsdrommar.error.log
+```
+
+Om deploy misslyckas: läs motsvarande GitHub Actions-jobb, kontrollera `DEPLOY_ENABLED`, variabler/secrets, serverns hostnyckel, `rsync` på VPS:en samt skrivrättigheter på `public/`.
+
+Backup är medvetet uppskjuten tills Trädgårdsdrömmar och Weetech är i drift. Kom ihåg att GitHub-historik inte ersätter backup av serverinställningar, privata bildoriginal, CMS-hemligheter eller databaser.
