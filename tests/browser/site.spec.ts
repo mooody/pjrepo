@@ -57,8 +57,26 @@ test('faktasida är tillgänglig och visar källor', async ({ page }) => {
   ).toBeVisible();
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
 });
-test('admin förklarar saknad OAuth utan att starta felaktig inloggning', async ({ page }) => {
+test('admin initierar CMS med konfigurerad OAuth-förmedlare', async ({ page }) => {
+  // Kontrollera bootstrap utan att genomföra riktig GitHub OAuth-inloggning.
+  await page.route('**/admin/vendor/decap-cms.js', (route) =>
+    route.fulfill({
+      status: 200,
+      contentType: 'application/javascript',
+      body: `window.CMS = {
+        registerMediaLibrary() {},
+        init() { document.body.dataset.cmsInitialized = 'true'; }
+      };`,
+    }),
+  );
+
   await page.goto('/admin/');
-  await expect(page.getByRole('status')).toContainText('OAuth-förmedlare');
-  await expect(page.getByRole('button', { name: /GitHub/i })).toHaveCount(0);
+  await expect(page.locator('body')).toHaveAttribute('data-cms-initialized', 'true');
+  await expect(page.locator('#cms-status')).toBeHidden();
+
+  const config = await page.request.get('/admin/config.yml');
+  expect(config.ok()).toBe(true);
+  expect(await config.text()).toContain(
+    'base_url: https://sveltia-cms-auth.mikael-forsberg74.workers.dev',
+  );
 });
