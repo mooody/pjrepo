@@ -1,0 +1,88 @@
+name: Publish approved build to STRATO
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_run_id:
+        description: 'Run ID from a successful Validate and build workflow on main'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: tradgardsdrommar-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    environment: production
+    steps:
+      - name: Check out deployment script
+        uses: actions/checkout@v5
+
+      - name: Validate selected build
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_RUN_ID: ${{ inputs.build_run_id }}
+        run: |
+          set -euo pipefail
+          if [[ ! "$BUILD_RUN_ID" =~ ^[0-9]+$ ]]; then
+            echo "::error::Build run ID must contain only digits."
+            exit 1
+          fi
+
+          build_json="$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${BUILD_RUN_ID}")"
+          if ! jq -e --arg repository "$GITHUB_REPOSITORY" '
+            .name == "Validate and build"
+            and .path == ".github/workflows/verify.yml"
+            and .head_branch == "main"
+            and .status == "completed"
+            and .conclusion == "success"
+            and .event != "pull_request"
+            and .repository.full_name == $repository
+          ' <<<"$build_json" >/dev/null; then
+            echo "::error::Run is not a successful, completed main-branch Validate and build workflow."
+            exit 1
+          fi
+
+          echo "Approved run: $BUILD_RUN_ID"
+          echo "Approved commit: $(jq -r '.head_sha' <<<"$build_json")"
+          echo "Source: https://github.com/$GITHUB_REPOSITORY/actions/runs/$BUILD_RUN_ID"
+
+      - name: Download exactly the approved website artifact
+        uses: actions/download-artifact@v6
+        with:
+          name: website
+          run-id: ${{ inputs.build_run_id }}
+          github-token: ${{ github.token }}
+          path: dist/
+
+      - name: Check artifact
+        run: test -s dist/index.html
+
+      - name: Prepare SSH
+        shell: bash
+        env:
+          SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          test -n "$SSH_KEY"
+          test -n "$KNOWN_HOSTS"
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Publish static files to STRATO
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ vars.DEPLOY_PATH }}
+        run: bash scripts/deploy.sh
