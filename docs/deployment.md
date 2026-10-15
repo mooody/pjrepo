@@ -13,11 +13,13 @@ Det här skiljer sig från det tidigare förslaget med `releases/` och `current`
 
 Nginx ska ha `root /var/www/tradgardsdrommar.se/public;`, och `nginx -t` ska lyckas. `/var/www/tradgardsdrommar.se/source` är en äldre lokal klon och behövs inte för den valda publiceringen.
 
-## GitHub Actions: bygga och publicera
+## Tre fristående GitHub Actions (uppdelade 15 oktober 2026)
 
-Workflowen `.github/workflows/verify.yml` bygger och testar med Node.js 24 och laddar upp `dist/` som artefakten `website`. Den kör automatiskt vid ändringar i `main`.
+1. **Validate and build** (`.github/workflows/verify.yml`) kör automatiskt vid push till `main` och pull requests. Den testar och bygger med Node.js 24, och sparar `dist/` som artefakten **website** i **7 dagar**. **Ingen produktionsdeploy sker i detta workflow.**
+2. **Preview website on GitHub Pages** (`.github/workflows/pages-preview.yml`) bygger och uppdaterar automatiskt förhandsvisningen på https://mooody.github.io/pjrepo/ från `main`. Den publicerar inte till STRATO. Preview använder annan base path (`/pjrepo/`) än produktion, men samma webbplatsinnehåll.
+3. **Publish approved build to STRATO** (`.github/workflows/publish-production.yml`) har *endast* triggern `workflow_dispatch` och körs när någon själv väljer **Run workflow**. Den kräver ID för en tidigare lyckad `Validate and build`-körning av `main`, kontrollerar dess resultat och hämtar exakt dess `website`-artefakt. Inget automatiskt produktionsutskick sker efter en push.
 
-Publiceringsjobbet är spärrat tills repository-variabeln `DEPLOY_ENABLED` sätts till `true` och produktionsmiljön är förberedd.
+Workflowen för manuell publicering använder redan konfigurerade SSH-nycklar och Nginx-katalogen. Variabeln `DEPLOY_ENABLED` från föregående upplägg behövs inte längre och kan tas bort från GitHubs repository variables. Kom ihåg att Pages-preview alltid representerar den **senast publicerade previewversionen**, medan du anger ett specifikt bygg-ID för produktion.
 
 ### Förbered SSH på VPS
 
@@ -68,7 +70,6 @@ Variabler:
 | `DEPLOY_HOST` | `217.154.118.103` |
 | `DEPLOY_USER` | `td-deploy` |
 | `DEPLOY_PATH` | `/var/www/tradgardsdrommar.se/public` |
-| `DEPLOY_ENABLED` | `true`, **först när allt är testat** |
 
 Secrets:
 
@@ -79,27 +80,26 @@ Secrets:
 
 Konfigurera gärna miljön `production` för att kräva godkännande före publicering. Workflowen har redan `environment: production`. Lägg aldrig tokens eller lösenord i webbplatskoden.
 
-## Hur publicering går till
+## Granska preview och publicera manuellt
 
-1. Ändra innehåll/kod i GitHub, slå ihop till `main`.
-2. Workflowen kör tester och `npm run build`.
-3. Artefakten `website` innehåller `dist/`.
-4. Om `DEPLOY_ENABLED=true`, skickas endast `dist/` till Nginx dokumentrot via `scripts/deploy.sh`.
-5. Kontrollera `https://www.tradgardsdrommar.se/` och Nginx-loggarna.
+1. Ändra innehåll/kod i GitHub och slå ihop ändringen till `main`.
+2. Vänta på att **Validate and build** ska vara grön; notera körningens **run-ID** från webbadressen, t.ex. numret efter `/actions/runs/`.
+3. Vänta på att **Preview website on GitHub Pages** ska vara grön för samma commit. Granska sedan https://mooody.github.io/pjrepo/ visuellt.
+4. Öppna **Actions → Publish approved build to STRATO → Run workflow**. Välj `main` och ange det godkända `build_run_id` i fältet. Starta workflowen manuellt.
+5. Publiceringsjobbet kontrollerar att det valda bygg-ID:t verkligen är en slutförd och lyckad `Validate and build` från `main`, hämtar exakt dess `website`-artefakt och skickar bara `dist/` till Nginx dokumentrot via `scripts/deploy.sh`. Ett otillåtet, misslyckat eller för gammalt bygge avvisas.
+6. Kontrollera `https://www.tradgardsdrommar.se/` och Nginx-loggarna.
+
+**Observera:** byggartefakten sparas i 7 dagar. Publicera därför inom den tiden, eller kör ett nytt Validate and build och granska dess nya preview. En äldre tidigare godkänd byggversion kan väljas genom dess run-ID så länge artefakten finns kvar. Automatiska uppdateringar av preview förändrar inte produktionswebbplatsen.
 
 Skriptet tillåter av säkerhetsskäl **bara** `DEPLOY_PATH=/var/www/tradgardsdrommar.se/public`. Det testar att `dist/index.html` finns, att SSH-anslutningen fungerar och att målkatalogen redan finns och är skrivbar. Överföring görs med rsync `--delete --delay-updates`. Detta är **inte helt atomärt**; vid stora uppdateringar kan webbplatsen kortvarigt visa en blandning av nya och gamla filer. Om det blir ett problem kan vi senare återgå till versionerade releaser.
 
 `/.well-known/` på servern bevaras vid rsync för eventuell certifikat-/domänverifiering. Övriga filer i public/ som inte längre ingår i `dist/` kan tas bort av rsync.
 
-## Gör repositoryt privat efter verifierad publicering
+## Privat repository och GitHub Pages-preview
 
-`mooody/pjrepo` används för tillfället även av GitHub Pages via `.github/workflows/pages-preview.yml`. När STRATO-publiceringen fungerar:
+**Beslut 15 oktober:** behåll GitHub Pages-previewen. Repo `mooody/pjrepo` är fortfarande publikt. Med **GitHub Free** krävs ett *publikt* repository för GitHub Pages; att byta till `Private` skulle alltså göra denna Pages-preview otillgänglig utan uppgradering till en plan som stöder Pages för privata repositories.
 
-1. Avaktivera GitHub Pages-previewen (och dess workflow) om den inte längre behövs.
-2. Ändra `pjrepo` till **Private** under GitHub Settings → General → Danger Zone.
-3. Kontrollera att GitHub Actions fortfarande kan bygga och publicera till VPS:en.
-
-GitHub Free tillåter obegränsat antal privata repositories, så Weetech kan behålla sitt separata privata repo.
+GitHub Free tillåter ändå obegränsat antal privata kodrepositories. Om koden ska göras privat **och** vi vill behålla gratis preview kan vi senare skapa en separat, gärna lösenordsskyddad `preview.tradgardsdrommar.se` på STRATO, eller använda en annan stagingtjänst som stödjer privata repos. Ta inte bort GitHub Pages innan en ersättningspreview fungerar. Weetech behåller sitt eget privata repo.
 
 ## CMS
 
@@ -115,6 +115,6 @@ curl -I https://www.tradgardsdrommar.se
 sudo tail -n 50 /var/log/nginx/tradgardsdrommar.error.log
 ```
 
-Om deploy misslyckas: läs motsvarande GitHub Actions-jobb, kontrollera `DEPLOY_ENABLED`, variabler/secrets, serverns hostnyckel, `rsync` på VPS:en samt skrivrättigheter på `public/`.
+Om manuell deploy misslyckas: läs GitHub Actions-jobbet **Publish approved build to STRATO** och kontrollera `build_run_id`, att den godkända `website`-artefakten fortfarande finns kvar, variabler/secrets, serverns hostnyckel, `rsync` på VPS:en samt skrivrättigheter på `public/`.
 
 Backup är medvetet uppskjuten tills Trädgårdsdrömmar och Weetech är i drift. Kom ihåg att GitHub-historik inte ersätter backup av serverinställningar, privata bildoriginal, CMS-hemligheter eller databaser.
