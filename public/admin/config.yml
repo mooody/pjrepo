@@ -2,7 +2,7 @@ backend:
   name: github
   repo: mooody/pjrepo
   branch: main
-  base_url: ""
+  base_url: https://sveltia-cms-auth.mikael-forsberg74.workers.dev
   auth_endpoint: auth
 publish_mode: editorial_workflow
 locale: sv
