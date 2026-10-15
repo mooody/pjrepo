@@ -46,10 +46,10 @@ Om `public/` redan innehåller en fungerande testsida bör den lämnas kvar till
 På Mac:
 
 ```sh
-ssh-keygen -t ed25519 -f ~/.ssh/tradgardsdrommar-deploy -C "github-actions-tradgardsdrommar"
+ssh-keygen -t ed25519 -f ~/.ssh/tradgardsdrommar-deploy -N "" -C "github-actions-tradgardsdrommar"
 ```
 
-Lägg endast `.pub`-innehållet i serverns `authorized_keys`; spara den **privata** nyckelns innehåll i GitHub Actions Secret `DEPLOY_SSH_KEY` via GitHubs inställningar. Skicka den aldrig i chatt och checka aldrig in den i Git.
+Det dedikerade nyckelparet får ingen lösenfras eftersom GitHub Actions behöver använda det utan interaktiv upplåsning. Lägg endast `.pub`-innehållet i serverns `authorized_keys`; spara den **privata** nyckelns innehåll i GitHub Actions Secret `DEPLOY_SSH_KEY` via GitHubs inställningar. Skicka den aldrig i chatt och checka aldrig in den i Git.
 
 Verifiera serverns SSH-hostnyckel via servern, till exempel genom fingeravtrycket från:
 
