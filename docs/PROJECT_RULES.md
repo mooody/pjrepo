@@ -32,6 +32,8 @@ Trädgårdsdrömmar är en växande webbplats för odling, chili, nyttodjur, vä
 | Preview-katalog | `/var/www/tradgardsdrommar-preview/public` |
 | Historisk GitHub Pages-preview | `https://mooody.github.io/pjrepo/` |
 
+Driftfiler, certifikat, Nginx-lokalisering och loggar dokumenteras separat i [`docs/SERVER_OPERATIONS.md`](SERVER_OPERATIONS.md). Ändringshistoriken dokumenteras i [`docs/CHANGELOG.md`](CHANGELOG.md).
+
 **Status per 2026-10-16:** STRATO-preview har separat Nginx-konfiguration, HTTPS, HTTP Basic Auth, `robots.txt` med `Disallow: /` och `X-Robots-Tag: noindex, nofollow, noarchive`. **Automatisk publicering till STRATO-preview är ännu inte byggd.** GitHub Pages-preview finns tills vidare som ett separat befintligt workflow. Repositoryt är för närvarande publikt; privat läge är en plan, inte ett genomfört steg. Kontrollera live-status innan du påstår något annat.
 
 STRATO-servern kör också **`kumlamark.se`**. Dess filer, DNS, Nginx, certifikat och publicering hör inte till detta uppdrag och får aldrig ändras av misstag.
@@ -109,7 +111,22 @@ GitHub och faktiska driftsfiler är källan till aktuell teknisk status; äldre 
 - Installera inte nya beroenden eller externa tjänster utan att kontrollera motiv, säkerhet, kostnad och hur nuvarande flöden påverkas.
 - Föreslå förbättringar, men bygg inte om arkitektur som bieffekt av ett innehållsuppdrag.
 
-## 9. Praktisk checklista före avslut
+## 9. Dokumentationsplikt och ändringslogg – gäller varje uppdrag
+
+**Efter varje ändring ska både projektreglerna och ändringsloggen hanteras.** Detta gäller även innehållsändringar och manuella serveråtgärder, inte bara större kodprojekt. Syftet är att nästa chatt alltid ska kunna läsa vad som gjordes, varför och vilken miljö som berördes.
+
+1. **Registrera genomfört arbete i [`docs/CHANGELOG.md`](CHANGELOG.md)** som en post för uppdraget/PR:en: datum, ändrat område, syfte, berörda filer/tjänster, tester, faktisk publiceringsstatus och kvarstående steg. Flera mindre textändringar inom samma PR får sammanfattas i en post.
+2. **Granska alltid denna `docs/PROJECT_RULES.md`** när något ändras. **Uppdatera den i samma PR** om ändringen påverkar arkitektur, principer, skyddsregler, publiceringsrutiner, godkännandekrav, faktiskt införda system eller uppgifter om projektstatus. Om ingen regel behöver ändras, skriv i loggposten att reglerna granskats och är oförändrade.
+3. Vid ändringar av VPS, DNS, Nginx, HTTPS, SSH, behörigheter, preview, serverns loggar eller driftsättning: **uppdatera dessutom [`docs/SERVER_OPERATIONS.md`](SERVER_OPERATIONS.md)**, med faktiska verifierade uppgifter och tydlig skillnad mellan gjort och planerat.
+4. Vid ändringar i annan teknisk funktion: uppdatera motsvarande driftdokument (t.ex. `docs/deployment.md`, `docs/oauth.md` eller `docs/images.md`) om befintlig beskrivning annars blir fel.
+5. **Logga även manuella förändringar** som användaren gör utanför GitHub, utifrån visad serverutskrift eller tydlig återkoppling. Ange verifieringsnivå. Anta aldrig att ett kommando genomförts bara för att det föreslagits.
+6. Låt dokumentationsändringarna gå genom samma granskning och PR som övriga ändringar, eller genom en separat dokumentations-PR när den faktiska serveråtgärden inte skedde via GitHub. Dokumentation är inte i sig ett godkännande att ändra system.
+7. Spara **aldrig** autentiseringsuppgifter, lösenord, nycklar, token, hashvärden eller råa åtkomstloggar i repositoryts ändringslogg. GitHub Actions- och Nginx-loggar används för felsökning men ersätter inte ändringsloggen.
+8. Kontrollera att ingen annan chatt redan har uppdaterat samma logg/dokument på `main` eller i öppna PR:er; undvik att skriva över poster.
+
+Serverns nuvarande verifierade läge och säker felsökning finns i [`docs/SERVER_OPERATIONS.md`](SERVER_OPERATIONS.md); bestående ändringshistorik finns i [`docs/CHANGELOG.md`](CHANGELOG.md).
+
+## 10. Praktisk checklista före avslut
 
 - [ ] Har jag läst aktuella filer och öppna PR:er?
 - [ ] Håller jag mig till användarens avgränsade uppdrag?
@@ -117,6 +134,8 @@ GitHub och faktiska driftsfiler är källan till aktuell teknisk status; äldre 
 - [ ] Har jag skyddat originalbilder, etiketttext och privata uppgifter?
 - [ ] Har jag testat och redovisat faktisk status, utan att påstå att PR = produktion?
 - [ ] Har jag lämnat produktion och andra webbplatser orörda?
+- [ ] Har jag granskat och vid behov uppdaterat `docs/PROJECT_RULES.md` och andra relevanta driftdokument?
+- [ ] Har jag lagt till en verifierbar post i `docs/CHANGELOG.md`, även för innehållsändringar och manuella serveråtgärder?
 - [ ] Har jag länkat PR/commit och dokumenterat relevanta beslut?
 
 **Vid osäkerhet:** stanna före den riskfyllda ändringen, förklara exakt vad som behöver ändras och be om godkännande. Fortsätt gärna självständigt med ofarligt, avgränsat innehållsarbete under tiden.
