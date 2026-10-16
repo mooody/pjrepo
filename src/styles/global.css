@@ -616,10 +616,10 @@ footer a {
 }
 
 
-/* Chili dropdown: presentation only, existing CMS navigation fields unchanged. */
-.nav-submenu { position:relative; }
-.nav-submenu summary { cursor:pointer; list-style-position:inside; }
-.nav-submenu summary:hover { color:var(--sand); }
-.nav-submenu-links { display:flex; flex-direction:column; gap:.65rem; position:absolute; z-index:30; top:calc(100% + .4rem); left:0; min-width:190px; padding:1rem; border:1px solid #ffffff32; border-radius:5px; background:var(--olive); box-shadow:0 12px 24px #0007; }
-.nav-submenu-links a { padding:.15rem; }
-@media(max-width:700px) { .nav-submenu-links { position:static; box-shadow:none; margin:.5rem 0; padding:.55rem 1rem; min-width:0; } }
+/* Chili overview cards use the existing site card styling. */
+.chili-overview-grid { margin-top:2.5rem; }
+.chili-overview-grid .card { text-decoration:none; transition: border-color .2s,transform .2s; }
+.chili-overview-grid .card:hover { border-color:var(--sand); transform:translateY(-2px); }
+.chili-overview-grid .card h2 { font-size:clamp(1.6rem,2.5vw,2.4rem); }
+.chili-overview-grid .card-body { padding:2rem; }
+.chili-overview-grid .card-body p { margin-bottom:0; }
