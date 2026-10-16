@@ -11,5 +11,6 @@
 5. **Förväxla inte preview och produktion.** STRATO-preview har egen katalog, HTTPS, Basic Auth och noindex men automatisk deployment dit är ännu inte implementerad. Befintlig GitHub Pages-preview är en separat lösning.
 6. **Rör inte `kumlamark.se`** eller andra webbplatser på samma VPS.
 7. **Kör verifiering** (`npm run verify`/GitHub Actions), åtgärda testfel utan att kringgå kontroller och redovisa ärligt vad som faktiskt slutförts.
+8. **Efter varje ändringsuppdrag:** för en post i [docs/CHANGELOG.md](docs/CHANGELOG.md), granska och uppdatera [docs/PROJECT_RULES.md](docs/PROJECT_RULES.md) när något påverkar regler eller faktisk status, och håll [docs/SERVER_OPERATIONS.md](docs/SERVER_OPERATIONS.md) aktuell efter serverändringar. Läs dokumentationsrutinen i projektreglerna.
 
 **Princip:** gör endast det uppdragna arbetet inom befintliga ramar; fråga före strukturella eller riskfyllda ändringar.
