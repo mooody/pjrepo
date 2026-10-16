@@ -31,7 +31,6 @@ I en uppskuren chili går det att urskilja:
 
 Det är framför allt vävnad kring fröfästet som producerar **capsaicinoider**, däribland capsaicin och dihydrocapsaicin. Ämnena kan spridas till frönas yta, men fröna är inte den huvudsakliga produktionsplatsen. Hos vissa extremt heta sorter har produktion också påvisats i fruktväggen.
 
-> **Illustrationsidé:** En längdsnittad habanero med tydliga markeringar för fruktvägg, placenta och frön. En skalenlig närbild skulle göra skillnaden mellan fröfäste och frön lättare att förstå.
 
 ## 2. Chiliblomman kan oftast pollinera sig själv
 
@@ -41,7 +40,6 @@ Pollenkornen kan flyttas med blommans rörelser, luftdrag och insektsbesök. Hum
 
 **Praktiskt tips:** När chili blommar inomhus i stillastående luft kan man skaka blommande grenar mycket försiktigt för att hjälpa pollenöverföringen. Det löser däremot inte problem med pollenets livsduglighet, temperatur eller andra odlingsförhållanden.
 
-> **Illustrationsidé:** En öppen chiliblomma fotograferad rakt framifrån, kompletterad med markeringar för ståndare, pistill, märke och stift.
 
 ## 3. Dubbel befruktning – från pollenkorn till frö
 
@@ -56,7 +54,6 @@ Chili är en blomväxt. Därför sker **dubbel befruktning**, där två spermiec
 
 En frukt innehåller många fröämnen. Vid normal könlig fröbildning behöver varje fröämne befruktas för att utvecklas till ett frö. Antalet utvecklade frön kan därför variera.
 
-> **Illustrationsidé:** Ett sexstegsschema med pollenkorn, pollenslang, äggcell, centralcell, embryo och endosperm. Särskilj pollinering från befruktning med olika färger.
 
 ## 4. Varför faller chiliblommorna av?
 
@@ -95,7 +92,6 @@ Avkomman är inte nödvändigtvis en stabil sort. Att få fram en fröäkta sort
 
 Om målet i stället är att spara frö som behåller en befintlig sorts egenskaper behöver oönskad korspollinering förhindras, exempelvis genom att isolera blommor eller plantor.
 
-> **Illustrationsidé:** En serie med tre närbilder: oöppnad knopp, ståndare som tas bort och en märkt/isolerad blomma efter pollinering.
 
 ## 6. Kan chili få frukter utan frön?
 
