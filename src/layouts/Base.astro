@@ -58,19 +58,15 @@ const variables = `--earth:${colors.earth};--olive:${colors.olive};--sand:${colo
         {ui.menu} <span aria-hidden="true">☰</span>
       </button>
       <nav id="navigation" aria-label="Huvudmeny">
-        {settings.navigation.map((item) => item.label === 'Chilisorter' ? (
-          <details class="nav-submenu" open={Astro.url.pathname.startsWith(sitePath('/chilisorter/')) || Astro.url.pathname.startsWith(sitePath('/chilifortplantning/')) ? true : undefined}>
-            <summary>Chili</summary>
-            <div class="nav-submenu-links">
-              <a href={sitePath(item.href)} aria-current={Astro.url.pathname.startsWith(sitePath(item.href)) ? 'page' : undefined}>Chilisorter</a>
-              <a href={sitePath('/chilifortplantning/')} aria-current={Astro.url.pathname.startsWith(sitePath('/chilifortplantning/')) ? 'page' : undefined}>Chilifortplantning</a>
-            </div>
-          </details>
-        ) : (
+        {settings.navigation.map((item) => (
           <a
             href={sitePath(item.href)}
-            aria-current={Astro.url.pathname.startsWith(sitePath(item.href)) ? 'page' : undefined}
-          >{item.label}</a>
+            aria-current={
+              Astro.url.pathname.startsWith(sitePath(item.href)) ? 'page' : undefined
+            }
+          >
+            {item.label}
+          </a>
         ))}
       </nav>
     </header>
