@@ -21,9 +21,9 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 
 ## 2026-10-16 – Artikel om chilifortplantning och undermeny
 - Område/miljö: webbplatsinnehåll och presentation; GitHub-arbetsgren.
-- Ändrat: `src/content/pages/chilifortplantning.md` med faktabaserad artikel i befintliga CMS-samlingen Vanliga sidor, samt `src/layouts/Base.astro` och `src/styles/global.css` för menyvalet Chili med Chilisorter och Chilifortplantning som undermeny. Befintligt menyfält och CMS-konfiguration har behållits oförändrade.
+- Ändrat: `src/content/pages/chilifortplantning.md` med faktabaserad artikel i befintliga CMS-samlingen Vanliga sidor, samt `src/data/settings.json`, `src/layouts/Base.astro`, `src/styles/global.css` och `src/pages/chili/index.astro` för menyvalet Chili med kortlänkar till Chilisorter och Chilifortplantning. Befintligt CMS-schema och konfiguration har behållits oförändrade. Anpassat Playwright-navigationstestet i `tests/browser/site.spec.ts` efter avläst ursprungligt testfel.
 - Skäl och påverkan: gör fortplantningsbiologi och praktisk korspollinering tillgängliga utan CMS-migrering. Fyra illustrationer från Drive har identifierats, fått beskrivande namn och infogats vid relevanta avsnitt: `public/illustrationer/chiliblommans-anatomi.png`, `chili-dubbel-befruktning.png`, `chili-kontrollerad-korsning.png` och `chili-sortakta-fron.png`. Illustrationerna är separata från det skyddade fotografiska originalflödet.
-- Verifiering: GitHub-filernas innehåll granskat före ändring; automatisk byggning och webbläsartester inväntar GitHub Actions eller lokal körning.
+- Verifiering: GitHub-filernas innehåll granskat före ändring; föregående GitHub Actions-körning visade 14 godkända Node-tester och 4/5 webbläsartester; Playwright hittade inte tidigare menyvalet Chilisorter i den utfällbara menyn. Ny verifiering inväntar Actions.
 - Publicering: endast arbetsgren/pull request; inte sammanslaget med `main`, inte publicerat på STRATO.
 - Dokumentation: `PROJECT_RULES.md` granskad och oförändrad, inga serverändringar.
 - Återstår: verifiera PR-teststatus; granska bildtexter, bildstorlek och tillgänglighet i faktiskt byggd webbplats före merge; vid behov konvertera illustrationernas PNG till mindre webbformat i separat kontrollerad ändring.
