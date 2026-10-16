@@ -99,7 +99,7 @@ Skriptet tillåter av säkerhetsskäl **bara** `DEPLOY_PATH=/var/www/tradgardsdr
 
 **Beslut 15 oktober:** behåll GitHub Pages-previewen. Repo `mooody/pjrepo` är fortfarande publikt. Med **GitHub Free** krävs ett *publikt* repository för GitHub Pages; att byta till `Private` skulle alltså göra denna Pages-preview otillgänglig utan uppgradering till en plan som stöder Pages för privata repositories.
 
-GitHub Free tillåter ändå obegränsat antal privata kodrepositories. Om koden ska göras privat **och** vi vill behålla gratis preview kan vi senare skapa en separat, gärna lösenordsskyddad `preview.tradgardsdrommar.se` på STRATO, eller använda en annan stagingtjänst som stödjer privata repos. Ta inte bort GitHub Pages innan en ersättningspreview fungerar. Weetech behåller sitt eget privata repo.
+GitHub Free tillåter privata kodrepositories. **Uppdatering 16 oktober 2026:** En separat STRATO-webbplats för `preview.tradgardsdrommar.se` har nu skapats, med egen katalog och Nginx-site, HTTPS, Basic Auth samt `robots.txt`/noindex. **GitHub Actions-publicering till denna STRATO-preview finns ännu inte.** Den innehåller tills vidare en testsida. Behåll GitHub Pages tills vi har byggt och verifierat ett separat preview-flöde. Se [SERVER_OPERATIONS.md](SERVER_OPERATIONS.md) för verifierad serverinventering och [CHANGELOG.md](CHANGELOG.md) för ändringshistorik. Ändra inte produktionspubliceringen i samband med detta.
 
 ## CMS
 
