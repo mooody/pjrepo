@@ -2,7 +2,6 @@
 title: Förädla
 description: Såser, marmelader och andra produkter från det egna förädlingsarbetet.
 draft: false
-example: true
 image: marmeladgrupp
 gallery:
   - image: burkar
