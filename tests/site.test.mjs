@@ -56,6 +56,10 @@ test('CMS använder rätt repo, redaktionellt flöde och alla innehållssamlinga
   assert.equal(config.backend.branch, 'main');
   assert.equal(config.publish_mode, 'editorial_workflow');
   assert.equal(config.locale, 'sv');
+  const pagesConfig = config.collections.find(c => c.name === 'pages');
+  assert.ok(!pagesConfig.fields.some(f => f.name === 'example'), 'Vanliga sidor ska inte ha fältet Exempeltext');
+  const foradla = await readFile('src/content/pages/foradla.md', 'utf8');
+  assert.equal(YAML.parse(foradla.split(/^---\\s*$/m)[1]).example, undefined, 'Förädla ska inte ha exempelmetadata');
   for(const collection of config.collections) {
     const items=collection.files||collection.fields||[];
     assert.equal(new Set(items.map(item=>item.name)).size,items.length,`Duplicate CMS field/file in ${collection.name}`);
