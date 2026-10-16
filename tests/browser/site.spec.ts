@@ -8,10 +8,9 @@ test('startsida på dator: navigation, tillgänglighet och layout', async ({
     'Chili att odla',
   );
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
-  await page
-    .getByRole('navigation')
-    .getByRole('link', { name: 'Chilisorter' })
-    .click();
+  await page.getByRole('navigation').getByRole('link', { name: 'Chili', exact: true }).click();
+  await expect(page).toHaveURL(/\/chili\/$/);
+  await page.getByRole('main').getByRole('link', { name: /Chilisorter/ }).click();
   await expect(page).toHaveURL(/chilisorter/);
 });
 test('mobilmeny går att öppna, använda och stänga', async ({ page }) => {

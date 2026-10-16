@@ -615,3 +615,11 @@ footer a {
  .product-label-section > a { padding:.5rem; }
 }
 
+
+/* Chili overview cards use the existing site card styling. */
+.chili-overview-grid { margin-top:2.5rem; }
+.chili-overview-grid .card { text-decoration:none; transition: border-color .2s,transform .2s; }
+.chili-overview-grid .card:hover { border-color:var(--sand); transform:translateY(-2px); }
+.chili-overview-grid .card h2 { font-size:clamp(1.6rem,2.5vw,2.4rem); }
+.chili-overview-grid .card-body { padding:2rem; }
+.chili-overview-grid .card-body p { margin-bottom:0; }
