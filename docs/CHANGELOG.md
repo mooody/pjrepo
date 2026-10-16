@@ -22,11 +22,11 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 ## 2026-10-16 – Artikel om chilifortplantning och undermeny
 - Område/miljö: webbplatsinnehåll och presentation; GitHub-arbetsgren.
 - Ändrat: `src/content/pages/chilifortplantning.md` med faktabaserad artikel i befintliga CMS-samlingen Vanliga sidor, samt `src/layouts/Base.astro` och `src/styles/global.css` för menyvalet Chili med Chilisorter och Chilifortplantning som undermeny. Befintligt menyfält och CMS-konfiguration har behållits oförändrade.
-- Skäl och påverkan: gör fortplantningsbiologi och praktisk korspollinering tillgängliga utan CMS-migrering. Drive-mappen innehöll inget fristående bildmaterial; föreslagna illustrationer är redaktionellt markerade i texten och behöver kompletteras före slutlig bildpublicering.
+- Skäl och påverkan: gör fortplantningsbiologi och praktisk korspollinering tillgängliga utan CMS-migrering. Fyra illustrationer från Drive har identifierats, fått beskrivande namn och infogats vid relevanta avsnitt: `public/illustrationer/chiliblommans-anatomi.png`, `chili-dubbel-befruktning.png`, `chili-kontrollerad-korsning.png` och `chili-sortakta-fron.png`. Illustrationerna är separata från det skyddade fotografiska originalflödet.
 - Verifiering: GitHub-filernas innehåll granskat före ändring; automatisk byggning och webbläsartester inväntar GitHub Actions eller lokal körning.
 - Publicering: endast arbetsgren/pull request; inte sammanslaget med `main`, inte publicerat på STRATO.
 - Dokumentation: `PROJECT_RULES.md` granskad och oförändrad, inga serverändringar.
-- Återstår: verifiera PR-teststatus; komplettera med bildexporter från korrekt källa och granska visuellt före merge.
+- Återstår: verifiera PR-teststatus; granska bildtexter, bildstorlek och tillgänglighet i faktiskt byggd webbplats före merge; vid behov konvertera illustrationernas PNG till mindre webbformat i separat kontrollerad ändring.
 
 ## 2026-10-16 – Inventering av serverdrift och krav på löpande loggning
 - Område/miljö: dokumentation; GitHub.
