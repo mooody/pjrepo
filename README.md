@@ -1,6 +1,6 @@
 # Trädgårdsdrömmar
 
-> **Viktigt för alla som arbetar i repositoryt:** Läs [projektreglerna](docs/PROJECT_RULES.md) innan ändringar. Kodassistenter börjar i [AGENTS.md](AGENTS.md). CMS-strukturen får inte byggas om utan godkännande, och produktion publiceras alltid separat och manuellt.
+> **Viktigt för alla som arbetar i repositoryt:** Läs [projektreglerna](docs/PROJECT_RULES.md) innan ändringar. Kodassistenter börjar i [AGENTS.md](AGENTS.md). CMS-strukturen får inte byggas om utan godkännande, och produktion publiceras alltid separat och manuellt. Efter varje ändringsuppdrag: granska reglerna och uppdatera [ändringsloggen](docs/CHANGELOG.md) samt vid serverändringar [serverhandboken](docs/SERVER_OPERATIONS.md).
 
 En svensk informationswebbplats för småskalig chiliodling och biologisk mångfald. Astro genererar statiska filer; VPS:en behöver ingen Node-process eller databas. Ingen webbshop eller spårning ingår.
 
