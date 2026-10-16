@@ -38,6 +38,10 @@ Den typiska chiliblomman är **tvåkönad**. Ståndarna producerar pollen, medan
 
 Pollenkornen kan flyttas med blommans rörelser, luftdrag och insektsbesök. Humlor och andra pollinatörer kan hjälpa till, och utomhus kan de föra pollen mellan olika plantor. Att chili är självfertil innebär alltså inte att korspollinering är omöjlig.
 
+![Botanisk illustration av en vit chiliblomma med utmärkta ståndarknappar, ståndarsträngar, pistill, märke, stift, fruktämne, kronblad och foderblad.](/illustrationer/chiliblommans-anatomi.png)
+
+*Chiliblommans anatomi – en schematisk illustration av blommans delar.*
+
 **Praktiskt tips:** När chili blommar inomhus i stillastående luft kan man skaka blommande grenar mycket försiktigt för att hjälpa pollenöverföringen. Det löser däremot inte problem med pollenets livsduglighet, temperatur eller andra odlingsförhållanden.
 
 
@@ -54,6 +58,10 @@ Chili är en blomväxt. Därför sker **dubbel befruktning**, där två spermiec
 
 En frukt innehåller många fröämnen. Vid normal könlig fröbildning behöver varje fröämne befruktas för att utvecklas till ett frö. Antalet utvecklade frön kan därför variera.
 
+
+![Sex steg i chilins dubbla befruktning, från pollen på pistillens märke via pollenslang och två spermieceller till embryo, endosperm, frö och frukt.](/illustrationer/chili-dubbel-befruktning.png)
+
+*Dubbel befruktning – från pollinering till frö- och fruktutveckling (schematiskt, inte skalenligt).*
 
 ## 4. Varför faller chiliblommorna av?
 
@@ -81,6 +89,10 @@ Avkomman är inte nödvändigtvis en stabil sort. Att få fram en fröäkta sort
 
 ### Så gör du en kontrollerad korsning
 
+![Fem illustrerade moment för kontrollerad korspollinering hos chili: välj knopp, avlägsna ståndare, skydda blomman, tillför pollen med pensel och märk upp korsningen.](/illustrationer/chili-kontrollerad-korsning.png)
+
+*Kontrollerad korsning – hantering och märkning av en vald moderblomma.*
+
 1. Välj två friska föräldraplantor och märk moderplantan.
 2. Välj en **ännu inte öppnad** blomknopp och avlägsna försiktigt ståndarna innan de släpper eget pollen; låt pistillen vara oskadd.
 3. Skydda blomman med en tunn påse eller finmaskigt material mot främmande pollen.
@@ -92,6 +104,10 @@ Avkomman är inte nödvändigtvis en stabil sort. Att få fram en fröäkta sort
 
 Om målet i stället är att spara frö som behåller en befintlig sorts egenskaper behöver oönskad korspollinering förhindras, exempelvis genom att isolera blommor eller plantor.
 
+
+![Fyra illustrerade steg för sortäkta chilifrö: välj knopp, skydda före blomning, hindra främmande pollen samt märk och spara frö från mogen frukt.](/illustrationer/chili-sortakta-fron.png)
+
+*Sortäkta frö – så minskar du risken för oönskad korspollinering.*
 
 ## 6. Kan chili få frukter utan frön?
 
