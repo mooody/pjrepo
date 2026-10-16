@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import { sitePath } from '../../lib/urls';
+---
+<Base title="Chili" description="Upptäck våra chilisorter och lär dig hur chili pollineras, befruktas och förökar sig.">
+  <section class="section detail">
+    <p class="eyebrow">Kunskap om chili</p>
+    <h1>Chili</h1>
+    <p class="lead">Lär känna chilisorterna vi odlar och följ blommans väg till frukt och frö. Välj ett ämne för att läsa vidare.</p>
+    <div class="grid topic-grid chili-overview-grid">
+      <a class="card" href={sitePath('/chilisorter/')}>
+        <div class="card-body">
+          <p class="eyebrow">Sorter och egenskaper</p>
+          <h2>Chilisorter</h2>
+          <p>Upptäck våra chilisorter, deras utseende, smak, styrka och odling.</p>
+          <p class="text-link">Utforska sorterna →</p>
+        </div>
+      </a>
+      <a class="card" href={sitePath('/chilifortplantning/')}>
+        <div class="card-body">
+          <p class="eyebrow">Blommor och frön</p>
+          <h2>Chilifortplantning</h2>
+          <p>Så fungerar pollinering, dubbel befruktning, fruktsättning och egna korsningar.</p>
+          <p class="text-link">Läs artikeln →</p>
+        </div>
+      </a>
+    </div>
+  </section>
+</Base>
