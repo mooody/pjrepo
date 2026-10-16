@@ -19,6 +19,15 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 
 ---
 
+## 2026-10-16 – Artikel om chilifortplantning och undermeny
+- Område/miljö: webbplatsinnehåll och presentation; GitHub-arbetsgren.
+- Ändrat: `src/content/pages/chilifortplantning.md` med faktabaserad artikel i befintliga CMS-samlingen Vanliga sidor, samt `src/layouts/Base.astro` och `src/styles/global.css` för menyvalet Chili med Chilisorter och Chilifortplantning som undermeny. Befintligt menyfält och CMS-konfiguration har behållits oförändrade.
+- Skäl och påverkan: gör fortplantningsbiologi och praktisk korspollinering tillgängliga utan CMS-migrering. Drive-mappen innehöll inget fristående bildmaterial; föreslagna illustrationer är redaktionellt markerade i texten och behöver kompletteras före slutlig bildpublicering.
+- Verifiering: GitHub-filernas innehåll granskat före ändring; automatisk byggning och webbläsartester inväntar GitHub Actions eller lokal körning.
+- Publicering: endast arbetsgren/pull request; inte sammanslaget med `main`, inte publicerat på STRATO.
+- Dokumentation: `PROJECT_RULES.md` granskad och oförändrad, inga serverändringar.
+- Återstår: verifiera PR-teststatus; komplettera med bildexporter från korrekt källa och granska visuellt före merge.
+
 ## 2026-10-16 – Inventering av serverdrift och krav på löpande loggning
 - Område/miljö: dokumentation; GitHub.
 - Ändrat: dokumenterat de tre webbplatserna, Nginx-rotkataloger, certifikat, preview-skydd, driftsättning och kvarstående arbetssteg i [SERVER_OPERATIONS.md](SERVER_OPERATIONS.md). Uppdaterat [PROJECT_RULES.md](PROJECT_RULES.md) med krav på loggning och dokumentationsgranskning.
