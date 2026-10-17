@@ -19,6 +19,16 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 
 ---
 
+## 2026-10-17 – Chiliartiklar: Pequena Amarilla, Sipka Zitronen och Okrasny Zvonek Red
+- Område/miljö: webbplatsinnehåll och vattenstämplade bildexporter; GitHub-arbetsgren.
+- Ändrat: befintlig artikel `src/content/chilies/pequena-amarilla.md` har kompletterats med fotoobservation och texterna `src/content/chilies/sipka-zitronen.md` och `src/content/chilies/okrasny-zvonek-red.md` har skapats med befintligt CMS-schema. Källor är fröförädlaren Culinaris, Fröbanken och RHS.
+- Skäl och påverkan: komplettera sortbiblioteket med två nya sorter och dokumentera bilden av Pequena Amarilla. Sortspecifik hetta hålls isär från skattningar och leverantörsskalor.
+- Bilder: 24 färdiga, vattenstämplade WebP-varianter från tre valda bearbetade foton har lagts under `web-images/`; bild-ID och metadata har lagts till i `src/data/images.json` och `web-images/index.json`. De tre sortartiklarna refererar nu till bilderna. Oskyddade fotooriginal har inte lagts in i repositoryt.
+- Verifiering: 24 webbexporters mått, WebP-format och frånvaro av EXIF kontrollerades före import. GitHub Actions `Validate and build` körning #43 (commit `4215164744dd2cf7c332dab471f78cfa87ab8631`) slutfördes med resultat `success`, inklusive bilder och artiklar. Slutlig visuell granskning i en publicerad miljö är ännu inte genomförd.
+- Publicering: endast arbetsgren/PR; inte sammanslaget med `main` och inte publicerat på STRATO.
+- Dokumentation: `docs/PROJECT_RULES.md` och `docs/images.md` granskades, oförändrade; inga server- eller CMS-ändringar.
+- Återstår: granska artikelkort och bildbeskärning visuellt i preview före merge; publicering kräver separat godkännande.
+
 ## 2026-10-16 – Artikel om chilifortplantning och undermeny
 - Område/miljö: webbplatsinnehåll och presentation; GitHub-arbetsgren.
 - Ändrat: `src/content/pages/chilifortplantning.md` med faktabaserad artikel i befintliga CMS-samlingen Vanliga sidor, samt `src/data/settings.json`, `src/layouts/Base.astro`, `src/styles/global.css` och `src/pages/chili/index.astro` för menyvalet Chili med kortlänkar till Chilisorter och Chilifortplantning. Befintligt CMS-schema och konfiguration har behållits oförändrade. Anpassat Playwright-navigationstestet i `tests/browser/site.spec.ts` efter avläst ursprungligt testfel.

@@ -774,6 +774,171 @@
           }
         ]
       }
+    },
+    {
+      "id": "pequena-amarilla",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "pequena-amarilla-full-480.webp",
+            "width": 480,
+            "height": 480
+          },
+          {
+            "file": "pequena-amarilla-full-800.webp",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "file": "pequena-amarilla.webp",
+            "width": 1536,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "pequena-amarilla-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "pequena-amarilla-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "pequena-amarilla-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "pequena-amarilla-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "pequena-amarilla-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "sipka-zitronen",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "sipka-zitronen-full-480.webp",
+            "width": 480,
+            "height": 480
+          },
+          {
+            "file": "sipka-zitronen-full-800.webp",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "file": "sipka-zitronen.webp",
+            "width": 1536,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "sipka-zitronen-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "sipka-zitronen-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "sipka-zitronen-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "sipka-zitronen-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "sipka-zitronen-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "okrasny-zvonek-red",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "okrasny-zvonek-red-full-480.webp",
+            "width": 480,
+            "height": 480
+          },
+          {
+            "file": "okrasny-zvonek-red-full-800.webp",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "file": "okrasny-zvonek-red.webp",
+            "width": 1024,
+            "height": 1024
+          }
+        ],
+        "card": [
+          {
+            "file": "okrasny-zvonek-red-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "okrasny-zvonek-red-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "okrasny-zvonek-red-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "okrasny-zvonek-red-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "okrasny-zvonek-red-sharing-1200.webp",
+            "width": 1024,
+            "height": 538
+          }
+        ]
+      }
     }
   ]
 }
