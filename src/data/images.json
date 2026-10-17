@@ -167,6 +167,42 @@
       "photographer": "Micke",
       "license": "Fri användning med bibehållen vattenstämpel",
       "licenseUrl": ""
+    },
+    {
+      "id": "pequena-amarilla",
+      "alt": "Pequena Amarilla med tre frukter i olika mognadsstadier",
+      "caption": "Pequena Amarilla i vår odling. Bilden är bearbetad för presentation.",
+      "source": "",
+      "ownership": "own",
+      "kind": "photo",
+      "photographer": "Micke",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
+    },
+    {
+      "id": "sipka-zitronen",
+      "alt": "Sipka Zitronen med flera citrongula långsmala frukter på plantan",
+      "caption": "Sipka Zitronen i vår odling. Bearbetad bild med gula mogna frukter.",
+      "source": "",
+      "ownership": "own",
+      "kind": "photo",
+      "photographer": "Micke",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
+    },
+    {
+      "id": "okrasny-zvonek-red",
+      "alt": "Okrasny Zvonek Red med röda och gröna klockformade chilifrukter",
+      "caption": "Okrasny Zvonek Red. Bearbetad presentationsbild som visar den karakteristiska klockformen.",
+      "source": "",
+      "ownership": "own",
+      "kind": "photo",
+      "photographer": "Micke",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
     }
   ]
 }

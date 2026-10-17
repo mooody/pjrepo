@@ -1,5 +1,7 @@
 ---
 {
+  "image": "okrasny-zvonek-red",
+  "imageAlt": "Okrasny Zvonek Red med röda och gröna klockformade chilifrukter",
   "title": "Okrasny Zvonek Red",
   "description": "En dekorativ baccatum-chili med röda frukter som liknar små klockor.",
   "draft": false,

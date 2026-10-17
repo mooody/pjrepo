@@ -20,14 +20,14 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 ---
 
 ## 2026-10-17 – Chiliartiklar: Pequena Amarilla, Sipka Zitronen och Okrasny Zvonek Red
-- Område/miljö: webbplatsinnehåll och förberedda bildexporter; GitHub-arbetsgren.
+- Område/miljö: webbplatsinnehåll och vattenstämplade bildexporter; GitHub-arbetsgren.
 - Ändrat: befintlig artikel `src/content/chilies/pequena-amarilla.md` har kompletterats med fotoobservation och texterna `src/content/chilies/sipka-zitronen.md` och `src/content/chilies/okrasny-zvonek-red.md` har skapats med befintligt CMS-schema. Källor är fröförädlaren Culinaris, Fröbanken och RHS.
 - Skäl och påverkan: komplettera sortbiblioteket med två nya sorter och dokumentera bilden av Pequena Amarilla. Sortspecifik hetta hålls isär från skattningar och leverantörsskalor.
-- Bilder: tre utvalda bearbetade foton har förberetts lokalt i vattenstämplade, beskurna WebP-varianter. **Bildfiler, bildindex och bildreferenser har ännu inte överförts till arbetsgrenen**. De ligger i separat exportpaket för efterföljande kontrollerad import. Artiklarna har ännu inga nya bildreferenser för att undvika trasigt bildflöde.
-- Verifiering: artiklarna har stämts av mot befintligt innehåll och schema; fullständig `npm ci` och `npm run verify` behöver köras via GitHub Actions för PR. Fotona behöver sedan kopplas in och verifieras i bygget.
+- Bilder: 24 färdiga, vattenstämplade WebP-varianter från tre valda bearbetade foton har lagts under `web-images/`; bild-ID och metadata har lagts till i `src/data/images.json` och `web-images/index.json`. De tre sortartiklarna refererar nu till bilderna. Oskyddade fotooriginal har inte lagts in i repositoryt.
+- Verifiering: de 24 webbexporternas mått, WebP-format och frånvaro av EXIF kontrollerades före import. Tidigare verifiering av artiklar utan bilder: `Validate and build` körning #42 godkänd; ny GitHub Actions-verifiering efter bildimport inväntas.
 - Publicering: endast arbetsgren/PR; inte sammanslaget med `main` och inte publicerat på STRATO.
 - Dokumentation: `docs/PROJECT_RULES.md` och `docs/images.md` granskades, oförändrade; inga server- eller CMS-ändringar.
-- Återstår: importera vattenstämplade webbexporter, uppdatera `src/data/images.json` och `web-images/index.json`, lägga bild-ID på alla tre sorterna, granska bildbeskärning och invänta godkänt testbygge före merge.
+- Återstår: invänta godkänd GitHub Actions-körning för bildcommiten, granska artikelkort och bildbeskärning på byggd webbplats före merge.
 
 ## 2026-10-16 – Artikel om chilifortplantning och undermeny
 - Område/miljö: webbplatsinnehåll och presentation; GitHub-arbetsgren.

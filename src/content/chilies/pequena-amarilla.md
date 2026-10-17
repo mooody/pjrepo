@@ -1,5 +1,7 @@
 ---
 {
+  "image": "pequena-amarilla",
+  "imageAlt": "Pequena Amarilla med tre frukter i olika mognadsstadier",
   "title": "Pequena Amarilla",
   "description": "Guindilla Pequeña Amarilla – från gulgrönt till mörkrött.",
   "draft": false,

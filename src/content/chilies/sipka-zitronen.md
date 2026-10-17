@@ -1,5 +1,7 @@
 ---
 {
+  "image": "sipka-zitronen",
+  "imageAlt": "Sipka Zitronen med flera citrongula långsmala frukter på plantan",
   "title": "Sipka Zitronen",
   "description": "En tidig chili med citrongula, spetsiga frukter och fruktig arom – framtagen för att kunna odlas även på friland.",
   "draft": false,
