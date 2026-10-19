@@ -65,3 +65,7 @@ Projektreglerna skyddar samlingar, formulärfält, bildrelationer, schemas och p
 - Test av strukturerad data: https://search.google.com/test/rich-results och https://validator.schema.org/
 
 Projektreglerna är granskade och lämnas oförändrade. Inga VPS-, Nginx-, CMS-, OAuth-, säkerhets-, bildpipeline- eller deploy-ändringar ingår. Efter PR-granskning ska npm run verify vara grön före eventuell merge. STRATO-publicering kräver separat manuellt godkännande.
+
+## Faktiskt verifieringsresultat
+
+GitHub Actions Validate and build, körning 39260913328, avslutades med **success** för SEO-branchen den 19 oktober 2026. Kontrollerna inkluderar npm ci, npm run verify, Astro-byggning, Node-tester, nya SEO-tester och Playwright. Det verifierar arbetsbranchens bygge men inte skarp indexering eller publicering. Körningen: https://github.com/mooody/pjrepo/actions/runs/39260913328

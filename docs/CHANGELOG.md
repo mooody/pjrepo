@@ -39,7 +39,7 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 - Område: SEO i arbetsgren seo/grundoptimering-20261019, inte publicerat.
 - Gjort: bättre sidtitlar/metabeskrivningar, WebSite- och BreadcrumbList-JSON-LD, sociala metataggar, justerat guidetext och interna länkar för chiliodling och bladlöss.
 - Filer: src/layouts/Base.astro, flera Astro-rutter, befintligt innehåll och src/data/sections.json, tests/seo.test.mjs och docs/SEO_AUDIT.md.
-- Kontroller: granskad kod och Google Search Central. GitHub Actions behöver bekräftas separat; live-webb och Search Console kunde inte kontrolleras här.
+- Verifierat: GitHub Actions Validate and build https://github.com/mooody/pjrepo/actions/runs/39260913328 avslutades med success, inklusive npm ci, npm run verify och nya SEO-tester. Live-webb och Search Console kunde inte kontrolleras här.
 - Gränser: CMS, OAuth, bildflöde, server, Nginx och produktion har inte ändrats.
 - Dokumentation: PROJECT_RULES.md granskad och oförändrad. SERVER_OPERATIONS.md påverkas inte av detta uppdrag. CMS-förslag och genvägar redovisas i SEO_AUDIT.md.
 - Status: endast branch/PR. Godkännande krävs för merge och senare manuell deploy.
