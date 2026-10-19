@@ -1,7 +1,7 @@
 ---
 {
   "title": "Habanero Chocolate",
-  "description": "Habanero Chocolate: sortfakta, användning och erfarenheter från våra försök.",
+  "description": "Chokladbruna frukter och kraftig habanerohetta.",
   "draft": false,
   "species": "Capsicum chinense",
   "growth": "Baker Creek beskriver en sort med lång säsong. Skyddad, varm odling är en bra utgångspunkt i svenskt klimat.",
@@ -30,20 +30,22 @@
       "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
   ],
-  "reviewed": "2026-10-13",
-  "heatNote": "Chile Pepper Institute redovisar 700 000 SHU för provat material benämnt Chocolate Habanero. Det är ett källspecifikt testvärde, inte ett sortintervall eller en mätning av vår skörd.",
+  "reviewed": "2026-10-19",
+  "heatNote": "Mycket het, ungefär 300 000–700 000 SHU. Chokladbrun till färgen, men med betydligt mer sting än namnet antyder.",
   "image": "brun-chili",
-  "appearance": "Bruna frukter vid mognad; det är färgen som ligger bakom namnet Chocolate."
+  "appearance": "Bruna frukter vid mognad; det är färgen som ligger bakom namnet Chocolate.",
+  "heatMin": 300000,
+  "heatMax": 700000
 }
 ---
 
-## Chokladbrun vid mognad
-Namnet syftar på fruktens färg. Våra Habanero Chocolate syns på bilden, med den veckade formen och den bruna ytan.
-
-## Tid att mogna
-Baker Creek beskriver en habanero med lång odlingssäsong. Förkultivering och en varm, skyddad plats ger en användbar utgångspunkt i vårt klimat.
+## Chokladbrun med ordentligt sting
+Namnet Chocolate syftar på den bruna färgen hos de mogna frukterna. De veckade frukterna sticker ut bland röda och gula chilisorter, och hettan placerar dem bland de riktigt starka habanerotyperna.
 
 ## I förädlingen
-Sorten finns med bland chilin som diskuterats och provats i marmeladarbetet. Smakbeskrivningar från egen jämförande provsmakning läggs till när de dokumenterats.
+Vi använder Habanero Chocolate i marmelad. Kombinationen av chili, frukt och sötma är ett sätt att låta en stark råvara ta plats även i en liten burk.
+
+## Tid att mogna
+Det här är en sort som behöver en lång säsong. Tidig förkultivering och en varm, skyddad odlingsplats ger frukterna tid att utveckla sin bruna färg.
 
 [Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

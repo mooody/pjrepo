@@ -1,10 +1,10 @@
 ---
 {
   "title": "Carolina Reaper",
-  "description": "En mycket stark sort – med testvärden som inte ska förväxlas med den egna skörden.",
+  "description": "Röda, skrynkliga frukter med extrem hetta – Carolina Reaper tar ordentligt med plats.",
   "draft": false,
   "species": "Capsicum chinense",
-  "heatNote": "Cirka 1,64 miljoner SHU enligt Guinness World Records; inte uppmätt på våra frukter.",
+  "heatNote": "Extremt het, omkring 1,6 miljoner SHU. En av de riktigt eldiga chilisorterna.",
   "tags": [
     "Capsicum chinense",
     "mycket het"
@@ -15,19 +15,16 @@
       "url": "https://www.guinnessworldrecords.com/news/2025/3/speed-eater-mike-jack-scoffs-25-extremely-hot-carolina-reaper-peppers-in-record-time"
     }
   ],
-  "reviewed": "2026-10-13",
+  "reviewed": "2026-10-19",
   "image": "rod-skrynklig-chili",
-  "appearance": "Vår bekräftade Carolina Reaper-bild visar en röd, skrynklig frukt."
+  "appearance": "Röda, skrynkliga frukter, ofta med en liten spets."
 }
 ---
 
-## En sort med mycket hög hetta
-Guinness World Records anger omkring 1,64 miljoner SHU för Carolina Reaper. Det är ett rapporterat testvärde, inte en garanti för varje frukt.
+## En liten frukt med väldig hetta
+Carolina Reaper känns igen på sina skrynkliga, röda frukter, ofta med en liten spets. Med en styrka kring 1,6 miljoner Scoville hör den till de mest eldiga chilisorterna.
 
 ## Odling och användning
-Liksom andra värmekrävande chiliplantor behöver den ljus, värme och tid att mogna. Ett känt sortnamn ersätter inte dokumentation av frömaterial och odlingsplats.
+Plantan behöver ljus, värme och en lång säsong för att hinna ge mogna frukter. I köket räcker mycket små mängder för att ge kraftig hetta åt en sås eller annan chiliblandning.
 
-## Egna erfarenheter
-Någon dokumenterad egen provsmakning eller odlingsutvärdering publiceras inte här ännu.
-
-[Läs chiliodlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).
+[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

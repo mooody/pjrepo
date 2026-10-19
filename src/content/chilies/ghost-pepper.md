@@ -1,7 +1,7 @@
 ---
 {
   "title": "Bhut Jolokia Red",
-  "description": "Bhut Jolokia Red, även kallad Ghost Pepper: sortfakta, användning och erfarenheter från våra försök.",
+  "description": "Bhut Jolokia Red, även kallad Ghost Pepper – en röd chili med extrem hetta.",
   "draft": false,
   "species": "Capsicum chinense",
   "growth": "Förkultiveras med ljus och värme. En skyddad odlingsplats ger en längre användbar säsong. Se odlingsguiden för gemensamma råd.",
@@ -30,19 +30,19 @@
       "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
   ],
-  "reviewed": "2026-10-13",
-  "heatNote": "Chile Pepper Institute redovisar cirka 1 miljon SHU för provat material benämnt Bhut Jolokia. Det är ett källspecifikt testvärde, inte ett sortintervall eller en mätning av vår skörd.",
+  "reviewed": "2026-10-19",
+  "heatNote": "Extremt het, omkring en miljon SHU. Här räcker en liten bit långt.",
   "image": "bhut-jolokia"
 }
 ---
 
-## Bhut Jolokia
-Ghost Pepper är ett vanligt namn för Bhut Jolokia. Bosland och Baral beskriver material från Assam i Indien som Capsicum chinense, med möjliga genetiska inslag från C. frutescens.
+## Bhut Jolokia – chilin med spöknamnet
+Bhut Jolokia Red är också känd som Ghost Pepper och har sina rötter i nordöstra Indien. De röda frukterna hör till de riktigt heta chilierna: omkring en miljon Scoville gör detta till en råvara som används i små mängder.
 
-## Mycket hög hetta
-Sorten hör till de mycket starka chilierna. En publicerad försöksmätning eller rekorduppgift säger inte exakt hur stark en enskild frukt i den egna odlingen är.
+## Mycket chili i en liten bit
+I en sås eller marmelad kan en liten mängd ge ett rejält avtryck. Vi använder Bhut Jolokia Red i vårt förädlingsarbete när vi vill ha tydlig hetta.
 
-## Våra försök
-Bhut Jolokia Red finns med i dokumenterade marmeladtester och bland sorterna i förädlingsarbetet. Här skiljs råvarumängderna i testen från allmänna sortuppgifter.
+## Odling
+En lång, varm säsong är en fördel. Förkultivera tidigt och ge plantan en ljus, skyddad växtplats där frukterna hinner mogna.
 
 [Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

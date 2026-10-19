@@ -2,11 +2,11 @@
 import Base from '../../layouts/Base.astro';
 import { sitePath } from '../../lib/urls';
 ---
-<Base title="Chili" description="Upptäck våra chilisorter och lär dig hur chili pollineras, befruktas och förökar sig.">
+<Base title="Chili" description="Upptäck chilins arter, våra chilisorter och blommans väg till frukt och frö.">
   <section class="section detail">
     <p class="eyebrow">Kunskap om chili</p>
     <h1>Chili</h1>
-    <p class="lead">Lär känna chilisorterna vi odlar och följ blommans väg till frukt och frö. Välj ett ämne för att läsa vidare.</p>
+    <p class="lead">Lär känna chilins arter och sorterna vi odlar, och följ blommans väg till frukt och frö. Välj ett ämne för att läsa vidare.</p>
     <div class="grid topic-grid chili-overview-grid">
       <a class="card" href={sitePath('/chilisorter/')}>
         <div class="card-body">
@@ -22,6 +22,14 @@ import { sitePath } from '../../lib/urls';
           <h2>Chilifortplantning</h2>
           <p>Så fungerar pollinering, dubbel befruktning, fruktsättning och egna korsningar.</p>
           <p class="text-link">Läs artikeln →</p>
+        </div>
+      </a>
+      <a class="card" href={sitePath('/chiliarter/')}>
+        <div class="card-body">
+          <p class="eyebrow">Arter och släktskap</p>
+          <h2>Chilins arter</h2>
+          <p>Fem stora odlade arter och deras vilda släktingar – från paprika till habanero och rocoto.</p>
+          <p class="text-link">Lär känna arterna →</p>
         </div>
       </a>
     </div>

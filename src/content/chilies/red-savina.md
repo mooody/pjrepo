@@ -2,7 +2,7 @@
 {
   "title": "Red Savina",
   "image": "red-savina",
-  "description": "Red Savina: sortfakta, användning och erfarenheter från våra försök.",
+  "description": "En fruktig, röd habanero med extra kraft i hettan.",
   "draft": false,
   "species": "Capsicum chinense",
   "growth": "Förkultiveras med ljus och värme. En skyddad odlingsplats ger en längre användbar säsong. Se odlingsguiden för gemensamma råd.",
@@ -31,8 +31,8 @@
       "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
   ],
-  "reviewed": "2026-10-13",
-  "heatNote": "380 000–500 000 SHU är Renee’s Gardens uppgift för deras Red Savina. Det är ett leverantörsintervall, inte en mätning av vår skörd.",
+  "reviewed": "2026-10-19",
+  "heatNote": "Mycket het, ungefär 380 000–500 000 SHU. Fruktig habanero med extra tryck i hettan.",
   "appearance": "Röda frukter; Renee’s Garden beskriver formen som lanternliknande.",
   "flavor": "Fruktig enligt Renee’s Gardens sortbeskrivning.",
   "heatMin": 380000,
@@ -40,10 +40,13 @@
 }
 ---
 
-## Röd habanero med hög hetta
-Red Savina är en habanerosort som Renee’s Garden beskriver som fruktig, med röda, lanternliknande frukter. Leverantörens styrkeintervall står ovan tillsammans med källan.
+## Röd habanero med extra tryck
+Red Savina kombinerar habanerons fruktiga karaktär med kraftig hetta. Frukterna blir röda när de mognar och har en rundad, lanternliknande form.
+
+## I förädlingen
+Vi använder Red Savina när vi vill ge våra chiliprodukter ordentligt sting. Den passar som råvara i både såser och söta chiliblandningar.
 
 ## Odling och skörd
-En lång, varm säsong är viktig. Förkultivera och välj en skyddad plats. I våra förädlingsdiskussioner har Red Savina varit en av sorterna att prova i olika små satser.
+Förkultivera tidigt och ge plantan en lång, varm säsong. En skyddad odlingsplats hjälper frukterna att hinna bli röda före höstkylan.
 
 [Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

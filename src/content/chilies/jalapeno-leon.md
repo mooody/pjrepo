@@ -6,7 +6,7 @@
   "species": "Capsicum annuum",
   "appearance": "Gröna frukter som mognar till orange; cirka 8 cm enligt förädlaren.",
   "growth": "Kompakt växtsätt. Leverantören beskriver odling på friland och i växthus; anpassa till lokalt klimat.",
-  "heatNote": "4–5 på ReinSaats skala, inte ett angivet SHU-värde.",
+  "heatNote": "Medelhet – ungefär 4–5 av 10 på fröförädlarens skala. Ett trevligt bett utan habanerons intensitet.",
   "tags": [
     "Capsicum annuum",
     "jalapeño"
@@ -17,7 +17,7 @@
       "url": "https://www.reinsaat.at/shop/EN/chilli_peppers_chill/leon/"
     }
   ],
-  "reviewed": "2026-10-13",
+  "reviewed": "2026-10-19",
   "image": "jalapeno-leon"
 }
 ---
@@ -28,7 +28,7 @@ ReinSaat beskriver Leon som en jalapeño med omkring åtta centimeter långa, tj
 ## Odling och användning
 Sorten beskrivs som kompakt och lämplig för både växthus och friland på passande platser. Frukterna kan användas färska och i förädling.
 
-## Om styrkan
-Leverantören anger 4–5 på sin egen tiogradiga skala. Detta är inte SHU och ska inte räknas om till ett exakt Scoville-värde.
+## Lagom bett i matlagningen
+Leon har en medelhet styrka och tjockväggiga frukter. Den passar färsk, i inläggningar och i andra chiliprodukter där både fruktkött och hetta får ta plats.
 
-[Läs chiliodlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).
+[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).
