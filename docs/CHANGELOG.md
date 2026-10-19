@@ -5,6 +5,15 @@
 **Mall för varje ny ändring:**
 
 ```md
+## 2026-10-19 – Chilins arter och lättlästa styrkebeskrivningar
+- Genomfört: ny artikel `src/content/pages/chiliarter.md` med de fem stora odlade arterna och 38 vilda arter enligt Barboza med flera (2022). Länkad från Chili.
+- Genomfört: tio sortsidor har fått lättlästa styrkebeskrivningar; ungefärliga SHU anges där underlaget räcker, annars beskrivande ord och befintlig leverantörsskala. Källspecifika testförbehåll borttagna ur lästexten. En gemensam förklaring om variation och SHU finns i sortöversikten. Styrkan visas även på sortkorten.
+- Källor: artmonografin (doi:10.3897/phytokeys.200.71667), Oxford, Rutgers, NMSU och sorternas fröleverantörer; befintliga källänkar bevarade och kompletterade. Listans 38 vilda namn kontrollerade mot monografins tabell 1.
+- Berörda filer: artikeln, tio filer under `src/content/chilies`, `src/pages/chili/index.astro`, `src/components/Card.astro`, `src/data/sections.json` och denna logg.
+- Dokumentation: projektreglerna granskade och oförändrade. CMS, bildhantering och drift oförändrade.
+- Verifiering: typkontroll, byggning och 14 tester godkända; lokala webbläsartester kunde inte starta utan Chromium. Installationsförsöket fick en ogiltig ZIP från nedladdningskällan. GitHub Actions återstår.
+- Status: arbetsgren/PR, inte publicerat. Återstår: granskning och merge; produktion kräver separat godkänd publicering.
+
 ## 2026-10-19 – Ta bort avsnittet om fröfria chilifrukter
 - Genomfört: hela avsnittet ”Kan chili få frukter utan frön?” borttaget från `src/content/pages/chilifortplantning.md`. Efterföljande avsnitt omnumrerat från 7 till 6.
 - Syfte: avgränsad innehållsändring enligt användarens önskemål.

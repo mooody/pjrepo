@@ -1,7 +1,7 @@
 ---
 {
   "title": "Habanero Lemon",
-  "description": "Habanero Lemon: sortfakta, användning och erfarenheter från våra försök.",
+  "description": "Citrongul habanero med färg, arom och ordentlig hetta.",
   "draft": false,
   "species": "Capsicum chinense",
   "growth": "Förkultiveras med ljus och värme. En skyddad odlingsplats ger en längre användbar säsong. Se odlingsguiden för gemensamma råd.",
@@ -26,18 +26,20 @@
       "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
   ],
-  "reviewed": "2026-10-13",
-  "experiences": "Habanero Lemon har använts i marmeladtester. Den 7 september 2026 dokumenterades 3 gram chili per 200 gram marmelad. Det är en uppgift om testets råvarumängd, inte ett uppmätt styrkevärde.",
+  "reviewed": "2026-10-19",
   "image": "gul-chili",
-  "appearance": "Gula frukter vid mognad. Bildens sortidentitet är bekräftad av odlaren."
+  "appearance": "Gula frukter vid mognad. Bildens sortidentitet är bekräftad av odlaren.",
+  "heatNote": "Mycket het, omkring 300 000 SHU. En gul habanero som bjuder på ordentlig värme."
 }
 ---
 
 ## Den gula habaneron
-Bilden visar vår Habanero Lemon, med gul frukt på plantan. Namnet Lemon används för gula habanerotyper; namnet ensamt är inte en garanti för en viss citronsmak.
+Habanero Lemon lyser upp bland plantorna med sina gula, mogna frukter. Den hör till de riktigt heta sorterna och passar när man vill ge en sås eller marmelad tydlig chilivärme.
 
-## I marmeladförsöken
-Vi har använt Habanero Lemon i små marmeladtester. De uppvägda råvarorna gör det möjligt att återkomma till samma blandning och sedan ändra en sak i taget.
+## I förädlingen
+Vi använder Habanero Lemon i marmelad, där den gula chilin får möta frukt och sötma. Det är en av de habanerotyper som ger variation åt vårt förädlingsarbete.
 
 ## Odling
-Planera för en lång, varm säsong och följ mognaden på den egna plantan. [Odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/) samlar de gemensamma råden.
+Planera för en lång, varm säsong. Förkultivera tidigt och välj en ljus, skyddad plats så att frukterna hinner få sin gula färg.
+
+[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

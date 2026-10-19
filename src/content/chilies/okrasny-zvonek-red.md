@@ -8,9 +8,13 @@
   "species": "Capsicum baccatum",
   "appearance": "Röda, klockformade frukter med veck och utskjutande kanter. Formen varierar mellan frukterna.",
   "growth": "Fröbanken beskriver sorten som lämpad för soligt läge, kruka eller växthus. Förkultivering ger bättre förutsättningar i Sverige.",
-  "heatNote": "En tillräckligt tillförlitlig sortspecifik SHU-uppgift saknas. Vi anger därför inget exakt styrkeintervall.",
+  "heatNote": "En klockchili att börja med i liten mängd och smaka av. Hettan kan upplevas olika i fruktköttet och nära fröfästet.",
   "experiences": "I vår odling finns både röda och ännu gröna klockformade frukter.",
-  "tags": ["Capsicum baccatum", "röd chili", "klockchili"],
+  "tags": [
+    "Capsicum baccatum",
+    "röd chili",
+    "klockchili"
+  ],
   "sources": [
     {
       "title": "Fröbanken: Okrasny Zvonek Red",
@@ -27,7 +31,7 @@
       "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
   ],
-  "reviewed": "2026-10-17"
+  "reviewed": "2026-10-19"
 }
 ---
 
@@ -38,7 +42,7 @@ Okrasny Zvonek Red tillhör arten *Capsicum baccatum*. Frukterna får karakteris
 Förkultivera gärna tidigt och ge plantorna en solig, varm växtplats. Växthus eller kruka i skyddat läge underlättar när säsongen är kort. Fröbanken beskriver sorten som dekorativ och användbar för odling både i kruka och växthus.
 
 ## Användning och hetta
-Klockfrukterna kan användas färska och i exempelvis såser och inläggningar. Vi anger inget SHU-intervall eftersom en verifierad styrkeuppgift för just den här sorten saknas. Styrka för andra klockchilisorter bör inte föras över till denna.
+Klockfrukterna kan användas färska och i exempelvis såser och inläggningar. Börja med en liten bit och smaka av när du använder den i maten.
 
 ## Från vår odling
 Vi har fotograferat den ovanliga fruktformen. Bilden visar både röda och gröna frukter.
