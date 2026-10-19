@@ -5,6 +5,13 @@
 **Mall för varje ny ändring:**
 
 ```md
+## 2026-10-19 – Ta bort avsnittet om fröfria chilifrukter
+- Genomfört: hela avsnittet ”Kan chili få frukter utan frön?” borttaget från `src/content/pages/chilifortplantning.md`. Efterföljande avsnitt omnumrerat från 7 till 6.
+- Syfte: avgränsad innehållsändring enligt användarens önskemål.
+- Dokumentation: projektreglerna granskade och oförändrade; ingen ändring av CMS, bilder eller drift.
+- Verifiering: `npm ci`, typkontroll, byggning och 14 tester godkända. Lokala webbläsartester kunde inte starta eftersom Playwrights Chromium saknas; GitHub Actions återstår.
+- Status: arbetsgren/PR; inte publicerat. Återstår: granskning, merge och separat godkänd produktionspublicering.
+
 ## ÅÅÅÅ-MM-DD – Kort rubrik
 - Område/miljö: [innehåll | CMS | GitHub | bildflöde | STRATO-preview | produktion | annan]
 - Ändrat: [berörda filer, tjänster och vad som ändrats]

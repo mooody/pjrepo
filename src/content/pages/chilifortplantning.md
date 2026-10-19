@@ -109,13 +109,7 @@ Om målet i stället är att spara frö som behåller en befintlig sorts egenska
 
 *Sortäkta frö – så minskar du risken för oönskad korspollinering.*
 
-## 6. Kan chili få frukter utan frön?
-
-Ja. Vissa frukter innehåller få eller inga utvecklade frön. En möjlig förklaring är **partenokarpi** – frukten utvecklas utan befruktning. Men få frön bevisar inte partenokarpi. Otillräcklig pollinering, störd befruktning och avbruten fröutveckling kan också ge fröfattiga frukter.
-
-Detta ska skiljas från **apomixis**, där frön kan bildas utan normal könlig befruktning. Partenokarpi handlar om **fruktbildning**, apomixis om **fröbildning**.
-
-## 7. Vad betyder detta för odling och förädling?
+## 6. Vad betyder detta för odling och förädling?
 
 När vi förstår chiliblommans biologi kan vi felsöka blomfall bättre, använda pollinatörer med större precision, spara frö mer medvetet och göra kontrollerade korsningar. Vi förstår också varför fröfästet är så viktigt för hettan i chilisåser – det räcker inte alltid att bara plocka bort fröna för att mildra en frukt.
 
