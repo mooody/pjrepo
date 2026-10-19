@@ -9,7 +9,7 @@
   "appearance": "Röda, klockformade frukter med veck och utskjutande kanter. Formen varierar mellan frukterna.",
   "growth": "Fröbanken beskriver sorten som lämpad för soligt läge, kruka eller växthus. Förkultivering ger bättre förutsättningar i Sverige.",
   "heatNote": "En tillräckligt tillförlitlig sortspecifik SHU-uppgift saknas. Vi anger därför inget exakt styrkeintervall.",
-  "experiences": "Vi har en bearbetad närbild från vår odling med röda och ännu gröna klockformade frukter. Bilden är inte en mätning av styrka.",
+  "experiences": "I vår odling finns både röda och ännu gröna klockformade frukter.",
   "tags": ["Capsicum baccatum", "röd chili", "klockchili"],
   "sources": [
     {
@@ -41,6 +41,6 @@ Förkultivera gärna tidigt och ge plantorna en solig, varm växtplats. Växthus
 Klockfrukterna kan användas färska och i exempelvis såser och inläggningar. Vi anger inget SHU-intervall eftersom en verifierad styrkeuppgift för just den här sorten saknas. Styrka för andra klockchilisorter bör inte föras över till denna.
 
 ## Från vår odling
-Vi har fotograferat den ovanliga fruktformen. Den valda bilden är bearbetad för presentation och visar både röd och grön frukt.
+Vi har fotograferat den ovanliga fruktformen. Bilden visar både röda och gröna frukter.
 
 [Läs chiliodlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).

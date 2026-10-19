@@ -26,7 +26,7 @@ test('mobilmeny går att öppna, använda och stänga', async ({ page }) => {
   await menu.click();
   await page
     .getByRole('navigation')
-    .getByRole('link', { name: 'Om Trädgårdsdrömmar', exact: true })
+    .getByRole('link', { name: 'Vår historia', exact: true })
     .click();
   await expect(page).toHaveURL(/om/);
   expect(

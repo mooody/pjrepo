@@ -16,6 +16,6 @@ const largest = variants?.at(-1);
       sizes={variant === 'card' ? '(max-width: 700px) 88vw, (max-width: 1050px) 30vw, 400px' : hero ? '(max-width: 700px) 88vw, 560px' : '(max-width: 900px) 88vw, 800px'}
       alt={decorative ? '' : alt || record.alt} loading={hero ? 'eager' : 'lazy'}
       fetchpriority={hero ? 'high' : 'auto'} decoding="async" width={largest.width} height={largest.height} />
-    {!decorative && <figcaption>{record.caption} Foto: {record.photographer}. {record.license}</figcaption>}
+    {!decorative && (record.caption || record.ownership === 'third-party') && <figcaption>{record.caption}{record.ownership === 'third-party' && <> Foto: {record.photographer}. {record.license}</>}</figcaption>}
   </figure>
 ) : !decorative ? <p class="image-pending">{ui.placeholder}</p> : null}
