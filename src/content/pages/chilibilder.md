@@ -1,7 +1,7 @@
 ---
 {
   "title": "Chili i bilder",
-  "description": "Fotografier från plantor och skörd.",
+  "description": "Chili i bilder – se fotografier av olika chilisorter, fruktformer och färger från våra plantor och vår skörd.",
   "draft": false,
   "gallery": [
     {"image": "red-savina", "alt": "Red Savina på en ljus skiva"},

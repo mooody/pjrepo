@@ -1,7 +1,7 @@
 ---
 {
-  "title": "Bladlöss",
-  "description": "Små växtsugande insekter som också är föda för många nyttodjur.",
+  "title": "Bladlöss på chili – upptäcka och begränsa angrepp",
+  "description": "Bladlöss på chili och andra växter: så känner du igen angrepp, kontrollerar bladundersidor och arbetar med nyttodjur och skonsamma åtgärder.",
   "draft": false,
   "scientificName": "Aphidoidea",
   "tags": [
@@ -36,10 +36,15 @@
 ## Känn igen angreppet
 Bladlöss sitter ofta på unga skott och bladundersidor. Blad kan krulla sig och klibbig honungsdagg kan förekomma. Det finns många arter; färg ensam räcker inte för att bestämma dem.
 
+## Bladlöss på chiliplantor
+På chiliplantor kan bladlöss samlas kring växande skott, blomknoppar och bladens undersidor. Titta särskilt på ny tillväxt när du undersöker plantan. Honungsdagg kan göra blad klibbiga och locka andra insekter. Skadorna kan likna andra problem, så leta efter själva lössen innan du bestämmer dig för en åtgärd.
+
 ## Börja med att observera
 Kontrollera tillväxt, angreppets omfattning och förekomsten av naturliga fiender. Ett mindre antal bladlöss behöver inte alltid kräva en åtgärd.
 
 ## Åtgärder
+Börja med att avgränsa problemet: på några få plantor kan det räcka att regelbundet undersöka och försiktigt avlägsna löss från angripna skott. Kontrollera samtidigt om det finns nyckelpigor, guldögonsländelarver eller tecken på parasiterade bladlöss. De är naturliga fiender och kan bidra till att hålla populationen nere.
+
 På tåliga växter kan en försiktig vattenstråle minska antalet löss. Biologiska metoder bör väljas efter art och miljö. Följ alltid leverantörens råd för inköpta nyttodjur.
 
 ## Jämför bilder

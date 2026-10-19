@@ -1,7 +1,7 @@
 ---
 {
   "title": "Chilifortplantning – från blomma till frukt och frö",
-  "description": "Så fungerar chilins självpollinering, dubbla befruktning, fruktsättning och kontrollerade korsning.",
+  "description": "Så fungerar chilins pollinering och dubbla befruktning, varför blommor faller av och hur du kan göra en kontrollerad korsning.",
   "date": "2026-10-16",
   "draft": false,
   "category": "Chili",
