@@ -35,6 +35,16 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 
 ---
 
+## 2026-10-19 – Webbetiketter och produktblad för B2610-5 och B2610-6
+- Område: produktarkiv 2026, bilder och text på en separat arbetsgren.
+- Genomfört: sex produkter i katalogen, inklusive ny produktsida för Röd Glöd (B2610-5) och Ghost (B2610-6). Översikten använder sex nya illustrerade webbetiketter, medan originaletiketterna visas på produktsidorna.
+- Bilder: nio separata, optimerade WebP-filer från Drive; inga fotografiska original incheckade i GitHub, ingen ytterligare vattenstämpel. Originaltexter och etiketter oförändrade.
+- Avvikelse: Drive-mappen innehöll 2026-10-19 ingen separat produktbild för Röd Glöd. Webbetiketten används som tydligt märkt tillfällig huvudbild på detaljsidan. Produktfoto återstår.
+- Berörda filer: `src/content/products/rod-glod.md`, `src/content/products/ghost.md`, `src/pages/produkter-2026/index.astro`, `src/pages/produkter-2026/[slug].astro`, `tests/products.test.mjs`, nio filer under `public/product-images`, samt dokumentation.
+- Verifiering: WebP-header och Git blob-SHA verifierade lokalt för nio filer. GitHub Actions `Validate and build` kontrolleras i pull request.
+- Dokumentation: `docs/products-2026.md` uppdaterad. `docs/PROJECT_RULES.md` granskad och oförändrad; CMS-arkitektur, säkerhet, deployment och serverkonfiguration oförändrade.
+- Status: endast arbetsgren/PR. Varken `main`, preview eller STRATO-produktion publiceras genom detta uppdrag. Granskning och eventuell senare merge kräver godkännande.
+
 ## 2026-10-19 – Vår historia och chilins smaker
 - Område/miljö: publikt innehåll, bildtexter och presentation; separat arbetsgren.
 - Ändrat: Om-sidan och dess menyval heter nu Vår historia. Texten bygger på användarens uppgifter om över 30 års chiliodling, biologiskt odlingsintresse och ambitionen att använda fler ekologiska råvaror. Befintligt foto av Habanero Red ersätter burkbilden på sidan.
