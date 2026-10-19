@@ -5,7 +5,7 @@ import { sitePath } from '../../lib/urls';
 const products = (await getCollection('products', ({data}) => !data.draft && data.year === 2026))
   .sort((a,b)=>a.data.order-b.data.order || a.data.title.localeCompare(b.data.title, 'sv'));
 ---
-<Base title="Produkter 2026" description="Såser, marmelader och andra förädlade produkter från 2026.">
+<Base title="Produkter 2026 – chilisås och marmelad" description="Upptäck Trädgårdsdrömmars förädlade chiliprodukter från 2026. Se chilisåser, marmelader, produktbilder och etiketter för varje sats." breadcrumbs={[{ name: "Startsida", href: "/" }, { name: "Produkter 2026", href: "/produkter-2026/" }]}>
   <section class="section products-list">
     <p class="eyebrow">Från odling till förädling</p>
     <h1>Produkter 2026</h1>
