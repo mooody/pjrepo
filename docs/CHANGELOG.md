@@ -19,6 +19,16 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 
 ---
 
+## 2026-10-19 – Vår historia och chilins smaker
+- Område/miljö: publikt innehåll, bildtexter och presentation; separat arbetsgren.
+- Ändrat: Om-sidan och dess menyval heter nu Vår historia. Texten bygger på användarens uppgifter om över 30 års chiliodling, biologiskt odlingsintresse och ambitionen att använda fler ekologiska råvaror. Befintligt foto av Habanero Red ersätter burkbilden på sidan.
+- Ändrat: Förädla, startsidans introduktion och förädlingsprojektet fokuserar på smak och användning. Salt, oljor och godis beskrivs som framtida idéer. Försöks- och anteckningsspråk har tagits bort från dessa presentationer.
+- Bilder: egna bildtexter visar motivbeskrivningar utan fotokredit och återkommande licensrad. Namnet Micke har ersatts med Trädgårdsdrömmar i bildbiblioteket och tagits bort från Om-sidan. Rutinmässiga kommentarer om bildbearbetning har tagits bort även i två sortartiklar. Tredjepartsbilders attribution, vattenstämplar och bildvillkor bevaras.
+- Verifiering: npm ci, typkontroll, byggning och alla 14 Node-tester passerade lokalt. Playwright kunde inte starta lokalt eftersom Chromium saknas; GitHub Actions ska köra hela verifieringen. Mobilnavigationens befintliga test följer det nya menynamnet.
+- Publicering: endast arbetsgren/PR; ingen merge eller publicering på server utförd i uppdraget.
+- Dokumentation: PROJECT_RULES.md granskad och oförändrad; docs/images.md uppdaterad om publika bildtexter. CMS, schema, exportflöde och serverdrift är oförändrade.
+- Återstår: granskning och godkännande av PR. Ett framtida huvudfoto kan visa en skördekorg med flera chilisorter bland plantorna, i mjukt dagsljus.
+
 ## 2026-10-17 – Chiliartiklar: Pequena Amarilla, Sipka Zitronen och Okrasny Zvonek Red
 - Område/miljö: webbplatsinnehåll och vattenstämplade bildexporter; GitHub-arbetsgren.
 - Ändrat: befintlig artikel `src/content/chilies/pequena-amarilla.md` har kompletterats med fotoobservation och texterna `src/content/chilies/sipka-zitronen.md` och `src/content/chilies/okrasny-zvonek-red.md` har skapats med befintligt CMS-schema. Källor är fröförädlaren Culinaris, Fröbanken och RHS.

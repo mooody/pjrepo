@@ -17,4 +17,4 @@ Efter ändrad vattenstämpel eller beskärningsposition behövs en ny skyddad ex
 
 ## Första urvalet
 
-Odlingslotten, chiliplantan utan säker sortetikett, fermenteringskärlet, såsflaskorna och burkarna. Fotografen anges som Micke. Ingen bild används som bevis på pH, recept, hållbarhet eller säker sortidentitet.
+Odlingslotten, chiliplantan utan säker sortetikett, fermenteringskärlet, såsflaskorna och burkarna. Bildbiblioteket anger Trädgårdsdrömmar som fotograf för egna bilder. Publika bildtexter visar motivbeskrivningen utan fotokredit eller upprepad licenstext; villkoren finns på sidan Bildvillkor. Tredjepartsbilder behåller sin fotokredit och licens. Ingen bild används som bevis på pH, recept, hållbarhet eller säker sortidentitet.

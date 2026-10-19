@@ -1,17 +1,17 @@
 ---
-{
-  "title": "Förädling av skörden",
-  "description": "Pågående försök med råvaror, smaker och arbetsprocess.",
-  "draft": false,
-  "projectStatus": "pågår",
-  "image": "fermenteringskarl"
-}
+title: Förädling av skörden
+description: Chilins olika smaker i såser, marmelader och nya produktidéer.
+draft: false
+projectStatus: pågår
+image: fermenteringskarl
 ---
 
-## Hantverk under utveckling
-Chili, squash och frukt har använts i såser och marmelader. Fermentering har också provats, med både intressanta resultat och smaker som inte blev som tänkt.
+## Från skörd till smak
 
-## Följ varje batch
-Dokumentation av råvaror, datum och arbetsmoment gör det lättare att utveckla nästa sats. Tidigare planer på en viss volym är inte samma sak som färdigt utbyte.
+Chili, grönsaker och frukt möts i våra såser och marmelader. Vi vill lyfta varje chilisorts karaktär och hitta balansen mellan hetta, sötma och syra.
 
-[Utforska förädlingen](/foradla/).
+## Fler sätt att njuta av chili
+
+Chilisalt, smaksatta oljor och sötsaker är några av idéerna vi vill utveckla vidare. Den egna odlingen ger inspiration till nya kombinationer och fler sätt att ta vara på chilifrukten.
+
+[Upptäck förädlingen](/foradla/).

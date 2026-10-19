@@ -1,6 +1,6 @@
 ---
 title: Förädla
-description: Såser, marmelader och andra produkter från det egna förädlingsarbetet.
+description: Chilins många smaker i såser och marmelader – med idéer om salt, oljor och sötsaker.
 draft: false
 image: marmeladgrupp
 gallery:
@@ -15,22 +15,30 @@ gallery:
   - image: fermenteringskarl
     alt: Grönsaker och chili i ett kärl under förädlingsarbetet
 ---
-## Chili i fler sammanhang än på busken
+## Låt chilin ta plats
 
-Skörden kan bli mer än färska chilifrukter. Vi har arbetat med fermenterade såser, marmelader och andra sätt att ta vara på chili tillsammans med grönsaker och frukt.
+Chili är så mycket mer än hetta. Varje sort har sin egen karaktär, och det är den vi vill lyfta fram när skörden blir till något nytt. Frukt, grönsaker och kryddor får möta chilin i produkter där smakerna hör ihop och ingen ingrediens behöver överrösta de andra.
 
-## Marmelader
+## Varje habanero har något eget
 
-Squash, ingefära och chili har varit en kombination i försöken. Även apelsin och mango har fått möta olika habanerotyper. Varje blandning ger en ny fråga om balans mellan frukt, sötma och hetta.
+Habanero har en särskild plats i vårt kök. Red, Lemon och Chocolate får bidra med sina olika nyanser. Vi vill hitta kombinationer som låter varje enskild sort komma fram, med hetta som en del av smaken.
 
-## Chilisåser
+## Marmelader med en annan sida av chili
 
-Här finns flaskor från arbetet med chilisås. Råvaror och styrka varierar mellan satserna; ett sortnamn på en etikett är inte ett uppmätt styrkevärde för den färdiga såsen.
+I en marmelad möter chilin sötma, frukt och syra. Squash, ingefära, apelsin och mango är några av råvarorna vi använder tillsammans med chili. En liten klick kan ge ostbrickan eller en smörgås en ny smak, utan att allt behöver vara lika starkt.
 
-## Andra produkter
+## Såser med egen karaktär
 
-Burken märkt Cowboy candy är ett exempel på ytterligare förädling. Bilderna visar produkter och arbetsmoment; recept och mätvärden hör till respektive sats.
+Såsen kan fånga både chilins smak och dess hetta. Vi arbetar bland annat med fermenterad chili och kombinationer av grönsaker och frukt. Målet är såser som tillför något till maten och där chilin känns igen även när den delar plats med andra råvaror.
 
-## Små satser med tydliga anteckningar
+## Salt, oljor och sötsaker
 
-Vi håller ihop råvaror, datum och arbetsmoment för att kunna utveckla nästa omgång. Det är den praktiska sidan av vår slogan: **odlat med omsorg, förädlat med passion**.
+Planerna sträcker sig vidare till chilisalt, smaksatta oljor, godis och fler sätt att använda chilifrukten. Sött, salt och syrligt öppnar för olika sidor av samma råvara. Det finns många idéer att ta vidare, med chilins skiftande smaker som utgångspunkt.
+
+## Från vår odling till ditt bord
+
+Den egna odlingen och arbetet i köket hör ihop. Vi vill ta vara på den här underbara frukten och skapa sådant som är gott att duka fram, bjuda på och upptäcka tillsammans.
+
+**odlat med omsorg, förädlat med passion**
+
+[Lär känna våra chilisorter](/chilisorter/).
