@@ -42,7 +42,7 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 - Verifierat: GitHub Actions Validate and build https://github.com/mooody/pjrepo/actions/runs/39260913328 avslutades med success, inklusive npm ci, npm run verify och nya SEO-tester. Live-webb och Search Console kunde inte kontrolleras här.
 - Gränser: CMS, OAuth, bildflöde, server, Nginx och produktion har inte ändrats.
 - Dokumentation: PROJECT_RULES.md granskad och oförändrad. SERVER_OPERATIONS.md påverkas inte av detta uppdrag. CMS-förslag och genvägar redovisas i SEO_AUDIT.md.
-- Konfliktlösning 2026-10-20: `main` med produkt-PR #13 integrerat i SEO-grenen. Produkternas webbetiketter, produktfoton och originaletiketter bevaras samtidigt med SEO-titlar och strukturerade brödsmulor. Ny gemensam CI-verifiering inväntas.
+- Konfliktlösning 2026-10-20: `main` med produkt-PR #13 integrerat i SEO-grenen. Produkternas webbetiketter, produktfoton och originaletiketter bevaras samtidigt med SEO-titlar och strukturerade brödsmulor. Kombinerad `Validate and build` godkänd i [körning 39396968276](https://github.com/mooody/pjrepo/actions/runs/39396968276) för mergecommit `fbd67d00`. Därefter endast denna dokumentationsjustering.
 - Status: endast SEO-arbetsgrenen/PR #12; produkternas PR #13 är redan mergad till `main`. Godkännande krävs för SEO-merge och senare manuell deploy.
 
 ## 2026-10-19 – Webbetiketter och produktblad för B2610-5 och B2610-6
