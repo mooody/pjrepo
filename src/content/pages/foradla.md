@@ -1,6 +1,6 @@
 ---
-title: Förädla
-description: Chilins många smaker i såser och marmelader – med idéer om salt, oljor och sötsaker.
+title: Förädling av chili – såser och marmelader
+description: Så förädlar vi chili från egen odling till såser och marmelader där frukt, grönsaker och kryddor lyfter chilins smak.
 draft: false
 image: marmeladgrupp
 gallery:

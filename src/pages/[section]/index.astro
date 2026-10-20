@@ -13,9 +13,16 @@ export async function getStaticPaths() {
 }
 const { section, entries } = Astro.props;
 const tags = [...new Set(entries.flatMap((e) => e.data.tags))].sort();
+const parent = section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
+  : ['beneficials', 'pests', 'methods'].includes(section.collection)
+    ? [{ name: 'Livet i trädgården', href: '/biologisk-odling/' }] : [];
+const breadcrumbs = [
+  { name: 'Startsida', href: '/' }, ...parent,
+  { name: section.title, href: `/${section.path}/` },
+];
 ---
 
-<Base title={section.title} description={section.intro}>
+<Base title={section.title} description={section.intro} breadcrumbs={breadcrumbs}>
   <section class="section" data-result-label={ui.resultLabel}>
     <p class="eyebrow">{ui.searchEyebrow}</p>
     <h1>{section.title}</h1>

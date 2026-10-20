@@ -35,6 +35,16 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 
 ---
 
+## 2026-10-19 – SEO-granskning och grundoptimering
+- Område: SEO i arbetsgren seo/grundoptimering-20261019, inte publicerat.
+- Gjort: bättre sidtitlar/metabeskrivningar, WebSite- och BreadcrumbList-JSON-LD, sociala metataggar, justerat guidetext och interna länkar för chiliodling och bladlöss.
+- Filer: src/layouts/Base.astro, flera Astro-rutter, befintligt innehåll och src/data/sections.json, tests/seo.test.mjs och docs/SEO_AUDIT.md.
+- Verifierat: GitHub Actions Validate and build https://github.com/mooody/pjrepo/actions/runs/39260913328 avslutades med success, inklusive npm ci, npm run verify och nya SEO-tester. Live-webb och Search Console kunde inte kontrolleras här.
+- Gränser: CMS, OAuth, bildflöde, server, Nginx och produktion har inte ändrats.
+- Dokumentation: PROJECT_RULES.md granskad och oförändrad. SERVER_OPERATIONS.md påverkas inte av detta uppdrag. CMS-förslag och genvägar redovisas i SEO_AUDIT.md.
+- Konfliktlösning 2026-10-20: `main` med produkt-PR #13 integrerat i SEO-grenen. Produkternas webbetiketter, produktfoton och originaletiketter bevaras samtidigt med SEO-titlar och strukturerade brödsmulor. Kombinerad `Validate and build` godkänd i [körning 39396968276](https://github.com/mooody/pjrepo/actions/runs/39396968276) för mergecommit `fbd67d00`. Därefter endast denna dokumentationsjustering.
+- Status: endast SEO-arbetsgrenen/PR #12; produkternas PR #13 är redan mergad till `main`. Godkännande krävs för SEO-merge och senare manuell deploy.
+
 ## 2026-10-19 – Webbetiketter och produktblad för B2610-5 och B2610-6
 - Område: produktarkiv 2026, bilder och text på en separat arbetsgren.
 - Genomfört: sex produkter i katalogen, inklusive ny produktsida för Röd Glöd (B2610-5) och Ghost (B2610-6). Översikten använder sex nya illustrerade webbetiketter, medan originaletiketterna visas på produktsidorna.
@@ -43,7 +53,7 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 - Berörda filer: `src/content/products/rod-glod.md`, `src/content/products/ghost.md`, `src/pages/produkter-2026/index.astro`, `src/pages/produkter-2026/[slug].astro`, `tests/products.test.mjs`, tio filer under `public/product-images`, samt dokumentation.
 - Verifiering: WebP-header och Git blob-SHA för tillagt produktfoto kontrollerade lokalt. `Validate and build` för commit `d897260a` godkänd i GitHub Actions-körning [39390925643](https://github.com/mooody/pjrepo/actions/runs/39390925643). Denna logguppdatering är dokumentation och får en ny kontrollkörning.
 - Dokumentation: `docs/products-2026.md` uppdaterad. `docs/PROJECT_RULES.md` granskad och oförändrad; CMS-arkitektur, säkerhet, deployment och serverkonfiguration oförändrade.
-- Status: endast arbetsgren/PR. Varken `main`, preview eller STRATO-produktion publiceras genom detta uppdrag. Granskning och eventuell senare merge kräver godkännande.
+- Status 2026-10-20: produkt-PR #13 mergad till `main` i commit `2e72f49b`; GitHub Actions `Validate and build` och GitHub Pages-preview godkända för den commiten. Separat STRATO-publicering av denna produktversion har inte utförts.
 
 ## 2026-10-19 – Vår historia och chilins smaker
 - Område/miljö: publikt innehåll, bildtexter och presentation; separat arbetsgren.

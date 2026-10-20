@@ -13,9 +13,14 @@ export async function getStaticPaths() {
 }
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+const breadcrumbs = [
+  { name: 'Startsida', href: '/' },
+  ...(['chilifortplantning', 'chiliarter'].includes(entry.id) ? [{ name: 'Chili', href: '/chili/' }] : []),
+  { name: entry.data.title, href: `/${entry.id}/` },
+];
 ---
 
-<Base title={entry.data.title} description={entry.data.description}>
+<Base title={entry.data.title} description={entry.data.description} breadcrumbs={breadcrumbs}>
   <article class="section detail">
     <p class="eyebrow">{settings.name}</p>
     <h1>{entry.data.title}</h1>

@@ -7,7 +7,7 @@ import { published, hrefFor } from '../lib/content';
 import { sitePath } from '../lib/urls';
 const chili = (await published('chilies')).filter(e => home.featuredChilies.includes(e.id));
 ---
-<Base>
+<Base title="Chiliodling, chilisorter och förädling" description="Lär känna chilisorter och chiliodling i Sverige. Upptäck biologiskt växtskydd, nyttodjur och hur vi förädlar egen chili till såser och marmelader.">
   <section class="hero section">
     <div>
       <p class="eyebrow">{home.eyebrow}</p>

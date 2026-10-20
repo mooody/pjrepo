@@ -1,7 +1,7 @@
 ---
 {
   "title": "Guldögonsländor",
-  "description": "En introduktion till naturliga fiender och deras roll i odlingen.",
+  "description": "Guldögonsländor är nyttodjur i trädgården. Lär dig känna igen dem och förstå hur larver hos flera arter äter bladlöss och andra små insekter.",
   "draft": false,
   "scientificName": "Chrysopidae",
   "tags": [
