@@ -7,7 +7,7 @@ Produktarkivet finns på `/produkter-2026/` och består av sex produkter, inklus
 - På **översiktssidan** visas respektive produkts färgillustrerade webbetikett. De sex filnamnen och sökvägarna är samlade i `overviewImages` i `src/pages/produkter-2026/index.astro`.
 - På **detaljsidan** hämtas produktbild och riktig etikett ur Markdown-filens fält `productImage` respektive `labelImage`. De befintliga fyra produkternas riktiga etiketter är oförändrade.
 - Alla etiketter visas med bevarad text, proportioner och utformning. Inga nya vattenstämplar har lagts till. Optimerade bilder är enskilda WebP-filer under `public/product-images/`.
-- **B2610-5 Röd Glöd:** produktfotografi saknas i den angivna Drive-mappen vid granskning 2026-10-19. Den illustrerade webbetiketten används även som tillfällig huvudbild på detaljsidan. När fotot finns uppdateras endast `productImage` och `productImageAlt` samt en ny optimerad bildfil; originaletiketten behålls.
+- **B2610-5 Röd Glöd:** produktfotot `röd-glöd-B2610-5.png` hämtades från Drive 2026-10-20 och exporterades till `public/product-images/rod-glod-foto.webp` (1200 × 1200 px, 209 kB). Det visas nu som huvudbild på detaljsidan. Webbetiketten används fortfarande enbart på översiktssidan, och originaletiketten på detaljsidan.
 - **B2610-6 Ghost:** produktfoto, illustrerad webbetikett och riktig etikett finns med.
 
 ## Nya produkter

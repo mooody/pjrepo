@@ -7,7 +7,7 @@ const products = [
   {slug:'habanero-chocolate',photo:'habanero-chocolate-foto.webp'},
   {slug:'sotsyrliga-jalapenos',photo:'sotsyrliga-jalapenos-foto.webp'},
   {slug:'tradgardseld',photo:'tradgardseld-foto.webp'},
-  {slug:'rod-glod',photo:'rod-glod-webbetikett.webp'}, // Produktfoto saknas i Drive ännu.
+  {slug:'rod-glod',photo:'rod-glod-foto.webp'},
   {slug:'ghost',photo:'ghost-foto.webp'}
 ];
 
@@ -19,8 +19,9 @@ test('produktarkivet 2026 har sex produktsidor med varsin originaletikett', asyn
     const page=await readFile('dist/produkter-2026/'+slug+'/index.html','utf8');
     assert.ok(page.includes(photo),'produktbild/illustration saknas: '+slug);
     assert.ok(page.includes(slug+'-etikett.webp'),'originaletikett saknas: '+slug);
-    assert.ok(!page.includes('src="/product-images/'+slug+'-webbetikett.webp"') || slug==='rod-glod',
-      'webbetikett använd på annan detaljsida: '+slug);
+    const hero = page.match(/<figure class="product-hero-image">([\s\S]*?)<\/figure>/)?.[1] ?? '';
+    assert.ok(hero.includes(photo), 'rätt foto saknas i detaljsidans huvudbild: '+slug);
+    assert.ok(!hero.includes(slug+'-webbetikett.webp'), 'webbetikett används felaktigt som huvudbild: '+slug);
   }
 });
 

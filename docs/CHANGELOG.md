@@ -38,10 +38,10 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 ## 2026-10-19 – Webbetiketter och produktblad för B2610-5 och B2610-6
 - Område: produktarkiv 2026, bilder och text på en separat arbetsgren.
 - Genomfört: sex produkter i katalogen, inklusive ny produktsida för Röd Glöd (B2610-5) och Ghost (B2610-6). Översikten använder sex nya illustrerade webbetiketter, medan originaletiketterna visas på produktsidorna.
-- Bilder: nio separata, optimerade WebP-filer från Drive; inga fotografiska original incheckade i GitHub, ingen ytterligare vattenstämpel. Originaltexter och etiketter oförändrade.
-- Avvikelse: Drive-mappen innehöll 2026-10-19 ingen separat produktbild för Röd Glöd. Webbetiketten används som tydligt märkt tillfällig huvudbild på detaljsidan. Produktfoto återstår.
-- Berörda filer: `src/content/products/rod-glod.md`, `src/content/products/ghost.md`, `src/pages/produkter-2026/index.astro`, `src/pages/produkter-2026/[slug].astro`, `tests/products.test.mjs`, nio filer under `public/product-images`, samt dokumentation.
-- Verifiering: WebP-header och Git blob-SHA verifierade lokalt för nio filer. GitHub Actions `Validate and build` kontrolleras i pull request.
+- Bilder: tio separata, optimerade WebP-filer från Drive (inklusive Röd Glöds produktfoto tillagt 2026-10-20); inga fotografiska original incheckade i GitHub, ingen ytterligare vattenstämpel. Originaltexter och etiketter oförändrade.
+- Uppföljning 2026-10-20: `röd-glöd-B2610-5.png` hittades i Drive-mappen och ersätter den tillfälliga illustrerade webbetiketten som huvudbild på Röd Glöds detaljsida. Optimerad fil `rod-glod-foto.webp` 1200 × 1200 px (209 kB).
+- Berörda filer: `src/content/products/rod-glod.md`, `src/content/products/ghost.md`, `src/pages/produkter-2026/index.astro`, `src/pages/produkter-2026/[slug].astro`, `tests/products.test.mjs`, tio filer under `public/product-images`, samt dokumentation.
+- Verifiering: befintlig PR-byggning godkänd 2026-10-20 före sista fotot; WebP-header och Git blob-SHA för det tillagda fotot kontrollerade lokalt. Ny `Validate and build` körs efter fototillägget; resultat måste kontrolleras innan merge.
 - Dokumentation: `docs/products-2026.md` uppdaterad. `docs/PROJECT_RULES.md` granskad och oförändrad; CMS-arkitektur, säkerhet, deployment och serverkonfiguration oförändrade.
 - Status: endast arbetsgren/PR. Varken `main`, preview eller STRATO-produktion publiceras genom detta uppdrag. Granskning och eventuell senare merge kräver godkännande.
 
