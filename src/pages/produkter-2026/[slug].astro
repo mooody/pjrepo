@@ -8,6 +8,7 @@ export async function getStaticPaths() {
 }
 const { entry } = Astro.props;
 const product = entry.data;
+const usesLabelArtwork = product.productImage.endsWith('-webbetikett.webp');
 const { Content } = await render(entry);
 const breadcrumbs = [
   { name: 'Startsida', href: '/' },
@@ -23,7 +24,7 @@ const breadcrumbs = [
     <p class="lead">{product.description}</p>
     <figure class="product-hero-image">
       <img src={sitePath(product.productImage)} alt={product.productImageAlt} fetchpriority="high" decoding="async" />
-      <figcaption>Produktbild · {product.title}</figcaption>
+      <figcaption>{usesLabelArtwork ? 'Illustrerad webbetikett' : 'Produktbild'} · {product.title}</figcaption>
     </figure>
     <div class="product-description prose"><Content /></div>
     <section class="product-label-section" aria-labelledby="product-label-title">

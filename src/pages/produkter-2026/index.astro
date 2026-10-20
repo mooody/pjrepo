@@ -2,6 +2,16 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { sitePath } from '../../lib/urls';
+// Endast katalogens kort använder illustrerade webbetiketter.
+// Originaletiketten kommer fortsatt från produktens labelImage på detaljsidan.
+const overviewImages: Record<string, string> = {
+  "habanero-lemon": "/product-images/habanero-lemon-webbetikett.webp",
+  "habanero-chocolate": "/product-images/habanero-chocolate-webbetikett.webp",
+  "sotsyrliga-jalapenos": "/product-images/sotsyrliga-jalapenos-webbetikett.webp",
+  "tradgardseld": "/product-images/tradgardseld-webbetikett.webp",
+  "rod-glod": "/product-images/rod-glod-webbetikett.webp",
+  "ghost": "/product-images/ghost-webbetikett.webp"
+};
 const products = (await getCollection('products', ({data}) => !data.draft && data.year === 2026))
   .sort((a,b)=>a.data.order-b.data.order || a.data.title.localeCompare(b.data.title, 'sv'));
 ---
@@ -14,7 +24,7 @@ const products = (await getCollection('products', ({data}) => !data.draft && dat
       {products.map(product => (
         <a class="product-card" href={sitePath('/produkter-2026/' + product.id + '/')}>
           <div class="product-card-label">
-            <img src={sitePath(product.data.labelImage)} alt={'Etikett för ' + product.data.title} loading="lazy" decoding="async" />
+            <img src={sitePath(overviewImages[product.id] ?? product.data.labelImage)} alt={'Etikett för ' + product.data.title} loading="lazy" decoding="async" />
           </div>
           <div class="product-card-content">
             <p class="eyebrow">{product.data.category} · {product.data.batch}</p>

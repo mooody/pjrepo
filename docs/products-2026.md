@@ -1,11 +1,23 @@
 # Produkter 2026
 
-- Menyvalet Produkter 2026 visar etiketter, kort information och länkar till individuella produktsidor på /produkter-2026/.
-- Varje produktsida visar produktfoto, komplett originaletikett, kategori och satsnummer.
-- Produktdata ligger som Markdown-filer i src/content/products/. Kopiera _mall.md.example till ny-produkt.md när du vill skapa en ny produkt.
-- Bilderna på webben är fristående optimerade WebP-filer i public/product-images/ med -foto.webp och -etikett.webp per produkt.
-- Engångsimporten i scripts/optimize-product-images.mjs använder Sharp utan att lägga till vattenstämpel eller ändra etiketttexten. Etiketter sparas med kvalitet 95 för läsbarhet och fotografier med kvalitet 84.
-- Två tidigare delade Base64-etiketter återställs till kompletta PNG i minnet, sedan exporteras de till enskilda WebP-bilder. Den tillfälliga originalkatalogen tas bort från arbetsbranchen efter lyckad import. Originalen ligger kvar på Google Drive. GitHub-historiken kan fortfarande innehålla tidigare filer.
-- Decap CMS får en produktsamling med textfält och bildvägar; full CMS-inloggning väntar på separat OAuth-konfiguration.
-- Detta är ännu inte en webbshop. Inga priser, orderfunktioner eller betalningar finns.
-- Förändringarna hålls i feature/produkter-2026 tills de har testats. STRATO publiceras separat och manuellt.
+Produktarkivet finns på `/produkter-2026/` och består av sex produkter, inklusive Röd Glöd (B2610-5) och Ghost (B2610-6).
+
+## Visning
+
+- På **översiktssidan** visas respektive produkts färgillustrerade webbetikett. De sex filnamnen och sökvägarna är samlade i `overviewImages` i `src/pages/produkter-2026/index.astro`.
+- På **detaljsidan** hämtas produktbild och riktig etikett ur Markdown-filens fält `productImage` respektive `labelImage`. De befintliga fyra produkternas riktiga etiketter är oförändrade.
+- Alla etiketter visas med bevarad text, proportioner och utformning. Inga nya vattenstämplar har lagts till. Optimerade bilder är enskilda WebP-filer under `public/product-images/`.
+- **B2610-5 Röd Glöd:** produktfotot `röd-glöd-B2610-5.png` hämtades från Drive 2026-10-20 och exporterades till `public/product-images/rod-glod-foto.webp` (1200 × 1200 px, 209 kB). Det visas nu som huvudbild på detaljsidan. Webbetiketten används fortfarande enbart på översiktssidan, och originaletiketten på detaljsidan.
+- **B2610-6 Ghost:** produktfoto, illustrerad webbetikett och riktig etikett finns med.
+
+## Nya produkter
+
+- Kopiera `src/content/products/_mall.md.example` till `src/content/products/<slug>.md` och ange fält enligt befintligt schema.
+- Lägg färdiga, optimerade bilder i `public/product-images/` och ange bildvägar i produktens Markdown. Ställ `draft: true` tills innehållet är granskat.
+- Lägg till katalogens illustrerade webbetikett i `overviewImages` på översiktssidan. Detta påverkar inte CMS-fält eller originaletiketter.
+- Bildoriginal förvaras i Google Drive, inte i GitHub. Enbart webbanpassade WebP-filer är incheckade.
+- Framöver kan produktinformationen byggas ut för webbshop, men katalogen har inga beställningar, priser eller betalningar nu.
+
+## Publicering och kontroll
+
+Ändringar utvecklas i separat branch och PR. Byggning och tester görs i `Validate and build`. Ingen uppdatering av STRATO-produktion ingår; produktionen använder separat manuellt publiceringsworkflow.
