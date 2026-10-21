@@ -5,6 +5,16 @@
 **Mall för varje ny ändring:**
 
 ```md
+
+## 2026-10-21 – Tre korta trädgårdsguider om jord, täckodling och mångfald
+- Område/miljö: redaktionellt innehåll i befintlig CMS-samling `methods`; arbetsgren `content/jord-tackodling-mangfald-20261021`.
+- Genomfört i arbetsgren: tidigare korta utkast i `src/content/methods/jord-och-kompost.md`, `tackodling.md` och `biologisk-mangfald.md` har byggts ut med lättlästa, praktiska introduktioner. Jordtexten beskriver sand, silt, lera och markliv; täckodlingstexten tar upp material, effekter och begränsningar; mångfaldstexten behandlar säsongsblomning, livsmiljöer och övervintring.
+- Fakta: genomgång med RHS, SLU, Naturvårdsverket och Jordbruksverket. Källor och interna korslänkar lagda i befintliga fält. Samtliga tre är fortsatt `draft: true` tills användaren godkänt bearbetning/publicering.
+- Dokumentation: `docs/PROJECT_RULES.md` och `AGENTS.md` granskade; reglerna behöver inte ändras. CMS-konfiguration, struktur, menyer, bildflöde och serverdrift oförändrade.
+- Verifiering: frontmatter och länkmål kontrollerade mot befintligt schema/kataloger; GitHub Actions-verifiering följs upp i PR. Inget server- eller produktionstest utfört.
+- Publicering: endast arbetsgren/PR; ej `main`, preview eller produktion.
+- Återstår: redaktionell granskning, eventuella bilder och slutredigering. Arbete med skadedjur/nyttodjur samt separat tidigare artikel tas senare. Observera att öppen dokumentations-PR #14 också rör `docs/CHANGELOG.md`, vilket kan behöva avstämmas vid framtida merge.
+
 ## 2026-10-19 – Chilins arter och lättlästa styrkebeskrivningar
 - Genomfört: ny artikel `src/content/pages/chiliarter.md` med de fem stora odlade arterna och 38 vilda arter enligt Barboza med flera (2022). Länkad från Chili.
 - Genomfört: tio sortsidor har fått lättlästa styrkebeskrivningar; ungefärliga SHU anges där underlaget räcker, annars beskrivande ord och befintlig leverantörsskala. Källspecifika testförbehåll borttagna ur lästexten. En gemensam förklaring om variation och SHU finns i sortöversikten. Styrkan visas även på sortkorten.
