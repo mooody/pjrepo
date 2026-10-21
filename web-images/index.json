@@ -939,6 +939,231 @@
           }
         ]
       }
+    },
+    {
+      "id": "odlingslott-jord",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "odlingslott-jord-full-480.webp",
+            "width": 480,
+            "height": 480
+          },
+          {
+            "file": "odlingslott-jord-full-800.webp",
+            "width": 800,
+            "height": 800
+          }
+        ],
+        "card": [
+          {
+            "file": "odlingslott-jord-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "odlingslott-jord-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "odlingslott-jord-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "odlingslott-jord-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "jordrulle-test",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "jordrulle-test-full-480.webp",
+            "width": 480,
+            "height": 480
+          },
+          {
+            "file": "jordrulle-test-full-800.webp",
+            "width": 800,
+            "height": 800
+          }
+        ],
+        "card": [
+          {
+            "file": "jordrulle-test-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "jordrulle-test-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "jordrulle-test-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "jordrulle-test-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "tackodling-genomskarning",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "tackodling-genomskarning-full-480.webp",
+            "width": 480,
+            "height": 480
+          },
+          {
+            "file": "tackodling-genomskarning-full-800.webp",
+            "width": 800,
+            "height": 800
+          }
+        ],
+        "card": [
+          {
+            "file": "tackodling-genomskarning-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "tackodling-genomskarning-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "tackodling-genomskarning-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "tackodling-genomskarning-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "mangfald-stubbe",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "mangfald-stubbe-full-480.webp",
+            "width": 480,
+            "height": 480
+          },
+          {
+            "file": "mangfald-stubbe-full-800.webp",
+            "width": 800,
+            "height": 800
+          }
+        ],
+        "card": [
+          {
+            "file": "mangfald-stubbe-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "mangfald-stubbe-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "mangfald-stubbe-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "mangfald-stubbe-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "mangfald-nyttodjur",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "mangfald-nyttodjur-full-480.webp",
+            "width": 480,
+            "height": 400
+          },
+          {
+            "file": "mangfald-nyttodjur-full-800.webp",
+            "width": 800,
+            "height": 667
+          }
+        ],
+        "card": [
+          {
+            "file": "mangfald-nyttodjur-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "mangfald-nyttodjur-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "mangfald-nyttodjur-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "mangfald-nyttodjur-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
     }
   ]
 }

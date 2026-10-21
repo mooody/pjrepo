@@ -28,30 +28,48 @@
       "label": "Täckodling",
       "href": "/odlingsmetoder/tackodling/"
     }
+  ],
+  "image": "odlingslott-jord",
+  "imageAlt": "Höstbearbetad odlingslott med växtlighet och jord",
+  "gallery": [
+    {
+      "image": "jordrulle-test",
+      "alt": "En fuktig jordsträng rullad i handflatan för att uppskatta lerinnehållet"
+    }
   ]
 }
 ---
 
-Jord är mer än något vi sätter plantorna i. Den ska ge rötterna fäste, vatten, luft och näring. Hur den fungerar beror bland annat på **sand, silt, lera och organiskt material**. De flesta trädgårdsjordar är blandningar – och olika delar av samma trädgård kan skilja sig åt.
+Jord är mer än något vi sätter plantorna i. **Växterna behöver vatten, näring och stöd för rötterna** – men rötterna behöver också syre för att fungera. En bra odlingsjord ska därför kunna hålla kvar lagom mycket vatten och samtidigt släppa fram luft.
+
+Hur jorden fungerar beror bland annat på hur mycket **sand, silt och lera** den innehåller. De flesta trädgårdsjordar är blandningar. Även inom samma odlingslott kan jorden skilja sig åt.
 
 ## Vilken jord har du?
 
-- **Sandjord** känns grynig och faller lätt isär i handen. Vatten rinner snabbt igenom och jorden värms ofta tidigt på våren, men torkar också fort. Tillför återkommande kompost och använd gärna ett organiskt marktäcke för att hålla kvar fukten.
-- **Siltjord** har finare partiklar än sand och kan kännas mjölig eller len när den är fuktig. Den håller mer vatten än sandjord, men packas och får lätt en hård yta. Undvik onödig trampning och skydda ytan med växter eller täckmaterial.
-- **Lerjord** är klibbig när den är våt och kan formas till en sammanhängande rulle. Den binder ofta både vatten och näring, men kan bli syrefattig, tungarbetad och långsam att värma upp. Arbeta inte leran när den är blöt. Kompost, växtrötter och varsam bearbetning hjälper jordstrukturen över tid.
+- **Sandjord** känns grynig och faller lätt isär. Den är ofta lätt att arbeta och släpper snabbt igenom vatten. Nackdelen är att den torkar fort och att lösta näringsämnen lättare kan sköljas bort. Tillför organiskt material och ge hellre näring i mindre omgångar än allt på en gång.
+- **Siltjord** känns ofta len eller mjölig mellan fingrarna. Den kan hålla vatten bättre än sand, men är känslig för packning och felaktig bearbetning. Om ytan slammar igen och torkar till en hård **skorpa** får både regnvatten och späda groddar svårare att ta sig igenom. Undvik att gå på eller bearbeta jorden när den är blöt, och skydda gärna ytan.
+- **Lerjord** blir klibbig när den är våt och kan ofta rullas till en sammanhängande sträng. Den har god förmåga att binda vatten och näring, men en kompakt och blöt lerjord får för lite luft. Då får rötterna svårt att trivas. Vänta tills den är lagom torr innan du bearbetar den och förbättra strukturen varsamt, bland annat med organiskt material och växtrötter.
 
-**Mull** är organiskt material i olika nedbrytningsstadier, inte ytterligare en mineralpartikelstorlek. Det kan förbättra jordens egenskaper oavsett om marken är sandig, siltig eller lerig. Att tillföra lite sand gör däremot inte automatiskt en tung lerjord lättare.
+**Mull** är nedbrutet organiskt material, inte en särskild storlek på mineraljordens korn. Organiskt material kan förbättra strukturen i alla tre jordtyperna. Att blanda ned lite sand i tung lera är däremot sällan någon enkel lösning.
 
 ## Det levande livet under fötterna
 
-I en frisk jord arbetar **bakterier, svampar, daggmaskar och många andra små organismer**. De bryter ned växtrester, omsätter näring och bidrar till en struktur där vatten och luft kan nå rötterna. Daggmaskarnas gångar hjälper dessutom jorden att släppa igenom vatten.
+I jorden arbetar bakterier, svampar, daggmaskar och mängder av andra små organismer. De hjälper till att bryta ned växtrester, omsätta näring och skapa gångar och små hålrum där luft och vatten kan röra sig.
 
-Vi behöver inte tillsätta något mystiskt för att börja gynna marklivet. Ge det mat i form av organiskt material, låt gärna levande rötter finnas i jorden stora delar av året och undvik att packa marken. Lagom fukt och tillgång till luft är också viktiga förutsättningar.
+En del svampar lever dessutom i samarbete med växternas rötter. Det kallas **mykorrhiza**: svampen kan hjälpa växten att nå bland annat näring, medan växten förser svampen med socker från fotosyntesen.
 
-## Ett enkelt sätt att börja
+Ett enkelt sätt att hjälpa marklivet är att tillföra växtmaterial, undvika onödig packning och låta jorden ha en jämn, men inte vattenmättad, fuktighet. Vi återkommer till jordens mikroliv i en egen, mer fördjupande artikel.
 
-Ta upp en näve lätt fuktig jord. Känn om den är **grynig, len eller formbar**. Se sedan vad som händer efter ett ordentligt regn: blir vattnet stående eller försvinner det snabbt? Det ger ledtrådar, inte en säker laboratoriebestämd jordart.
+## Ett enkelt sätt att börja – rulltestet
+
+Du behöver inte börja med ett laboratorium. Ett **rulltest** ger en första fingervisning om jordens egenskaper:
+
+1. Ta lite jord och plocka bort större stenar och rötter. Fukta den så att den går att forma, utan att bli kladdig och rinnande.
+2. Försök rulla jorden mellan handflatorna till en jämn sträng. Går den sönder direkt eller håller den ihop?
+3. Prova att rulla den tunnare. **En sammanhängande, tunn rulle på några millimeter** tyder ofta på att det finns en del lera. Om den bara håller som en tjock, smulig korv är jorden ofta grövre eller mindre sammanhållande.
+
+Sandjord vill ofta falla isär, medan lerhaltig jord vanligen går lättare att forma. Silt kan också formas när den är lagom fuktig, så rulltestet är **ingen säker jordartsbestämning**. Känn även efter om jorden är grynig, mjölig eller klibbig. Fundera också på vad som händer efter regn: blir vatten stående eller försvinner det snabbt?
 
 **Grundtanken:** försök inte byta ut hela din jord. Lär känna den och förbättra det som faktiskt begränsar odlingen.
 
-Läs vidare om [täckodling](/odlingsmetoder/tackodling/).
+Läs vidare om [täckodling](/odlingsmetoder/tackodling/) och [biologisk mångfald](/odlingsmetoder/biologisk-mangfald/).

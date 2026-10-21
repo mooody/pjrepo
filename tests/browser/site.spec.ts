@@ -104,6 +104,25 @@ test('trädgårdsguiderna visas under Livet i trädgården', async ({ page }) =>
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
 });
 
+test('trädgårdsguiderna har rätt brödsmulor och publicerade bilder', async ({ page }) => {
+  for (const [slug, primary] of [
+    ['jord-och-kompost', 'odlingslott-jord'],
+    ['tackodling', 'tackodling-genomskarning'],
+    ['biologisk-mangfald', 'mangfald-stubbe'],
+  ]) {
+    await page.goto('/odlingsmetoder/' + slug + '/');
+    const crumbs = page.getByRole('navigation', { name: 'Brödsmulor' });
+    const href = await crumbs.getByRole('link', { name: 'Livet i trädgården' }).getAttribute('href');
+    expect(href?.endsWith('/biologisk-odling/')).toBe(true);
+    await expect(crumbs).not.toContainText('Chiliodling och växtskydd');
+    const src = await page.locator('article.detail img').first().getAttribute('src');
+    expect(src?.endsWith('/media/' + primary + '-full-800.webp')).toBe(true);
+    await expect(page.getByRole('link', { name: '← Livet i trädgården' })).toBeVisible();
+  }
+  await page.goto('/biologisk-odling/');
+  await expect(page.locator('article.topic img')).toHaveCount(3);
+});
+
 test('admin initierar CMS med konfigurerad OAuth-förmedlare', async ({ page }) => {
   // Kontrollera bootstrap utan att genomföra riktig GitHub OAuth-inloggning.
   await page.route('**/admin/vendor/decap-cms.js', (route) =>

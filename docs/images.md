@@ -22,3 +22,9 @@ Odlingslotten, chiliplantan utan säker sortetikett, fermenteringskärlet, såsf
 ## Redaktionella bildtexter – 21 oktober 2026
 
 Bildtexter för chilisorterna beskriver motivet kort, utan formuleringar om att sorten är bekräftad av odlaren. Detta ändrar bara texten i manifestet; bild-ID:n, exportfiler, vattenstämplar och bildhantering är oförändrade.
+
+## Trädgårdsguider – bearbetade bilder 21 oktober 2026
+
+Fem nya bilder till jord, täckodling och biologisk mångfald har exporterats genom samma skyddade arbetsprincip som övriga egna bilder: endast bearbetade och vattenstämplade WebP-filer i `web-images/`, manifestposter med tomt `source`, och bildvariantindex med befintlig vattenstämpel. Fotografiska användaroriginal har inte lagts i GitHub. Publicerade bildvarianter har anpassats till full-, kort-, huvud- och delningsformat. Dokumentationen innebär ingen ändring av kod i `scripts/images.mjs` eller CMS.
+
+Bilder från odlingslotten och jordrullen är bearbetningar av egna foton, medan jordgenomskärningen och mångfaldsöversikten är pedagogiska illustrationer. Stubbmiljön är en digital bearbetning, inte en dokumentär registrering av arterna i bilden. Infografikens förenklade illustrationer används inte som artbestämningsbevis.

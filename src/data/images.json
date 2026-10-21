@@ -203,6 +203,66 @@
       "license": "Fri användning med bibehållen vattenstämpel",
       "licenseUrl": "",
       "position": "centre"
+    },
+    {
+      "id": "odlingslott-jord",
+      "alt": "Höstbearbetad odlingslott med jordyta och träd i bakgrunden",
+      "caption": "Odlingslotten på hösten. Fotot är digitalt bearbetat.",
+      "kind": "photo",
+      "source": "",
+      "ownership": "own",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
+    },
+    {
+      "id": "jordrulle-test",
+      "alt": "Jordig handflata med en rullad jordsträng som visar ett enkelt rulltest",
+      "caption": "Rulltest av jord: en sammanhängande rulle kan tyda på större lerinnehåll. Bilden är bearbetad.",
+      "kind": "photo",
+      "source": "",
+      "ownership": "own",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
+    },
+    {
+      "id": "tackodling-genomskarning",
+      "alt": "Illustrerad genomskärning av marktäcke, växtrötter, maskar, svamptrådar och jord",
+      "caption": "Pedagogisk illustration av vad som kan finnas under ett organiskt marktäcke.",
+      "kind": "photo",
+      "source": "",
+      "ownership": "own",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
+    },
+    {
+      "id": "mangfald-stubbe",
+      "alt": "Blommande och välskött trädgårdshörn med murken stubbe vid prydliga plattor",
+      "caption": "En illustrativt bearbetad trädgårdsmiljö där död ved ryms i en välskött trädgård.",
+      "kind": "photo",
+      "source": "",
+      "ownership": "own",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
+    },
+    {
+      "id": "mangfald-nyttodjur",
+      "alt": "Översiktsillustration av livsmiljöer och nyttodjur i en artrik trädgård",
+      "caption": "Bearbetad schematisk översikt över olika livsmiljöer i trädgården; illustration, inte artbestämningsnyckel.",
+      "kind": "photo",
+      "source": "",
+      "ownership": "own",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
     }
   ]
 }

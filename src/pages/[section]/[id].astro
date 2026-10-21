@@ -19,21 +19,31 @@ export async function getStaticPaths() {
 const { section, entry } = Astro.props;
 const d = entry.data;
 const isChili = section.collection === 'chilies';
+const directGardenGuides = section.collection === 'methods' && ['jord-och-kompost', 'tackodling', 'biologisk-mangfald'].includes(entry.id);
 const { Content } = await render(entry);
 const parent = section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
   : ['beneficials', 'pests', 'methods'].includes(section.collection)
     ? [{ name: 'Livet i trädgården', href: '/biologisk-odling/' }] : [];
 const breadcrumbs = [
   { name: 'Startsida', href: '/' }, ...parent,
-  { name: section.title, href: `/${section.path}/` },
+  ...(!directGardenGuides ? [{ name: section.title, href: `/${section.path}/` }] : []),
   { name: d.title, href: `/${section.path}/${entry.id}/` },
 ];
 ---
 
 <Base title={d.title} description={d.description} breadcrumbs={breadcrumbs}>
   <article class="section detail">
-    <a class="text-link" href={sitePath(`/${section.path}/`)}>
-      ← {section.title}
+    {directGardenGuides && (
+      <nav class="article-breadcrumbs" aria-label="Brödsmulor">
+        <a href={sitePath('/')}>Startsida</a>
+        <span aria-hidden="true">›</span>
+        <a href={sitePath('/biologisk-odling/')}>Livet i trädgården</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">{d.title}</span>
+      </nav>
+    )}
+    <a class="text-link" href={sitePath(directGardenGuides ? '/biologisk-odling/' : `/${section.path}/`)}>
+      ← {directGardenGuides ? 'Livet i trädgården' : section.title}
     </a>
     <header>
       <p class="eyebrow">

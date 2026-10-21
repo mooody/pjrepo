@@ -623,3 +623,10 @@ footer a {
 .chili-overview-grid .card h2 { font-size:clamp(1.6rem,2.5vw,2.4rem); }
 .chili-overview-grid .card-body { padding:2rem; }
 .chili-overview-grid .card-body p { margin-bottom:0; }
+
+/* Visible breadcrumbs for the three direct guides under Livet i trädgården. */
+.article-breadcrumbs { display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;color:var(--sand);font-size:.88rem;margin:0 0 1.2rem; }
+.article-breadcrumbs a { color:var(--sand); }
+.article-breadcrumbs span[aria-current] { color:#f5eddf; }
+.topic figure { margin:0 0 1rem; }
+.topic figure img { width:100%;height:auto;border-radius:4px; }

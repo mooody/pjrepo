@@ -2,6 +2,17 @@
 
 **Omfattning:** ändringar av innehåll, kod, CMS, bilder, GitHub-workflows, OAuth, server, DNS, certifikat och publicering. Lägg en tydlig post per uppdrag/PR även när ändringen bara gäller innehåll. Granska samtidigt [PROJECT_RULES.md](PROJECT_RULES.md) och relevant dokumentation; uppdatera dem när beskrivningen eller reglerna påverkas.
 
+
+## 2026-10-21 – Fördjupade trädgårdsguider och bilder under Livet i trädgården
+- Syfte: vidareutveckla de tre befintliga, publiceringsbara guiderna med jordarters svagheter och rulltest, täckmaterial och svampliv, nyttodjurens relation till skadedjur samt visuellt material.
+- Genomfört i arbetsgren `content/tradgardsguider-bilder-och-brodsmulor-20261021`: uppdaterade tre `src/content/methods/*.md`-artiklar i befintlig samling och utan ändrade sluggar. Rulltest och jordens vatten-/luft-/näringsfunktion förklaras med stöd av eget utbildningsmaterial i Drive (ej offentlig källa) och befintliga externa källor. Halmens kol/kvävebalans, häckklipp och samspel mellan markfukt, mycel och levande rötter förtydligas.
+- Bilder: fem utvalda, redigerade/illustrerade motiv i full-, kort-, huvud- och delningsformat; 30 vattenstämplade WebP-filer, fem bild-ID:n i `src/data/images.json` och fem exportposter i `web-images/index.json`. Inga användaroriginal publicerade. Bildernas bearbetade/illustrativa karaktär framgår av bildtexterna. Befintlig bildpipeline och CMS oförändrade.
+- Navigering: tre artiklar får synliga brödsmulor och samma strukturerade BreadcrumbList: Startsida → Livet i trädgården → artikeln. De behåller befintliga URL:er under `/odlingsmetoder/` och tidigare interna länkar. Startsidan för Livet i trädgården visar deras befintliga kortbilder. Ingen huvudmeny eller samlingsstruktur ändrad.
+- Verifierat: nytt Playwright-test för brödsmulor, artikelbilder och kortbilder samt samtliga befintliga valideringar. GitHub Actions `Validate and build` [39582001842](https://github.com/mooody/pjrepo/actions/runs/39582001842) godkänd för kodcommit `cf017889`, inklusive `npm ci`, `npm run verify`, Astro-byggning, Node-tester och webbläsartester. Därefter ändras endast dokumentationen i denna post.
+- Dokumentation: `docs/PROJECT_RULES.md` och `AGENTS.md` lästa och granskade; oförändrade. `docs/images.md` kompletterad; drift, server och publiceringsrutiner oförändrade.
+- Status: genomfört i arbetsgren/PR, ej mergat i `main` eller nytt publicerat på GitHub Pages. STRATO-preview och produktion orörda.
+- Återstår: redaktionell bild- och textgranskning samt fortsatt egen artikel om jordens mikroliv. Samordna `docs/CHANGELOG.md` med öppen dokumentations-PR #14 vid behov.
+
 ## 2026-10-21 – Visa tre trädgårdsguider under Livet i trädgården
 - Område: innehåll och länkning i Trädgårdsdrömmars befintliga sektion `Livet i trädgården`; ny arbetsgren `content/visa-tradgardsguider-i-livet-20261021`.
 - Bakgrund: PR #16 om jord, täckodling och biologisk mångfald mergades tidigare i `main`, men texterna hade fortfarande `draft: true` och uteslöts därmed från Astro och GitHub Pages trots godkänt Pages-bygge.
