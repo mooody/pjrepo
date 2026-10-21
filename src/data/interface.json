@@ -25,10 +25,10 @@
   "observationNotice": "En dokumenterad observation beskriver vad som noterats. Möjliga förklaringar och preliminära identifieringar anges separat.",
   "placeholder": "Bild saknas ännu",
   "biology": {
-    "eyebrow": "Nyttodjur och växtskydd",
+    "eyebrow": "Jord, odling och naturliv",
     "title": "Livet i trädgården",
-    "description": "Kunskap om nyttodjur och biologiskt växtskydd i chiliodlingen.",
-    "intro": "Bladlöss och andra små djur kan påverka odlingen. Här finns en introduktion till nyttodjur och växtskydd, med tydlig skillnad mellan allmän kunskap och egna erfarenheter.",
+    "description": "Guider om jord, täckodling och biologisk mångfald samt kunskap om nyttodjur och växtskydd.",
+    "intro": "En levande trädgård börjar i jorden. Här finns guider om jord, täckodling och biologisk mångfald, tillsammans med kunskap om nyttodjur, skadedjur och biologiskt växtskydd.",
     "linkLabel": "Utforska"
   },
   "notFoundTitle": "Sidan finns inte",

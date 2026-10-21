@@ -2,6 +2,15 @@
 
 **Omfattning:** ändringar av innehåll, kod, CMS, bilder, GitHub-workflows, OAuth, server, DNS, certifikat och publicering. Lägg en tydlig post per uppdrag/PR även när ändringen bara gäller innehåll. Granska samtidigt [PROJECT_RULES.md](PROJECT_RULES.md) och relevant dokumentation; uppdatera dem när beskrivningen eller reglerna påverkas.
 
+## 2026-10-21 – Visa tre trädgårdsguider under Livet i trädgården
+- Område: innehåll och länkning i Trädgårdsdrömmars befintliga sektion `Livet i trädgården`; ny arbetsgren `content/visa-tradgardsguider-i-livet-20261021`.
+- Bakgrund: PR #16 om jord, täckodling och biologisk mångfald mergades tidigare i `main`, men texterna hade fortfarande `draft: true` och uteslöts därmed från Astro och GitHub Pages trots godkänt Pages-bygge.
+- Genomfört i arbetsgren: de tre befintliga `methods`-artiklarna har markerats `draft: false`. Landningssidan `src/pages/biologisk-odling.astro` visar nu länkar till de tre publiceringsbara guiderna inom `Livet i trädgården`, med samma befintliga sluggar, samling och CMS-schema. Sidans introduktion i `src/data/interface.json` har breddats till allmän trädgårdsodling. Ingen ny huvudmenypost eller CMS-struktur införs.
+- Verifierat: `tests/browser/site.spec.ts` kontrollerar länkar, artikelrubriker och källavsnitt. Testet i `tests/site.test.mjs` kräver nu att alla tre guiderna byggs, medan avvecklade sidor fortsatt utesluts. GitHub Actions `Validate and build` [39561643000](https://github.com/mooody/pjrepo/actions/runs/39561643000) godkänd för kodcommit `3939a0a6`, inklusive `npm ci`, `npm run verify` och webbläsartester. Efterföljande loggjustering är endast dokumentation.
+- Dokumentation: `docs/PROJECT_RULES.md` och `AGENTS.md` granskade; inga ändringar i arkitektur, driftsättning eller projektregler. Ingen serverändring.
+- Status: endast arbetsgren och PR tills användaren själv väljer merge. GitHub Pages byggs automatiskt efter merge till `main`; detta är inte publicering till STRATO-produktion. För produktion krävs fortsatt separat godkännande.
+- Återstår: granska utseende och text på GitHub Pages efter godkänd merge, bearbeta artiklar vidare senare; eventuell konflikt med öppen dokumentations-PR #14 i `docs/CHANGELOG.md` måste avstämmas.
+
 ## 2026-10-21 – Gemensam disposition för tio chilisorter
 - Godkänt: användaren bad genomföra de gemensamt granskade artikelutkasten och mallen. Ingen merge eller produktionspublicering beställd.
 - Genomfört: individuell inledning, Smak och karaktär, Odling i Sverige och Användning på tio sortsidor. Faktarutan visar bara art, ungefärlig styrka och utseende. Korta markeringar om hetta utan upprepade SHU-tal. Källor ligger kvar längst ned.

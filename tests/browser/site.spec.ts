@@ -84,6 +84,26 @@ test('alla chilisorter har samma läsordning och tre grundfakta', async ({ page 
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   }
 });
+
+test('trädgårdsguiderna visas under Livet i trädgården', async ({ page }) => {
+  await page.goto('/biologisk-odling/');
+  await expect(page.getByRole('heading', { name: 'Jord och trädgårdsliv' })).toBeVisible();
+  for (const [slug, title] of [
+    ['jord-och-kompost', 'Jord – sand, silt, lera och livet under ytan'],
+    ['tackodling', 'Täckodling – låt marken vara skyddad'],
+    ['biologisk-mangfald', 'Biologisk mångfald i trädgården'],
+  ]) {
+    await expect(
+      page.getByRole('link', { name: title, exact: true }),
+    ).toHaveAttribute('href', new RegExp(`/odlingsmetoder/${slug}/$`));
+    await page.goto(`/odlingsmetoder/${slug}/`);
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText(title);
+    await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();
+    await page.goto('/biologisk-odling/');
+  }
+  expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+});
+
 test('admin initierar CMS med konfigurerad OAuth-förmedlare', async ({ page }) => {
   // Kontrollera bootstrap utan att genomföra riktig GitHub OAuth-inloggning.
   await page.route('**/admin/vendor/decap-cms.js', (route) =>
