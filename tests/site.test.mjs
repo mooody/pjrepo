@@ -98,7 +98,9 @@ test('CMS använder rätt repo, redaktionellt flöde och alla innehållssamlinga
  const settings=JSON.parse(await readFile('src/data/settings.json','utf8'));
  assert.equal(settings.tagline,'odlat med omsorg, förädlat med passion');
  assert.equal(settings.logo,'/media/tradgardsdrommar-logo.webp');
- for(const path of ['blogg','odla','observationer','odlingsmetoder/biologisk-mangfald']) await assert.rejects(access(`dist/${path}/index.html`));
+ for(const path of ['blogg','odla','observationer']) await assert.rejects(access(`dist/${path}/index.html`));
+ for(const path of ['odlingsmetoder/jord-och-kompost','odlingsmetoder/tackodling','odlingsmetoder/biologisk-mangfald'])
+   await access(`dist/${path}/index.html`);
  const home=await readFile('dist/index.html','utf8');
  assert.doesNotMatch(home,/odlingsdagbok|biologisk mångfald|fältobservationer/i);
  const config=YAML.parse(await readFile('public/admin/config.yml','utf8'));
