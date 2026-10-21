@@ -2,9 +2,6 @@
 
 **Omfattning:** ändringar av innehåll, kod, CMS, bilder, GitHub-workflows, OAuth, server, DNS, certifikat och publicering. Lägg en tydlig post per uppdrag/PR även när ändringen bara gäller innehåll. Granska samtidigt [PROJECT_RULES.md](PROJECT_RULES.md) och relevant dokumentation; uppdatera dem när beskrivningen eller reglerna påverkas.
 
-**Mall för varje ny ändring:**
-
-```md
 ## 2026-10-21 – Gemensam disposition för tio chilisorter
 - Godkänt: användaren bad genomföra de gemensamt granskade artikelutkasten och mallen. Ingen merge eller produktionspublicering beställd.
 - Genomfört: individuell inledning, Smak och karaktär, Odling i Sverige och Användning på tio sortsidor. Faktarutan visar bara art, ungefärlig styrka och utseende. Korta markeringar om hetta utan upprepade SHU-tal. Källor ligger kvar längst ned.
@@ -13,7 +10,17 @@
 - Berörda filer: tio filer i `src/content/chilies`, `src/pages/[section]/[id].astro`, `src/data/images.json`, browser-test, redaktionell dokumentation och ändringslogg. Inga bildpixlar, original eller etiketter ändrade.
 - Verifierat lokalt: `npm ci`, typkontroll (0 fel/varningar), byggning och 17 tester godkända. Browserkontroll tillagd för alla tio sidor; lokalt Chromium saknas och nedladdningen returnerar ogiltig ZIP. GitHub Actions-körning `39548471896` passerade hela `npm run verify`, inklusive sex browser-tester och kontroll av alla tio sortsidor, för kodcommit `d2334d1fa6d4fc2d171cf829d9fcef7397b1e1d2`.
 - Dokumentation: aktuella GitHub-regler och kompletterande Drive-serverjournal lästa; regler granskade och oförändrade. Ingen påverkan på drift eller andra webbplatser.
-- Status: genomfört i arbetsgren/PR; inte sammanslaget eller publicerat. Återstår: granskning och godkänd merge; separat godkännande krävs för produktion.
+- Status 2026-10-21: PR #15 sammanslagen i `main` (mergecommit `88deb6a9`). `Validate and build` och GitHub Pages-preview godkända för denna mergecommit. Ingen ny produktionspublicering ingick; STRATO-publicering kräver separat godkännande.
+
+## 2026-10-21 – Tre korta trädgårdsguider om jord, täckodling och mångfald
+- Område/miljö: redaktionellt innehåll i befintlig CMS-samling `methods`; arbetsgren `content/jord-tackodling-mangfald-20261021`.
+- Genomfört i arbetsgren: tidigare korta utkast i `src/content/methods/jord-och-kompost.md`, `tackodling.md` och `biologisk-mangfald.md` har byggts ut med lättlästa, praktiska introduktioner. Jordtexten beskriver sand, silt, lera och markliv; täckodlingstexten tar upp material, effekter och begränsningar; mångfaldstexten behandlar säsongsblomning, livsmiljöer och övervintring.
+- Fakta: genomgång med RHS, SLU, Naturvårdsverket och Jordbruksverket. Källor och interna korslänkar lagda i befintliga fält. Samtliga tre är fortsatt `draft: true` tills användaren godkänt bearbetning/publicering.
+- Dokumentation: `docs/PROJECT_RULES.md` och `AGENTS.md` granskade; reglerna behöver inte ändras. CMS-konfiguration, struktur, menyer, bildflöde och serverdrift oförändrade.
+- Verifiering: frontmatter och interna länkmål granskade mot befintligt schema/kataloger. GitHub Actions `Validate and build` godkänd både på ursprunglig arbetsgren ([39552335495](https://github.com/mooody/pjrepo/actions/runs/39552335495)) och på den samordnade koden efter integrering av `main` ([39554575983](https://github.com/mooody/pjrepo/actions/runs/39554575983), commit `50c86c0b`). Den senare körningen omfattade `npm ci`, `npm run verify` och publicering av byggartefakt. Inget server- eller produktionstest utfört.
+- Publicering: endast arbetsgren/PR; ej `main`, preview eller produktion.
+- Konfliktlösning 2026-10-21: uppdaterad mot `main` efter merge av chili-PR #15. De separata ämnesfilerna är bevarade; båda uppdragens loggposter har förenats och placerats utanför mallens kodblock.
+- Återstår: redaktionell granskning, eventuella bilder och slutredigering. Skadedjur/nyttodjur och den tidigare artikeln hanteras separat. Öppen dokumentations-PR #14 ändrar också `docs/CHANGELOG.md` och kan behöva konfliktlösas vid senare merge.
 
 ## 2026-10-19 – Chilins arter och lättlästa styrkebeskrivningar
 - Genomfört: ny artikel `src/content/pages/chiliarter.md` med de fem stora odlade arterna och 38 vilda arter enligt Barboza med flera (2022). Länkad från Chili.
@@ -31,6 +38,9 @@
 - Verifiering: `npm ci`, typkontroll, byggning och 14 tester godkända. Lokala webbläsartester kunde inte starta eftersom Playwrights Chromium saknas; GitHub Actions återstår.
 - Status: arbetsgren/PR; inte publicerat. Återstår: granskning, merge och separat godkänd produktionspublicering.
 
+**Mall för varje ny ändring:**
+
+```md
 ## ÅÅÅÅ-MM-DD – Kort rubrik
 - Område/miljö: [innehåll | CMS | GitHub | bildflöde | STRATO-preview | produktion | annan]
 - Ändrat: [berörda filer, tjänster och vad som ändrats]
