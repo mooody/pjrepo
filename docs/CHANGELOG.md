@@ -12,13 +12,12 @@
 - Dokumentation: aktuella GitHub-regler och kompletterande Drive-serverjournal lästa; regler granskade och oförändrade. Ingen påverkan på drift eller andra webbplatser.
 - Status 2026-10-21: PR #15 sammanslagen i `main` (mergecommit `88deb6a9`). `Validate and build` och GitHub Pages-preview godkända för denna mergecommit. Ingen ny produktionspublicering ingick; STRATO-publicering kräver separat godkännande.
 
-
 ## 2026-10-21 – Tre korta trädgårdsguider om jord, täckodling och mångfald
 - Område/miljö: redaktionellt innehåll i befintlig CMS-samling `methods`; arbetsgren `content/jord-tackodling-mangfald-20261021`.
 - Genomfört i arbetsgren: tidigare korta utkast i `src/content/methods/jord-och-kompost.md`, `tackodling.md` och `biologisk-mangfald.md` har byggts ut med lättlästa, praktiska introduktioner. Jordtexten beskriver sand, silt, lera och markliv; täckodlingstexten tar upp material, effekter och begränsningar; mångfaldstexten behandlar säsongsblomning, livsmiljöer och övervintring.
 - Fakta: genomgång med RHS, SLU, Naturvårdsverket och Jordbruksverket. Källor och interna korslänkar lagda i befintliga fält. Samtliga tre är fortsatt `draft: true` tills användaren godkänt bearbetning/publicering.
 - Dokumentation: `docs/PROJECT_RULES.md` och `AGENTS.md` granskade; reglerna behöver inte ändras. CMS-konfiguration, struktur, menyer, bildflöde och serverdrift oförändrade.
-- Verifiering: frontmatter och interna länkmål granskade mot befintligt schema/kataloger. GitHub Actions `Validate and build` godkänd på ursprunglig arbetsgren (körning [39552335495](https://github.com/mooody/pjrepo/actions/runs/39552335495)). Efter konfliktlösning genom integrering av `main` återstår ny bygg- och testkontroll. Inget server- eller produktionstest utfört.
+- Verifiering: frontmatter och interna länkmål granskade mot befintligt schema/kataloger. GitHub Actions `Validate and build` godkänd både på ursprunglig arbetsgren ([39552335495](https://github.com/mooody/pjrepo/actions/runs/39552335495)) och på den samordnade koden efter integrering av `main` ([39554575983](https://github.com/mooody/pjrepo/actions/runs/39554575983), commit `50c86c0b`). Den senare körningen omfattade `npm ci`, `npm run verify` och publicering av byggartefakt. Inget server- eller produktionstest utfört.
 - Publicering: endast arbetsgren/PR; ej `main`, preview eller produktion.
 - Konfliktlösning 2026-10-21: uppdaterad mot `main` efter merge av chili-PR #15. De separata ämnesfilerna är bevarade; båda uppdragens loggposter har förenats och placerats utanför mallens kodblock.
 - Återstår: redaktionell granskning, eventuella bilder och slutredigering. Skadedjur/nyttodjur och den tidigare artikeln hanteras separat. Öppen dokumentations-PR #14 ändrar också `docs/CHANGELOG.md` och kan behöva konfliktlösas vid senare merge.
