@@ -11,9 +11,9 @@
 - Genomfört: verifierad personhistorik för Frank Garcia/Red Savina och Ed Currie/Reaper; borttagna egna försöksredogörelser, leverantörshänvisningar i löptext och odlarbekräftelser i bildtexter. Okrasny beskrivs som högväxande enligt MoravoSeed; obelagd sjukdomsresistens utelämnad.
 - Källbedömning: sex ungefärliga SHU-intervall jämförda mot flera källor; fyra får `SHU-intervall saknas` eftersom underlaget inte räcker. Källskillnader och återstående uppgifter dokumenterade i `docs/chilisorter.md`.
 - Berörda filer: tio filer i `src/content/chilies`, `src/pages/[section]/[id].astro`, `src/data/images.json`, browser-test, redaktionell dokumentation och ändringslogg. Inga bildpixlar, original eller etiketter ändrade.
-- Verifierat lokalt: `npm ci`, typkontroll (0 fel/varningar), byggning och 17 tester godkända. Browserkontroll tillagd för alla tio sidor; lokalt Chromium saknas och nedladdningen returnerar ogiltig ZIP. GitHub Actions återstår.
+- Verifierat lokalt: `npm ci`, typkontroll (0 fel/varningar), byggning och 17 tester godkända. Browserkontroll tillagd för alla tio sidor; lokalt Chromium saknas och nedladdningen returnerar ogiltig ZIP. GitHub Actions-körning `39548471896` passerade hela `npm run verify`, inklusive sex browser-tester och kontroll av alla tio sortsidor, för kodcommit `d2334d1fa6d4fc2d171cf829d9fcef7397b1e1d2`.
 - Dokumentation: aktuella GitHub-regler och kompletterande Drive-serverjournal lästa; regler granskade och oförändrade. Ingen påverkan på drift eller andra webbplatser.
-- Status: genomfört i arbetsgren/PR; inte sammanslaget eller publicerat. Återstår: GitHub-kontroller, granskning och godkänd merge; separat godkännande krävs för produktion.
+- Status: genomfört i arbetsgren/PR; inte sammanslaget eller publicerat. Återstår: granskning och godkänd merge; separat godkännande krävs för produktion.
 
 ## 2026-10-19 – Chilins arter och lättlästa styrkebeskrivningar
 - Genomfört: ny artikel `src/content/pages/chiliarter.md` med de fem stora odlade arterna och 38 vilda arter enligt Barboza med flera (2022). Länkad från Chili.
