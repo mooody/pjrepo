@@ -4,7 +4,6 @@
   "description": "Citrongul habanero med färg, arom och ordentlig hetta.",
   "draft": false,
   "species": "Capsicum chinense",
-  "growth": "Förkultiveras med ljus och värme. En skyddad odlingsplats ger en längre användbar säsong. Se odlingsguiden för gemensamma råd.",
   "tags": [
     "het",
     "Capsicum chinense"
@@ -17,6 +16,18 @@
     {
       "title": "Sow Seeds: Habanero Lemon",
       "url": "https://www.sowseeds.co.uk/collections/february-sowing/products/habanero-lemon-chilli-seeds"
+    },
+    {
+      "title": "Piccolo Seeds: Lemon Habanero",
+      "url": "https://piccoloseeds.com/products/hot-pepper-lemon-habanero"
+    },
+    {
+      "title": "Hometown Seeds: Habanero Lemon",
+      "url": "https://www.hometownseeds.com/products/pepper-hot-habanero-lemon-pepper-seeds"
+    },
+    {
+      "title": "Fröbanken: Habanero Lemon",
+      "url": "https://xn--frbanken-o4a.se/sv/chili-habanero-limon.html"
     }
   ],
   "example": false,
@@ -26,20 +37,25 @@
       "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
   ],
-  "reviewed": "2026-10-19",
+  "reviewed": "2026-10-21",
   "image": "gul-chili",
-  "appearance": "Gula frukter vid mognad. Bildens sortidentitet är bekräftad av odlaren.",
-  "heatNote": "Mycket het, omkring 300 000 SHU. En gul habanero som bjuder på ordentlig värme."
+  "appearance": "Citrongula, veckade frukter med rundad eller lanternliknande form.",
+  "heatNote": "Mycket het – en gul färgklick med ordentlig värme.",
+  "heatMin": 100000,
+  "heatMax": 350000
 }
 ---
 
 ## Den gula habaneron
 Habanero Lemon lyser upp bland plantorna med sina gula, mogna frukter. Den hör till de riktigt heta sorterna och passar när man vill ge en sås eller marmelad tydlig chilivärme.
 
-## I förädlingen
-Vi använder Habanero Lemon i marmelad, där den gula chilin får möta frukt och sötma. Det är en av de habanerotyper som ger variation åt vårt förädlingsarbete.
+## Smak och karaktär
+Fruktig och aromatisk, ofta beskriven med friska, citrusliknande toner. Den gula färgen kan föra tankarna till citron, men smaken har fortfarande habanerons egen tydliga karaktär.
 
-## Odling
-Planera för en lång, varm säsong. Förkultivera tidigt och välj en ljus, skyddad plats så att frukterna hinner få sin gula färg.
+## Odling i Sverige
+Precis som andra habanerotyper behöver Lemon en lång och varm säsong. Växthus ger bättre möjlighet att få många frukter att mogna. I kruka kan plantan flyttas till en ljus, skyddad plats när höstnätterna blir kalla.
 
-[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).
+## Användning
+Passar i ljusa chilisåser, fruktiga marmelader och salsa. Färgen kommer särskilt fint till sin rätt tillsammans med gula frukter och råvaror.
+
+[Läs odlingsguiden för gemensamma råd om sådd, ljus och skötsel](/odlingsmetoder/chili-i-svenskt-klimat/).

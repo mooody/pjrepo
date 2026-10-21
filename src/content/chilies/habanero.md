@@ -4,7 +4,6 @@
   "description": "Röd habanero med fruktig arom och rejäl hetta.",
   "draft": false,
   "species": "Capsicum chinense",
-  "growth": "Förkultiveras med ljus och värme. En skyddad odlingsplats ger en längre användbar säsong. Se odlingsguiden för gemensamma råd.",
   "tags": [
     "het",
     "Capsicum chinense"
@@ -21,6 +20,18 @@
     {
       "title": "Rutgers: Habanero peppers",
       "url": "https://njaes.rutgers.edu/fs1273/"
+    },
+    {
+      "title": "Chilli Hills: Habanero Red",
+      "url": "https://chilli-hills.com/en-eu/products/semena-za-liuti-chushki-habanero-cherveno"
+    },
+    {
+      "title": "Budget Seeds: Habanero Red",
+      "url": "https://budgetseeds.co.uk/product/habanero-red-chilli/"
+    },
+    {
+      "title": "Speciality Seeds: Habanero Red",
+      "url": "https://specialityseeds.com/product/habanero-red-chilli-pepper-seeds/"
     }
   ],
   "example": false,
@@ -30,23 +41,25 @@
       "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
   ],
-  "reviewed": "2026-10-19",
+  "reviewed": "2026-10-21",
   "image": "rod-chili",
-  "appearance": "Röda frukter vid mognad. Fotografiet visar vår Habanero Red.",
-  "flavor": "ReinSaat beskriver sin röda habanero som fruktig och aromatisk.",
-  "heatNote": "Mycket het, ungefär 150 000–350 000 SHU. Fruktig arom med rejält bett.",
-  "heatMin": 150000,
+  "appearance": "Röda, veckade och lanternformade frukter som mognar från grönt via orange.",
+  "heatNote": "Mycket het – fruktig arom med rejält bett.",
+  "heatMin": 100000,
   "heatMax": 350000
 }
 ---
 
 ## Fruktig smak med rejält bett
-Habanero Red mognar från grönt via orange till rött. Bakom den ordentliga hettan finns den fruktiga, aromatiska karaktär som gjort habaneron så omtyckt. En liten mängd kan ge både doft och sting åt en hel sås.
+Habanero Red är en klassiker bland de riktigt heta chilifrukterna. De röda frukterna bjuder på både kraftig arom och ordentlig värme. Det är en chili som kan sätta prägel på en hel maträtt, även när mängden är liten.
 
-## Från odling till marmelad
-Vi använder Habanero Red i vår förädling, bland annat i marmelad. Mötet mellan sötma och chili ger plats åt både fruktigheten och värmen.
+## Smak och karaktär
+Fruktig och aromatisk, med en sötaktig ton bakom hettan. Smaken är en stor del av upplevelsen – habanero handlar om betydligt mer än att bara göra maten stark.
 
-## Odling
-Ge plantan gott om ljus, värme och tid. En skyddad plats eller ett växthus hjälper frukterna att hinna mogna under den svenska sommaren.
+## Odling i Sverige
+Habanero behöver lång tid för att utveckla mogna frukter. Växthus är det säkrare valet för en god skörd, särskilt under svalare somrar. En varm, skyddad plats kan också fungera, men sena frukter riskerar att inte hinna bli röda.
 
-[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).
+## Användning
+Passar i chilisåser, salsa, marinader och marmelader. Den fruktiga karaktären gör sig fint tillsammans med exempelvis mango, ananas och citrus.
+
+[Läs odlingsguiden för gemensamma råd om sådd, ljus och skötsel](/odlingsmetoder/chili-i-svenskt-klimat/).

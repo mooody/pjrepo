@@ -6,9 +6,8 @@
   "description": "Guindilla Pequeña Amarilla – från gulgrönt till mörkrött.",
   "draft": false,
   "species": "Capsicum annuum",
-  "appearance": "Spiralformade frukter som mognar från gulgrönt till mörkrött enligt leverantören.",
-  "growth": "Beskrivs som tidig av ReinSaat. Välj varm plats och följ plantans mognad.",
-  "heatNote": "Tydligt het – ungefär 6 av 10 på fröförädlarens skala. En liten chili med ordentligt sting.",
+  "appearance": "Smala, ofta böjda eller spiralformade frukter som mognar från gulgrönt till mörkrött.",
+  "heatNote": "Tydligt het – en liten chili med ordentligt sting.",
   "tags": [
     "Capsicum annuum"
   ],
@@ -16,23 +15,26 @@
     {
       "title": "ReinSaat: Guindilla Pequeña Amarilla",
       "url": "https://www.reinsaat.at/shop/EN/chilli_peppers_chill/guindilla_peque_a_amarilla/"
+    },
+    {
+      "title": "Fröbanken: Guindilla Pequeña Amarilla",
+      "url": "https://xn--frbanken-o4a.se/sv/ekologisk-chili-guindilla-pequena-amarilla.html"
     }
   ],
-  "reviewed": "2026-10-19",
-  "experiences": "På den egna plantan har vi fotograferat tre tydliga frukter: en lång röd, en mörkt spräcklig och böjd samt en mindre delvis röd. Frukterna visar olika former och mognadsstadier."
+  "reviewed": "2026-10-21"
 }
 ---
 
-## Namn och mognad
-Sorten säljs också som Guindilla Pequeña Amarilla. ReinSaat beskriver en tidig sort med spiralformade frukter som går från gulgrönt till mörkrött.
+## Smala frukter med egen form
+Pequeña Amarilla ger variation bland chiliplantorna med sina smala, ibland vridna frukter. Trots namnets anspelning på gult blir de fullt mogna frukterna mörkröda. På samma planta kan flera mognadsfärger synas samtidigt.
 
-## Från vår odling
-Vår valda bild visar frukter i olika mognadsstadier. Den långa frukten till höger är röd, den kraftigt böjda mittfrukten är fortfarande mörkt spräcklig, och till vänster syns en mindre delvis röd frukt. Utseendet stämmer med den variation vi vill dokumentera för vår planta.
+## Smak och karaktär
+En chili med tydlig hetta som kan ge ett märkbart sting åt maten. Den passar att utforska både grön och mogen, eftersom mognaden påverkar fruktens smak och konsistens.
 
-## I förädlingen
-Sorten finns i vår dokumenterade sortlista och har använts i arbetet med chilisås. Den färdiga såsens styrka behöver bedömas som en egen produkt.
+## Odling i Sverige
+Pequeña Amarilla är en förhållandevis tidig sort och därför intressant för en varm frilandsplats. Plantan har ett stadigt växtsätt. Växthus ger längre säsong och bättre möjlighet att låta fler frukter mogna till mörkrött.
 
-## En liten chili med sting
-Pequeña Amarilla har en tydlig hetta som passar i såser och matlagning. Börja med lite och låt smaken avgöra hur mycket som behövs.
+## Användning
+Passar i chilisåser, salsa och inläggningar. Frukterna kan också torkas och användas som flingor eller pulver.
 
-[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).
+[Läs odlingsguiden för gemensamma råd om sådd, ljus och skötsel](/odlingsmetoder/chili-i-svenskt-klimat/).
