@@ -25,10 +25,6 @@
   ],
   "related": [
     {
-      "label": "Blomning genom säsongen",
-      "href": "/odlingsmetoder/blomning-genom-sasongen/"
-    },
-    {
       "label": "Täckodling",
       "href": "/odlingsmetoder/tackodling/"
     }
