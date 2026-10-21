@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Image from '../components/Image.astro';
 import ui from '../data/interface.json';
 import { sitePath } from '../lib/urls';
 import { sections, published } from '../lib/content';
@@ -36,6 +37,7 @@ const groups = sections.filter((s) =>
         <div class="grid">
           {featuredGuides.map((guide) => (
             <article class="topic">
+              <Image id={guide.data.image} decorative variant="card" />
               <h3>
                 <a href={sitePath(`/odlingsmetoder/${guide.id}/`)}>{guide.data.title}</a>
               </h3>

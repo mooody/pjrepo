@@ -28,40 +28,52 @@
       "label": "Täckodling",
       "href": "/odlingsmetoder/tackodling/"
     }
+  ],
+  "image": "mangfald-stubbe",
+  "imageAlt": "Välskött trädgårdshörn med blomning och en murken stubbe som livsmiljö",
+  "gallery": [
+    {
+      "image": "mangfald-nyttodjur",
+      "alt": "Illustration över blomning, död ved, löv, stenar, vatten och olika nyttodjur"
+    }
   ]
 }
 ---
 
-En levande trädgård behöver inte vara vildvuxen överallt. Det viktiga är att det finns **olika växter, föda och platser att leva på**. Då kan fler pollinerare och andra smådjur hitta vad de behöver, samtidigt som vi fortsätter odla grönsaker, frukt och blommor.
+En levande trädgård behöver inte vara vildvuxen överallt. **Det går att kombinera välskötta gångar, rabatter och odlingsbäddar med små hörn där naturen får mer utrymme.** Det är variationen som gör skillnad: olika växter, föda och platser att leva på.
 
 ## Något som blommar från vår till höst
 
-För humlor, vildbin, fjärilar och blomflugor räcker det inte med en rabatt som blommar fantastiskt under två veckor. **Pollen och nektar behövs under en lång del av växtsäsongen.**
+För humlor, vildbin, fjärilar och blomflugor räcker det inte med en rabatt som blommar under två veckor. **Pollen och nektar behövs under en lång del av säsongen.**
 
-Tänk gärna i tre perioder:
+- **Tidig vår:** bevara blommande sälg där den passar och komplettera gärna med tidiga lökväxter.
+- **Sommar:** låt olika örter, klöver och blommor blomma i omgångar. Enkla blommor är ofta mer lättillgängliga för insekterna än tätt fyllda sorter.
+- **Sensommar och höst:** låt sent blommande växter, exempelvis kärleksört, bidra när mycket annat blommat färdigt.
 
-- **Tidig vår:** bevara blommande sälg där den passar, och komplettera med tidiga lökväxter.
-- **Sommar:** låt flera sorters örter, klöver och blommor blomma i omgångar. Enkla, öppna blommor är ofta lättare för insekter att nå än tätt fyllda sorter.
-- **Sensommar och höst:** planera in exempelvis kärleksört och andra sent blommande växter.
+Välj arter som trivs på platsen, gärna inhemska och lokalt anpassade när det är möjligt. Variation i blomformer och blomningstid ger fler arter chans att hitta föda.
 
-Välj arter som trivs på platsen, gärna inhemska och med lokalt ursprung när det är möjligt. En variation av blomformer hjälper olika insekter – alla besöker inte samma växter.
+## Nyttodjuren behöver också skadedjur
+
+Nyckelpigor, blomflugelarver, guldögonsländelarver och andra rovdjur lever bland annat av bladlöss och andra smådjur som vi ibland betraktar som skadedjur. **Om vi slår ut varje litet angrepp tar vi samtidigt bort en del av nyttodjurens mat.**
+
+Med många olika livsmiljöer och naturliga fiender kan angrepp ofta hållas tillbaka. Men det är ingen garanti mot en plötslig ökning av skadegörare: nyttodjuren kan behöva tid för att hinna ikapp. **Fortsätt därför titta till plantorna och ingrip varsamt när det behövs.** Målet är en fungerande balans, inte en trädgård helt utan insekter.
 
 ## Mat är bara halva lösningen
 
-Många insekter behöver också **boplatser, larvmiljöer och övervintringsskydd**. Några enkla sätt att bidra:
+Många smådjur behöver också boplatser, larvmiljöer och skydd för vintern. Du kan hjälpa dem utan att göra hela trädgården till ett vildvuxet område:
 
-- Spara en mindre hög med löv, kvistar eller död ved på en lämplig plats.
-- Låt en del torra, ihåliga växtstjälkar stå kvar över vintern och städa varsamt på våren.
-- Behåll eller skapa en liten **solbelyst yta med öppen sandjord** åt marklevande bin.
-- Plantera buskar eller en häck som ger lä, skydd, blommor och gärna bär.
-- Ordna en grund vattenplats med stenar där smådjur enkelt kan ta sig upp.
+- Låt ett avgränsat hörn få växa lite friare, men håll gångarna och kanterna runt omkring skötta.
+- Spara en **murken stubbe**, död ved, kvistar eller en liten lövhög där de inte är i vägen.
+- Låt en del torra växtstjälkar stå kvar över vintern. Städa hellre varsamt än att rensa bort allt på en gång.
+- Bevara en liten **solbelyst fläck med bar sandjord** till marklevande bin.
+- Skapa skydd med buskar och en häck, och ordna gärna en grund vattenplats där smådjur kan ta sig upp.
 
-Allt behöver inte göras på en gång. Även ett litet hörn kan bidra, särskilt om grannskapet också erbjuder blomning och skydd.
+En murken stubbe bland blommor kan vara en genomtänkt del av en fin rabatt. Framför kan man ha **rena plattor och en tydlig kant**, medan veden och växtligheten bakom erbjuder livsmiljöer. Det behöver inte se ovårdat ut för att vara värdefullt.
 
 ## Lite mindre kontroll – mer liv
 
-Undvik rutinmässig användning av bekämpningsmedel, även när du försöker skydda odlingen. Lär känna både skadedjur och deras naturliga fiender innan du ingriper. Samtidigt behöver invasiva främmande arter hållas efter – biologisk mångfald betyder inte att låta allt sprida sig fritt.
+Undvik rutinmässig användning av bekämpningsmedel. Lär känna både skadegörare och deras naturliga fiender innan du ingriper. Samtidigt måste invasiva främmande arter hållas efter – biologisk mångfald betyder inte att låta allt sprida sig fritt.
 
-En praktisk början är att **låta något blomma längre, spara någon skyddad vrå och följa vilka djur som faktiskt dyker upp**.
+Börja med att **låta något blomma längre, spara en liten skyddad vrå och se vilka djur som dyker upp**. Bildöversikten nedan visar exempel på många olika livsmiljöer i samma trädgård. Illustrationens insekter är schematiska; vid artbestämning behövs mer detaljerade kännetecken.
 
 Läs också om [jord och markliv](/odlingsmetoder/jord-och-kompost/) och [täckodling](/odlingsmetoder/tackodling/).
