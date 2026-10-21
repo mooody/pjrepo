@@ -6,10 +6,8 @@
   "description": "En dekorativ baccatum-chili med röda frukter som liknar små klockor.",
   "draft": false,
   "species": "Capsicum baccatum",
-  "appearance": "Röda, klockformade frukter med veck och utskjutande kanter. Formen varierar mellan frukterna.",
-  "growth": "Fröbanken beskriver sorten som lämpad för soligt läge, kruka eller växthus. Förkultivering ger bättre förutsättningar i Sverige.",
-  "heatNote": "En klockchili att börja med i liten mängd och smaka av. Hettan kan upplevas olika i fruktköttet och nära fröfästet.",
-  "experiences": "I vår odling finns både röda och ännu gröna klockformade frukter.",
+  "appearance": "Röda, hängande klockfrukter med veck och utskjutande kanter. Frukterna är gröna före mognaden.",
+  "heatNote": "En ovanlig form som gör chilin till ett blickfång.",
   "tags": [
     "Capsicum baccatum",
     "röd chili",
@@ -23,6 +21,14 @@
     {
       "title": "RHS: Chilli peppers – growing guide",
       "url": "https://www.rhs.org.uk/vegetables/chilli-pepper/grow-your-own"
+    },
+    {
+      "title": "MoravoSeed: katalog 2026–2027, sidan 43 – Okrasný Zvonek",
+      "url": "https://moravoseed.cz/web/dokumenty/Katalog%20zelenin%20MoravoSeed%202026-27.pdf"
+    },
+    {
+      "title": "PNOS: Okrasny Zvonek",
+      "url": "https://pnos.pl/pl/p/Papryka-Okrasny-Zvonek-0%2C5g/9726"
     }
   ],
   "related": [
@@ -31,20 +37,20 @@
       "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
   ],
-  "reviewed": "2026-10-19"
+  "reviewed": "2026-10-21"
 }
 ---
 
 ## Den röda klockchilin
-Okrasny Zvonek Red tillhör arten *Capsicum baccatum*. Frukterna får karakteristiska veck och utskjutande delar som gör att de liknar små klockor. Under mognaden övergår färgen från grönt till rött. Formen varierar och kan se olika ut mellan frukter på samma planta.
+Okrasny Zvonek Red väcker uppmärksamhet med sina klockformade frukter. Vecken och de utskjutande kanterna gör att varje frukt får lite egen karaktär. Under mognaden skiftar de från grönt till rött.
 
-## Odling i svenskt klimat
-Förkultivera gärna tidigt och ge plantorna en solig, varm växtplats. Växthus eller kruka i skyddat läge underlättar när säsongen är kort. Fröbanken beskriver sorten som dekorativ och användbar för odling både i kruka och växthus.
+## Smak och karaktär
+En kryddig chili där den ovanliga formen är en del av upplevelsen. Skiva frukten tunt och smaka av i maten för att hitta balansen mellan chilismak och hetta.
 
-## Användning och hetta
-Klockfrukterna kan användas färska och i exempelvis såser och inläggningar. Börja med en liten bit och smaka av när du använder den i maten.
+## Odling i Sverige
+Okrasny Zvonek är högväxande och behöver ordentligt med utrymme. Ge plantan stöd när grenarna börjar bära frukt. Växthus eller en stor kruka i ett varmt, skyddat läge ger bättre möjlighet att låta frukterna mogna till rött under den svenska säsongen.
 
-## Från vår odling
-Vi har fotograferat den ovanliga fruktformen. Bilden visar både röda och gröna frukter.
+## Användning
+Den dekorativa formen kommer fint till sin rätt i inläggningar och som ett färgstarkt inslag på tallriken. Frukterna kan också användas i såser och annan matlagning.
 
-[Läs chiliodlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).
+[Läs odlingsguiden för gemensamma råd om sådd, ljus och skötsel](/odlingsmetoder/chili-i-svenskt-klimat/).

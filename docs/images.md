@@ -18,3 +18,7 @@ Efter ändrad vattenstämpel eller beskärningsposition behövs en ny skyddad ex
 ## Första urvalet
 
 Odlingslotten, chiliplantan utan säker sortetikett, fermenteringskärlet, såsflaskorna och burkarna. Bildbiblioteket anger Trädgårdsdrömmar som fotograf för egna bilder. Publika bildtexter visar motivbeskrivningen utan fotokredit eller upprepad licenstext; villkoren finns på sidan Bildvillkor. Tredjepartsbilder behåller sin fotokredit och licens. Ingen bild används som bevis på pH, recept, hållbarhet eller säker sortidentitet.
+
+## Redaktionella bildtexter – 21 oktober 2026
+
+Bildtexter för chilisorterna beskriver motivet kort, utan formuleringar om att sorten är bekräftad av odlaren. Detta ändrar bara texten i manifestet; bild-ID:n, exportfiler, vattenstämplar och bildhantering är oförändrade.
