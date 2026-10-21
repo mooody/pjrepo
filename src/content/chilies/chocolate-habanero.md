@@ -4,7 +4,6 @@
   "description": "Chokladbruna frukter och kraftig habanerohetta.",
   "draft": false,
   "species": "Capsicum chinense",
-  "growth": "Baker Creek beskriver en sort med lång säsong. Skyddad, varm odling är en bra utgångspunkt i svenskt klimat.",
   "tags": [
     "mycket het",
     "Capsicum chinense"
@@ -21,6 +20,14 @@
     {
       "title": "Baker Creek: Chocolate Habanero",
       "url": "https://www.rareseeds.com/hot-pepper-seeds-chocolate-habanero"
+    },
+    {
+      "title": "True Leaf Market: Scoville heat scale",
+      "url": "https://trueleafmarket.com/pages/scoville-heat-scale"
+    },
+    {
+      "title": "Pepper Joe’s: Chocolate Habanero – smak och karaktär",
+      "url": "https://pepperjoe.com/products/chocolate-habanero"
     }
   ],
   "example": false,
@@ -30,22 +37,25 @@
       "href": "/odlingsmetoder/chili-i-svenskt-klimat/"
     }
   ],
-  "reviewed": "2026-10-19",
-  "heatNote": "Mycket het, ungefär 300 000–700 000 SHU. Chokladbrun till färgen, men med betydligt mer sting än namnet antyder.",
+  "reviewed": "2026-10-21",
+  "heatNote": "Mycket het – färgen är mjukare än bettet.",
   "image": "brun-chili",
-  "appearance": "Bruna frukter vid mognad; det är färgen som ligger bakom namnet Chocolate.",
+  "appearance": "Veckade frukter som övergår från grönt till djupt chokladbrunt.",
   "heatMin": 300000,
   "heatMax": 700000
 }
 ---
 
 ## Chokladbrun med ordentligt sting
-Namnet Chocolate syftar på den bruna färgen hos de mogna frukterna. De veckade frukterna sticker ut bland röda och gula chilisorter, och hettan placerar dem bland de riktigt starka habanerotyperna.
+Habanero Chocolate sticker ut med sin mörka färg och sina kraftigt veckade frukter. Namnet kommer från färgen, men bakom det vänliga chokladnamnet finns en chili med ordentlig kraft.
 
-## I förädlingen
-Vi använder Habanero Chocolate i marmelad. Kombinationen av chili, frukt och sötma är ett sätt att låta en stark råvara ta plats även i en liten burk.
+## Smak och karaktär
+En fyllig habanerokaraktär med fruktighet och toner som ofta beskrivs som jordiga eller lätt rökiga. Det ger den en annan smakmässig riktning än många röda och gula habanerotyper.
 
-## Tid att mogna
-Det här är en sort som behöver en lång säsong. Tidig förkultivering och en varm, skyddad odlingsplats ger frukterna tid att utveckla sin bruna färg.
+## Odling i Sverige
+En lång säsong behövs för att frukterna ska hinna utveckla sin bruna färg. Växthus eller motsvarande varm och skyddad odling är att föredra. Räkna med att mognaden kan fortsätta långt in på sensommaren och hösten.
 
-[Läs odlingsguiden](/odlingsmetoder/chili-i-svenskt-klimat/).
+## Användning
+Intressant i mörkare chilisåser, grillsåser och chutney. Passar också i marmelad med citrus eller andra frukter som kan möta den kraftiga smaken.
+
+[Läs odlingsguiden för gemensamma råd om sådd, ljus och skötsel](/odlingsmetoder/chili-i-svenskt-klimat/).

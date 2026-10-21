@@ -5,6 +5,16 @@
 **Mall för varje ny ändring:**
 
 ```md
+## 2026-10-21 – Gemensam disposition för tio chilisorter
+- Godkänt: användaren bad genomföra de gemensamt granskade artikelutkasten och mallen. Ingen merge eller produktionspublicering beställd.
+- Genomfört: individuell inledning, Smak och karaktär, Odling i Sverige och Användning på tio sortsidor. Faktarutan visar bara art, ungefärlig styrka och utseende. Korta markeringar om hetta utan upprepade SHU-tal. Källor ligger kvar längst ned.
+- Genomfört: verifierad personhistorik för Frank Garcia/Red Savina och Ed Currie/Reaper; borttagna egna försöksredogörelser, leverantörshänvisningar i löptext och odlarbekräftelser i bildtexter. Okrasny beskrivs som högväxande enligt MoravoSeed; obelagd sjukdomsresistens utelämnad.
+- Källbedömning: sex ungefärliga SHU-intervall jämförda mot flera källor; fyra får `SHU-intervall saknas` eftersom underlaget inte räcker. Källskillnader och återstående uppgifter dokumenterade i `docs/chilisorter.md`.
+- Berörda filer: tio filer i `src/content/chilies`, `src/pages/[section]/[id].astro`, `src/data/images.json`, browser-test, redaktionell dokumentation och ändringslogg. Inga bildpixlar, original eller etiketter ändrade.
+- Verifierat lokalt: `npm ci`, typkontroll (0 fel/varningar), byggning och 17 tester godkända. Browserkontroll tillagd för alla tio sidor; lokalt Chromium saknas och nedladdningen returnerar ogiltig ZIP. GitHub Actions återstår.
+- Dokumentation: aktuella GitHub-regler och kompletterande Drive-serverjournal lästa; regler granskade och oförändrade. Ingen påverkan på drift eller andra webbplatser.
+- Status: genomfört i arbetsgren/PR; inte sammanslaget eller publicerat. Återstår: GitHub-kontroller, granskning och godkänd merge; separat godkännande krävs för produktion.
+
 ## 2026-10-19 – Chilins arter och lättlästa styrkebeskrivningar
 - Genomfört: ny artikel `src/content/pages/chiliarter.md` med de fem stora odlade arterna och 38 vilda arter enligt Barboza med flera (2022). Länkad från Chili.
 - Genomfört: tio sortsidor har fått lättlästa styrkebeskrivningar; ungefärliga SHU anges där underlaget räcker, annars beskrivande ord och befintlig leverantörsskala. Källspecifika testförbehåll borttagna ur lästexten. En gemensam förklaring om variation och SHU finns i sortöversikten. Styrkan visas även på sortkorten.
