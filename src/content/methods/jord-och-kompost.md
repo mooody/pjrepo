@@ -2,7 +2,7 @@
 {
   "title": "Jord – sand, silt, lera och livet under ytan",
   "description": "Lär känna jordens olika kornstorlekar, förbättra strukturen och ta hand om det levande mikrolivet.",
-  "draft": true,
+  "draft": false,
   "tags": [
     "jord",
     "jordförbättring",

@@ -2,7 +2,7 @@
 {
   "title": "Biologisk mångfald i trädgården",
   "description": "Gör plats för pollinatörer och andra smådjur med blomning över säsongen, skydd och varierade livsmiljöer.",
-  "draft": true,
+  "draft": false,
   "tags": [
     "biologisk mångfald",
     "pollinatörer",

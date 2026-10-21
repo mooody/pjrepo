@@ -2,7 +2,7 @@
 {
   "title": "Täckodling – låt marken vara skyddad",
   "description": "Så fungerar marktäckning med löv, gräsklipp och kompost – och vad du behöver vara uppmärksam på.",
-  "draft": true,
+  "draft": false,
   "tags": [
     "täckodling",
     "jord",
