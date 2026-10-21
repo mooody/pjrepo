@@ -27,10 +27,6 @@
     {
       "label": "Täckodling",
       "href": "/odlingsmetoder/tackodling/"
-    },
-    {
-      "label": "Kompost och växtmaterial",
-      "href": "/odlingsmetoder/kompost/"
     }
   ]
 }
@@ -58,4 +54,4 @@ Ta upp en näve lätt fuktig jord. Känn om den är **grynig, len eller formbar*
 
 **Grundtanken:** försök inte byta ut hela din jord. Lär känna den och förbättra det som faktiskt begränsar odlingen.
 
-Läs vidare om [täckodling](/odlingsmetoder/tackodling/) och [kompost](/odlingsmetoder/kompost/).
+Läs vidare om [täckodling](/odlingsmetoder/tackodling/).
