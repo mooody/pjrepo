@@ -36,3 +36,10 @@ Två AI-genererade illustrationer har kopplats till fortsättningsartiklarna i P
 Bildfälten och samtliga exporter använder befintlig struktur. Varje bild har åtta WebP-varianter: tre full-, två kort-, två stående huvud- och en delningsvariant. Artiklarna använder fullformatet; de stående beskärningarna lämpar sig inte för att läsa hela den breda illustrationens märkning. Inga mallar eller formatregler har ändrats.
 
 De genererade PNG-originalen finns utanför repositoryt. Särskilda exportkopior har fått sin provisoriska inbyggda varumärkesmärkning borttagen för att undvika dubbel märkning; originalen bevaras. Den ordinarie exportfunktionen i `scripts/images.mjs` lägger därefter på webbplatsens befintliga vattenstämpel efter varje beskärning. Endast dessa metadatafria, vattenstämplade WebP-varianter lagras i repositoryt. Bildmanifestets publika `source` är tomt. Bild-ID:n, alt-texter och bildtexter följer befintligt CMS-schema; ingen ny uppladdningsväg eller bildhanteringsmetod har införts.
+
+
+## Förtydligad jordlivsillustration – 22 oktober 2026
+
+Efter Mickes granskning har `jordliv-rot-mykorrhiza` omarbetats: ett finare, förgrenat nät av svamptrådar visas över en större jordvolym utanför roten. Märkningen ”Svamptrådar (hyfer)” pekar på svamptrådarna i stället för en rot. Separat nedbrytning av dött material finns kvar. Färgerna är pedagogiska och bilden är inte skalenlig; detta framgår av bildtexten.
+
+Befintligt bild-ID och befintlig exportfunktion behålls. De åtta vattenstämplade WebP-varianterna ersätts, och manifestets alt-text samt bildtext uppdateras. Den nya genererade PNG-bilden och den tidigare versionen bevaras utanför repositoryt. Inga ändringar av CMS, bildschema, vattenstämpelinställningar eller exportmetod.

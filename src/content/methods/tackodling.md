@@ -8,8 +8,9 @@
     "jord",
     "odlingsmetoder"
   ],
-  "reviewed": "2026-10-21",
+  "reviewed": "2026-10-22",
   "sources": [
+    {"title": "University of Saskatchewan – Mulch and soil nitrogen", "url": "https://gardening.usask.ca/articles-and-lists/articles-healthysoils/mulch-and-soil-nitrogen.php"},
     {
       "title": "RHS – How to mulch with organic matter",
       "url": "https://www.rhs.org.uk/soil-composts-mulches/how-to-mulch-with-organic-matter"
@@ -47,7 +48,7 @@ Ett täcke kan minska avdunstningen, dämpa ogräs och skydda mot kraftiga tempe
 - **Löv:** ta vara på det som faller i trädgården. Om löven lägger sig som en tät matta kan du finfördela dem eller blanda med grövre material.
 - **Gräsklipp:** innehåller en del lättillgänglig näring. Lägg det i tunna lager så att det inte blir en kompakt, blöt massa.
 - **Häckklipp och andra växtrester:** varför köra bort allt när häcken är klippt? Lägg de friska växtdelarna på odlingsjorden. Grövre kvistar kan först köras genom en kompostkvarn. Mitt i sommaren kan det gröna materialet bli brunt på bara några dagar, men täcket fortsätter göra nytta.
-- **Halm:** ger ett luftigt täcke, men är **kvävefattigt i förhållande till sitt kolinnehåll**. Mikroorganismer kan därför behöva extra kväve när halmen bryts ned, särskilt om stora mängder blandas ned i jorden. Som täcke ovanpå marken är risken för kvävebrist hos grödan normalt mindre.
+- **Halm:** ger ett luftigt täcke, men innehåller mycket kol och lite kväve. När mikroorganismerna bryter ned halmen tar de också upp kväve från omgivningen. **Kvävet binds tillfälligt i deras kroppar och kan då bli mindre tillgängligt för växterna.** Risken är större om halmen blandas ned i jorden. Som täcke på ytan påverkar den normalt kvävetillgången vid rötterna mindre.
 
 Använd helst växtmaterial utan mogna ogräsfrön, svåra rotogräs eller tydliga sjukdomsangrepp. Träflis fungerar ofta bra på gångar och runt fleråriga planteringar, men stora mängder färsk flis behöver inte grävas ned i grönsakslandet.
 

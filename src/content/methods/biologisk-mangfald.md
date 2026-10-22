@@ -8,7 +8,7 @@
     "pollinatörer",
     "trädgård"
   ],
-  "reviewed": "2026-10-21",
+  "reviewed": "2026-10-22",
   "sources": [
     {
       "title": "Naturvårdsverket – Hjälp våra vilda pollinatörer, för privatpersoner",
@@ -56,7 +56,7 @@ Välj arter som trivs på platsen, gärna inhemska och lokalt anpassade när det
 
 Nyckelpigor, blomflugelarver, guldögonsländelarver och andra rovdjur lever bland annat av bladlöss och andra smådjur som vi ibland betraktar som skadedjur. **Om vi slår ut varje litet angrepp tar vi samtidigt bort en del av nyttodjurens mat.**
 
-Med många olika livsmiljöer och naturliga fiender kan angrepp ofta hållas tillbaka. Men det är ingen garanti mot en plötslig ökning av skadegörare: nyttodjuren kan behöva tid för att hinna ikapp. **Fortsätt därför titta till plantorna och ingrip varsamt när det behövs.** Målet är en fungerande balans, inte en trädgård helt utan insekter.
+Med många olika livsmiljöer och naturliga fiender kan angrepp ofta hållas tillbaka. Men det är ingen garanti mot en plötslig ökning av skadegörare: nyttodjuren kan behöva tid för att hinna ikapp. **Fortsätt därför titta till plantorna och ingrip varsamt när det behövs.** Målet är en fungerande balans, inte en trädgård helt utan skadeinsekter.
 
 ## Mat är bara halva lösningen
 

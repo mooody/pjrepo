@@ -7,6 +7,10 @@
   "tags": ["jord", "markliv", "mykorrhiza"],
   "reviewed": "2026-10-22",
   "sources": [
+    {"title": "Jiang med flera – Mykorrhizasvampar och bakterier frigör organiskt bunden fosfor", "url": "https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.17081"},
+    {"title": "Kobae med flera – Fosfattillförsel och bildning av mykorrhiza", "url": "https://pubmed.ncbi.nlm.nih.gov/26979330/"},
+    {"title": "Totsche med flera – Microaggregates in soils", "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jpln.201600451"},
+    {"title": "Oregon State University – Improving garden soils with organic matter", "url": "https://extension.oregonstate.edu/catalog/ec-1561-improving-garden-soils-organic-matter"},
     {"title": "USDA NRCS – Soil Biology, version 2.3", "url": "https://www.nrcs.usda.gov/sites/default/files/2023-06/Soil%20Biology%202.3.pdf"},
     {"title": "Colorado State University Extension – The Living Soil", "url": "https://extension.colostate.edu/resource/the-living-soil/"},
     {"title": "SLU – Inventering av mykorrhiza i potatisförsök", "url": "https://pub.epsilon.slu.se/8549/1/ohlsson_et_al_120117.pdf"},
@@ -19,7 +23,7 @@
     {"label": "Täckodling genom året", "href": "/odlingsmetoder/tackodling-genom-aret/"}
   ],
   "image": "jordliv-rot-mykorrhiza",
-  "imageAlt": "Illustration av en levande rot med mykorrhiza och separat nedbrytning av döda växtrester."
+  "imageAlt": "Illustration av en levande rot med fina svamptrådar som når ut i en större jordvolym, och separat nedbrytning av döda växtrester."
 }
 ---
 
@@ -43,17 +47,23 @@ Olika växter skapar olika förutsättningar för marklivet. En varierad odling 
 
 ## Mykorrhiza – ett samarbete med rötterna
 
-Vissa svampar bildar **mykorrhiza** tillsammans med växtrötter. Svamptrådarna, hyferna, kan nå ut i jordens små hålrum och utforska en större jordvolym än rötterna ensamma. Växten kan därigenom få bättre tillgång till framför allt fosfor. Svampen får i gengäld organiskt kol från växtens fotosyntes, bland annat i form av socker.
+Vissa svampar bildar **mykorrhiza** tillsammans med växtrötter. Svamptrådarna, hyferna, är mycket tunnare än rötterna och kan nå ut i små hålrum långt utanför området närmast roten. På så sätt får växten hjälp att nå näring i en större jordvolym. Svampen får i gengäld organiskt kol från växtens fotosyntes, bland annat i form av socker.
+
+Det är särskilt värdefullt för upptaget av **fosfor**, som rör sig långsamt i jorden. Svamptrådarna kan nå fosfor som rötterna själva inte kommer åt. Tillsammans med andra mikroorganismer kan svamparna också bidra till att frigöra fosfor ur former som växten har svårt att utnyttja. Hur det går till varierar mellan olika slags mykorrhiza.
 
 Det är alltså skillnad mellan en svamp som bryter ned dött växtmaterial och en svamp som samarbetar med en levande rot. **Allt vitt mycel under täcket är inte mykorrhiza.** Utseendet räcker inte för att avgöra vilket samspel som pågår.
 
-Samarbetet finns hos många växter, men inte hos alla. Nyttan varierar med växt, svamp och odlingsförhållanden. God tillgång till fosfor kan minska mykorrhizabildningen. Mer gödsel betyder därför inte automatiskt ett starkare samarbete, och mykorrhiza ersätter inte behovet av att förstå jordens näringstillgång.
+Samarbetet finns hos många växter, men inte hos alla. Nyttan varierar med växt, svamp och odlingsförhållanden. **Höga nivåer av lättillgänglig fosfor kan minska bildningen av mykorrhiza.** Det betyder inte att växterna ska få för lite näring, utan att mer fosfor inte alltid behövs.
+
+**Dålig tillväxt betyder inte automatiskt att jorden innehåller för lite näring.** Näringen kan finnas där utan att växten kommer åt den. Fosfor och mykorrhiza är ett exempel på att tillgången också beror på hur upptaget fungerar. Kall, blöt eller packad jord kan samtidigt göra det svårare för rötterna att arbeta. Titta därför på både rötternas miljö och näringstillgången innan du gödslar mer. Svag tillväxt är däremot inte i sig ett tecken på att mykorrhiza saknas.
 
 ## Livet hjälper till att bygga jordstruktur
 
-En rot söker sig genom jorden, en mask lämnar en gång och svamptrådar bidrar till att hålla samman små jordpartiklar. Mikroorganismernas ämnen hjälper också partiklar att bilda **aggregat**, små sammanhållna jordklumpar.
+En rot söker sig genom jorden och en mask lämnar en gång. Svamptrådar och ämnen som mikroorganismerna bildar hjälper också till att binda samman jordpartiklar till små **jordsmulor, som kallas aggregat**. De bidrar både till att smulorna bildas och till att de håller ihop. Det är värdefullt när jorden blir blöt: stabila jordsmulor faller inte lika lätt sönder, och hålrummen kan finnas kvar.
 
-Mellan aggregaten finns utrymme för luft, vatten och nya rötter. Här möts biologin och jordens fysiska egenskaper. Markpackning kan samtidigt göra det svårare för daggmaskarna att gräva, särskilt i fuktig jord. Marklivet kan hjälpa strukturen, men det är ingen anledning att fortsätta trampa på en blöt odlingsbädd.
+**Hålrum, eller porer, finns både inne i jordsmulorna och mellan dem.** Större sammanhängande porer ger plats för luft, vatten som rör sig genom jorden och rötter som växer vidare. Mindre porer håller kvar vatten, även om det allra hårdast bundna vattnet är svårt för växterna att ta upp. Jorden behöver en blandning av olika porstorlekar för att både kunna hålla vatten och släppa fram luft.
+
+Markpackning kan pressa ihop hålrummen och göra det svårare för både rötter och daggmaskar att ta sig fram, särskilt i fuktig jord. Marklivet kan hjälpa strukturen, men det är ingen anledning att fortsätta trampa på en blöt odlingsbädd.
 
 ## Hjälp samspelet i din egen bädd
 
