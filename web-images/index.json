@@ -1164,6 +1164,116 @@
           }
         ]
       }
+    },
+    {
+      "id": "jordliv-rot-mykorrhiza",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "jordliv-rot-mykorrhiza-full-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "jordliv-rot-mykorrhiza-full-800.webp",
+            "width": 800,
+            "height": 533
+          },
+          {
+            "file": "jordliv-rot-mykorrhiza.webp",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "card": [
+          {
+            "file": "jordliv-rot-mykorrhiza-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "jordliv-rot-mykorrhiza-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "jordliv-rot-mykorrhiza-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "jordliv-rot-mykorrhiza-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "jordliv-rot-mykorrhiza-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
+    },
+    {
+      "id": "kompost-tre-stadier",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "kompost-tre-stadier-full-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "kompost-tre-stadier-full-800.webp",
+            "width": 800,
+            "height": 533
+          },
+          {
+            "file": "kompost-tre-stadier.webp",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "card": [
+          {
+            "file": "kompost-tre-stadier-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "kompost-tre-stadier-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "kompost-tre-stadier-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "kompost-tre-stadier-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "kompost-tre-stadier-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
     }
   ]
 }

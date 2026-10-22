@@ -28,3 +28,11 @@ Bildtexter för chilisorterna beskriver motivet kort, utan formuleringar om att 
 Fem nya bilder till jord, täckodling och biologisk mångfald har exporterats genom samma skyddade arbetsprincip som övriga egna bilder: endast bearbetade och vattenstämplade WebP-filer i `web-images/`, manifestposter med tomt `source`, och bildvariantindex med befintlig vattenstämpel. Fotografiska användaroriginal har inte lagts i GitHub. Publicerade bildvarianter har anpassats till full-, kort-, huvud- och delningsformat. Dokumentationen innebär ingen ändring av kod i `scripts/images.mjs` eller CMS.
 
 Bilder från odlingslotten och jordrullen är bearbetningar av egna foton, medan jordgenomskärningen och mångfaldsöversikten är pedagogiska illustrationer. Stubbmiljön är en digital bearbetning, inte en dokumentär registrering av arterna i bilden. Infografikens förenklade illustrationer används inte som artbestämningsbevis.
+
+## Jordliv och kompost – illustrationer 22 oktober 2026
+
+Två AI-genererade illustrationer har kopplats till fortsättningsartiklarna i PR #20: `jordliv-rot-mykorrhiza` till jordlivsartikeln och `kompost-tre-stadier` till kompostartikeln. De används som huvudbilder i naturligt fullformat, med bildtexter under bilden som anger deras illustrativa karaktär. Rotbilden skiljer mykorrhiza vid levande rötter från nedbrytning av dött material och är inte skalenlig. Kompostbilden visar tre ungefärliga stadier utan tidslöften.
+
+Bildfälten och samtliga exporter använder befintlig struktur. Varje bild har åtta WebP-varianter: tre full-, två kort-, två stående huvud- och en delningsvariant. Artiklarna använder fullformatet; de stående beskärningarna lämpar sig inte för att läsa hela den breda illustrationens märkning. Inga mallar eller formatregler har ändrats.
+
+De genererade PNG-originalen finns utanför repositoryt. Särskilda exportkopior har fått sin provisoriska inbyggda varumärkesmärkning borttagen för att undvika dubbel märkning; originalen bevaras. Den ordinarie exportfunktionen i `scripts/images.mjs` lägger därefter på webbplatsens befintliga vattenstämpel efter varje beskärning. Endast dessa metadatafria, vattenstämplade WebP-varianter lagras i repositoryt. Bildmanifestets publika `source` är tomt. Bild-ID:n, alt-texter och bildtexter följer befintligt CMS-schema; ingen ny uppladdningsväg eller bildhanteringsmetod har införts.

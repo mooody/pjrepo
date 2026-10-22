@@ -263,6 +263,30 @@
       "license": "Fri användning med bibehållen vattenstämpel",
       "licenseUrl": "",
       "position": "centre"
+    },
+    {
+      "id": "jordliv-rot-mykorrhiza",
+      "source": "",
+      "alt": "Illustration av en levande rot med mykorrhiza och separat nedbrytning av döda växtrester.",
+      "caption": "AI-genererad pedagogisk illustration: mykorrhiza vid en levande rot och nedbrytande svamp i dött växtmaterial är olika samspel. Bilden är förenklad och inte skalenlig.",
+      "kind": "photo",
+      "ownership": "own",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
+    },
+    {
+      "id": "kompost-tre-stadier",
+      "source": "",
+      "alt": "Illustration med färska växtrester, delvis nedbrutet material och mogen smulig kompost.",
+      "caption": "AI-genererad pedagogisk illustration av växtmaterial i tre nedbrytningsstadier. Mogen kompost används som jordförbättring; tiden och resultatet varierar med material och förhållanden.",
+      "kind": "photo",
+      "ownership": "own",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
     }
   ]
 }
