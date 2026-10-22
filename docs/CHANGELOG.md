@@ -4,6 +4,15 @@
 
 
 
+
+## 2026-10-22 – Använd ”jordklumpar” i jordlivsartikeln
+- Godkänt: Micke önskade ”jordklumpar” inom citattecken i stället för jordsmulor, med aggregat kvar som en kort förklaring.
+- Genomfört: endast motsvarande stycken i `src/content/methods/jordens-sma-arbetare.md` ändrade. Texten anger att storleken kan variera; beskrivningen av sammanbundna partiklar, stabilitet och porer inuti och mellan dem behålls. Ingen bild eller annan artikel ändrad.
+- Bas och status: PR #22 är mergad i main genom `7e2f0c8f`. Den versionens Validate and build [39789272474](https://github.com/mooody/pjrepo/actions/runs/39789272474) och Pages-preview [39789272476](https://github.com/mooody/pjrepo/actions/runs/39789272476) är godkända. Denna ordändring görs i en ny arbetsgren/PR utan merge eller produktionspublicering.
+- Granskning av fortsatt innehåll: den aktuella Drive-planeringen jämförd med befintliga artiklar och arbetsmallar. Förslag på nästa tre är lerjord, återanvändning av krukjord och utveckling av befintlig mall för blomning genom säsongen. Endast förslag; inga nya artikeltexter har beställts eller skrivits. Drive-dokumentets äldre PR-status har inte ändrats i detta uppdrag.
+- Verifiering: `git diff --check` godkänd; fullständig befintlig verifiering körs i PR:ens GitHub Actions före överlämning.
+- Dokumentation: aktuella `AGENTS.md` och `docs/PROJECT_RULES.md` lästa och granskade; reglerna är oförändrade. CMS, schema, bildhantering, mallar, server och publiceringsflöden är oförändrade.
+
 ## 2026-10-22 – Förtydliga jordliv, täckodling och mykorrhiza
 - Godkänt: Micke bad efter faktagenomgång att samtliga sju granskningspunkter åtgärdas, med samma lättillgängliga språk som grundartiklarna. Begreppet aggregat ska användas som förklaring, inte dominera löptexten. Detta omfattar de uttryckligen granskade styckena i två tidigare fastlagda grundartiklar.
 - Genomfört i separat arbetsgren: `tackodling.md` förklarar att kväve tillfälligt binds i mikroorganismer och därför kan bli mindre tillgängligt för grödan, med skillnaden mellan yttäckning och nedblandning kvar. `biologisk-mangfald.md` ändrar ”utan insekter” till ”utan skadeinsekter”. `jordens-sma-arbetare.md` förklarar svamptrådarnas räckvidd, fosforupptag och samspel med andra mikroorganismer; preciserar höga nivåer av lättillgänglig fosfor; knyter svag tillväxt till näringsupptag och rotmiljö. Jordsmulor introduceras med fackordet aggregat i förklaringen; deras bildning, stabilitet och porer både inuti och mellan beskrivs sammanhängande. Källor och granskningsdatum uppdaterade.
