@@ -17,7 +17,9 @@
     {"label": "Jordens egenskaper", "href": "/odlingsmetoder/jord-och-kompost/"},
     {"label": "Kompostens kretslopp", "href": "/odlingsmetoder/kompost/"},
     {"label": "Täckodling genom året", "href": "/odlingsmetoder/tackodling-genom-aret/"}
-  ]
+  ],
+  "image": "jordliv-rot-mykorrhiza",
+  "imageAlt": "Illustration av en levande rot med mykorrhiza och separat nedbrytning av döda växtrester."
 }
 ---
 

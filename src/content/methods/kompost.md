@@ -23,7 +23,9 @@
     {"label": "Jordens små arbetare", "href": "/odlingsmetoder/jordens-sma-arbetare/"},
     {"label": "Täckodling genom året", "href": "/odlingsmetoder/tackodling-genom-aret/"},
     {"label": "Jordens egenskaper", "href": "/odlingsmetoder/jord-och-kompost/"}
-  ]
+  ],
+  "image": "kompost-tre-stadier",
+  "imageAlt": "Illustration med färska växtrester, delvis nedbrutet material och mogen smulig kompost."
 }
 ---
 
