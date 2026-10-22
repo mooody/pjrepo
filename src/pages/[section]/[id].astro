@@ -19,7 +19,10 @@ export async function getStaticPaths() {
 const { section, entry } = Astro.props;
 const d = entry.data;
 const isChili = section.collection === 'chilies';
-const directGardenGuides = section.collection === 'methods' && ['jord-och-kompost', 'tackodling', 'biologisk-mangfald'].includes(entry.id);
+const directGardenGuides = section.collection === 'methods' && [
+  'jord-och-kompost', 'tackodling', 'biologisk-mangfald',
+  'jordens-sma-arbetare', 'kompost', 'tackodling-genom-aret',
+].includes(entry.id);
 const { Content } = await render(entry);
 const parent = section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
   : ['beneficials', 'pests', 'methods'].includes(section.collection)

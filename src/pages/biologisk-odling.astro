@@ -4,7 +4,10 @@ import Image from '../components/Image.astro';
 import ui from '../data/interface.json';
 import { sitePath } from '../lib/urls';
 import { sections, published } from '../lib/content';
-const featuredIds = ['jord-och-kompost', 'tackodling', 'biologisk-mangfald'];
+const featuredIds = [
+  'jord-och-kompost', 'tackodling', 'biologisk-mangfald',
+  'jordens-sma-arbetare', 'kompost', 'tackodling-genom-aret',
+];
 const methods = await published('methods');
 const featuredGuides = featuredIds.flatMap((id) => {
   const guide = methods.find((entry) => entry.id === id);
