@@ -88,10 +88,21 @@ test('alla chilisorter har samma läsordning och tre grundfakta', async ({ page 
 test('trädgårdsguiderna visas under Livet i trädgården', async ({ page }) => {
   await page.goto('/biologisk-odling/');
   await expect(page.getByRole('heading', { name: 'Jord och trädgårdsliv' })).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="garden-guides-heading"] article h3 a')).toHaveText([
+    'Jord – sand, silt, lera och livet under ytan',
+    'Täckodling – låt marken vara skyddad',
+    'Biologisk mångfald i trädgården',
+    'Jordens små arbetare – samspelet under ytan',
+    'Från växtrester till jordförbättring – förstå kompostens kretslopp',
+    'Täckodling genom året – så anpassar du täcket till odlingen',
+  ]);
   for (const [slug, title] of [
     ['jord-och-kompost', 'Jord – sand, silt, lera och livet under ytan'],
     ['tackodling', 'Täckodling – låt marken vara skyddad'],
     ['biologisk-mangfald', 'Biologisk mångfald i trädgården'],
+    ['jordens-sma-arbetare', 'Jordens små arbetare – samspelet under ytan'],
+    ['kompost', 'Från växtrester till jordförbättring – förstå kompostens kretslopp'],
+    ['tackodling-genom-aret', 'Täckodling genom året – så anpassar du täcket till odlingen'],
   ]) {
     await expect(
       page.getByRole('link', { name: title, exact: true }),
@@ -99,6 +110,8 @@ test('trädgårdsguiderna visas under Livet i trädgården', async ({ page }) =>
     await page.goto(`/odlingsmetoder/${slug}/`);
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(title);
     await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();
+    await expect(page.getByRole('navigation', { name: 'Brödsmulor' }).getByRole('link', { name: 'Livet i trädgården' })).toHaveAttribute('href', /\/biologisk-odling\/$/);
+    await expect(page.getByRole('link', { name: '← Livet i trädgården' })).toBeVisible();
     await page.goto('/biologisk-odling/');
   }
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
@@ -120,7 +133,7 @@ test('trädgårdsguiderna har rätt brödsmulor och publicerade bilder', async (
     await expect(page.getByRole('link', { name: '← Livet i trädgården' })).toBeVisible();
   }
   await page.goto('/biologisk-odling/');
-  await expect(page.locator('article.topic img')).toHaveCount(3);
+  await expect(page.locator('article.topic img')).toHaveCount(5);
 });
 
 test('admin initierar CMS med konfigurerad OAuth-förmedlare', async ({ page }) => {

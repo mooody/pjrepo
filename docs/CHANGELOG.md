@@ -3,6 +3,14 @@
 **Omfattning:** ändringar av innehåll, kod, CMS, bilder, GitHub-workflows, OAuth, server, DNS, certifikat och publicering. Lägg en tydlig post per uppdrag/PR även när ändringen bara gäller innehåll. Granska samtidigt [PROJECT_RULES.md](PROJECT_RULES.md) och relevant dokumentation; uppdatera dem när beskrivningen eller reglerna påverkas.
 
 
+## 2026-10-22 – Visa fortsättningsartiklarna efter grundartiklarna
+- Bakgrund: PR #20 är mergad i `main` genom `85dbdbe0`; verifiering [39754323078](https://github.com/mooody/pjrepo/actions/runs/39754323078) och GitHub Pages-preview [39754323118](https://github.com/mooody/pjrepo/actions/runs/39754323118) är godkända. Artiklarna byggdes, men landningssidans fasta urval innehöll bara de tre äldre grundartiklarna.
+- Godkänt: Micke bad att de tre fortsättningarna ska läggas direkt efter de tre tidigare artiklarna under Livet i trädgården.
+- Genomfört i `fix/visa-sex-tradgardsguider-20261022`: `src/pages/biologisk-odling.astro` visar sex kort i ordningen jord → täckodling → biologisk mångfald → jordliv → kompost → täckodling genom året. Samma befintliga kort och rutnät används. `src/pages/[section]/[id].astro` ger även de nya artiklarna samma direkta brödsmulor och tillbakalänk till Livet i trädgården som grundartiklarna. Befintliga URL:er, artikeltexter och bilder bevaras.
+- Verifiering: befintligt webbläsartest utökat med alla sex länkar, exakt läsordning, källavsnitt, brödsmulor och tillbakalänkar. Förväntat antal kortbilder är fem eftersom täckodling genom året ännu saknar en tilldelad bild. `npm ci`, Astro-kontroll, byggning av 49 sidor och alla 17 Node-tester godkända lokalt. Sex kort i rätt ordning samt brödsmulor och tillbakalänkar på samtliga sex sidor verifierade i byggd HTML. Lokala webbläsartester kan inte starta då Chromium saknas; fullständig verifiering inklusive dessa tester körs i den nya PR:en.
+- Dokumentation: `docs/PROJECT_RULES.md` och `AGENTS.md` lästa och granskade; oförändrade. Ingen ändring i CMS, schema, huvudmeny, bildhantering, säkerhet eller publiceringsflöde. Ingen serverändring.
+- Status: rättningen görs i separat arbetsgren/PR från aktuell main. Ingen merge eller ny publicering utförd i detta uppdrag. STRATO-produktionens aktuella version är inte verifierad här.
+
 ## 2026-10-22 – Illustrationer till jordliv och kompost i PR #20
 - Godkänt: Micke beställde de två illustrationerna och bad därefter att få dem inlagda i artiklarna. Arbetet fortsätter i samma artikelgren och PR #20; ingen merge eller produktionspublicering ingår.
 - Genomfört: illustrationerna `jordliv-rot-mykorrhiza` och `kompost-tre-stadier` tilldelade respektive artikel genom befintliga `image`- och `imageAlt`-fält. Bildtexter under bilderna anger att de är AI-genererade pedagogiska illustrationer; rotbilden är förenklad och inte skalenlig, kompostbilden anger inga bestämda tider. Artikelbrödtexterna och de tre tidigare grundartiklarna är oförändrade.
