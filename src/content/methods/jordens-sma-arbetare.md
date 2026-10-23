@@ -59,9 +59,9 @@ Samarbetet finns hos många växter, men inte hos alla. Nyttan varierar med väx
 
 ## Livet hjälper till att bygga jordstruktur
 
-En rot söker sig genom jorden och en mask lämnar en gång. Svamptrådar och ämnen som mikroorganismerna bildar hjälper också till att binda samman jordpartiklar till små **jordsmulor, som kallas aggregat**. De bidrar både till att smulorna bildas och till att de håller ihop. Det är värdefullt när jorden blir blöt: stabila jordsmulor faller inte lika lätt sönder, och hålrummen kan finnas kvar.
+En rot söker sig genom jorden och en mask lämnar en gång. Svamptrådar och ämnen som mikroorganismerna bildar hjälper också till att binda samman jordpartiklar till **”jordklumpar”, som kallas aggregat**. De kan vara olika stora. Marklivet bidrar både till att de bildas och till att de håller ihop. Det är värdefullt när jorden blir blöt: stabila ”jordklumpar” faller inte lika lätt sönder, och hålrummen kan finnas kvar.
 
-**Hålrum, eller porer, finns både inne i jordsmulorna och mellan dem.** Större sammanhängande porer ger plats för luft, vatten som rör sig genom jorden och rötter som växer vidare. Mindre porer håller kvar vatten, även om det allra hårdast bundna vattnet är svårt för växterna att ta upp. Jorden behöver en blandning av olika porstorlekar för att både kunna hålla vatten och släppa fram luft.
+**Hålrum, eller porer, finns både inne i ”jordklumparna” och mellan dem.** Större sammanhängande porer ger plats för luft, vatten som rör sig genom jorden och rötter som växer vidare. Mindre porer håller kvar vatten, även om det allra hårdast bundna vattnet är svårt för växterna att ta upp. Jorden behöver en blandning av olika porstorlekar för att både kunna hålla vatten och släppa fram luft.
 
 Markpackning kan pressa ihop hålrummen och göra det svårare för både rötter och daggmaskar att ta sig fram, särskilt i fuktig jord. Marklivet kan hjälpa strukturen, men det är ingen anledning att fortsätta trampa på en blöt odlingsbädd.
 
