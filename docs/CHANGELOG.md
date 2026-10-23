@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-23 – Fem fortsättningsartiklar under Livet i trädgården
+- Genomfört i `content/fem-tradgardsartiklar-20261023`: fyra nya artiklar om jordförbättring, köpejord, tiden efter skörd och återanvändning av krukjord. Den befintliga arbetsmallen `blomning-genom-sasongen.md` utvecklad på samma adress. Texterna utgår från de fem Drive-utkasten och deras faktakontroll; källor och granskningsdatum finns i respektive artikel. Hänvisningar mellan utkasten har ersatts med interna läslänkar. Inga privata kursfiler eller deras Drive-länkar har lagts i repositoryt.
+- Köpejord skiljer råvaror från tillsatt näring, förklarar volymminskning och jämför möjliga mervärden med pris. Ett konkret produktinnehåll återges som tillverkaruppgift; varken högre skörd, generellt bättre kvalitet eller faktiska butikspriser påstås vara visade.
+- Visning: de fem artiklarna läggs i föreslagen ordning efter de sex befintliga guiderna på `biologisk-odling.astro`. Artikelmallens befintliga urval för direkta brödsmulor och tillbakalänk utökas med samma fem ID:n. Befintligt webbläsartest kontrollerar alla elva länkar, läsordning, källavsnitt och tillbakalänkar. Inga nya bilder tilldelade.
+- Bas: main `8e6e3724` med PR #23 mergad. Dess Validate and build [39906325107](https://github.com/mooody/pjrepo/actions/runs/39906325107) och GitHub Pages-preview [39906324665](https://github.com/mooody/pjrepo/actions/runs/39906324665) är godkända. Öppna dokumentations-PR:er #14 och #19 lämnas orörda; denna loggpost ska bevaras vid eventuell senare konflikthantering.
+- Verifierat lokalt: `npm ci`, Astro-kontroll utan fel eller varningar, validering och byggning av 54 sidor samt alla 17 Node-tester godkända. `git diff --check` godkänd. Fullständig `npm run verify` stannar vid webbläsartesterna eftersom Chromium saknas; installationsförsöket gav en felaktig nedladdningsfil. PR:ens GitHub Actions kör hela kontrollen inklusive webbläsartester.
+- Dokumentation: `AGENTS.md` och `docs/PROJECT_RULES.md` lästa och granskade; reglerna är oförändrade. Ingen ändring av CMS, schema, bildhantering, server, menystruktur eller publiceringsflöde. Artiklarna är förberedda för byggning i separat arbetsgren/PR. Ingen merge eller produktionspublicering utförd.
+
 **Omfattning:** ändringar av innehåll, kod, CMS, bilder, GitHub-workflows, OAuth, server, DNS, certifikat och publicering. Lägg en tydlig post per uppdrag/PR även när ändringen bara gäller innehåll. Granska samtidigt [PROJECT_RULES.md](PROJECT_RULES.md) och relevant dokumentation; uppdatera dem när beskrivningen eller reglerna påverkas.
 
 
