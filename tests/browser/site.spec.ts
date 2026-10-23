@@ -95,6 +95,11 @@ test('trädgårdsguiderna visas under Livet i trädgården', async ({ page }) =>
     'Jordens små arbetare – samspelet under ytan',
     'Från växtrester till jordförbättring – förstå kompostens kretslopp',
     'Täckodling genom året – så anpassar du täcket till odlingen',
+    'Förbättra jorden – börja med att undersöka den',
+    'Köpejord – vad får du egentligen i säcken?',
+    'Efter skörden – vad händer med jorden och mykorrhizan?',
+    'Återanvänd krukjorden – bedöm den innan du fyller på',
+    'Planera blomningen – fyll luckorna under säsongen',
   ]);
   for (const [slug, title] of [
     ['jord-och-kompost', 'Jord – sand, silt, lera och livet under ytan'],
@@ -103,6 +108,11 @@ test('trädgårdsguiderna visas under Livet i trädgården', async ({ page }) =>
     ['jordens-sma-arbetare', 'Jordens små arbetare – samspelet under ytan'],
     ['kompost', 'Från växtrester till jordförbättring – förstå kompostens kretslopp'],
     ['tackodling-genom-aret', 'Täckodling genom året – så anpassar du täcket till odlingen'],
+    ['forbattra-jorden', 'Förbättra jorden – börja med att undersöka den'],
+    ['kopejord', 'Köpejord – vad får du egentligen i säcken?'],
+    ['efter-skorden', 'Efter skörden – vad händer med jorden och mykorrhizan?'],
+    ['ateranvand-krukjord', 'Återanvänd krukjorden – bedöm den innan du fyller på'],
+    ['blomning-genom-sasongen', 'Planera blomningen – fyll luckorna under säsongen'],
   ]) {
     await expect(
       page.getByRole('link', { name: title, exact: true }),
