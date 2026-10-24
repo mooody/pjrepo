@@ -39,9 +39,7 @@
 }
 ---
 
-Stora kålfjärilens larver kan snabbt gnaga sönder kålblad. Känn igen äggklungorna och skilj larverna från rovfjärilens.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Stora kålfjärilen lägger vanligen många gula, upprättstående ägg tillsammans. Larverna är gulgröna, ofta med tydliga mörka prickar och korta hår, och lever tidigt i grupp. Det skiljer dem från rovfjärilens jämnare gröna, ensamma larver.
 
@@ -49,19 +47,19 @@ Stora kålfjärilen lägger vanligen många gula, upprättstående ägg tillsamm
 
 När många larver kläcks samtidigt kan stora delar av kålens blad snabbt ätas upp. De äldre larverna sprider sig ofta vidare. Tidiga hål visar inte säkert att larverna finns kvar; titta även efter spillning och rörliga larver.
 
-## Börja här vid misstänkt angrepp
+## Undersök och begränsa angreppet
 
 Kontrollera bladundersidor flera gånger i veckan under flygperioden. Plocka äggsamlingar och små larver innan de sprids. Använd väl sluten insektstäckning och inspektera plantorna innan nätet läggs på.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Kålparasitoider som *Cotesia*-steklar kan utvecklas i larverna. Små gula silkeskokonger vid en döende larv är ofta parasitoidkokonger, inte ytterligare kålfjärilsägg. De ska inte misstas för skadegörare.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Övervintrar som puppa på skyddade underlag. Uppgiften gäller de arter och odlingsmiljöer som nämns, inte alla närstående arter.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Pieris brassicae, kålfjäril. Sammanhängande laboratorieexempel på kål från Indien. Temperaturen redovisas inte i studien; uppgifterna är inte en svensk prognos.
 
@@ -83,4 +81,4 @@ Utvecklingstider och mått är **ungefärliga och artspecifika**. De gäller de 
 
 ## Fördjupning och jämförelse
 
-[RHS – Cabbage caterpillars, stora och små kålfjärilen](https://www.rhs.org.uk/biodiversity/cabbage-caterpillars) är ett externt referensunderlag, inte ett eget artbestämt fotografi från odlingen. 
+[RHS – Cabbage caterpillars, stora och små kålfjärilen](https://www.rhs.org.uk/biodiversity/cabbage-caterpillars) är ett externt referensunderlag, inte ett eget artbestämt fotografi från odlingen.
