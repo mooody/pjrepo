@@ -16,7 +16,7 @@ För de elva resterande grupperna har befintlig parasitstekelsida fördjupats oc
 
 ## Skadedjur – 14 specialguider på PR #32 (2026-10-24)
 
-**Genomfört i arbetsgrenen, ännu inte mergat/publicerat:** Samtliga 14 skadedjursdokument från Google Drive-mappen [Trädgårdsdrömmar – biologisk odling – webbutkast](https://drive.google.com/drive/folders/1c5r02L1r-LMIvl-11d7dwQ4RLNd10YNo) används som källor för 14 nya artiklar i den befintliga samlingen `src/content/pests`. Den äldre allmänna artikeln `/skadedjur/bladloss/` bevaras oförändrad. Därmed finns **15 skadedjurssidor**: gröna och svarta bladlöss, kålbladlus, trips, spinnkvalster, mjöllöss, sorgmyggor, minerarflugor, rovfjäril, stor kålfjäril, kålmal, kålfly, bredkvalster, sköldlöss samt den generella bladlusguiden.
+**Genomfört i arbetsgrenen, ännu inte mergat/publicerat:** Samtliga 14 skadedjursdokument från Google Drive-mappen [Trädgårdsdrömmar – biologisk odling – webbutkast](https://drive.google.com/drive/folders/1c5r02L1r-LMIvl-11d7dwQ4RLNd10YNo) används som källor för 14 nya artiklar i den befintliga samlingen `src/content/pests`. Den äldre allmänna artikeln `/skadedjur/bladloss/` behåller sin URL och huvudtext, men kompletteras med länkar till de tre särskilda bladlusguiderna och ytterligare nyttodjur. Därmed finns **15 skadedjurssidor**: gröna och svarta bladlöss, kålbladlus, trips, spinnkvalster, mjöllöss, sorgmyggor, minerarflugor, rovfjäril, stor kålfjäril, kålmal, kålfly, bredkvalster, sköldlöss samt den generella bladlusguiden.
 
 ### Redaktionell kontroll och avgränsning
 
