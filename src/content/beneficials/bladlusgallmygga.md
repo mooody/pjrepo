@@ -1,37 +1,37 @@
 ---
 {
-  "title": "Bladlusgallmygga",
-  "description": "En liten orange larv bland bladlössen kan vara ett rovdjur snarare än en skadegörare. Hos bladlusgallmyggan är larven aktiv bladlusjägare, medan den myggliknande vuxna insekten är svår att upptäcka i dagsljus.",
-  "draft": false,
-  "category": "Nyttodjur",
-  "scientificName": "Aphidoletes aphidimyza",
-  "tags": [
-    "nyttodjur",
-    "biologisk bekämpning",
-    "bladlöss"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "Cornell – Aphidoletes aphidimyza: larver, livsmiljö och dygnsrytm",
-      "url": "https://biocontrol.entomology.cornell.edu/predators/Aphidoletes.php"
-    },
-    {
-      "title": "Dai m.fl. (2024) – utveckling och ljusberoende hos Aphidoletes",
-      "url": "https://doi.org/10.3390/insects15050299"
-    }
-  ],
-  "related": [
-    {
-      "label": "Bladlöss",
-      "href": "/skadedjur/bladloss/"
-    },
-    {
-      "label": "Guldögonsländor",
-      "href": "/nyttodjur/guldogonslandor/"
-    }
-  ]
+ "title": "Bladlusgallmygga",
+ "description": "En liten orange larv bland bladlössen kan vara ett rovdjur snarare än en skadegörare. Hos bladlusgallmyggan är larven aktiv bladlusjägare, medan den myggliknande vuxna insekten är svår att upptäcka i dagsljus.",
+ "draft": false,
+ "category": "Nyttodjur",
+ "scientificName": "Aphidoletes aphidimyza",
+ "tags": [
+ "nyttodjur",
+ "biologisk bekämpning",
+ "bladlöss"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "Cornell – Aphidoletes aphidimyza: larver, livsmiljö och dygnsrytm",
+ "url": "https://biocontrol.entomology.cornell.edu/predators/Aphidoletes.php"
+ },
+ {
+ "title": "Dai m.fl. (2024) – utveckling och ljusberoende hos Aphidoletes",
+ "url": "https://doi.org/10.3390/insects15050299"
+ }
+ ],
+ "related": [
+ {
+ "label": "Bladlöss",
+ "href": "/skadedjur/bladloss/"
+ },
+ {
+ "label": "Guldögonsländor",
+ "href": "/nyttodjur/guldogonslandor/"
+ }
+ ]
 }
 ---
 
@@ -40,8 +40,6 @@ En liten orange larv bland bladlössen kan vara ett rovdjur snarare än en skade
 ## Så känner du igen dem
 
 Leta efter **små orange, benlösa larver** mellan levande bladlöss och utsugna rester. De vuxna är smala, myggliknande och främst skymningsaktiva. Färgen ensam ger inte en säker artbestämning.
-
-Rovlarven är benlös och orange. Leta mellan levande löss och hopfallna utsugna bladlöss. Färg och plats ger stöd, men inte varje orange larv är denna art.
 
 ## Roll i odlingen
 
@@ -79,12 +77,12 @@ Gäller bladlusgallmyggan, inte gallmyggor i allmänhet. Många andra gallmyggor
 
 På friland kan larvstadiet ta ca 1–2 veckor och kokongstadiet upp till ca 3 veckor; vintervila förlänger mer.
 
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. Läs diagrammet medurs. Ringens delar är inte en proportionell tidsskala.
+- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
 
 **Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
 
 ## Jämför bilder och bedöm fyndet
 
-[Cornell visar ägg, larv och vuxen bladlusgallmygga](https://biocontrol.entomology.cornell.edu/predators/Aphidoletes.php). Referensfotografierna visar exempel från källans bestämda djur och livsstadier. De visar inte våra egna fynd. Förarbetets särskilda stadieillustrationer ska först granskas och exporteras som märkta, vattenstämplade webbversioner innan de läggs på sidan.
+[Cornell visar ägg, larv och vuxen bladlusgallmygga](https://biocontrol.entomology.cornell.edu/predators/Aphidoletes.php). Referensfotografierna visar exempel från källans bestämda djur och livsstadier. De visar inte våra egna fynd. 
 
 Vid en observation räcker ofta en trygg bedömning på **gruppnivå och om djuret är en sannolik hjälpare**, utan att pressa fram en osäker artbestämning.
