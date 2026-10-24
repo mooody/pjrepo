@@ -104,6 +104,22 @@ const structuredData = [
       </nav>
     </header>
     <main id="main">
+      {menuBreadcrumbs.length > 1 && (
+        <nav class="site-breadcrumbs" aria-label="Brödsmulor">
+          <ol>
+            {menuBreadcrumbs.map((item: { name: string; href: string }, index: number) => (
+              <li>
+                {index > 0 && <span class="breadcrumb-separator" aria-hidden="true">›</span>}
+                {index === menuBreadcrumbs.length - 1 ? (
+                  <span aria-current="page">{item.name}</span>
+                ) : (
+                  <a href={sitePath(item.href)}>{item.name}</a>
+                )}
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
       <slot />
     </main>
     <footer>
