@@ -4,7 +4,7 @@
  "description": "Små rovskinnbaggar i släktet Orius kan jaga trips även när de är nymfer. De är viktiga i biologiskt växtskydd, men alla skinnbaggar är inte rovdjur och alla Orius-arter har inte samma klimatkrav.",
  "draft": false,
  "category": "Nyttodjur",
- "scientificName": "Orius spp. – exempel Orius majusculus",
+ "scientificName": "Orius spp.",
  "tags": [
  "nyttodjur",
  "biologisk mångfald",
