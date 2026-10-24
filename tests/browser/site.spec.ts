@@ -253,10 +253,10 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     await expect(page.locator('.sources li')).toHaveCount(4);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
-    await page.getByRole('link', { name: '← Biologiskt växtskydd', exact: true }).click();
+    await page.getByRole('navigation', { name: 'Brödsmulor' }).getByRole('link', { name: 'Biologiskt växtskydd' }).click();
     await main.getByRole('link', { name: 'Näringsväven i odlingen – vem lever av vem?', exact: true }).click();
     await expect(page).toHaveURL(/\/odlingsmetoder\/naringsvaven-i-odlingen\/$/);
-    await expect(page.locator('article.detail > a.text-link')).toHaveAttribute('href', /\/biologiskt-vaxtskydd\/$/);
+    await expect(page.getByRole('navigation', { name: 'Brödsmulor' }).getByRole('link', { name: 'Biologiskt växtskydd' })).toBeVisible();
     await expect(page.locator('.sources li')).toHaveCount(6);
     await expect(page.locator('article.detail figure')).toHaveCount(3);
     for (const img of await page.locator('article.detail img').all()) {
@@ -270,28 +270,26 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
       .getByRole('link', { name: 'Biologiskt växtskydd', exact: true })).toHaveAttribute('aria-current', 'page');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
-    await page.getByRole('link', { name: '← Biologiskt växtskydd', exact: true }).click();
+    await page.getByRole('navigation', { name: 'Brödsmulor' }).getByRole('link', { name: 'Biologiskt växtskydd' }).click();
     await main.getByRole('link', { name: 'Utforska nyttodjuren' }).click();
     await expect(page).toHaveURL(/\/nyttodjur\/$/);
-    await expect(page.getByRole('link', { name: '← Biologiskt växtskydd' })).toBeVisible();
+    await expect(page.getByRole('navigation', { name: 'Brödsmulor' }).getByRole('link', { name: 'Biologiskt växtskydd' })).toBeVisible();
     await page.getByRole('heading', { name: 'Guldögonsländor' }).getByRole('link').click();
     await expect(page).toHaveURL(/\/nyttodjur\/guldogonslandor\/$/);
-    const back = page.locator('article.detail > a.text-link');
-    await expect(back).toHaveText('← Nyttodjur');
-    await expect(back).toHaveAttribute('href', /\/nyttodjur\/$/);
-    await expect(page.getByRole('navigation', { name: 'Brödsmulor' })).toHaveCount(0);
+    const crumbs = page.getByRole('navigation', { name: 'Brödsmulor' });
+    await expect(crumbs.getByRole('link', { name: 'Biologiskt växtskydd' })).toBeVisible();
+    await expect(crumbs.getByRole('link', { name: 'Nyttodjur' })).toHaveAttribute('href', /\/nyttodjur\/$/);
     const breadcrumbData = await page.locator('script[type="application/ld+json"]').allTextContents();
     expect(breadcrumbData.join('')).toContain('Biologiskt växtskydd');
     expect(breadcrumbData.join('')).not.toContain('Livet i trädgården');
     if (width === 390) await page.getByRole('button', { name: 'Meny' }).click();
     await expect(page.getByRole('navigation', { name: 'Huvudmeny' })
       .getByRole('link', { name: 'Biologiskt växtskydd', exact: true })).toHaveAttribute('aria-current', 'page');
-    await back.click();
-    await page.getByRole('link', { name: '← Biologiskt växtskydd', exact: true }).click();
+    await crumbs.getByRole('link', { name: 'Biologiskt växtskydd' }).click();
     await page.getByRole('link', { name: 'Utforska skadedjuren' }).click();
     await expect(page).toHaveURL(/\/skadedjur\/$/);
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('Skadedjur');
-    await page.getByRole('link', { name: '← Biologiskt växtskydd' }).click();
+    await page.getByRole('navigation', { name: 'Brödsmulor' }).getByRole('link', { name: 'Biologiskt växtskydd' }).click();
     await expect(page).toHaveURL(/\/biologiskt-vaxtskydd\/$/);
   }
 });
