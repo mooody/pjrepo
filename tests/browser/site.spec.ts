@@ -150,7 +150,7 @@ test('artiklar visar menybaserad kedja utan Startsida', async ({ page }) => {
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 900 });
     for (const [route, labels] of [
-      ['/chilisorter/habanero/', ['Chili', 'Chilisorter', 'Habanero']],
+      ['/chilisorter/habanero/', ['Chili', 'Chilisorter', 'Habanero Red']],
       ['/nyttodjur/guldogonslandor/', ['Biologiskt växtskydd', 'Nyttodjur', 'Guldögonsländor']],
       ['/odlingsmetoder/att-odla-med-naturen/', ['Biologiskt växtskydd', 'Att odla med naturen i stället för bredvid den']],
     ]) {
