@@ -299,6 +299,42 @@
       "license": "Fri användning med bibehållen vattenstämpel",
       "licenseUrl": "",
       "position": "centre"
+    },
+    {
+      "id": "guldogonslanda-vuxen",
+      "source": "",
+      "alt": "Grön vuxen guldögonslända med guldglänsande ögon, långa antenner och fyra nätådriga vingar.",
+      "caption": "Vuxen guldögonslända i carnea-gruppen. Pedagogisk AI-illustration med förenklade detaljer; närstående arter kan vara svåra att skilja åt.",
+      "ownership": "own",
+      "kind": "illustration",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
+    },
+    {
+      "id": "guldogonslanda-larv",
+      "source": "",
+      "alt": "Äldre guldögonsländelarv med brunmönstrad långsmal kropp, sex ben framtill och två böjda käkar.",
+      "caption": "Äldre larv som pedagogisk AI-illustration. Mått och tid gäller ett studieexempel; bilden är förstorad.",
+      "ownership": "own",
+      "kind": "illustration",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
+    },
+    {
+      "id": "guldogonslanda-livscykel",
+      "source": "",
+      "alt": "Förenklad livscykel med skaftägg, växande larv, kokong med puppa och vuxen guldögonslända.",
+      "caption": "Förenklad livscykel för carnea-gruppen. Pedagogisk AI-illustration med ungefärliga mått och tider från ett laboratorieexempel vid 24 °C.",
+      "ownership": "own",
+      "kind": "illustration",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
     }
   ]
 }

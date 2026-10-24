@@ -147,6 +147,29 @@ test('trädgårdsguiderna har rätt brödsmulor och publicerade bilder', async (
   await expect(page.locator('article.topic img')).toHaveCount(6);
 });
 
+test('guldögonsländans artikel visar läsbilder, förstoring och källor', async ({ page }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/nyttodjur/guldogonslandor/');
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText('Guldögonsländor');
+    await expect(page.locator('article.detail img')).toHaveCount(3);
+    for (const img of await page.locator('article.detail img').all()) {
+      await img.scrollIntoViewIfNeeded();
+      await expect(img).toHaveJSProperty('complete', true);
+      expect(await img.evaluate((element: HTMLImageElement) => element.naturalWidth)).toBeGreaterThan(0);
+    }
+    const fullDiagram = page.getByRole('link', { name: 'Visa större livscykel', exact: true });
+    await expect(fullDiagram).toHaveAttribute('href', /\/media\/guldogonslanda-livscykel\.webp$/);
+    const response = await page.request.get((await fullDiagram.getAttribute('href'))!);
+    expect(response.ok()).toBe(true);
+    await expect(page.locator('.prose')).toContainText('laboratorieförsöket');
+    await expect(page.locator('.prose')).not.toContainText('Källor och redaktionella anteckningar');
+    await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  }
+  expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+});
+
 test('admin initierar CMS med konfigurerad OAuth-förmedlare', async ({ page }) => {
   // Kontrollera bootstrap utan att genomföra riktig GitHub OAuth-inloggning.
   await page.route('**/admin/vendor/decap-cms.js', (route) =>
