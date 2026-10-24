@@ -45,11 +45,7 @@ Larven angriper bladlöss och kan lämna mörka, hopfallna rester. Vuxna lever b
 
 ## Miljö genom säsongen och övervintring
 
-Mogna larver kan gå i vila i kokong i substratet. Fukt, temperatur och dagslängd påverkar; korta dagar kan stoppa fortsatt aktiv förökning.
-
-Fuktig men syresatt yta under plantan är viktig för att fullvuxna larver ska kunna förpuppas. Dagslängden kan styra vintervila även inomhus; följ därför produktens art- och säsongsanvisningar vid utsättning.
-
-Fullvuxna larver behöver en lätt fuktig, syresatt markyta för att kunna förpuppas. Kort dagslängd kan utlösa vila och begränsa etableringen även i en uppvärmd odling. Det skiljer sig från krav hos exempelvis nyckelpigor.
+Fullvuxna larver förpuppas i ett lätt fuktigt, syresatt substrat, och vissa kan vila i kokong där. Temperatur och dagslängd påverkar utvecklingen; korta dagar kan utlösa vintervila även i en uppvärmd odling. Vid inköpt utsättning behöver därför både säsong och produktens artanvisningar kontrolleras.
 
 ## Samspel med andra djur
 
