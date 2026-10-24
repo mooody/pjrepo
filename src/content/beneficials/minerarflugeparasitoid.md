@@ -4,7 +4,7 @@
  "description": "Små steklar kan angripa minerarflugelarver inne i de ljusa gångarna på bladet. Det betyder att ett blad med minor kan innehålla både skadegörare och deras naturliga fiender.",
  "draft": false,
  "category": "Nyttodjur – biologisk bekämpning",
- "scientificName": "Diglyphus isaea – ett exempel på ektoparasitoid",
+ "scientificName": "Diglyphus isaea",
  "tags": [
  "nyttodjur",
  "köpta nyttodjur",
