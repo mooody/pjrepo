@@ -39,9 +39,7 @@
 }
 ---
 
-Känn igen gröna bladlöss på chili och andra växter, upptäck honungsdagg och naturliga fiender och välj skonsamma första åtgärder.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Grön färg är inte en artbestämning. Flera bladlöss kan vara gröna eller gulgröna och leva på chili, grönsaker och prydnadsväxter. Titta efter mjuka päronformade kroppar, två små ryggutskott (sifoner) nära bakkroppen och vita ömsningshudar.
 
@@ -49,19 +47,19 @@ Grön färg är inte en artbestämning. Flera bladlöss kan vara gröna eller gu
 
 Kolonier på unga skott och bladundersidor suger växtsaft. Nytillväxt kan bli krullig eller hämmad. Klibbig honungsdagg och ibland sotdagg är vanliga följder, men stora hål i bladet tyder på annan skada.
 
-## Börja här när du misstänker angrepp
+## Undersök och begränsa angreppet
 
 Välj ut två eller tre angripna skott och jämför dem med foto efter några dagar. Ta bort en liten koloni med hand eller varsamt vatten på en tålig planta. Se samtidigt efter nyckelpigelarver, blomflugelarver, guldögonsländelarver och bladlusmumier innan du ingriper.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Myror kan samla honungsdagg och försvara lössen. Parasitoider behöver passa just bladlusarten; samma inköpta nyttostekel fungerar inte mot alla bladlöss.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Många svenska arter övervintrar som ägg på en värdväxt. På levande plantor inomhus kan vissa fortsätta föda ungar. Det betyder inte att samma vinterförlopp gäller varje art eller varje skyddad odlingsmiljö.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Myzus persicae. Ca 23 °C • paprika • sommarcykel.
 
