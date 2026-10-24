@@ -18,8 +18,8 @@
       "url": "https://www.rhs.org.uk/biodiversity/cabbage-caterpillars"
     },
     {
-      "title": "RHS – Cabbage caterpillars: jämförelse av larver och ägg",
-      "url": "https://www.rhs.org.uk/biodiversity/cabbage-caterpillars"
+      "title": "Purdue – taxonomisk referens för kålfjärilar",
+      "url": "https://caps.ceris.purdue.edu/file-3078"
     }
   ],
   "related": [
