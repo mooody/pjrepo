@@ -75,7 +75,7 @@ Vald exempelart: Pieris brassicae, kålfjäril. Sammanhängande laboratorieexemp
 
 Ägg → vuxen: ca 5–6 veckor. Alla tider är ungefärliga.
 
-Kålfjäril skiljer sig från rovfjäril bland annat genom äggklungor och fläckiga larver. Tider och storlekar kommer från ett litet försöksunderlag och är inte universella gränser. Ett brittiskt försök vid 20 °C gav ca 19 dygn för hela larvperioden; denna serie blandas inte med diagrammets värden.
+Kålfjäril skiljer sig från rovfjäril bland annat genom äggklungor och fläckiga larver. Tider och storlekar kommer från ett litet försöksunderlag och är inte universella gränser. Ett brittiskt försök vid 20 °C gav ca 19 dygn för hela larvperioden; denna studie blandas inte med det indiska exempelmaterialet.
 
 Vintervila i puppan kan förlänga stadiet till ca 6–8 månader.
 
