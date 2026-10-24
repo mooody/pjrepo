@@ -4,7 +4,7 @@
  "description": "De små steklarna syns sällan lika tydligt som resultatet av deras aktivitet: en uppsvälld, brunaktig bladlus, ofta kallad mumie. Men alla parasitsteklar angriper inte bladlöss, och en mumie identifierar inte automatiskt ",
  "draft": false,
  "category": "Nyttodjur",
- "scientificName": "Hymenoptera – bladlusparasitoider, bl.a. Aphidius",
+ "scientificName": "Hymenoptera (flera familjer)",
  "tags": [
  "nyttodjur",
  "biologisk bekämpning",
