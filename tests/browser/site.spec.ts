@@ -306,6 +306,7 @@ test('artiklar kan skrivas ut med logga, läsbara bilder och källor', async ({ 
     await page.goto(route);
     const button = page.getByRole('button', { name: 'Skriv ut / spara som PDF', exact: true });
     await expect(button).toBeVisible();
+    await expect(page.locator('article + .article-tools-footer .article-print-button')).toHaveCount(1);
     await expect(page.locator('.print-masthead')).toBeHidden();
     await page.evaluate(() => { window.print = () => { document.body.dataset.printCalled = 'yes'; }; });
     await button.click();
@@ -319,6 +320,7 @@ test('artiklar kan skrivas ut med logga, läsbara bilder och källor', async ({ 
     await expect(page.locator('.site-header')).toBeHidden();
     await expect(page.locator('body > footer')).toBeHidden();
     await expect(page.locator('.print-masthead')).toBeVisible();
+    await expect(page.locator('.article-tools-footer')).toBeHidden();
     await expect(page.locator('.print-masthead img')).toHaveAttribute('src', /tradgardsdrommar-logo\.webp$/);
     await expect(page.locator('.article-source-url')).toContainText(route);
     expect(await page.locator('body').evaluate((el) => getComputedStyle(el).backgroundColor)).toBe('rgb(255, 255, 255)');
