@@ -51,11 +51,9 @@ Parasitoidens unge utvecklas i eller på en värd som i slutänden dör. Vid bla
 
 ## Miljö genom säsongen och övervintring
 
-Bladlusparasitoider kan övervintra inne i värdmumier, men stadium och strategi är artberoende. I uppvärmd odling krävs rätt levande värdar för fortsatt utveckling.
+Bladlusparasitoider behöver tillgång till rätt värdbladlöss för att föröka sig. Vuxna kan gynnas av åtkomliga sockerresurser. Spara gärna uppsvällda bladlusmumier när du sanerar försiktigt och plantan klarar angreppet.
 
-Spara mumier vid försiktig sanering och undvik att förstöra hela bladluskolonier när plantorna klarar ett mindre angrepp. Inköpt art ska väljas utifrån den aktuella bladlusen: exempelvis är Aphidius colemani inte en universallösning mot större bladlöss eller kålbladlus.
-
-Spara uppsvällda bladlusmumier vid försiktig sanering. För fortsatt aktivitet behöver parasitoiderna tillgång till rätt värdbladlöss; små åtkomliga sockerresurser kan också spela roll för vuxna. Matcha alltid en eventuell inköpt art med bladlusarten.
+Övervintring i värdmumier förekommer hos vissa arter, men stadium och strategi varierar. Vid inköp måste stekelarten matcha bladlusarten; *Aphidius colemani* är inte en universallösning mot kålbladlus eller större bladlöss.
 
 ## Samspel med andra djur
 
