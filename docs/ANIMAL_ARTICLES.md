@@ -2,6 +2,18 @@
 
 Guldögonsländor är den första fullt utvecklade djurartikeln från Drive-förarbetet. Den ligger på befintlig adress `/nyttodjur/guldogonslandor/` i samlingen `beneficials`. Detta dokument beskriver det genomförda innehållsupplägget, inte en ny CMS- eller menystruktur.
 
+## Genomförande av resterande nyttodjur – 2026-10-24
+
+**Status: arbetsgren och PR, inte mergat eller publicerat.** Projektets Drive-mapp `Trädgårdsdrömmar – biologisk odling – webbutkast` och dess sidregister (13 nyttodjursdokument N01–N13) är lästa. Befintliga guldögonsländor ligger kvar. Nyckelpigor behandlas separat i öppna PR #31 och har inte skrivits över av detta arbete.
+
+För de elva resterande grupperna har befintlig parasitstekelsida fördjupats och tio nya `beneficials`-artiklar skapats: blomflugor, bladlusgallmygga, rovskinnbaggar, jordlöpare, rovtrips, minerarflugeparasitoider, rovkvalster mot spinn, jordlevande rovkvalster, nematoder mot sorgmyggor och rovkvalster mot trips. Samlingssidan beskriver nu hela serien och skiljer naturligt förekommande nyttodjur från sådana som ofta köps in. Samtliga använder befintliga URLs under `/nyttodjur/`, samma sidmall och CMS-schema, egna källfält, men inga nya bild-ID:n.
+
+**Faktagränser:** Blomflugelarver har skilda levnadssätt; bladlusgallmyggan kräver skyddad förpuppningsmiljö; parasitstekelmumier kan innehålla hyperparasitoider; `Orius majusculus` bygger på skilda temperatur-/födoexperiment; jordlöparens årsvarv gäller en exempelart; `Aeolothrips fasciatus` saknar verifierade separata stadietider. För köpta nyttodjur skiljer texten `Diglyphus isaea` från `Dacnusa`, spinnspecialisten `Phytoseiulus persimilis` från andra rovkvalster, jordkvalstret `Stratiolaelaps scimitus` från äldre handelsnamn, nematodens infektiösa J3-form från extra stadier, och `Amblyseius swirskii` från andra arter. Ingen av studierna presenteras som svensk normalprognos.
+
+**Bildunderlag:** De elva individuella Drive-mapparna innehåller illustrerade stadier, livscykler, faktakontroll och fotoreferenser. Dessa är **inte publicerade** i denna PR eftersom skyddad beskärning, etikettgranskning och vattenstämplad WebP-export inte har genomförts. I artikeltexterna finns i stället länkar till namngivna bildreferenser hos UC IPM, Cornell eller andra publicerade institutioner. Inga externt upphovsrättsligt skyddade foton eller oskyddade Drive-original kopierades till publikt GitHub. Bildexport enligt `docs/images.md` är kvarstående arbete och kräver bildgranskning per art och stadium.
+
+**Verifiering:** Node/SEO-test kontrollerar sidorna och `BreadcrumbList`. Playwright kontrollerar samlingslistans antal, läsrubriker, källor och mobilvisning. PR-checkarnas utfall och eventuell omtestning hör till samma PR. Vid merge av PR #31 och denna gren kontrolleras att båda ändringsloggarna och den fristående nyckelpigeartikeln bevaras. Ingen produktionspublicering sker.
+
 ## Läsarens väg genom en artikel
 
 1. Kort introduktion: vad läsaren kan ha sett och varför djuret är relevant.

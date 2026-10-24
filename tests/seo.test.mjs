@@ -40,3 +40,17 @@ test('robots och sitemap matchar canonical-domänen',async()=>{
  const map=await readFile('dist/sitemap-0.xml','utf8');
  assert.match(map,/www\.tradgardsdrommar\.se\/produkter-2026\/habanero-lemon\//);
 });
+
+test('nyttodjursseriens 13 sidor har rätt SEO-hierarki', async () => {
+ const slugs=['blomflugor','bladlusgallmygga','parasitsteklar','rovskinnbaggar','jordlopare',
+ 'rovtrips','minerarflugeparasitoid','rovkvalster-spinn','jordlevande-rovkvalster',
+ 'nematoder','rovkvalster-trips','guldogonslandor','nyckelpigor'];
+ for(const id of slugs){
+  const page=await html('nyttodjur/'+id);
+  const crumb=schemas(page).find(s=>s['@type']==='BreadcrumbList');
+  assert.ok(crumb,'Saknar navigering för '+id);
+  assert.deepEqual(crumb.itemListElement.map(x=>new URL(x.item).pathname),[
+   '/biologiskt-vaxtskydd/','/nyttodjur/','/nyttodjur/'+id+'/'
+  ]);
+ }
+});

@@ -335,3 +335,19 @@ test('artiklar kan skrivas ut med logga, läsbara bilder och källor', async ({ 
     expect(pdf.length).toBeGreaterThan(10000);
   }
 });
+
+test('alla tretton nyttodjur finns och har spårbara källor', async ({page}) => {
+ await page.goto('/nyttodjur/');
+ await expect(page.locator('#results .search-entry')).toHaveCount(13);
+ for(const slug of ['blomflugor','bladlusgallmygga','parasitsteklar','rovskinnbaggar','jordlopare','rovtrips','minerarflugeparasitoid','rovkvalster-spinn','jordlevande-rovkvalster','nematoder','rovkvalster-trips']){
+  await page.goto('/nyttodjur/'+slug+'/');
+  await expect(page.getByRole('heading',{name:'Så känner du igen dem'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Roll i odlingen'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Källor och granskning'})).toBeVisible();
+  await expect(page.getByRole('navigation',{name:'Brödsmulor'}).getByRole('link',{name:'Nyttodjur'})).toBeVisible();
+ }
+ await page.setViewportSize({width:390,height:844});
+ await page.goto('/nyttodjur/nematoder/');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+ await expect(page.locator('article + .article-tools-footer button')).toBeVisible();
+});
