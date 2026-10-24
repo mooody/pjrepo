@@ -1,5 +1,11 @@
 # Skyddade original och offentliga webbexporter
 
+## Höstbild till täckodlingsåret – 24 oktober 2026
+
+`tackodling-hostlov` bygger på Mickes foto av en påbörjad lövtäckning. Den godkända versionen är beskuren och digitalt ljus-/färgbearbetad med AI-stöd. Den används som huvudbild i `tackodling-genom-aret.md`, med beskrivande alt-text och bildtext som anger att arbetet påbörjats och att fotot är digitalt bearbetat. Bilden ska inte tolkas som ett färdigt täcklager eller ett dokumenterat odlingsresultat.
+
+Åtta WebP-varianter skapade med befintlig `processImages`, med ordinarie vattenstämpel efter varje beskärning. Exporten gjordes i en separat arbetskatalog och endast den nya bildens filer/indexpost fogades till webbexporterna. Tidigare bilder har inte exporterats om. Originalfotot och den bearbetade PNG-bilden hålls utanför repositoryt; publika `source` är tomt. CMS, bildschema och exportmetod är oförändrade.
+
 Repositoryt är offentligt. Inga fotografiska original ska sparas, läggas till med git eller laddas upp via CMS här. Katalognamnet private-images innebär inget åtkomstskydd.
 
 ## Två skilda steg
