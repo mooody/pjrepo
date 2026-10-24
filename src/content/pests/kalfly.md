@@ -39,9 +39,7 @@
 }
 ---
 
-Kålflyets larver kan gömma sig djupt bland kålblad. Lär dig upptäcka spillning, grova hål och skydda skörden i tid.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Larverna är kraftiga och kan variera från gröna till brunaktiga med teckningar längs kroppen. Äldre larver kan söka skydd i täta huvuden under dagen. De vuxna är bruna nattfjärilar, inte vita kålfjärilar.
 
@@ -49,19 +47,19 @@ Larverna är kraftiga och kan variera från gröna till brunaktiga med teckninga
 
 Grova hål och mörka spillningsklumpar i eller mellan kålbladen är typiska varningssignaler. Larver kan gnaga djupt in i huvudet och skada den del som ska skördas; rötangrepp kan tillkomma.
 
-## Börja här vid misstänkt angrepp
+## Undersök och begränsa angreppet
 
 Inspektera både öppna ytterblad och tätare partier längre in. En kontroll på kvällen kan avslöja larver som gömmer sig under dagen. Plocka ägg och larver i liten odling, håll nät tätt och sortera bort kraftigt skadade växtrester.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Olika parasitoider och marklevande rovdjur kan ta ägg eller larver. Deras förekomst garanterar inte att ett kålhuvud blir oskadat. Skydd för nyttodjur bör kombineras med tidiga kontroller.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Övervintrar normalt som puppa i jorden. Puppstadiet kan också förlängas av andra vilotillstånd. Uppgiften gäller de arter och odlingsmiljöer som nämns, inte alla närstående arter.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Mamestra brassicae. Ca 25 °C • utan vintervila.
 
