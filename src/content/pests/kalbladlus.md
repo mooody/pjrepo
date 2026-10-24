@@ -39,9 +39,7 @@
 }
 ---
 
-Gråvaxiga kålbladlöss gömmer sig djupt bland bladen. Så upptäcker du dem, begränsar angreppet och tar hänsyn till parasitoider.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Kålbladlusen bildar ofta täta grågröna kolonier täckta av ljust vax på kål och andra korsblommiga växter. Leta i bladveck, mellan små huvudblad och på blomskott. Grå färg på vilken växt som helst räcker inte för artbestämning.
 
@@ -49,19 +47,19 @@ Kålbladlusen bildar ofta täta grågröna kolonier täckta av ljust vax på kå
 
 Bladen kan bucklas och tillväxten påverkas, men även relativt små kolonier i ett blivande kålhuvud kan bli ett skörde- och kvalitetsproblem eftersom lössen göms bland bladen.
 
-## Börja här när du misstänker angrepp
+## Undersök och begränsa angreppet
 
 Kontrollera regelbundet just de innersta bladen innan huvudet sluter sig. Ta bort lokalt kraftigt angripna delar på ett sätt som inte avlövar hela plantan. Håll rent efter skörd och skilj levande löss från de uppsvällda, parasiterade mumierna.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Bladlusen kan angripas av bland andra *Diaeretiella rapae*, nyckelpigor och blomflugelarver. En godtycklig *Aphidius*-produkt mot andra bladlöss är inte automatiskt lämplig för kålbladlus.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Kål och andra korsblommiga värdar kan bära vinterägg. I skyddad miljö kan levande stadier också finnas kvar. Det betyder inte att samma vinterförlopp gäller varje art eller varje skyddad odlingsmiljö.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Brevicoryne brassicae. Ca 20 °C • kål • sommarcykel.
 
