@@ -65,8 +65,6 @@ Kålparasitoider som *Cotesia*-steklar kan utvecklas i larverna. Små gula silke
 
 Vald exempelart: Pieris brassicae, kålfjäril. Sammanhängande laboratorieexempel på kål från Indien. Temperaturen redovisas inte i studien; uppgifterna är inte en svensk prognos.
 
-**Studietemperaturen redovisades inte. Tiderna är därför inte svenska normalvärden.**
-
 - Äggklunga — ca 5 dygn i försöket. Varje ägg ca 1,3 × 0,5 mm.
 
 - Larv I–V — sammanlagt ca 26 dygn i försöket. I ca 5, II ca 4, III ca 5, IV ca 5, V ca 7 dygn. Ungefärliga uppmätta stadiumlängder var 6, 12, 24, 32 och 40 mm; andra studier ger tydligt andra mått.
