@@ -128,11 +128,11 @@ test('trädgårdsguiderna visas under Livet i trädgården', async ({ page }) =>
 });
 
 test('trädgårdsguiderna har rätt brödsmulor och publicerade bilder', async ({ page }) => {
-  for (const [slug, primary] of [
-    ['jord-och-kompost', 'odlingslott-jord'],
-    ['tackodling', 'tackodling-genomskarning'],
-    ['biologisk-mangfald', 'mangfald-stubbe'],
-    ['tackodling-genom-aret', 'tackodling-hostlov'],
+  for (const [slug, fullImage] of [
+    ['jord-och-kompost', 'odlingslott-jord-full-800.webp'],
+    ['tackodling', 'tackodling-genomskarning-full-800.webp'],
+    ['biologisk-mangfald', 'mangfald-stubbe-full-800.webp'],
+    ['tackodling-genom-aret', 'tackodling-hostlov.webp'],
   ]) {
     await page.goto('/odlingsmetoder/' + slug + '/');
     const crumbs = page.getByRole('navigation', { name: 'Brödsmulor' });
@@ -140,7 +140,7 @@ test('trädgårdsguiderna har rätt brödsmulor och publicerade bilder', async (
     expect(href?.endsWith('/biologisk-odling/')).toBe(true);
     await expect(crumbs).not.toContainText('Chiliodling och växtskydd');
     const src = await page.locator('article.detail img').first().getAttribute('src');
-    expect(src?.endsWith('/media/' + primary + '-full-800.webp')).toBe(true);
+    expect(src?.endsWith('/media/' + fullImage)).toBe(true);
     await expect(page.getByRole('link', { name: '← Livet i trädgården' })).toBeVisible();
   }
   await page.goto('/biologisk-odling/');
