@@ -73,7 +73,7 @@ Vald exempelart: Brevicoryne brassicae. Ca 20 °C • kål • sommarcykel.
 
 Vid 15 °C tog nymfutvecklingen ca 10 dygn, vid 25 °C ca 5 dygn. Samma bladlus kan därför utvecklas tydligt olika snabbt.
 
-Vintergren: vinterägg kan vila i flera månader. Sommarens levandefödande generationer visas i ringen.
+Vintergren: vinterägg kan vila i flera månader. Sommarens levandefödande generationer räknas separat från vintervilan.
 
 Utvecklingsuppgifterna gäller **den angivna exempelarten och de beskrivna försöksvillkoren**, inte en svensk odlingsprognos. Vid varmare eller kallare förhållanden kan utvecklingen ta annan tid. Vuxenliv ingår inte i tiden från ungt stadium till vuxen.
 
