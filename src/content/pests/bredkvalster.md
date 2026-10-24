@@ -39,9 +39,7 @@
 }
 ---
 
-Bredkvalster kan skada chilins allra yngsta tillväxt. Så känner du igen misstänkta symptom och skiljer dem från närings- och växtstress.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Bredkvalster är mycket små, kring 0,2 mm hos honan, och behöver ofta kraftig förstoring eller mikroskop för säker bestämning. De genomskinliga, ovala äggen har karakteristiska ljusa upphöjningar. Ett enbart krulligt chiliskott bevisar inte att bredkvalster finns.
 
@@ -49,19 +47,19 @@ Bredkvalster är mycket små, kring 0,2 mm hos honan, och behöver ofta kraftig 
 
 Nya blad kan bli förtjockade, buckliga, mörkare eller förvridna och frukt kan få korkliknande skador. Liknande symptom kan orsakas av bekämpningsmedel, annan stress, växtsjukdom eller felaktig näringstillgång.
 
-## Börja här vid misstänkt angrepp
+## Undersök och begränsa angreppet
 
 Avskilj misstänkta plantor från oskadade när du undersöker dem. Använd lupp eller mikroskop på den allra yngsta tillväxten och jämför flera skott. Följ nya blad efter åtgärd: redan skadad vävnad blir inte rak igen. Klisterskivor visar inte kvalstren.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Generalistiska rovkvalster, exempelvis *Amblyseius swirskii*, kan under lämpliga förhållanden angripa bredkvalster. Art, klimat och möjlighet att hitta rovdjuret på nytillväxten måste bedömas innan inköp.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Levande värdväxter i skyddad odling kan bära populationen vidare. Sval förvaring är inte ett säkert sätt att eliminera kvalstret. Uppgiften gäller de arter och odlingsmiljöer som nämns, inte alla närstående arter.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Polyphagotarsonemus latus. Ca 25 °C • azaleablad • 80 % luftfuktighet.
 
