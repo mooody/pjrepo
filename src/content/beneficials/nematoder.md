@@ -36,31 +36,27 @@
 }
 ---
 
-Nematoder är mikroskopiska rundmaskar, och de allra flesta är inte biologiska bekämpningsmedel. Arten *Steinernema feltiae* kan däremot användas mot sorgmyggelarver genom att infektiösa ungdomsstadier söker upp lämpliga insektsvärdar.
-
-Den här sidan beskriver främst en **art eller artgrupp som kan köpas in för biologisk bekämpning**. Det är inte ett löfte om att samma art normalt förekommer eller övervintrar i svenska frilandsodlingar.
-
-## Så känner du igen dem
-
-Nematoderna är trådsmala, benlösa och ses normalt inte utan förstoring. Det som köps är en produkt med en angiven nematodart och ett **infektiöst juvenilstadium (IJ)**, inte vanliga maskar från komposten. IJ är en specialiserad form av tredje juvenilstadiet, ingen extra livsfas.
-
-## Roll i odlingen
+## Målskadegörare och stadier
 
 *Steinernema feltiae* infekterar lämpliga insektslarver och samverkar med bakterier som hjälper till att döda värden. Effekten beror på nematodstam, insektsart och förhållandena i jorden; den drabbar inte alla jordlevande insekter likadant.
 
-## Börja här vid ett angrepp
+## När metoden passar
 
 Följ den aktuella produktens lagrings-, blandnings- och doseringsanvisningar. Applicera i fuktigt substrat, skydda mot uttorkning och starkt ljus och kontrollera jordtemperaturen. Förvänta dig inte att alla redan kläckta vuxna sorgmyggor försvinner samma dag.
 
-## Samspel med andra djur
-
-Nematoderna verkar främst mot mottagliga larver i jorden. Vuxna sorgmyggor kan fortsätta flyga trots att larvförekomsten sjunker. Jordrovkvalster är en annan sorts naturlig fiende i samma miljö; man bör kontrollera om produkterna går att kombinera.
-
-## Miljö och övervintring
+## Förutsättningar och övervintring
 
 Det infektiösa stadiet söker aktivt värdar i vattenfilmer i substratet. Utan lämplig fukt, temperatur och värdar fungerar behandlingen sämre. Säker svensk övervintring eller långvarig etablering kan inte lovas för alla produkter.
 
-## Livscykel – ett avgränsat exempel
+## Så följer du resultatet
+
+Följ larvförekomsten i jorden och mängden nykläckta vuxna sorgmyggor efter insatsen. Redan flygande myggor försvinner inte direkt. Kontrollera vattning och substrattemperatur under uppföljningen.
+
+## Samspel och kombinationer
+
+Nematoderna verkar främst mot mottagliga larver i jorden. Vuxna sorgmyggor kan fortsätta flyga trots att larvförekomsten sjunker. Jordrovkvalster är en annan sorts naturlig fiende i samma miljö; man bör kontrollera om produkterna går att kombinera.
+
+## Livscykel och utveckling
 
 Vald exempelart: Steinernema feltiae, Lican Ray-isolat från Chile. Ca 20 °C, försöksvärd Galleria mellonella. Exempel för en stam, inte svenska normalvärden.
 
@@ -80,7 +76,11 @@ Alla dagtal räknas från infektionen, inte som separata stadielängder. Sökfas
 
 **För nematoder gäller dagangivelserna tiden från värdinfektion till de olika observationerna, inte separata tider från ägg till vuxen. De överlappar och ska inte adderas.**
 
-## Bilder och säker identifiering
+## Kännetecken och kontroll
+
+Nematoderna är trådsmala, benlösa och ses normalt inte utan förstoring. Det som köps är en produkt med en angiven nematodart och ett **infektiöst juvenilstadium (IJ)**, inte vanliga maskar från komposten. IJ är en specialiserad form av tredje juvenilstadiet, ingen extra livsfas.
+
+## Bilder och identifiering
 
 [Cornell visar mikrofotografier och artinformation om Steinernema feltiae](https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/steinernema-feltiae-beneficial-nematode-sf). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 
