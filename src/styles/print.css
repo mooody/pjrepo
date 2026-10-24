@@ -29,7 +29,6 @@
   .printable-page .skip,
   .printable-page button,
   .printable-page .image-pending,
-  .printable-page .article-breadcrumbs,
   .printable-page article > a.text-link { display: none !important; }
   .printable-page main,
   .printable-page article.section,
