@@ -4,7 +4,7 @@
  "description": "Jordlöpare är snabba skalbaggar som ofta jagar nära marken och i förnan. Många är betydelsefulla markrovdjur; hos vissa arter ingår dessutom ogräsfrön i födan. Det är en familj med varierande beteende.",
  "draft": false,
  "category": "Nyttodjur",
- "scientificName": "Carabidae – exempel Pterostichus melanarius",
+ "scientificName": "Carabidae",
  "tags": [
  "nyttodjur",
  "biologisk mångfald",
