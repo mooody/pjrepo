@@ -28,3 +28,7 @@ Rubriker får anpassas till djuret. Skapa inte extra text enbart för att fylla 
 Återanvänd befintliga sidor där ämnet redan finns och bevara adresserna. Utgå från de aktuella individuella djurdokumenten och förenklade livscyklerna; de detaljerade bildmapparna innehåller också äldre arkiv. Skilj läsartext från arbetsanteckningar och kontrollera gamla statusrader, föreslagna adresser samt bildlänkar.
 
 Efterföljande djurartiklar är ännu inte införda genom detta uppdrag. Sköldlössens stadieindelning och rovtripsens osäkra detaljtider är exempel på kvarstående punkter i Drive-registret, inte lösta av att denna första artikel blivit klar.
+
+## Fortsättning 2026-10-24 – näringsväven
+
+Efter mergad PR #27 införs näringsvävsartikeln i separat arbetsgren på `/odlingsmetoder/naringsvaven-i-odlingen/`, direkt under Biologiskt växtskydd. Den binder samman födoval, livsstadier, honungsdagg och markliv. Befintligt larvfoto och jordlivsillustration återanvänds oförändrade. Fotot på blomman är inte belägg för födointag. Jord- och blomningsråd länkas till sina befintliga guider. Ingen ytterligare djurartikel eller köpguide är färdigställd genom detta steg. Fortsätt därefter med de individuella djurdokumenten enligt upplägget ovan.

@@ -93,7 +93,7 @@ const structuredData = [
             aria-current={
               Astro.url.pathname.startsWith(sitePath(item.href)) ||
               (item.href === '/biologiskt-vaxtskydd/' &&
-                ['/nyttodjur/', '/skadedjur/', '/odlingsmetoder/att-odla-med-naturen/'].some((path) => Astro.url.pathname.startsWith(sitePath(path))))
+                ['/nyttodjur/', '/skadedjur/', '/odlingsmetoder/att-odla-med-naturen/', '/odlingsmetoder/naringsvaven-i-odlingen/'].some((path) => Astro.url.pathname.startsWith(sitePath(path))))
                 ? 'page' : undefined
             }
           >

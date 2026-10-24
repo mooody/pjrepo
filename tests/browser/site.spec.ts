@@ -214,7 +214,7 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     await expect(main.getByRole('heading', { level: 2 })).toHaveText([
       'Att odla med naturen', 'Näringsväven i odlingen', 'Skadedjur', 'Nyttodjur', 'Köpa in nyttodjur',
     ]);
-    await expect(main.getByText('Artikeln kommer.', { exact: true })).toHaveCount(1);
+    await expect(main.getByText('Artikeln kommer.', { exact: true })).toHaveCount(0);
     await expect(main.getByText('Guiderna kommer.', { exact: true })).toBeVisible();
     expect(await main.locator('a').evaluateAll((links) => links.every((link) => {
       const href = link.getAttribute('href');
@@ -232,6 +232,24 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     await expect(page.locator('article.detail figcaption')).toContainText('AI-genererad illustration');
     await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();
     await expect(page.locator('.sources li')).toHaveCount(4);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+    await page.getByRole('link', { name: '← Biologiskt växtskydd', exact: true }).click();
+    await main.getByRole('link', { name: 'Näringsväven i odlingen – vem lever av vem?', exact: true }).click();
+    await expect(page).toHaveURL(/\/odlingsmetoder\/naringsvaven-i-odlingen\/$/);
+    await expect(page.getByRole('navigation', { name: 'Brödsmulor' })
+      .getByRole('link', { name: 'Biologiskt växtskydd' })).toBeVisible();
+    await expect(page.locator('.sources li')).toHaveCount(6);
+    await expect(page.locator('article.detail figure')).toHaveCount(2);
+    for (const img of await page.locator('article.detail img').all()) {
+      await img.scrollIntoViewIfNeeded();
+      await expect(img).toHaveJSProperty('complete', true);
+      expect(await img.evaluate((el: HTMLImageElement) => el.naturalWidth)).toBeGreaterThan(0);
+    }
+    await expect(page.locator('article.detail figcaption').first()).toContainText('inte ett dokumenterat födointag');
+    if (width === 390) await page.getByRole('button', { name: 'Meny' }).click();
+    await expect(page.getByRole('navigation', { name: 'Huvudmeny' })
+      .getByRole('link', { name: 'Biologiskt växtskydd', exact: true })).toHaveAttribute('aria-current', 'page');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
     await page.getByRole('link', { name: '← Biologiskt växtskydd', exact: true }).click();
@@ -261,6 +279,7 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
 test('artiklar kan skrivas ut med logga, läsbara bilder och källor', async ({ page }) => {
   for (const route of [
     '/odlingsmetoder/att-odla-med-naturen/',
+    '/odlingsmetoder/naringsvaven-i-odlingen/',
     '/nyttodjur/guldogonslandor/',
     '/odlingsmetoder/jordens-sma-arbetare/',
     '/chilifortplantning/',

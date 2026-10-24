@@ -15,6 +15,7 @@ test('startsidan har tydlig titel, canonical och WebSite',async()=>{
 });
 test('strukturerade brödsmulor pekar till rätt sidor',async()=>{
  const cases=[
+  ['odlingsmetoder/naringsvaven-i-odlingen',['/','/biologiskt-vaxtskydd/','/odlingsmetoder/naringsvaven-i-odlingen/']],
   ['odlingsmetoder/att-odla-med-naturen',['/','/biologiskt-vaxtskydd/','/odlingsmetoder/att-odla-med-naturen/']],
   ['biologiskt-vaxtskydd',['/','/biologiskt-vaxtskydd/']],
   ['nyttodjur',['/','/biologiskt-vaxtskydd/','/nyttodjur/']],

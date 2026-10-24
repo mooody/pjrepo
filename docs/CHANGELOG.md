@@ -1,5 +1,15 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-24 – Näringsväven i odlingen, fortsättning efter PR #27
+- Godkänt: Micke bad att det avbrutna nyttodjursarbetet fortsätter utifrån befintlig artikel och beskrivning. Drive-planeringens etapp 17.5 anger näringsväven som nästa artikel. Originalarbetet, planeringen, djurupplägget och aktuell main har kontrollerats.
+- Bas: PR #27 är mergad i main `05a8eb26177456e5a7936000f570fe528ba9143b`. Main-bygge 40079820401 och GitHub Pages-preview 40079820405 är avslutade med success. Öppna dokumentations-PR #14/#19 lämnas orörda. Ingen ny kontroll av STRATO-produktion ingår.
+- Genomfört i `content/naringsvav-20261024`: ny artikel i befintlig methods-samling på `/odlingsmetoder/naringsvaven-i-odlingen/`. Förklarar födoväv kontra kedja, energi kontra näringsämnen, livsstadier, bladlöss/honungsdagg/myror, markliv och samspel mellan naturliga fiender. Skötselråd hänvisas till befintliga jord- och blomningsguider.
+- Underlag: faktakontroll mot OpenStax, UC IPM, RHS, USDA NRCS, Colorado State University Extension och SLU CBC. Pedagogiska exempel anges som möjliga relationer, inte uppmätta förhållanden i Mickes odling. Sex källor och granskningsdatum finns i artikeln.
+- Bilder: två redan publicerade vattenstämplade webbexporter återanvänds oförändrade och har granskats visuellt: eget larvfoto samt den märkta jordlivsillustrationen. Fotot på blomman anges uttryckligen inte visa födointag. Ingen ny artbestämning, bildexport eller ändring av original.
+- Navigering: kommande-markeringen ersatt med läslänk på samlingssidan. Befintliga urval för brödsmulor, tillbakalänk och aktiv huvudmeny utökade med artikeln. Inga nya CMS-fält, scheman, tjänster eller publiceringsmetoder.
+- Verifierat lokalt: npm ci, Astro-kontroll utan fel/varningar, bygge, samtliga 17 Node-tester och git diff --check. Befintliga browser-/SEO-tester utökade för artikelns meny, brödsmulor, bilder, källor, mobilbredd, tillgänglighet och utskrift. Browser-start stoppades först av saknad Chromium; aktuellt slutresultat följs i PR.
+- Dokumentation: PROJECT_RULES.md uppdaterad med artikelns placering och verifierad merge-status för #27; ANIMAL_ARTICLES.md kompletterad med överlämning. Serverdokumentation granskad; ingen serverändring. Ingen merge eller produktionspublicering genom detta uppdrag. Fortsatta djurartiklar och köpguide återstår.
+
 ## 2026-10-24 – Artikellogga och utskriftslayout, etapp 4 i PR #27
 - Godkänt: Micke bad att ta nästa steg och behålla originalfotona tills vidare. Inget ytterligare ljusarbete utförs.
 - Genomfört: gemensam ArticleTools-komponent i befintliga artikel-/sidmallar, med ”Skriv ut / spara som PDF” och en avsändarrad för utskrift. Nuvarande centrala logga återanvänds; skärmen behåller befintlig logga i sidhuvudet. Utskrift visar logga, namn och canonical-adress. Bilder inväntas innan knappens utskrift öppnas. Standardutskrift fungerar även utan JavaScript.
