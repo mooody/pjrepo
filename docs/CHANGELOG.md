@@ -1,5 +1,9 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-24 – Synliga brödsmulor och flyttad utskrift
+- Beslut: menybaserade brödsmulor utan startsida och utskriftsknapp efter artikeln.
+- Implementerat i arbetsgren, ej publicerat. SEO, webbläsare och PDF kontrolleras via PR.
+
 ## 2026-10-24 – Enhetlig artikelnavigering (brödsmulor)
 - Uppdrag: jämför de nyare sidornas brödsmulor med chilisorternas enklare navigering och rätta inkonsekvent visning.
 - Genomfört i arbetsgrenen `fix/enhetlig-artikelnavigering-20261024`: tog bort dubbla synliga brödsmulor på artiklar om nyttodjur, skadedjur, biologiskt växtskydd och de direktlänkade trädgårdsguiderna. Den befintliga enkla tillbakalänken är kvar och leder till rätt navigeringsförälder, på samma sätt som för chilisorterna. Inga adresser eller innehållssamlingar ändrade.
