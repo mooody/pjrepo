@@ -14,6 +14,26 @@ För de elva resterande grupperna har befintlig parasitstekelsida fördjupats oc
 
 **Verifiering:** Node/SEO-test kontrollerar sidorna och `BreadcrumbList`. Playwright kontrollerar samlingslistans antal, läsrubriker, källor och mobilvisning. PR-checkarnas utfall och eventuell omtestning hör till samma PR. Vid merge av PR #31 och denna gren kontrolleras att båda ändringsloggarna och den fristående nyckelpigeartikeln bevaras. Ingen produktionspublicering sker.
 
+## Skadedjur – 14 specialguider på PR #32 (2026-10-24)
+
+**Genomfört i arbetsgrenen, ännu inte mergat/publicerat:** Samtliga 14 skadedjursdokument från Google Drive-mappen [Trädgårdsdrömmar – biologisk odling – webbutkast](https://drive.google.com/drive/folders/1c5r02L1r-LMIvl-11d7dwQ4RLNd10YNo) används som källor för 14 nya artiklar i den befintliga samlingen `src/content/pests`. Den äldre allmänna artikeln `/skadedjur/bladloss/` bevaras oförändrad. Därmed finns **15 skadedjurssidor**: gröna och svarta bladlöss, kålbladlus, trips, spinnkvalster, mjöllöss, sorgmyggor, minerarflugor, rovfjäril, stor kålfjäril, kålmal, kålfly, bredkvalster, sköldlöss samt den generella bladlusguiden.
+
+### Redaktionell kontroll och avgränsning
+
+- Varje artikel har kännetecken, skadesymptom, första försiktiga åtgärder, naturliga fiender, miljö/övervintring och en tydligt avgränsad livscykel där underlaget stödjer den.
+- Persikbladlus/bönbladlus är **exempelarter** för gröna respektive svarta bladlöss, inte bestämningar enbart efter färg. Kålbladlus är knuten till korsblommiga värdar. Bladlusmumier får inte förväxlas med levande löss.
+- Tripsarternas roller skiljs från rovtrips och rovkvalstrens roll; spinnkvalster och bredkvalster är olika grupper med olika skadebilder. Förvridna chiliskott ensamt bevisar inte bredkvalster.
+- Rovfjäril `Pieris rapae`, större kålfjäril `Pieris brassicae`, kålmal `Plutella xylostella` och kålfly `Mamestra brassicae` har egna igenkänningsdrag och larvförlopp. Användaren kan därför jämföra ensamlagda ägg, äggklungor, fönstergnag och djupare kålhål.
+- **Sköldlöss:** `Coccus hesperidum` har motstridiga källuppgifter om nymfstadier. Artikeltexten håller uppgifterna på översiktlig nivå och anger öppet att exakta stadiumlängder behöver fortsatt granskning. Mjuka sköldlöss och pansarsköldlöss får inte blandas ihop.
+- Temperatur, värdart och utvecklingstider beskriver enskilda studier, inte normala dygn i svenska odlingar. I kålmalens fall kommer uppgifter från olika studier och för den stora kålfjärilen saknas uppgiven försöks­temperatur; detta anges i text.
+- Arterna är **inte** dokumenterade observationer från Mickes egen odling. Externa forsknings- och rådgivningsreferenser citeras eller länkas; fotografierna kopieras inte.
+
+### Bilder och kvarstående arbete
+
+Förarbetets individmappar innehåller egna AI-stadieillustrationer samt livscykelbilder (PNG/SVG), flera med redaktionella reservationsnoteringar. De har **inte** lagts till i offentliga GitHub. Innan bilderna förs in på webbsidan behöver de kontrolleras per stadium, få tydliga etiketter och alt-texter och genomgå den **befintliga skyddade vattenstämpel-/WebP-exporten** i `docs/images.md`. Särskilt sköldlössens omstridda stadiumindelning får inte visas som slutligt verifierad. Befintliga CMS-/bildrelationer och säkerhetsregler lämnas oförändrade.
+
+**Status:** Innehållet är sparat i samma gren som PR #32, testat genom projektets befintliga kontroller när Actions körts för slutlig commit. Nyckelpige-PR #31 är mergad i `main` den 24 oktober; dokumentationsöverlägg behöver bevara även dess tillägg. PR #32 är inte mergad och ingen STRATO-produktionspublicering görs.
+
 ## Läsarens väg genom en artikel
 
 1. Kort introduktion: vad läsaren kan ha sett och varför djuret är relevant.
