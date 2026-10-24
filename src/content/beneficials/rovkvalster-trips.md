@@ -40,31 +40,27 @@
 }
 ---
 
-*Amblyseius swirskii* är ett litet rovkvalster som bland annat kan angripa unga tripslarver, mjöllusägg och unga nymfer. Det används framför allt i lämpliga växthusmiljöer och ska inte förväxlas med rovskinnbaggar som även kan angripa större trips.
-
-Den här sidan beskriver främst en **art eller artgrupp som kan köpas in för biologisk bekämpning**. Det är inte ett löfte om att samma art normalt förekommer eller övervintrar i svenska frilandsodlingar.
-
-## Så känner du igen dem
-
-Vuxna är mycket små, blekt gulaktiga till krämfärgade, och har åtta ben. Larven har sex ben. Flera kommersiella rovkvalster ser nästan likadana ut och kräver mikroskopi för säker artbestämning.
-
-## Roll i odlingen
+## Målskadegörare och stadier
 
 *A. swirskii* kan angripa unga tripsstadier och vissa mjöllöss. Pollen kan hjälpa populationen att överleva och etablera sig, men det betyder inte att den effektivt tar bort alla vuxna trips.
 
-## Börja här vid ett angrepp
+## När metoden passar
 
 Bedöm trips- och mjöllusförekomst tidigt och följ anvisningar för art, klimat och utsättning. Se särskilt till att växtens mikroklimat inte torkar ut ägg och unga kvalster. Kontrollera kombinationer med andra nyttodjur och tidigare bekämpningsåtgärder.
 
-## Samspel med andra djur
-
-Rovskinnbaggar i släktet *Orius* kan angripa andra tripsstadier. Att släppa ut båda arterna utan plan ger inte säkert bättre resultat; deras etablering och eventuell konkurrens beror på växterna, bytena och klimatet.
-
-## Miljö och övervintring
+## Förutsättningar och övervintring
 
 Arten har värme- och fuktkrav som måste beaktas vid svenska odlingsförhållanden. Utomhusövervintring i Sverige får inte förutsättas. Andra rovkvalster som *Neoseiulus cucumeris* kan ha andra krav.
 
-## Livscykel – ett avgränsat exempel
+## Så följer du resultatet
+
+Undersök främst **unga tripslarver** på blad och i blommor tillsammans med ny skada. Vuxna trips som fångas på klisterskivor ger en annan del av bilden; rovkvalstret tar främst tidiga stadier.
+
+## Samspel och kombinationer
+
+Rovskinnbaggar i släktet *Orius* kan angripa andra tripsstadier. Att släppa ut båda arterna utan plan ger inte säkert bättre resultat; deras etablering och eventuell konkurrens beror på växterna, bytena och klimatet.
+
+## Livscykel och utveckling
 
 Vald exempelart: Amblyseius swirskii. Ca 25 °C, 70 % relativ luftfuktighet, 16:8 ljus:mörker; föda ägg av Tetranychus urticae i ett laboratorieförsök.
 
@@ -84,7 +80,11 @@ Källvärdena är medel från två bytesdieter. Föda och pollen påverkar utvec
 
 **Värdena är ett begränsat laboratorieexempel, inte förväntad svensk normalutveckling.** Vuxenliv är skilt från utvecklingstiden till vuxen. Olika föda och förhållanden kan ändra resultaten.
 
-## Bilder och säker identifiering
+## Kännetecken och kontroll
+
+Vuxna är mycket små, blekt gulaktiga till krämfärgade, och har åtta ben. Larven har sex ben. Flera kommersiella rovkvalster ser nästan likadana ut och kräver mikroskopi för säker artbestämning.
+
+## Bilder och identifiering
 
 [Cornell visar Amblyseius swirskii och beskriver målstadier](https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/amblyseius-swirskii-predatory-mite). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 
