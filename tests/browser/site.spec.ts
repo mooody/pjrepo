@@ -358,8 +358,15 @@ test('alla tretton nyttodjur finns och har spårbara källor', async ({page}) =>
  await expect(page.locator('#results .search-entry')).toHaveCount(13);
  for(const slug of ['blomflugor','bladlusgallmygga','parasitsteklar','rovskinnbaggar','jordlopare','rovtrips','minerarflugeparasitoid','rovkvalster-spinn','jordlevande-rovkvalster','nematoder','rovkvalster-trips']){
   await page.goto('/nyttodjur/'+slug+'/');
-  await expect(page.getByRole('heading',{name:'Så känner du igen dem'})).toBeVisible();
-  await expect(page.getByRole('heading',{name:'Roll i odlingen'})).toBeVisible();
+  if(['minerarflugeparasitoid','rovkvalster-spinn','jordlevande-rovkvalster','nematoder','rovkvalster-trips'].includes(slug)){
+    await expect(page.getByRole('heading',{name:'Målskadegörare och stadier'})).toBeVisible();
+    await expect(page.getByRole('heading',{name:'Så följer du resultatet'})).toBeVisible();
+    await expect(page.getByRole('heading',{name:'Kännetecken och kontroll'})).toBeVisible();
+  }else{
+    await expect(page.getByRole('heading',{name:'Så känner du igen dem'})).toBeVisible();
+    await expect(page.getByRole('heading',{name:'Roll i odlingen'})).toBeVisible();
+    await expect(page.getByRole('heading',{name:'Miljö genom säsongen och övervintring'})).toBeVisible();
+  }
   await expect(page.getByRole('heading',{name:'Källor och granskning'})).toBeVisible();
   await expect(page.getByRole('navigation',{name:'Brödsmulor'}).getByRole('link',{name:'Nyttodjur'})).toBeVisible();
  }
