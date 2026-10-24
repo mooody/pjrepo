@@ -35,9 +35,7 @@
 }
 ---
 
-Känn igen mjöllöss på växter, hitta ägg och nymfer under bladen och följ effekten av biologiskt växtskydd.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 När plantan rörs flyger ofta små vita insekter upp. Vuxna har vitpudrade vingar, men merparten av utvecklingen sker som ägg och platta nymfer på bladundersidorna. Den första nymfen vandrar kort innan den etablerar sig.
 
@@ -45,19 +43,19 @@ När plantan rörs flyger ofta små vita insekter upp. Vuxna har vitpudrade ving
 
 Mjöllöss suger växtsaft. Större angrepp kan ge gulning och svag tillväxt, medan honungsdagg bidrar till klibbiga blad och sotdagg. Varm växthusmiljö kan tillåta snabb uppförökning.
 
-## Börja här när du misstänker angrepp
+## Undersök och begränsa angreppet
 
 Vänd på flera blad, även de undre, och jämför förekomsten av nymfer snarare än enbart antalet flygande vuxna. Isolera nyinköpta angripna plantor. Gula klisterskivor kan hjälpa till att följa flygande vuxna men visar inte hela beståndet.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 *Encarsia formosa* används mot vissa mjöllöss och rovkvalster kan angripa ägg och små nymfer. Men *Bemisia* och *Trialeurodes* är inte identiska mål för varje nyttodjur; identifiera först angriparen.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Växthusmjöllus kan finnas kvar på levande värdväxter i uppvärmda utrymmen. Alla mjöllusarter har inte samma köldtålighet. Det betyder inte att samma vinterförlopp gäller varje art eller varje skyddad odlingsmiljö.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Trialeurodes vaporariorum. Ca 25 °C • tomat • försöksdata.
 
