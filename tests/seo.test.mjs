@@ -40,3 +40,31 @@ test('robots och sitemap matchar canonical-domänen',async()=>{
  const map=await readFile('dist/sitemap-0.xml','utf8');
  assert.match(map,/www\.tradgardsdrommar\.se\/produkter-2026\/habanero-lemon\//);
 });
+
+test('nyttodjursseriens 13 sidor har rätt SEO-hierarki', async () => {
+ const slugs=['blomflugor','bladlusgallmygga','parasitsteklar','rovskinnbaggar','jordlopare',
+ 'rovtrips','minerarflugeparasitoid','rovkvalster-spinn','jordlevande-rovkvalster',
+ 'nematoder','rovkvalster-trips','guldogonslandor','nyckelpigor'];
+ for(const id of slugs){
+  const page=await html('nyttodjur/'+id);
+  const crumb=schemas(page).find(s=>s['@type']==='BreadcrumbList');
+  assert.ok(crumb,'Saknar navigering för '+id);
+  assert.deepEqual(crumb.itemListElement.map(x=>new URL(x.item).pathname),[
+   '/biologiskt-vaxtskydd/','/nyttodjur/','/nyttodjur/'+id+'/'
+  ]);
+ }
+});
+
+test('skadedjursseriens 15 sidor har rätt SEO-hierarki', async () => {
+ const slugs=['bladloss','grona-bladloss','svarta-bladloss','kalbladlus',
+  'trips','spinnkvalster','mjolloss','sorgmyggor','minerarflugor',
+  'rovfjaril','stor-kalfjaril','kalmal','kalfly','bredkvalster','skoldloss'];
+ for(const id of slugs){
+  const page=await html('skadedjur/'+id);
+  const breadcrumb=schemas(page).find(x=>x['@type']==='BreadcrumbList');
+  assert.ok(breadcrumb,'Saknar SEO-navigering för '+id);
+  assert.deepEqual(breadcrumb.itemListElement.map(x=>new URL(x.item).pathname),[
+   '/biologiskt-vaxtskydd/','/skadedjur/','/skadedjur/'+id+'/'
+  ]);
+ }
+});

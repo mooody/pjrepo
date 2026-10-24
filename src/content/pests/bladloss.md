@@ -49,3 +49,9 @@ På tåliga växter kan en försiktig vattenstråle minska antalet löss. Biolog
 
 ## Jämför bilder
 [RHS visar namngivna exempelbilder av bladlössens naturliga fiender](https://www.rhs.org.uk/biodiversity/aphid-predators). Jämför både grupp och livsstadium; referensbilderna är inte våra egna fynd.
+
+## Fördjupa dig: vilken bladlus ser du?
+
+Färg och värdväxt ger en första ledtråd, men är inte en säker artbestämning. Läs våra särskilda guider till [gröna bladlöss](/skadedjur/grona-bladloss/), [svarta bladlöss](/skadedjur/svarta-bladloss/) och [kålbladlus](/skadedjur/kalbladlus/) för olika kännetecken och angreppsmiljöer. Alla bladlusarter kan inte behandlas likadant, och samma nyttodjur passar inte mot alla.
+
+Läs också om [bladlusgallmyggans larver](/nyttodjur/bladlusgallmygga/) och [bladlusparasitsteklar](/nyttodjur/parasitsteklar/), som angriper löss på andra sätt än nyckelpigor och guldögonsländor.
