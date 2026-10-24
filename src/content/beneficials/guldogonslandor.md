@@ -61,11 +61,11 @@ Larverna fångar bladlöss och andra små, mjuka byten med käkarna och suger ut
 
 Nyttan betyder inte att varje angrepp försvinner. Följ både plantans nya tillväxt och de levande lössen. I [artikeln om bladlöss](/skadedjur/bladloss/) finns råd om hur du bedömer angreppet och börjar med enkla åtgärder.
 
-## Börja här när du hittar dem
+## Miljö genom säsongen och övervintring
 
-Undersök ett angripet skott innan du spolar eller tar bort det. Finns det skaftägg eller larver bland lössen? På en planta som klarar angreppet kan du låta dem arbeta och följa samma skott under de närmaste dagarna.
+Ge de vuxna tillgång till blomning under säsongen och låt det finnas skyddade platser nära odlingen. Du behöver inte plantera en särskild rabatt för just guldögonsländor. Börja med att [fylla luckorna i blomningen](/odlingsmetoder/blomning-genom-sasongen/) och bevara lämpliga livsmiljöer.
 
-Småplantor kan behöva hjälp tidigare. Begränsa då angreppet så riktat som möjligt och undvik att samtidigt ta bort blad där nyttodjur utvecklas. Ett foto av samma skott vid nästa kontroll gör förändringen lättare att se.
+Vuxna i *Chrysoperla carnea*-gruppen kan övervintra i skyddade utrymmen, exempelvis i byggnader eller barkspringor. En vilande insekt som hittas på en sval plats behöver inte flyttas till ett varmt rum. Andra guldögonsländor kan övervintra i andra stadier.
 
 ## Samspel med andra djur
 
@@ -73,13 +73,7 @@ Guldögonsländor är en del av ett större samspel med bland annat nyckelpigor,
 
 Myror som försvarar bladluskolonier kan försvåra jakten. Titta efter både myrtrafik och nyttodjur när du bedömer vad som händer på plantan.
 
-## Miljö och övervintring
-
-Ge de vuxna tillgång till blomning under säsongen och låt det finnas skyddade platser nära odlingen. Du behöver inte plantera en särskild rabatt för just guldögonsländor. Börja med att [fylla luckorna i blomningen](/odlingsmetoder/blomning-genom-sasongen/) och bevara lämpliga livsmiljöer.
-
-Vuxna i *Chrysoperla carnea*-gruppen kan övervintra i skyddade utrymmen, exempelvis i byggnader eller barkspringor. En vilande insekt som hittas på en sval plats behöver inte flyttas till ett varmt rum. Andra guldögonsländor kan övervintra i andra stadier.
-
-## Livscykel – ägg, larv, kokong och vuxen
+## Livscykel och utveckling
 
 Efter kläckningen växer larven och ömsar hud genom tre larvstadier. Sedan spinner den en kokong och förpuppas. Den vuxna insekten lämnar kokongen och kan senare ge upphov till nya ägg.
 
@@ -91,6 +85,12 @@ Cirkeln samlar larvens tillväxt i en enda ruta. **Alla tider och mått är unge
   </a>
   <figcaption>Förenklad livscykel för carnea-gruppen, som pedagogisk AI-illustration. Uppgiften om 7–8 veckors vuxenliv gäller honor i samma laboratoriestudie, där endast tre vuxenpar följdes. Vuxenlivet ingår inte i tiden från ägg till vuxen. <a href="/media/guldogonslanda-livscykel.webp">Visa större livscykel</a>.</figcaption>
 </figure>
+
+## När du hittar dem
+
+Undersök ett angripet skott innan du spolar eller tar bort det. Finns det skaftägg eller larver bland lössen? På en planta som klarar angreppet kan du låta dem arbeta och följa samma skott under de närmaste dagarna.
+
+Småplantor kan behöva hjälp tidigare. Begränsa då angreppet så riktat som möjligt och undvik att samtidigt ta bort blad där nyttodjur utvecklas. Ett foto av samma skott vid nästa kontroll gör förändringen lättare att se.
 
 ## Om du vill köpa in guldögonsländor
 
