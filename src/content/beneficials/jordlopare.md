@@ -49,9 +49,9 @@ Många jordlöpare angriper marklevande larver, småkryp och ibland snigelägg e
 
 ## Miljö genom säsongen och övervintring
 
-Låt gärna kantzoner och delar av förnan ligga ostörda. Många arter är nattaktiva och gömmer sig dagtid under stenar, ved och växtrester. Övervintring sker som larv eller vuxen beroende på art.
+Jordlöpare jagar och gömmer sig ofta vid markytan. Under vår och sommar kan gräs- och örtkanter, stenar och ostörd lövförna ge skydd; många arter är nattaktiva. Låt gärna några sådana partier finnas kvar även under hösten.
 
-På våren och sommaren ger ostörda gräs- och örtkanter, lövförna och stenar möjligheter att söka skydd. Under hösten kan delar av förnan lämnas kvar, eftersom vissa arter övervintrar som larver och andra som vuxna. Håll samtidigt koll på om marktäckningen gynnar sniglar i just den bädden.
+Beroende på art kan de övervintra som larver eller vuxna. Marktäckning kan förbättra mikroklimatet för rovdjur, men följ samtidigt om den gynnar sniglar just där.
 
 <figure>
   <a href="/media/mangfald-stubbe-full-800.webp">
