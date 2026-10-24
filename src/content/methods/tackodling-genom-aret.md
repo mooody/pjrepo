@@ -14,6 +14,8 @@
     {"title": "RHS – Slugs and snails", "url": "https://www.rhs.org.uk/biodiversity/slugs-and-snails"},
     {"title": "Lunds universitet – Myllret i marken", "url": "https://www.lu.se/artikel/myllret-i-marken-sa-boostar-du-jorden-i-din-egen-tradgard-fem-enkla-tips-till-biologiska-mangfaldens"}
   ],
+  "image": "tackodling-hostlov",
+  "imageAlt": "Odlingsyta där täckodling påbörjats med höstlöv, med bar jord och gräsrester kvar runt löven.",
   "related": [
     {"label": "Täckodlingens grunder och material", "href": "/odlingsmetoder/tackodling/"},
     {"label": "Kompostens kretslopp", "href": "/odlingsmetoder/kompost/"},

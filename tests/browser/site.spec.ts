@@ -132,6 +132,7 @@ test('trädgårdsguiderna har rätt brödsmulor och publicerade bilder', async (
     ['jord-och-kompost', 'odlingslott-jord'],
     ['tackodling', 'tackodling-genomskarning'],
     ['biologisk-mangfald', 'mangfald-stubbe'],
+    ['tackodling-genom-aret', 'tackodling-hostlov'],
   ]) {
     await page.goto('/odlingsmetoder/' + slug + '/');
     const crumbs = page.getByRole('navigation', { name: 'Brödsmulor' });
@@ -143,7 +144,7 @@ test('trädgårdsguiderna har rätt brödsmulor och publicerade bilder', async (
     await expect(page.getByRole('link', { name: '← Livet i trädgården' })).toBeVisible();
   }
   await page.goto('/biologisk-odling/');
-  await expect(page.locator('article.topic img')).toHaveCount(5);
+  await expect(page.locator('article.topic img')).toHaveCount(6);
 });
 
 test('admin initierar CMS med konfigurerad OAuth-förmedlare', async ({ page }) => {

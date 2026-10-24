@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-24 – Höstlöv som huvudbild till Täckodling genom året
+- Godkänt: Micke bad att den bearbetade bilden av påbörjad lövtäckning och den föreslagna bildtexten läggs in i artikeln.
+- Genomfört i separat gren: `tackodling-genom-aret.md` använder `tackodling-hostlov` som huvudbild. Bildtext: ”Höstens löv tas till vara som marktäcke. Här har arbetet med att täcka odlingsytan påbörjats.” Bildtexten anger även att fotot är digitalt bearbetat. Alt-text beskriver den påbörjade täckningen; artikelns saktext är oförändrad.
+- Bilder: en ny manifestpost, en exportindexpost och åtta vattenstämplade WebP-varianter. Befintlig `processImages` använd med oförändrade inställningar i separat exportkatalog; tidigare exporter bevarade. Originalfoto och bearbetad PNG ligger utanför repositoryt. Fullbild och kortbeskärning samt vattenstämpel granskade visuellt. Bildtestets befintliga urval och förväntade kortbildsantal uppdaterade.
+- Bas: main `ab83667c`, där PR #24 är mergad; dess Validate and build [39929648298](https://github.com/mooody/pjrepo/actions/runs/39929648298) och GitHub Pages-preview [39929648332](https://github.com/mooody/pjrepo/actions/runs/39929648332) är godkända. Öppna dokumentations-PR:er #14 och #19 lämnas orörda.
+- Verifiering: `npm ci`, Astro-kontroll utan fel eller varningar, validering/bygge av 54 sidor, 17 Node-tester och `git diff --check` godkända. Huvudbild, godkänd bildtext och artikelkort verifierade i byggd HTML. Lokal `npm run verify` stannar vid webbläsartester eftersom Chromium saknas; PR:ens GitHub Actions kör fullständig verifiering.
+- Dokumentation: `docs/images.md` uppdaterad. `AGENTS.md` och `docs/PROJECT_RULES.md` lästa och granskade; reglerna är oförändrade. Ingen ändring av CMS, schema, bildmetod, server eller publiceringsflöde. Ingen merge eller produktionspublicering ingår.
+
 ## 2026-10-23 – Fem fortsättningsartiklar under Livet i trädgården
 - Genomfört i `content/fem-tradgardsartiklar-20261023`: fyra nya artiklar om jordförbättring, köpejord, tiden efter skörd och återanvändning av krukjord. Den befintliga arbetsmallen `blomning-genom-sasongen.md` utvecklad på samma adress. Texterna utgår från de fem Drive-utkasten och deras faktakontroll; källor och granskningsdatum finns i respektive artikel. Hänvisningar mellan utkasten har ersatts med interna läslänkar. Inga privata kursfiler eller deras Drive-länkar har lagts i repositoryt.
 - Köpejord skiljer råvaror från tillsatt näring, förklarar volymminskning och jämför möjliga mervärden med pris. Ett konkret produktinnehåll återges som tillverkaruppgift; varken högre skörd, generellt bättre kvalitet eller faktiska butikspriser påstås vara visade.

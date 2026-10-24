@@ -1274,6 +1274,61 @@
           }
         ]
       }
+    },
+    {
+      "id": "tackodling-hostlov",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "tackodling-hostlov-full-480.webp",
+            "width": 480,
+            "height": 270
+          },
+          {
+            "file": "tackodling-hostlov-full-800.webp",
+            "width": 800,
+            "height": 450
+          },
+          {
+            "file": "tackodling-hostlov.webp",
+            "width": 1600,
+            "height": 900
+          }
+        ],
+        "card": [
+          {
+            "file": "tackodling-hostlov-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "tackodling-hostlov-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "tackodling-hostlov-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "tackodling-hostlov-hero-800.webp",
+            "width": 752,
+            "height": 940
+          }
+        ],
+        "sharing": [
+          {
+            "file": "tackodling-hostlov-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
     }
   ]
 }
