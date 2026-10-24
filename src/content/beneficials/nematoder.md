@@ -4,7 +4,7 @@
  "description": "Nematoder är mikroskopiska rundmaskar, och de allra flesta är inte biologiska bekämpningsmedel. Arten *Steinernema feltiae* kan däremot användas mot sorgmyggelarver genom att infektiösa ungdomsstadier söker upp lämpliga insektsvärdar.",
  "draft": false,
  "category": "Nyttodjur – biologisk bekämpning",
- "scientificName": "Steinernema feltiae – infektiva juveniler (IJ)",
+ "scientificName": "Steinernema feltiae",
  "tags": [
  "nyttodjur",
  "köpta nyttodjur",
