@@ -1,42 +1,42 @@
 ---
 {
-  "title": "Rovkvalster mot trips",
-  "description": "*Amblyseius swirskii* är ett litet rovkvalster som bland annat kan angripa unga tripslarver, mjöllusägg och unga nymfer. Det används framför allt i lämpliga växthusmiljöer och ska inte förväxlas med rovskinnbaggar som även kan angripa större trips.",
-  "draft": false,
-  "category": "Nyttodjur – biologisk bekämpning",
-  "scientificName": "Amblyseius swirskii – exempel på rovkvalster",
-  "tags": [
-    "nyttodjur",
-    "köpta nyttodjur",
-    "biologisk bekämpning",
-    "trips"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "Cornell – Amblyseius swirskii, målstadier och biologisk bekämpning",
-      "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/amblyseius-swirskii-predatory-mite"
-    },
-    {
-      "title": "Seiedy m.fl. (2017) – utveckling på spinnkvalsterägg",
-      "url": "https://doi.org/10.1080/01647954.2016.1248486"
-    },
-    {
-      "title": "University of Florida – predatory mites for thrips and whiteflies",
-      "url": "https://edis.ifas.ufl.edu/publication/IN895"
-    }
-  ],
-  "related": [
-    {
-      "label": "Rovskinnbaggar",
-      "href": "/nyttodjur/rovskinnbaggar/"
-    },
-    {
-      "label": "Rovkvalster mot spinn",
-      "href": "/nyttodjur/rovkvalster-spinn/"
-    }
-  ]
+ "title": "Rovkvalster mot trips",
+ "description": "*Amblyseius swirskii* är ett litet rovkvalster som bland annat kan angripa unga tripslarver, mjöllusägg och unga nymfer. Det används framför allt i lämpliga växthusmiljöer och ska inte förväxlas med rovskinnbaggar som även kan angripa större trips.",
+ "draft": false,
+ "category": "Nyttodjur – biologisk bekämpning",
+ "scientificName": "Amblyseius swirskii – exempel på rovkvalster",
+ "tags": [
+ "nyttodjur",
+ "köpta nyttodjur",
+ "biologisk bekämpning",
+ "trips"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "Cornell – Amblyseius swirskii, målstadier och biologisk bekämpning",
+ "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/amblyseius-swirskii-predatory-mite"
+ },
+ {
+ "title": "Seiedy m.fl. (2017) – utveckling på spinnkvalsterägg",
+ "url": "https://doi.org/10.1080/01647954.2016.1248486"
+ },
+ {
+ "title": "University of Florida – predatory mites for thrips and whiteflies",
+ "url": "https://edis.ifas.ufl.edu/publication/IN895"
+ }
+ ],
+ "related": [
+ {
+ "label": "Rovskinnbaggar",
+ "href": "/nyttodjur/rovskinnbaggar/"
+ },
+ {
+ "label": "Rovkvalster mot spinn",
+ "href": "/nyttodjur/rovkvalster-spinn/"
+ }
+ ]
 }
 ---
 
@@ -86,6 +86,6 @@ Källvärdena är medel från två bytesdieter. Föda och pollen påverkar utvec
 
 ## Bilder och säker identifiering
 
-[Cornell visar Amblyseius swirskii och beskriver målstadier](https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/amblyseius-swirskii-predatory-mite). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. Förarbetet på Drive innehåller även stadieillustrationer och en livscykel. Dessa ska skyddas, kvalitetsgranskas och exporteras med befintlig vattenstämpel innan de publiceras som webbbilder.
+[Cornell visar Amblyseius swirskii och beskriver målstadier](https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/amblyseius-swirskii-predatory-mite). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 
 När du bedömer ett djur eller väljer en produkt är det viktigare att veta **vilken skadegörare och vilket livsstadium som angrips** än att försöka bestämma en svår art från en enda liten bild.
