@@ -45,11 +45,11 @@ Bladlusätande nyckelpigor fångar och äter bladlöss. Både larver och vuxna k
 
 Samtidigt är nyckelpigor inte någon garanti mot angrepp. Antalet bladlöss, temperaturen, tillgången på föda och vilka andra naturliga fiender som redan finns påverkar resultatet. Det är viktigare att följa plantans utveckling än att räkna prickar på skalbaggarna.
 
-## Börja här när du hittar dem
+## Miljö genom säsongen och övervintring
 
-Granska först bladens undersidor och skottens toppar. Leta efter bladlöss, äggklungor, larver och puppor **innan** du klipper bort angripna delar eller spolar av plantan. En stillasittande puppa ska inte plockas bort som om den vore en skadegörare.
+Många nyckelpigor övervintrar som vuxna på skyddade platser, men var och hur skiljer sig mellan arter. Vissa samlas i större grupper. Skyddade kantzoner, ostörda lövpartier och lämpliga gömställen kan vara värdefulla; du behöver inte lämna hela odlingen orörd.
 
-Om plantan klarar angreppet kan du följa samma skott under några dagar och fotografera förändringen. Är den däremot liten eller starkt angripen kan bladlössen behöva begränsas tidigare. Försök då rikta åtgärden så att nyttodjuren inte samtidigt försvinner. Läs mer i vår [guide till bladlöss](/skadedjur/bladloss/).
+Blommande växter kan också ge viktiga resurser till vissa arter när lämpliga byten varierar. Se vår guide om att [planera blomning under säsongen](/odlingsmetoder/blomning-genom-sasongen/) och helheten i [biologisk mångfald i trädgården](/odlingsmetoder/biologisk-mangfald/).
 
 ## Samspel med andra djur
 
@@ -57,19 +57,19 @@ Nyckelpigor delar ofta bladluskolonier med guldögonsländelarver, blomflugelarv
 
 Myror kan försvara bladlöss eftersom de samlar deras honungsdagg. Det kan påverka hur lätt ett rovdjur kommer åt bladlössen. Följ vad som faktiskt händer på plantan innan du drar en slutsats.
 
-## Miljö och övervintring
-
-Många nyckelpigor övervintrar som vuxna på skyddade platser, men var och hur skiljer sig mellan arter. Vissa samlas i större grupper. Skyddade kantzoner, ostörda lövpartier och lämpliga gömställen kan vara värdefulla; du behöver inte lämna hela odlingen orörd.
-
-Blommande växter kan också ge viktiga resurser till vissa arter när lämpliga byten varierar. Se vår guide om att [planera blomning under säsongen](/odlingsmetoder/blomning-genom-sasongen/) och helheten i [biologisk mångfald i trädgården](/odlingsmetoder/biologisk-mangfald/).
-
-## Livscykel – från ägg till ny nyckelpiga
+## Livscykel och utveckling
 
 Nyckelpigor genomgår fullständig förvandling: **ägg → fyra larvstadier → puppa → vuxen**. Larven växer genom hudömsningar. Efter det sista larvstadiet fäster den sig och förpuppas. Den vuxna skalbaggen kommer fram ur puppan.
 
 Som avgränsat exempel tog utvecklingen hos **sjufläckig nyckelpiga** ungefär fyra veckor i ett försök där medeltemperaturen var **21,3 °C med variation (±4,0 °C)** och födan var rosbladlus (*Macrosiphum rosae*). Ungefär fem dygn gällde ägget, sjutton dygn de fyra larvstadierna tillsammans och fem dygn puppan. Totalt blir det cirka 27–28 dygn från ägg till vuxen.
 
 **Detta är ingen normal utvecklingstid för en svensk trädgård.** Andra arter, temperaturer och födotillgångar ger andra tider. En vuxen nyckelpiga kan leva betydligt längre, men vuxenlivet ska inte läggas till tiden från ägg till vuxen.
+
+## När du hittar dem
+
+Granska först bladens undersidor och skottens toppar. Leta efter bladlöss, äggklungor, larver och puppor **innan** du klipper bort angripna delar eller spolar av plantan. En stillasittande puppa ska inte plockas bort som om den vore en skadegörare.
+
+Om plantan klarar angreppet kan du följa samma skott under några dagar och fotografera förändringen. Är den däremot liten eller starkt angripen kan bladlössen behöva begränsas tidigare. Försök då rikta åtgärden så att nyttodjuren inte samtidigt försvinner. Läs mer i vår [guide till bladlöss](/skadedjur/bladloss/).
 
 ## Om du funderar på att köpa nyckelpigor
 
