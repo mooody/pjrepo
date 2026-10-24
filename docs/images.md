@@ -1,5 +1,11 @@
 # Skyddade original och offentliga webbexporter
 
+## Redaktionellt återbruk på djursidor – 24 oktober 2026 (PR under granskning)
+
+Tre **befintliga** och redan exporterade vattenstämplade bilder används även i nya sammanhang, utan omexport: `guldogonslanda-larv-foto` som exempel på en naturlig fiende i den generella bladlusguiden, `mangfald-stubbe` som illustrativ markmiljö hos jordlöpare och `mangfald-nyttodjur` som schematisk miljöillustration hos blomflugor. Bildtexterna skiljer uttryckligen eget foto från digital illustration och **gör ingen ny artbestämning**. Webbfilernas ID, skydd, licens och original är oförändrade.
+
+Google Drive innehåller separata stadieillustrationer och faktakontroll för 27 djur samt katalogen **Webbguide – förenklade livscykelcirklar** (27 PNG och ett ZIP-paket). Exempelvis visar nyckelpigemappen sju stadiebilder och sköldlusmappen en omstridd nymfindelning. **Inga nya Drive-original eller diagram har ännu importerats till offentliga GitHub.** En framtida import ska använda `processImages` och projektets skyddade exportflöde innan det skapas nya poster i `src/data/images.json` och `web-images/index.json`. Inför publicering måste anatomi, etiketter, bildtexter och läsbarhet granskas. Ska inte gå via direkta Drive-länkar eller oskyddade original.
+
 ## Guldögonsländor – 24 oktober 2026
 
 Tre befintliga AI-illustrationer ur Drive-förarbetet används på den befintliga djursidan: `guldogonslanda-vuxen` som huvudbild samt `guldogonslanda-larv` och `guldogonslanda-livscykel` i artikelns relevanta avsnitt. Livscykeln använder den förenklade fyrfasversionen. Fullbilderna ligger kvar i naturligt format; larvbild och livscykel kan öppnas i större format genom länkar i bildtexterna. Bildfilerna används som pedagogiska gruppexempel, inte som fotografiska artbelägg.
