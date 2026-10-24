@@ -39,9 +39,7 @@
 }
 ---
 
-Kålmalens larver kan ge genomskinliga fönstergnag och hål i kålblad. Så hittar du larverna och ser skillnad mot andra kålskadegörare.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Den unga larven skrapar ofta på bladets undersida och lämnar det översta ytskiktet intakt, så att ett tunt genomskinligt fönster uppstår. Äldre larver är smala och gröna och kan kasta sig eller släppa sig i en silkestråd när de störs. Puppan ligger i en tunn, gles silkeskokong.
 
@@ -49,19 +47,19 @@ Den unga larven skrapar ofta på bladets undersida och lämnar det översta ytsk
 
 Fönstergnag blir så småningom riktiga hål. Angrepp i broccoli eller blomkål kan påverka skördekvaliteten även vid relativt små mängder bladgnag. En brungrå liten mal kan vara svår att hitta bland bladen.
 
-## Börja här vid misstänkt angrepp
+## Undersök och begränsa angreppet
 
 Vänd på unga blad och leta efter små larver nära nya fönstergnag. Lägg tätt nät över kontrollerade plantor och följ eventuell inflygning under säsongen. Plocka bort larver på enstaka plantor. Effekten av mikrobiologiska larvmedel varierar och resistens förekommer.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Parasitoider, däribland *Diadegma*-arter, kan bidra till reglering. Alla larver är inte parasiterade, och därför behövs återkommande observation även när nyttodjur finns.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Stora nordliga angrepp kan komma från inflygning. Lokal vinteröverlevnad är klimatberoende. Uppgiften gäller de arter och odlingsmiljöer som nämns, inte alla närstående arter.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Plutella xylostella. Ca 25 °C • kål • sammanställda försöksvärden.
 
