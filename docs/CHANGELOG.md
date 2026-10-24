@@ -4,6 +4,14 @@
 - Beslut: menybaserade brödsmulor utan startsida och utskriftsknapp efter artikeln.
 - Implementerat i arbetsgren/PR #30, ej mergat eller publicerat. Kodversion 7f8c5ce verifierades i GitHub Actions [40092266859](https://github.com/mooody/pjrepo/actions/runs/40092266859): `npm ci`, Astro (0 fel), 17 Node-tester, 12 Playwright-tester (inklusive mobil, navigering, A4-PDF) och uppladdad byggartefakt — success. Efterföljande dokumentationscommits får egen kontroll.
 
+## 2026-10-24 – Resterande nyttodjur N03–N13
+- **Uppdrag:** fortsätta med resterande nyttodjur i Drive-förarbetets serie N01–N13. Aktuellt `main`, `docs/PROJECT_RULES.md`, `AGENTS.md`, öppna PR #31 och GDrive:s individuella djurdokument kontrollerade.
+- **Genomfört i `content/nyttodjur-resterande-20261024`**: tio nya `src/content/beneficials/*.md`-filer för blomflugor, bladlusgallmygga, rovskinnbaggar, jordlöpare, rovtrips samt fem grupper för inköpt biologisk bekämpning. Den befintliga `parasitsteklar.md` utvecklades utan att ändra dess adress. Den separata nyckelpigefördjupningen i PR #31 lämnas orörd.
+- **Redaktionellt:** tydliga kännetecken och bedömning av nytta/skada, samspelet med andra organismer, livsmiljö/övervintring och praktiska steg. Art- och försöksbundna utvecklingstider är märkta och biologiska faktaluckor har inte fyllts med påhittade värden. Bilder för artjämförelse länkas till namngivna forsknings-/rådgivningskällor utan kopiering av fotografier.
+- **Samlingssida:** `src/data/sections.json` beskriver nu både vilda nyttodjur och sådana som köps in. Inga CMS-/schema-/meny- eller URL-ändringar.
+- **Bilder:** stadie- och livscykelillustrationer finns i Drive, men har ännu inte genomgått skyddad WebP-/vattenstämpelbearbetning; inga original eller otillåtna externa bilder tillförda till offentliga repot. Detta redovisas som kvarstående arbete i `docs/ANIMAL_ARTICLES.md`.
+- **Tester:** SEO-brödsmulor för hela serien samt Playwright-kontroll av 13 synliga artiklar, källor, rubriker och mobil. Verifiering via GitHub Actions före merge; resultat ska redovisas i PR. `docs/PROJECT_RULES.md` granskades utan behov av regeländring. Ingen merge eller produktion inom detta uppdrag.
+
 ## 2026-10-24 – Enhetlig artikelnavigering (brödsmulor)
 - Uppdrag: jämför de nyare sidornas brödsmulor med chilisorternas enklare navigering och rätta inkonsekvent visning.
 - Genomfört i arbetsgrenen `fix/enhetlig-artikelnavigering-20261024`: tog bort dubbla synliga brödsmulor på artiklar om nyttodjur, skadedjur, biologiskt växtskydd och de direktlänkade trädgårdsguiderna. Den befintliga enkla tillbakalänken är kvar och leder till rätt navigeringsförälder, på samma sätt som för chilisorterna. Inga adresser eller innehållssamlingar ändrade.
