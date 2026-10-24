@@ -17,6 +17,10 @@ Trädgårdsdrömmar är en växande webbplats för odling, chili, nyttodjur, vä
 - Ange källor där sakuppgifter kräver det. Hitta inte på sortbestämningar, skördevärden, mätvärden, produktinnehåll eller säkerhetslöften.
 - Bevara redan beslutade innehålls- och menyval. Återinför inte avvecklade sektioner som odlingsdagbok eller ett allmänt `Odla`-menyval utan nytt uppdrag.
 
+### Biologiskt växtskydd – beslutad navigering (2026-10-24)
+
+Micke har beställt en egen ingång **Biologiskt växtskydd**, `/biologiskt-vaxtskydd/`, i huvudmenyn. Samlingssidan redigeras som en vanlig sida i befintlig CMS-samling och innehåller i ordning: filosofisk artikel, näringsväv, Skadedjur, Nyttodjur och Köpa in nyttodjur. Ännu oskrivna texter märks tydligt som kommande utan länkar till saknade sidor. Befintliga djurartiklar behåller sina adresser under `/skadedjur/` och `/nyttodjur/`; deras navigeringsförälder är Biologiskt växtskydd. Guiderna under Livet i trädgården finns kvar. Införandet görs i separat PR; detta anger inte att ändringen är mergad eller publicerad.
+
 ## 2. Nuvarande arkitektur och platser
 
 | Del | Faktiskt upplägg |

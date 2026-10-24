@@ -90,7 +90,10 @@ const structuredData = [
           <a
             href={sitePath(item.href)}
             aria-current={
-              Astro.url.pathname.startsWith(sitePath(item.href)) ? 'page' : undefined
+              Astro.url.pathname.startsWith(sitePath(item.href)) ||
+              (item.href === '/biologiskt-vaxtskydd/' &&
+                ['/nyttodjur/', '/skadedjur/'].some((path) => Astro.url.pathname.startsWith(sitePath(path))))
+                ? 'page' : undefined
             }
           >
             {item.label}

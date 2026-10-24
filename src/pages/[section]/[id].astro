@@ -26,7 +26,9 @@ const directGardenGuides = section.collection === 'methods' && [
   'ateranvand-krukjord', 'blomning-genom-sasongen',
 ].includes(entry.id);
 const { Content } = await render(entry);
-const parent = section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
+const isAnimal = ['beneficials', 'pests'].includes(section.collection);
+const parent = isAnimal ? [{ name: 'Biologiskt växtskydd', href: '/biologiskt-vaxtskydd/' }]
+  : section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
   : ['beneficials', 'pests', 'methods'].includes(section.collection)
     ? [{ name: 'Livet i trädgården', href: '/biologisk-odling/' }] : [];
 const breadcrumbs = [
@@ -38,6 +40,17 @@ const breadcrumbs = [
 
 <Base title={d.title} description={d.description} breadcrumbs={breadcrumbs}>
   <article class="section detail">
+    {isAnimal && (
+      <nav class="article-breadcrumbs" aria-label="Brödsmulor">
+        <a href={sitePath('/')}>Startsida</a>
+        <span aria-hidden="true">›</span>
+        <a href={sitePath('/biologiskt-vaxtskydd/')}>Biologiskt växtskydd</a>
+        <span aria-hidden="true">›</span>
+        <a href={sitePath(`/${section.path}/`)}>{section.title}</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">{d.title}</span>
+      </nav>
+    )}
     {directGardenGuides && (
       <nav class="article-breadcrumbs" aria-label="Brödsmulor">
         <a href={sitePath('/')}>Startsida</a>

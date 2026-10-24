@@ -193,3 +193,46 @@ test('admin initierar CMS med konfigurerad OAuth-förmedlare', async ({ page }) 
     'base_url: https://sveltia-cms-auth.mikael-forsberg74.workers.dev',
   );
 });
+
+test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma länkar', async ({ page }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/');
+    if (width === 390) await page.getByRole('button', { name: 'Meny' }).click();
+    await page.getByRole('navigation', { name: 'Huvudmeny' })
+      .getByRole('link', { name: 'Biologiskt växtskydd', exact: true }).click();
+    await expect(page).toHaveURL(/\/biologiskt-vaxtskydd\/$/);
+    const main = page.getByRole('main');
+    await expect(main.getByRole('heading', { level: 2 })).toHaveText([
+      'Att odla med naturen', 'Näringsväven i odlingen', 'Skadedjur', 'Nyttodjur', 'Köpa in nyttodjur',
+    ]);
+    await expect(main.getByText('Artikeln kommer.', { exact: true })).toHaveCount(2);
+    await expect(main.getByText('Guiderna kommer.', { exact: true })).toBeVisible();
+    expect(await main.locator('a').evaluateAll((links) => links.every((link) => {
+      const href = link.getAttribute('href');
+      return href && href !== '#' && !link.hasAttribute('aria-disabled');
+    }))).toBe(true);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+    await main.getByRole('link', { name: 'Utforska nyttodjuren' }).click();
+    await expect(page).toHaveURL(/\/nyttodjur\/$/);
+    await expect(page.getByRole('link', { name: '← Biologiskt växtskydd' })).toBeVisible();
+    await page.getByRole('heading', { name: 'Guldögonsländor' }).getByRole('link').click();
+    await expect(page).toHaveURL(/\/nyttodjur\/guldogonslandor\/$/);
+    const crumbs = page.getByRole('navigation', { name: 'Brödsmulor' });
+    await expect(crumbs.getByRole('link', { name: 'Biologiskt växtskydd' })).toBeVisible();
+    await expect(crumbs.getByRole('link', { name: 'Nyttodjur', exact: true })).toBeVisible();
+    const breadcrumbData = await page.locator('script[type="application/ld+json"]').allTextContents();
+    expect(breadcrumbData.join('')).toContain('Biologiskt växtskydd');
+    expect(breadcrumbData.join('')).not.toContain('Livet i trädgården');
+    if (width === 390) await page.getByRole('button', { name: 'Meny' }).click();
+    await expect(page.getByRole('navigation', { name: 'Huvudmeny' })
+      .getByRole('link', { name: 'Biologiskt växtskydd', exact: true })).toHaveAttribute('aria-current', 'page');
+    await crumbs.getByRole('link', { name: 'Biologiskt växtskydd' }).click();
+    await page.getByRole('link', { name: 'Utforska skadedjuren' }).click();
+    await expect(page).toHaveURL(/\/skadedjur\/$/);
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText('Skadedjur');
+    await page.getByRole('link', { name: '← Biologiskt växtskydd' }).click();
+    await expect(page).toHaveURL(/\/biologiskt-vaxtskydd\/$/);
+  }
+});

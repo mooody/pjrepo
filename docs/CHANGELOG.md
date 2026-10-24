@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-24 – Biologiskt växtskydd: meny och samlingssida, etapp 1
+- Godkänt: Micke bad uttryckligen att genomföra etapp 1 i Drive-planeringen. Nytt menyval efter Livet i trädgården, med fem ingångar i överenskommen ordning.
+- Genomfört i arbetsgren: en vanlig CMS-redigerbar sida `src/content/pages/biologiskt-vaxtskydd.md`, länkad från `src/data/settings.json`. Skadedjur och nyttodjur använder befintliga samlingssidor och artiklar, inklusive guldögonsländor. Filosofitext, näringsväv och köpguider markeras som kommande utan brutna länkar; befintliga relevanta guider erbjuds som vidare läsning.
+- Navigering: djursidor och deras listor får Biologiskt växtskydd som brödsmuleförälder. Synliga länkar leder tillbaka till den nya ingången; huvudmenyn markerar rätt område även på djursidor. Befintliga URL:er, artikeltexter och de elva guiderna under Livet i trädgården bevaras.
+- Bas: main `6a5ab659`, där PR #26 är mergad. Main-kontrollen 40070708246 och Pages-körningen 40070708336 godkända. Dokumentations-PR #14 och #19 lämnas orörda.
+- Verifierat lokalt: npm ci, Astro-kontroll utan fel/varningar, bygge av 55 sidor, alla 17 Node-tester samt git diff --check godkända. SEO-testets förväntade djurförälder uppdaterad till den beställda placeringen och kompletterad med nya ingången/nyttodjur. Webbläsartest tillagt för meny, läsordning, kommande texter, vägen till guldögonsländan, brödsmulor, mobilbredd och tillgänglighet. Lokala webbläsartester kan inte starta eftersom Chromium saknas; fullständig verifiering följs i PR:ens GitHub Actions.
+- Dokumentation: aktuella AGENTS.md, PROJECT_RULES.md och Drive-planeringen lästa. PROJECT_RULES.md kompletterad med beslutad navigering. CMS-konfiguration/schema, bildflöde, server och publiceringsflöde oförändrade. Ingen merge eller produktionspublicering ingår. Filosofitext/bild, foton, logga och utskrift kvarstår som egna etapper.
+
 ## 2026-10-24 – Första kompletta djurartikeln: guldögonsländor
 - Godkänt: efter genomgång av Drive-materialet bad Micke att nästa steg tas med guldögonsländor som första färdiga djurartikel och förebild för fortsatt arbete.
 - Genomfört i `content/guldogonslandor-artikel-20261024`: befintliga `src/content/beneficials/guldogonslandor.md` utvecklad på samma adress med kännetecken, roll, första observationer, samspel, miljö/övervintring, förenklad livscykel och kort inköpskoppling. Interna hänvisningar återanvänder befintliga guider. Arbetsanteckningar och gamla föreslagna adresser från Drive ingår inte i läsartexten.
