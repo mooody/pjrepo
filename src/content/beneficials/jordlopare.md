@@ -53,6 +53,13 @@ Låt gärna kantzoner och delar av förnan ligga ostörda. Många arter är natt
 
 På våren och sommaren ger ostörda gräs- och örtkanter, lövförna och stenar möjligheter att söka skydd. Under hösten kan delar av förnan lämnas kvar, eftersom vissa arter övervintrar som larver och andra som vuxna. Håll samtidigt koll på om marktäckningen gynnar sniglar i just den bädden.
 
+<figure>
+  <a href="/media/mangfald-stubbe-full-800.webp">
+    <img src="/media/mangfald-stubbe-full-800.webp" alt="En illustrativ trädgårdsmiljö med död ved, växter och ostörd mark runt en stubbe." width="800" height="800" loading="lazy" decoding="async" />
+  </a>
+  <figcaption>Ostörd mark och död ved kan bidra med skyddade platser. Digitalt bearbetad miljöbild, **inte** ett artfoto av jordlöpare.</figcaption>
+</figure>
+
 ## Samspel med andra djur
 
 En marktäckt odlingsbädd kan gynna rovdjur genom fukt och skydd, men samma förhållanden kan också gynna sniglar. Utvärdera därför nyttan utifrån både fynd och skadenivå, inte enbart antal skalbaggar.
