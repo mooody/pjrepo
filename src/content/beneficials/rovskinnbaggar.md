@@ -49,9 +49,7 @@ Både nymfer och vuxna kan angripa små trips, kvalster och andra insekter. Poll
 
 ## Miljö genom säsongen och övervintring
 
-I växthus är temperatur, dagslängd och tillgång till bytesdjur viktiga för etablering. Vuxna Orius kan gå i vintervila. Arten i förarbetets exempel, *Orius majusculus*, förekommer också i Sverige.
-
-Blommande växter kan ge pollen och kompletterande resurser under säsongen. Låt därför blomning och bytesdjur finnas i närheten, men följ också om tripsen faktiskt minskar. Övervintring och etablering påverkas av art och dagslängd.
+Under växtsäsongen kan blommande växter bidra med pollen och andra resurser när bytestillgången varierar. I växthus styr bland annat temperatur, dagslängd och föda etableringen; följ därför både trips och rovskinnbaggar. Vuxna *Orius* kan gå i vintervila. Exempelarten *O. majusculus* förekommer också i Sverige.
 
 ## Samspel med andra djur
 
