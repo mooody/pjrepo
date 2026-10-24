@@ -40,31 +40,27 @@
 }
 ---
 
-I krukjordens övre skikt lever små rovlevande kvalster som kan angripa sorgmyggelarver och vissa tripsstadier. Ett vanligt nyttodjur i odlingssubstrat är *Stratiolaelaps scimitus*, som tidigare ofta såldes under handelsnamnet Hypoaspis miles.
-
-Den här sidan beskriver främst en **art eller artgrupp som kan köpas in för biologisk bekämpning**. Det är inte ett löfte om att samma art normalt förekommer eller övervintrar i svenska frilandsodlingar.
-
-## Så känner du igen dem
-
-Vuxna är små, ljusbruna och ovala med **åtta ben**. Larven har sex ben. Färg och storlek räcker inte för säker artbestämning, eftersom flera jordkvalster är mycket lika.
-
-## Roll i odlingen
+## Målskadegörare och stadier
 
 *S. scimitus* är en bredare marklevande predator. Den kan ta sorgmyggelarver, vissa tripsstadier i substratet och andra små markdjur. Därför kan också tillgången på alternativ föda påverka populationen.
 
-## Börja här vid ett angrepp
+## När metoden passar
 
 Undersök jorden och bevattningen innan du köper rovkvalster. Undvik både uttorkning och stående vatten; en syresatt, lätt fuktig jord ger bättre förutsättningar. Följ nya sorgmyggor och helst larver i substratet, inte enbart gula klisterskivor.
 
-## Samspel med andra djur
-
-Rovkvalstren jagar i substratet, medan nyttodjur som guldögonsländor och bladlusparasitoider främst påverkar växternas ovanjordiska delar. Även nematoder mot sorgmyggor riktas mot larver i jorden; produkters förenlighet ska kontrolleras.
-
-## Miljö och övervintring
+## Förutsättningar och övervintring
 
 Temperatur, fukt, syretillgång och alternativa bytesdjur styr överlevnad och utveckling. Att ett inköpt rovkvalster överlever i en kruka betyder inte automatiskt att det etablerar sig permanent.
 
-## Livscykel – ett avgränsat exempel
+## Så följer du resultatet
+
+Räkna vuxna sorgmyggor med klisterskivor som en signal, men kontrollera också om nya larver finns i jorden. Justera fukt och bevattning samtidigt; en fångstskiva ensam bevisar inte att rovkvalstren etablerats.
+
+## Samspel och kombinationer
+
+Rovkvalstren jagar i substratet, medan nyttodjur som guldögonsländor och bladlusparasitoider främst påverkar växternas ovanjordiska delar. Även nematoder mot sorgmyggor riktas mot larver i jorden; produkters förenlighet ska kontrolleras.
+
+## Livscykel och utveckling
 
 Vald exempelart: Stratiolaelaps scimitus. Ca 25 °C, 80 % RH och mörker; laboratorieföda Tyrophagus putrescentiae.
 
@@ -82,7 +78,11 @@ Vid 20 °C tar ägg till vuxen ca 18 dygn, vid 15 °C ca 34 dygn.
 
 **Värdena är ett begränsat laboratorieexempel, inte förväntad svensk normalutveckling.** Vuxenliv är skilt från utvecklingstiden till vuxen. Olika föda och förhållanden kan ändra resultaten.
 
-## Bilder och säker identifiering
+## Kännetecken och kontroll
+
+Vuxna är små, ljusbruna och ovala med **åtta ben**. Larven har sex ben. Färg och storlek räcker inte för säker artbestämning, eftersom flera jordkvalster är mycket lika.
+
+## Bilder och identifiering
 
 [Penn State beskriver och illustrerar Stratiolaelaps scimitus](https://extension.psu.edu/all-about-stratiolaelaps-scimitus-hypoaspis-miles-predatory-mites). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 
