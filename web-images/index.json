@@ -1329,6 +1329,171 @@
           }
         ]
       }
+    },
+    {
+      "id": "guldogonslanda-vuxen",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "guldogonslanda-vuxen-full-480.webp",
+            "width": 480,
+            "height": 408
+          },
+          {
+            "file": "guldogonslanda-vuxen-full-800.webp",
+            "width": 800,
+            "height": 680
+          },
+          {
+            "file": "guldogonslanda-vuxen.webp",
+            "width": 800,
+            "height": 680
+          }
+        ],
+        "card": [
+          {
+            "file": "guldogonslanda-vuxen-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "guldogonslanda-vuxen-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "guldogonslanda-vuxen-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "guldogonslanda-vuxen-hero-800.webp",
+            "width": 544,
+            "height": 680
+          }
+        ],
+        "sharing": [
+          {
+            "file": "guldogonslanda-vuxen-sharing-1200.webp",
+            "width": 800,
+            "height": 420
+          }
+        ]
+      }
+    },
+    {
+      "id": "guldogonslanda-larv",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "guldogonslanda-larv-full-480.webp",
+            "width": 480,
+            "height": 540
+          },
+          {
+            "file": "guldogonslanda-larv-full-800.webp",
+            "width": 800,
+            "height": 900
+          },
+          {
+            "file": "guldogonslanda-larv.webp",
+            "width": 900,
+            "height": 1012
+          }
+        ],
+        "card": [
+          {
+            "file": "guldogonslanda-larv-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "guldogonslanda-larv-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "guldogonslanda-larv-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "guldogonslanda-larv-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "guldogonslanda-larv-sharing-1200.webp",
+            "width": 900,
+            "height": 472
+          }
+        ]
+      }
+    },
+    {
+      "id": "guldogonslanda-livscykel",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "guldogonslanda-livscykel-full-480.webp",
+            "width": 480,
+            "height": 518
+          },
+          {
+            "file": "guldogonslanda-livscykel-full-800.webp",
+            "width": 800,
+            "height": 864
+          },
+          {
+            "file": "guldogonslanda-livscykel.webp",
+            "width": 1600,
+            "height": 1728
+          }
+        ],
+        "card": [
+          {
+            "file": "guldogonslanda-livscykel-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "guldogonslanda-livscykel-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "guldogonslanda-livscykel-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "guldogonslanda-livscykel-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "guldogonslanda-livscykel-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
     }
   ]
 }

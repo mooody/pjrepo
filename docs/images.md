@@ -1,5 +1,11 @@
 # Skyddade original och offentliga webbexporter
 
+## Guldögonsländor – 24 oktober 2026
+
+Tre befintliga AI-illustrationer ur Drive-förarbetet används på den befintliga djursidan: `guldogonslanda-vuxen` som huvudbild samt `guldogonslanda-larv` och `guldogonslanda-livscykel` i artikelns relevanta avsnitt. Livscykeln använder den förenklade fyrfasversionen. Fullbilderna ligger kvar i naturligt format; larvbild och livscykel kan öppnas i större format genom länkar i bildtexterna. Bildfilerna används som pedagogiska gruppexempel, inte som fotografiska artbelägg.
+
+Bildtexter och huvudtext skiljer gruppkännetecken från carnea-studiens temperaturbundna tider. Huvudbilden visar en motivbeskärning av den vuxna insekten utan planschens etiketter; originalet bevaras. Larvbildens och livscykelns etiketter bevaras. Exportkopior har fått extra marginal i samma bakgrundsfärg så att standardvattenstämpeln inte skymmer etiketter eller befintlig märkning. Ingen djuranatomi eller diagramtext har genererats om. Därefter har befintlig `processImages` skapat 24 metadatafria, vattenstämplade WebP-varianter i separat exportkatalog. Bara de nya posterna och filerna har fogats till det publika bildbiblioteket; alla originalsökvägar är tomma. Drive-original, hämtade PNG-filer och exportkopior hålls utanför repositoryt. Bildkomponent, CMS, schema och vattenstämpelinställningar är oförändrade.
+
 ## Höstbild till täckodlingsåret – 24 oktober 2026
 
 `tackodling-hostlov` bygger på Mickes foto av en påbörjad lövtäckning. Den godkända versionen är beskuren och digitalt ljus-/färgbearbetad med AI-stöd. Den används som huvudbild i `tackodling-genom-aret.md`, med beskrivande alt-text och bildtext som anger att arbetet påbörjats och att fotot är digitalt bearbetat. Bilden ska inte tolkas som ett färdigt täcklager eller ett dokumenterat odlingsresultat.
