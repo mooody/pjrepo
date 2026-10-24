@@ -28,7 +28,7 @@ const directGardenGuides = section.collection === 'methods' && [
 ].includes(entry.id);
 const { Content } = await render(entry);
 const isAnimal = ['beneficials', 'pests'].includes(section.collection);
-const isProtectionGuide = section.collection === 'methods' && entry.id === 'att-odla-med-naturen';
+const isProtectionGuide = section.collection === 'methods' && ['att-odla-med-naturen', 'naringsvaven-i-odlingen'].includes(entry.id);
 const parent = isAnimal || isProtectionGuide ? [{ name: 'Biologiskt växtskydd', href: '/biologiskt-vaxtskydd/' }]
   : section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
   : ['beneficials', 'pests', 'methods'].includes(section.collection)

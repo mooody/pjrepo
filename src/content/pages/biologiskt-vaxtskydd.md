@@ -15,9 +15,9 @@ För konkreta åtgärder finns också vår praktiska guide till [biologisk mång
 
 ## Näringsväven i odlingen
 
-Vilka samband finns mellan växterna, djuren och livet under jord? En kommande artikel förklarar hur delarna hänger ihop och vad det betyder för odlaren.
+Följ sambanden från växt och bladlus till nyttodjur och markliv. Lär dig varför samma djur kan behöva olika föda under livet och varför flera naturliga fiender inte alltid ger bättre bekämpning.
 
-**Artikeln kommer.** Läs gärna om [jordens små arbetare](/odlingsmetoder/jordens-sma-arbetare/) redan nu.
+[Näringsväven i odlingen – vem lever av vem?](/odlingsmetoder/naringsvaven-i-odlingen/)
 
 ## Skadedjur
 
