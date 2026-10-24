@@ -4,7 +4,7 @@ Guldögonsländor är den första fullt utvecklade djurartikeln från Drive-för
 
 ## Genomförande av resterande nyttodjur – 2026-10-24
 
-**Status: arbetsgren och PR, inte mergat eller publicerat.** Projektets Drive-mapp `Trädgårdsdrömmar – biologisk odling – webbutkast` och dess sidregister (13 nyttodjursdokument N01–N13) är lästa. Befintliga guldögonsländor ligger kvar. Nyckelpigor behandlas separat i öppna PR #31 och har inte skrivits över av detta arbete.
+**Status: arbetsgren och PR, inte mergat eller publicerat.** Projektets Drive-mapp `Trädgårdsdrömmar – biologisk odling – webbutkast` och dess sidregister (13 nyttodjursdokument N01–N13) är lästa. Befintliga guldögonsländor ligger kvar. Nyckelpigor fördjupades i PR #31, som **mergades till main 2026-10-24** (mergecommit `c8ce77d40a9d`), och har inte skrivits över av detta arbete.
 
 För de elva resterande grupperna har befintlig parasitstekelsida fördjupats och tio nya `beneficials`-artiklar skapats: blomflugor, bladlusgallmygga, rovskinnbaggar, jordlöpare, rovtrips, minerarflugeparasitoider, rovkvalster mot spinn, jordlevande rovkvalster, nematoder mot sorgmyggor och rovkvalster mot trips. Samlingssidan beskriver nu hela serien och skiljer naturligt förekommande nyttodjur från sådana som ofta köps in. Samtliga använder befintliga URLs under `/nyttodjur/`, samma sidmall och CMS-schema, egna källfält, men inga nya bild-ID:n.
 
@@ -12,7 +12,7 @@ För de elva resterande grupperna har befintlig parasitstekelsida fördjupats oc
 
 **Bildunderlag:** De elva individuella Drive-mapparna innehåller illustrerade stadier, livscykler, faktakontroll och fotoreferenser. Dessa är **inte publicerade** i denna PR eftersom skyddad beskärning, etikettgranskning och vattenstämplad WebP-export inte har genomförts. I artikeltexterna finns i stället länkar till namngivna bildreferenser hos UC IPM, Cornell eller andra publicerade institutioner. Inga externt upphovsrättsligt skyddade foton eller oskyddade Drive-original kopierades till publikt GitHub. Bildexport enligt `docs/images.md` är kvarstående arbete och kräver bildgranskning per art och stadium.
 
-**Verifiering:** Node/SEO-test kontrollerar sidorna och `BreadcrumbList`. Playwright kontrollerar samlingslistans antal, läsrubriker, källor och mobilvisning. PR-checkarnas utfall och eventuell omtestning hör till samma PR. Vid merge av PR #31 och denna gren kontrolleras att båda ändringsloggarna och den fristående nyckelpigeartikeln bevaras. Ingen produktionspublicering sker.
+**Verifiering:** Node/SEO-test kontrollerar sidorna och `BreadcrumbList`. Playwright kontrollerar samlingslistans antal, läsrubriker, källor och mobilvisning. PR-checkarnas utfall och eventuell omtestning hör till samma PR. När PR #32 mergas måste nyckelpigeartikeln och dokumentationen från redan mergade PR #31 bevaras. Ingen produktionspublicering sker.
 
 ## Skadedjur – 14 specialguider på PR #32 (2026-10-24)
 
