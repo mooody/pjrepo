@@ -57,7 +57,7 @@ Beroende på art kan de övervintra som larver eller vuxna. Marktäckning kan f�
   <a href="/media/mangfald-stubbe-full-800.webp">
     <img src="/media/mangfald-stubbe-full-800.webp" alt="En illustrativ trädgårdsmiljö med död ved, växter och ostörd mark runt en stubbe." width="800" height="800" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Ostörd mark och död ved kan bidra med skyddade platser. Digitalt bearbetad miljöbild, **inte** ett artfoto av jordlöpare.</figcaption>
+  <figcaption>Ostörd mark och död ved kan bidra med skyddade platser. Digitalt bearbetad miljöbild, <strong>inte</strong> ett artfoto av jordlöpare.</figcaption>
 </figure>
 
 ## Samspel med andra djur
