@@ -1,5 +1,12 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-24 – Nyttodjur: fördjupning av nyckelpigor
+- Beställt: fortsätta nyttodjuren och hitta förarbete på Drive. Underlagen finns i **Trädgårdsdrömmar – biologisk odling – webbutkast**, med dokument `N01 – Nyckelpigor`, registrering, stadie- och bildmappar.
+- Genomfört i `content/nyckelpigor-fordjupning-20261024`: befintlig artikel `/nyttodjur/nyckelpigor/` utvecklad med igenkänning av ägg, larv, puppa och vuxen, roll i odlingen, observation, samspel och miljö. Skillnad mellan familj Coccinellidae och studiearten C. septempunctata tydliggjord; laboratoriets varierande temperatur och rosbladlusföda anges, och utvecklingstid skiljs från vuxenliv.
+- Källor: Drive-förarbetet och kontroll mot RHS, Naturhistoriska riksmuseet, SLU, Cornell och publicerat utvecklingsförsök. Interna länkar till befintliga sidor. Nytt webbläsartest täcker dator/mobil, källor, sidrubrik och centrala fakta.
+- Bildstatus: granskade Drive-original och illustrationsfiler finns, men inga nya bildexporter i denna PR. Skyddad vattenstämpel-/WebP-export enligt `docs/images.md` kvarstår. Externa fotografier länkas bara som referens, inte återpublicerade.
+- `docs/ANIMAL_ARTICLES.md` uppdaterad med överlämning. Aktuella `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov. CMS, SEO-struktur, server och publiceringsflöde oförändrade. Ingen merge eller produktionspublicering; verifiering ska redovisas i PR.
+
 ## 2026-10-24 – Synliga brödsmulor och flyttad utskrift
 - Beslut: menybaserade brödsmulor utan startsida och utskriftsknapp efter artikeln.
 - Implementerat i arbetsgren/PR #30, ej mergat eller publicerat. Kodversion 7f8c5ce verifierades i GitHub Actions [40092266859](https://github.com/mooody/pjrepo/actions/runs/40092266859): `npm ci`, Astro (0 fel), 17 Node-tester, 12 Playwright-tester (inklusive mobil, navigering, A4-PDF) och uppladdad byggartefakt — success. Efterföljande dokumentationscommits får egen kontroll.

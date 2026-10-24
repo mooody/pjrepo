@@ -32,3 +32,11 @@ Efterföljande djurartiklar är ännu inte införda genom detta uppdrag. Sköldl
 ## Fortsättning 2026-10-24 – näringsväven
 
 Efter mergad PR #27 införs näringsvävsartikeln i separat arbetsgren på `/odlingsmetoder/naringsvaven-i-odlingen/`, direkt under Biologiskt växtskydd. Den binder samman födoval, livsstadier, honungsdagg och markliv. Befintligt larvfoto och jordlivsillustration återanvänds oförändrade, med odlingsmiljön från filosofiartikeln som huvudbild. Fotot på blomman är inte belägg för födointag. Jord- och blomningsråd länkas till sina befintliga guider. Ingen ytterligare djurartikel eller köpguide är färdigställd genom detta steg. Fortsätt därefter med de individuella djurdokumenten enligt upplägget ovan.
+
+## Fortsättning 2026-10-24 – nyckelpigor
+
+Utifrån [Drive-förarbetet N01 – Nyckelpigor](https://docs.google.com/document/d/10BI3jNZwVadu772mc89EliQA03XKyQd-VFPD43NEqw8/edit) och sidregistret har den befintliga sidan `/nyttodjur/nyckelpigor/` utvecklats i grenen `content/nyckelpigor-fordjupning-20261024`. Grunderna om gruppen Coccinellidae hålls isär från livscykelexemplet med `Coccinella septempunctata`. Larv och puppa förklaras med praktisk igenkänning, inklusive skillnaden mot skadegörare och att prickar inte anger ålder. Ägg–vuxen-försöket med varierande temperatur och rosbladlus presenteras som ett laboratorieexempel, inte svensk normaltid. Källor från RHS, NRM, SLU, Cornell och forskningsartikeln finns i den publika sidans källfält.
+
+**Bildstatus:** Förarbetets aktuella egna AI-illustrationer och livscykel ligger i [nyckelpigemappen på Drive](https://drive.google.com/drive/folders/1aHr2gHDGrNuTM0ErHw5wdV_vFMO3bR6J). De har granskats i det tidigare bildarbetet men har **inte** exporterats till vattenstämplade webbvarianter i denna gren. Webbtexten hänvisar tills vidare till externa referensfoton från RHS och Naturhistoriska riksmuseet; dessa kopieras inte in. Innan ny bild publiceras ska befintligt skyddat bildexportflöde i `docs/images.md` följas. Originalfiler och osäkra fotokällor får inte läggas i det publika repositoryt.
+
+**Nästa redaktionella grupp:** Blomflugor (N03) eller Bladlusparasitsteklar (N05) från samma Drive-mapp efter att nyckelpigornas bildexport är löst. Ingen CMS-förändring och ingen produktionspublicering har gjorts.
