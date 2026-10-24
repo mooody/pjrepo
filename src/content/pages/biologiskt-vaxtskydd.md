@@ -7,9 +7,11 @@ En trädgård ska fungera för både den som odlar och livet som finns där. Hä
 
 ## Att odla med naturen
 
-Varför göra plats för fler växter och djur i en odling? Här kommer vår filosofiska ingång om biologisk mångfald, odlingsglädje och en trädgård som fungerar i vardagen.
+Varför göra plats för fler växter och djur i en odling? Läs vår filosofiska ingång om biologisk mångfald, odlingsglädje och en trädgård som fungerar i vardagen.
 
-**Artikeln kommer.** Under tiden finns vår praktiska guide till [biologisk mångfald i trädgården](/odlingsmetoder/biologisk-mangfald/).
+[Att odla med naturen i stället för bredvid den](/odlingsmetoder/att-odla-med-naturen/)
+
+För konkreta åtgärder finns också vår praktiska guide till [biologisk mångfald i trädgården](/odlingsmetoder/biologisk-mangfald/).
 
 ## Näringsväven i odlingen
 

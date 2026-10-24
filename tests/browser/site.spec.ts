@@ -206,7 +206,7 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     await expect(main.getByRole('heading', { level: 2 })).toHaveText([
       'Att odla med naturen', 'Näringsväven i odlingen', 'Skadedjur', 'Nyttodjur', 'Köpa in nyttodjur',
     ]);
-    await expect(main.getByText('Artikeln kommer.', { exact: true })).toHaveCount(2);
+    await expect(main.getByText('Artikeln kommer.', { exact: true })).toHaveCount(1);
     await expect(main.getByText('Guiderna kommer.', { exact: true })).toBeVisible();
     expect(await main.locator('a').evaluateAll((links) => links.every((link) => {
       const href = link.getAttribute('href');
@@ -214,6 +214,19 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     }))).toBe(true);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+    await main.getByRole('link', { name: 'Att odla med naturen i stället för bredvid den', exact: true }).click();
+    await expect(page).toHaveURL(/\/odlingsmetoder\/att-odla-med-naturen\/$/);
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText('Att odla med naturen i stället för bredvid den');
+    const philosophyImage = page.locator('article.detail img').first();
+    await philosophyImage.scrollIntoViewIfNeeded();
+    await expect(philosophyImage).toHaveJSProperty('complete', true);
+    expect(await philosophyImage.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
+    await expect(page.locator('article.detail figcaption')).toContainText('AI-genererad illustration');
+    await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();
+    await expect(page.locator('.sources li')).toHaveCount(4);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+    await page.getByRole('link', { name: '← Biologiskt växtskydd', exact: true }).click();
     await main.getByRole('link', { name: 'Utforska nyttodjuren' }).click();
     await expect(page).toHaveURL(/\/nyttodjur\/$/);
     await expect(page.getByRole('link', { name: '← Biologiskt växtskydd' })).toBeVisible();

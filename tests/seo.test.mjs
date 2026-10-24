@@ -15,6 +15,7 @@ test('startsidan har tydlig titel, canonical och WebSite',async()=>{
 });
 test('strukturerade brödsmulor pekar till rätt sidor',async()=>{
  const cases=[
+  ['odlingsmetoder/att-odla-med-naturen',['/','/biologiskt-vaxtskydd/','/odlingsmetoder/att-odla-med-naturen/']],
   ['biologiskt-vaxtskydd',['/','/biologiskt-vaxtskydd/']],
   ['nyttodjur',['/','/biologiskt-vaxtskydd/','/nyttodjur/']],
   ['nyttodjur/guldogonslandor',['/','/biologiskt-vaxtskydd/','/nyttodjur/','/nyttodjur/guldogonslandor/']],

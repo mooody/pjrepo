@@ -55,3 +55,10 @@ De genererade PNG-originalen finns utanför repositoryt. Särskilda exportkopior
 Efter Mickes granskning har `jordliv-rot-mykorrhiza` omarbetats: ett finare, förgrenat nät av svamptrådar visas över en större jordvolym utanför roten. Märkningen ”Svamptrådar (hyfer)” pekar på svamptrådarna i stället för en rot. Separat nedbrytning av dött material finns kvar. Färgerna är pedagogiska och bilden är inte skalenlig; detta framgår av bildtexten.
 
 Befintligt bild-ID och befintlig exportfunktion behålls. De åtta vattenstämplade WebP-varianterna ersätts, och manifestets alt-text samt bildtext uppdateras. Den nya genererade PNG-bilden och den tidigare versionen bevaras utanför repositoryt. Inga ändringar av CMS, bildschema, vattenstämpelinställningar eller exportmetod.
+
+
+## 2026-10-24 – Bild till Att odla med naturen
+
+`odla-med-naturen` återanvänder bilden som är förankrad i slutet av filosofikapitlet i ”Arbetet om nyttodjur”. Dokumentets bildobjekt och placering kontrollerade före hämtning. Motivet visar ordnade grönsaksbäddar, blommande stråk, buskar och växthus. Den publiceras som AI-genererad illustration av en tänkt miljö, utan påstående att det är fotografi av egen odling eller dokumenterad odlingseffekt. Inga detaljer används för artbestämning.
+
+Bildoriginalet hålls utanför repositoryt. Åtta WebP-varianter skapade med befintlig `processImages` och oförändrade vattenstämpelinställningar i separat exportkatalog; tidigare exporter bevarade. Bara metadatafria vattenstämplade exporter samt manifest/index införs. Samma bild används i artikel och automatiskt artikelkort; ingen bildgenerering eller ändring av bildhanteringen ingår.

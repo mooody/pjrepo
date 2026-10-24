@@ -27,27 +27,30 @@ const directGardenGuides = section.collection === 'methods' && [
 ].includes(entry.id);
 const { Content } = await render(entry);
 const isAnimal = ['beneficials', 'pests'].includes(section.collection);
-const parent = isAnimal ? [{ name: 'Biologiskt växtskydd', href: '/biologiskt-vaxtskydd/' }]
+const isProtectionGuide = section.collection === 'methods' && entry.id === 'att-odla-med-naturen';
+const parent = isAnimal || isProtectionGuide ? [{ name: 'Biologiskt växtskydd', href: '/biologiskt-vaxtskydd/' }]
   : section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
   : ['beneficials', 'pests', 'methods'].includes(section.collection)
     ? [{ name: 'Livet i trädgården', href: '/biologisk-odling/' }] : [];
 const breadcrumbs = [
   { name: 'Startsida', href: '/' }, ...parent,
-  ...(!directGardenGuides ? [{ name: section.title, href: `/${section.path}/` }] : []),
+  ...(!directGardenGuides && !isProtectionGuide ? [{ name: section.title, href: `/${section.path}/` }] : []),
   { name: d.title, href: `/${section.path}/${entry.id}/` },
 ];
 ---
 
 <Base title={d.title} description={d.description} breadcrumbs={breadcrumbs}>
   <article class="section detail">
-    {isAnimal && (
+    {(isAnimal || isProtectionGuide) && (
       <nav class="article-breadcrumbs" aria-label="Brödsmulor">
         <a href={sitePath('/')}>Startsida</a>
         <span aria-hidden="true">›</span>
         <a href={sitePath('/biologiskt-vaxtskydd/')}>Biologiskt växtskydd</a>
         <span aria-hidden="true">›</span>
-        <a href={sitePath(`/${section.path}/`)}>{section.title}</a>
-        <span aria-hidden="true">›</span>
+        {isAnimal && <>
+          <a href={sitePath(`/${section.path}/`)}>{section.title}</a>
+          <span aria-hidden="true">›</span>
+        </>}
         <span aria-current="page">{d.title}</span>
       </nav>
     )}
@@ -60,8 +63,8 @@ const breadcrumbs = [
         <span aria-current="page">{d.title}</span>
       </nav>
     )}
-    <a class="text-link" href={sitePath(directGardenGuides ? '/biologisk-odling/' : `/${section.path}/`)}>
-      ← {directGardenGuides ? 'Livet i trädgården' : section.title}
+    <a class="text-link" href={sitePath(isProtectionGuide ? '/biologiskt-vaxtskydd/' : directGardenGuides ? '/biologisk-odling/' : `/${section.path}/`)}>
+      ← {isProtectionGuide ? 'Biologiskt växtskydd' : directGardenGuides ? 'Livet i trädgården' : section.title}
     </a>
     <header>
       <p class="eyebrow">

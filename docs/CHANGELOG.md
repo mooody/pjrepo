@@ -1,5 +1,14 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-24 – Filosofiartikeln, etapp 2 i PR #27
+- Godkänt: Micke bad att steg 2 byggs vidare i samma PR. Filosofiartikeln ”Att odla med naturen i stället för bredvid den” tillagd inom befintlig samling Odlingsmetoder; samlingssidan länkar nu till artikeln. Näringsväv och köpguider är fortsatt kommande.
+- Redaktionellt: originalkapitlets öppning, röst och huvudresonemang bevarade. Långa växtlistor, fånggrödor och detaljerade skötselråd avgränsade till andra guider. Praktiska kompromisser, välordnade bäddar, skörd och små steg ges utrymme. Mångfald lovas inte ge automatiskt bättre bekämpning; konkurrens och predation mellan naturliga fiender nämns. Faktagranskat mot Jordbruksverket, SLU CBC, Naturvårdsverket och RHS. Jordliv förklaras närmare i redan befintlig länkad artikel.
+- Bild: den befintliga, förankrade bilden i filosofikapitlet återanvänd med åtta nya vattenstämplade WebP-exporter. Märkt som AI-genererad illustration av en tänkt odlingsmiljö. Original och tillfälliga åtkomstlänkar hålls utanför repositoryt. Se docs/images.md.
+- Navigering: filosofiartikeln får direkt brödsmula/tillbakalänk till Biologiskt växtskydd och aktivt menyval där. Befintliga guider behåller sina föräldrar. Ingen ny CMS-samling eller schemaändring.
+- Bas: PR #27 head `06b02a05`, dess fullständiga kontroll 40074024419 godkänd; PR öppen och omergad vid start, main fortsatt `6a5ab659`. Befintliga dokumentations-PR:er lämnas orörda.
+- Verifiering: npm ci körd; befintlig verifiering körs på denna ändring. Webbläsartestet utökat med artikelns navigering, laddad bild, bildtext, källor, mobilbredd och tillgänglighet; SEO-test med direkt artikelhierarki. Faktiskt CI-resultat följs i PR före överlämning.
+- Dokumentation: aktuella projektregler och Drive-planering lästa; PROJECT_RULES.md kompletterad med artikelns befintliga samling och navigeringsförälder. Ingen ändring av CMS-konfiguration, schema, bildmetod, server eller publiceringsflöde. Ingen merge eller produktionspublicering. Egna insektsfoton, logga och utskrift återstår i senare etapper.
+
 ## 2026-10-24 – Biologiskt växtskydd: meny och samlingssida, etapp 1
 - Godkänt: Micke bad uttryckligen att genomföra etapp 1 i Drive-planeringen. Nytt menyval efter Livet i trädgården, med fem ingångar i överenskommen ordning.
 - Genomfört i arbetsgren: en vanlig CMS-redigerbar sida `src/content/pages/biologiskt-vaxtskydd.md`, länkad från `src/data/settings.json`. Skadedjur och nyttodjur använder befintliga samlingssidor och artiklar, inklusive guldögonsländor. Filosofitext, näringsväv och köpguider markeras som kommande utan brutna länkar; befintliga relevanta guider erbjuds som vidare läsning.
