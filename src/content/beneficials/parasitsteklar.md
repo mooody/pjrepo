@@ -1,41 +1,41 @@
 ---
 {
-  "title": "Parasitsteklar",
-  "description": "De små steklarna syns sällan lika tydligt som resultatet av deras aktivitet: en uppsvälld, brunaktig bladlus, ofta kallad mumie. Men alla parasitsteklar angriper inte bladlöss, och en mumie identifierar inte automatiskt ",
-  "draft": false,
-  "category": "Nyttodjur",
-  "scientificName": "Hymenoptera – bladlusparasitoider, bl.a. Aphidius",
-  "tags": [
-    "nyttodjur",
-    "biologisk bekämpning",
-    "bladlöss"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "Kansas State – Aphidius colemani och A. ervi som nyttodjur",
-      "url": "https://bookstore.ksre.ksu.edu/pubs/aphidius-colemani-and-aphidius-ervi-biological-control-agents-of-aphids_MF3653.pdf"
-    },
-    {
-      "title": "Monguí m.fl. (1986) – laboratoriestudier av colemani-gruppen",
-      "url": "https://doi.org/10.25100/socolen.v12i1.10228"
-    },
-    {
-      "title": "NIBIO – Bladlusparasitoider",
-      "url": "https://leksikon.nibio.no/l/oppslag/132/"
-    }
-  ],
-  "related": [
-    {
-      "label": "Bladlöss",
-      "href": "/skadedjur/bladloss/"
-    },
-    {
-      "label": "Guldögonsländor",
-      "href": "/nyttodjur/guldogonslandor/"
-    }
-  ]
+ "title": "Parasitsteklar",
+ "description": "De små steklarna syns sällan lika tydligt som resultatet av deras aktivitet: en uppsvälld, brunaktig bladlus, ofta kallad mumie. Men alla parasitsteklar angriper inte bladlöss, och en mumie identifierar inte automatiskt ",
+ "draft": false,
+ "category": "Nyttodjur",
+ "scientificName": "Hymenoptera – bladlusparasitoider, bl.a. Aphidius",
+ "tags": [
+ "nyttodjur",
+ "biologisk bekämpning",
+ "bladlöss"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "Kansas State – Aphidius colemani och A. ervi som nyttodjur",
+ "url": "https://bookstore.ksre.ksu.edu/pubs/aphidius-colemani-and-aphidius-ervi-biological-control-agents-of-aphids_MF3653.pdf"
+ },
+ {
+ "title": "Monguí m.fl. (1986) – laboratoriestudier av colemani-gruppen",
+ "url": "https://doi.org/10.25100/socolen.v12i1.10228"
+ },
+ {
+ "title": "NIBIO – Bladlusparasitoider",
+ "url": "https://leksikon.nibio.no/l/oppslag/132/"
+ }
+ ],
+ "related": [
+ {
+ "label": "Bladlöss",
+ "href": "/skadedjur/bladloss/"
+ },
+ {
+ "label": "Guldögonsländor",
+ "href": "/nyttodjur/guldogonslandor/"
+ }
+ ]
 }
 ---
 
@@ -44,8 +44,6 @@ De små steklarna syns sällan lika tydligt som resultatet av deras aktivitet: e
 ## Så känner du igen dem
 
 Leta först efter **uppsvällda, ofta brunaktiga bladlusmumier** bland vanliga levande bladlöss. En vuxen bladlusparasitstekel är mycket liten, vanligen mörk och slank. Både den vuxna och mumien behöver jämföras med fler kännetecken för artbestämning.
-
-Den vuxna är en mycket liten stekel. Mumien är ofta lättare att upptäcka än djuret. Ett runt utgångshål visar att något kläckts, men bevisar inte ensamt vilken stekelart som kom ut.
 
 ## Roll i odlingen
 
@@ -81,12 +79,12 @@ Colemani-gruppen är ett pedagogiskt exempel och omfattar arter som numera skilj
 
 Den tidigare serien vid 25 °C, med Aphis gossypii som värd, gav ca 10–11 dygn till vuxen. Den blandas inte med de nya instartiderna. Andra försök vid 21 °C har också gett kortare tider; temperatur ensam förklarar inte skillnaden mellan försöken.
 
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. Läs diagrammet medurs. Ringens delar är inte en proportionell tidsskala.
+- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
 
 **Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
 
 ## Jämför bilder och bedöm fyndet
 
-[Kansas State beskriver och visar Aphidius-arter som biologiska bekämpare av bladlöss](https://bookstore.ksre.ksu.edu/pubs/aphidius-colemani-and-aphidius-ervi-biological-control-agents-of-aphids_MF3653.pdf). Referensfotografierna visar exempel från källans bestämda djur och livsstadier. De visar inte våra egna fynd. Förarbetets särskilda stadieillustrationer ska först granskas och exporteras som märkta, vattenstämplade webbversioner innan de läggs på sidan.
+[Kansas State beskriver och visar Aphidius-arter som biologiska bekämpare av bladlöss](https://bookstore.ksre.ksu.edu/pubs/aphidius-colemani-and-aphidius-ervi-biological-control-agents-of-aphids_MF3653.pdf). Referensfotografierna visar exempel från källans bestämda djur och livsstadier. De visar inte våra egna fynd. 
 
 Vid en observation räcker ofta en trygg bedömning på **gruppnivå och om djuret är en sannolik hjälpare**, utan att pressa fram en osäker artbestämning.
