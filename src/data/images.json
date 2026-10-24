@@ -347,6 +347,30 @@
       "license": "Fri användning med bibehållen vattenstämpel",
       "licenseUrl": "",
       "position": "centre"
+    },
+    {
+      "ownership": "own",
+      "kind": "photo",
+      "photographer": "Mikael Forsberg",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre",
+      "id": "guldogonslanda-agg-foto",
+      "source": "",
+      "alt": "Ett ljust grönt ovalt ägg på ett tunt skaft som är fäst vid en bladspets.",
+      "caption": "Guldögonsländeägg på sitt tunna skaft. Eget foto, Mikael Forsberg. Arten är inte bestämd."
+    },
+    {
+      "ownership": "own",
+      "kind": "photo",
+      "photographer": "Mikael Forsberg",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre",
+      "id": "guldogonslanda-larv-foto",
+      "source": "",
+      "alt": "Mörkmönstrad långsmal larv med ben framtill och två böjda käkar på en gulvit blomma.",
+      "caption": "Larv som bedöms vara en guldögonsländelarv, ett bladluslejon. Eget foto, Mikael Forsberg. Ingen säker artbestämning."
     }
   ]
 }

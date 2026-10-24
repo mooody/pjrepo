@@ -152,7 +152,7 @@ test('guldögonsländans artikel visar läsbilder, förstoring och källor', asy
     await page.setViewportSize({ width, height: 900 });
     await page.goto('/nyttodjur/guldogonslandor/');
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('Guldögonsländor');
-    await expect(page.locator('article.detail img')).toHaveCount(3);
+    await expect(page.locator('article.detail img')).toHaveCount(4);
     for (const img of await page.locator('article.detail img').all()) {
       await img.scrollIntoViewIfNeeded();
       await expect(img).toHaveJSProperty('complete', true);
@@ -162,6 +162,14 @@ test('guldögonsländans artikel visar läsbilder, förstoring och källor', asy
     await expect(fullDiagram).toHaveAttribute('href', /\/media\/guldogonslanda-livscykel\.webp$/);
     const response = await page.request.get((await fullDiagram.getAttribute('href'))!);
     expect(response.ok()).toBe(true);
+    await expect(page.locator('.prose')).toContainText('bladluslejon');
+    await expect(page.locator('.prose')).toContainText('Ingen säker artbestämning');
+    for (const label of ['Visa hela äggfotot', 'Visa hela larvfotot']) {
+      const photoLink = page.getByRole('link', { name: label, exact: true });
+      expect((await page.request.get((await photoLink.getAttribute('href'))!)).ok()).toBe(true);
+    }
+    await expect(page.locator('img[src$="guldogonslanda-agg-foto-card-800.webp"]')).toHaveCount(1);
+    await expect(page.locator('img[src$="guldogonslanda-larv-foto-card-800.webp"]')).toHaveCount(1);
     await expect(page.locator('.prose')).toContainText('laboratorieförsöket');
     await expect(page.locator('.prose')).not.toContainText('Källor och redaktionella anteckningar');
     await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();

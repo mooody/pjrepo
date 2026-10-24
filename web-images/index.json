@@ -1549,6 +1549,116 @@
           }
         ]
       }
+    },
+    {
+      "id": "guldogonslanda-agg-foto",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "guldogonslanda-agg-foto-full-480.webp",
+            "width": 480,
+            "height": 1040
+          },
+          {
+            "file": "guldogonslanda-agg-foto-full-800.webp",
+            "width": 709,
+            "height": 1536
+          },
+          {
+            "file": "guldogonslanda-agg-foto.webp",
+            "width": 709,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "guldogonslanda-agg-foto-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "guldogonslanda-agg-foto-card-800.webp",
+            "width": 709,
+            "height": 473
+          }
+        ],
+        "hero": [
+          {
+            "file": "guldogonslanda-agg-foto-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "guldogonslanda-agg-foto-hero-800.webp",
+            "width": 709,
+            "height": 886
+          }
+        ],
+        "sharing": [
+          {
+            "file": "guldogonslanda-agg-foto-sharing-1200.webp",
+            "width": 709,
+            "height": 372
+          }
+        ]
+      }
+    },
+    {
+      "id": "guldogonslanda-larv-foto",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "guldogonslanda-larv-foto-full-480.webp",
+            "width": 480,
+            "height": 640
+          },
+          {
+            "file": "guldogonslanda-larv-foto-full-800.webp",
+            "width": 800,
+            "height": 1067
+          },
+          {
+            "file": "guldogonslanda-larv-foto.webp",
+            "width": 1152,
+            "height": 1536
+          }
+        ],
+        "card": [
+          {
+            "file": "guldogonslanda-larv-foto-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "guldogonslanda-larv-foto-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "guldogonslanda-larv-foto-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "guldogonslanda-larv-foto-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "guldogonslanda-larv-foto-sharing-1200.webp",
+            "width": 1152,
+            "height": 605
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,5 +1,12 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-24 – Egna ägg- och larvfoton, etapp 3 i PR #27
+- Godkänt: Micke bad att etapp 3 genomförs i samma PR. Två egna foton införda i guldögonsländans igenkänningsavsnitt, med tydliga bildtexter, bildkrediter och länkar till hela webbversionerna. Benämningen bladluslejon tillagd för larven och kontrollerad mot Lunds universitet; ny källpost i artikeln. Ingen säker artbestämning påstås för fotona.
+- Bilder: ordinarie 3:2-beskärning visar hela äggskaftet respektive larvens kropp och käkar. Tidigare larvillustration behållen som jämförelselänk, vuxenbild och livscykel oförändrade. Två manifestposter, två exportindexposter och 16 vattenstämplade WebP-filer. Bildverktygets ljusförslag underkändes eftersom små detaljer ändrades; de används inte. Exporterna kommer från originalfoton utan ljusändring. Original och AI-försök utanför repositoryt. Se docs/images.md.
+- Bas: PR #27 head af5b3250, godkänd fullständig kontroll 40074616593; PR öppen och main fortsatt 6a5ab659 vid start. Öppna dokumentations-PR #14/#19 lämnas orörda.
+- Verifiering: npm ci körd. Befintligt webbläsartest utökat för fyra artikelbilder, båda fotolänkarna, rätt webbexport, benämningen bladluslejon och försiktig bildbedömning. Fullständig kontroll och aktuellt CI-resultat följs före överlämning.
+- Dokumentation: AGENTS.md, aktuella PROJECT_RULES.md och Drive-planeringen lästa. Projektregler granskade och oförändrade. Bilddokumentationen uppdaterad. Inga ändringar av CMS, schema, bildmetod, server eller publiceringsflöde. Ingen merge eller produktionspublicering. Logga och utskrift kvarstår som nästa etapp; ljusjustering av fotona inte genomförd.
+
 ## 2026-10-24 – Filosofiartikeln, etapp 2 i PR #27
 - Godkänt: Micke bad att steg 2 byggs vidare i samma PR. Filosofiartikeln ”Att odla med naturen i stället för bredvid den” tillagd inom befintlig samling Odlingsmetoder; samlingssidan länkar nu till artikeln. Näringsväv och köpguider är fortsatt kommande.
 - Redaktionellt: originalkapitlets öppning, röst och huvudresonemang bevarade. Långa växtlistor, fånggrödor och detaljerade skötselråd avgränsade till andra guider. Praktiska kompromisser, välordnade bäddar, skörd och små steg ges utrymme. Mångfald lovas inte ge automatiskt bättre bekämpning; konkurrens och predation mellan naturliga fiender nämns. Faktagranskat mot Jordbruksverket, SLU CBC, Naturvårdsverket och RHS. Jordliv förklaras närmare i redan befintlig länkad artikel.

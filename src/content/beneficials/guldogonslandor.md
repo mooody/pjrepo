@@ -12,6 +12,7 @@
   "imageAlt": "Illustration av en grön vuxen guldögonslända med guldglänsande ögon, långa antenner och fyra nätådriga vingar.",
   "sources": [
     {"title": "NIBIO – Vintergulløye: kännetecken, föda, övervintring och biologiskt växtskydd", "url": "https://leksikon.nibio.no/l/oppslag/1846/"},
+    {"title": "Lunds universitet – Fråga en biolog: guldögonsländans larv kallas bladluslejon", "url": "https://fragaenbiolog.blogg.lu.se/vilken-insekt-i-garderoben/"},
     {"title": "UC IPM – Green Lacewings: kännetecken, livscykel och naturliga fiender", "url": "https://ipm.ucanr.edu/natural-enemies/green-lacewings/"},
     {"title": "Huerta-de la Peña, Díaz-Rivas och Aragón-Sánchez (2023) – Population parameters of Chrysoperla carnea under laboratory conditions in Puebla", "url": "https://doi.org/10.29312/remexca.v14i29.3546"},
     {"title": "INRAE – Chrysoperla carnea: kompletterande storleks- och bildreferens i förarbetet", "url": "https://eng-encyclopedie-pucerons.hub.inrae.fr/species/insect-predators/neuroptera-chrysopidae/chrysoperla-carnea"}
@@ -34,17 +35,24 @@ Det är framför allt larverna som hjälper till mot bladlöss. Hos släktet *Ch
 Titta efter flera kännetecken tillsammans:
 
 - **Äggen** är små och ovala, ungefär en millimeter långa. De sitter längst ut på tunna skaft som är fästa på blad eller andra växtdelar.
-- **Larven** är långsmal, ofta ljust brunmönstrad, med tre par ben framtill och tydliga framåtriktade, böjda käkar. Den söker aktivt efter byten och växer genom tre larvstadier.
+- **Larven, som också kallas bladluslejon,** är långsmal, ofta ljust brunmönstrad, med tre par ben framtill och tydliga framåtriktade, böjda käkar. Den söker aktivt efter byten och växer genom tre larvstadier.
 - **Kokongen** är en liten rund samling ljusa silkestrådar. Kokongen skyddar puppan som utvecklas inuti.
 - **Den vuxna** har långa antenner, guldglänsande ögon och fyra genomskinliga, nätådriga vingar som hålls som ett tak över kroppen.
 
 Guldögonsländor är en hel familj, och närstående arter kan vara mycket lika. Vissa kan också bli brunaktiga inför vintern. Bilderna hjälper dig att känna igen gruppen och livsstadierna, men räcker inte för att säkert bestämma varje art.
 
 <figure>
-  <a href="/media/guldogonslanda-larv.webp">
-    <img src="/media/guldogonslanda-larv-full-800.webp" alt="Illustration av en äldre guldögonsländelarv med långsmal brunmönstrad kropp, sex ben framtill och två böjda käkar." width="800" height="900" loading="lazy" decoding="async" />
+  <a href="/media/guldogonslanda-agg-foto.webp">
+    <img src="/media/guldogonslanda-agg-foto-card-800.webp" alt="Ett ljust grönt ovalt ägg på ett tunt skaft som är fäst vid en bladspets." width="709" height="473" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Larven ser helt annorlunda ut än den vuxna. Här visas en äldre larv som pedagogisk AI-illustration. Mått och tid i bilden är exempel, och bilden är förstorad. <a href="/media/guldogonslanda-larv.webp">Visa större larvbild</a>.</figcaption>
+  <figcaption>Ett guldögonsländeägg på sitt tunna skaft. Ägget och hela skaftet syns i beskärningen. Eget foto: Mikael Forsberg. Arten är inte bestämd. <a href="/media/guldogonslanda-agg-foto.webp">Visa hela äggfotot</a>.</figcaption>
+</figure>
+
+<figure>
+  <a href="/media/guldogonslanda-larv-foto.webp">
+    <img src="/media/guldogonslanda-larv-foto-card-800.webp" alt="Mörkmönstrad långsmal larv med ben framtill och två böjda käkar på en gulvit blomma." width="800" height="533" loading="lazy" decoding="async" />
+  </a>
+  <figcaption>Larven på blomman bedöms vara en guldögonsländelarv, ett bladluslejon. Lägg märke till den långsmala kroppen och de böjda käkarna. Eget foto: Mikael Forsberg. Ingen säker artbestämning. <a href="/media/guldogonslanda-larv-foto.webp">Visa hela larvfotot</a>. Jämför gärna med vår <a href="/media/guldogonslanda-larv.webp">pedagogiska larvillustration</a>.</figcaption>
 </figure>
 
 ## Roll i odlingen
