@@ -67,4 +67,4 @@ Utvecklingstider och mått är **ungefärliga och artspecifika**. De gäller de 
 
 ## Fördjupning och jämförelse
 
-[UC IPM – Scales, mjuka sköldlöss och pansarsköldlöss](https://ipm.ucanr.edu/home-and-landscape/scales/) är ett externt referensunderlag, inte ett eget artbestämt fotografi från odlingen. De granskade livscykelillustrationerna finns i Drive-arbetet och behöver vattenstämplad webbexport innan de kan visas på sidan.
+[UC IPM – Scales, mjuka sköldlöss och pansarsköldlöss](https://ipm.ucanr.edu/home-and-landscape/scales/) är ett externt referensunderlag, inte ett eget artbestämt fotografi från odlingen.
