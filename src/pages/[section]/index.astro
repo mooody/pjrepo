@@ -14,6 +14,9 @@ export async function getStaticPaths() {
 const { section, entries } = Astro.props;
 const tags = [...new Set(entries.flatMap((e) => e.data.tags))].sort();
 const isAnimal = ['beneficials', 'pests'].includes(section.collection);
+const isBeneficials = section.collection === 'beneficials';
+const naturalBeneficials = entries.filter((e) => e.data.category !== 'Nyttodjur – biologisk bekämpning');
+const purchasedBeneficials = entries.filter((e) => e.data.category === 'Nyttodjur – biologisk bekämpning');
 const parent = isAnimal ? [{ name: 'Biologiskt växtskydd', href: '/biologiskt-vaxtskydd/' }]
   : section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
   : ['beneficials', 'pests', 'methods'].includes(section.collection)
@@ -51,13 +54,41 @@ const breadcrumbs = [
         {entries.length} {ui.resultLabel}
       </p>
     </div>
-    <div class="grid" id="results">
-      {entries.map((entry) => (
-        <div
-          class="search-entry"
-          data-search={`${entry.data.title} ${entry.data.description} ${entry.data.species} ${entry.data.tags.join(' ')}`.toLocaleLowerCase(
-            'sv',
-          )}
+    <div id="results" class:list={{ grid: !isBeneficials }}>
+      {isBeneficials ? (
+        <>
+          <section class="animal-group" id="naturliga-nyttodjur" aria-labelledby="naturliga-heading">
+            <h2 id="naturliga-heading">Naturliga nyttodjur</h2>
+            <p>Arter och grupper som kan finnas i odlingen och gynnas av blomning, skydd och en varierad livsmiljö.</p>
+            <div class="grid">
+              {naturalBeneficials.map((entry) => (
+                <div class="search-entry"
+                  data-search={`${entry.data.title} ${entry.data.description} ${entry.data.species} ${entry.data.tags.join(' ')}`.toLocaleLowerCase('sv')}
+                  data-tags={JSON.stringify(entry.data.tags)}
+                >
+                  <Card entry={entry} href={hrefFor(section.collection, entry.id)} />
+                </div>
+              ))}
+            </div>
+          </section>
+          <section class="animal-group" id="biologisk-bekampning" aria-labelledby="bekampning-heading">
+            <h2 id="bekampning-heading">Nyttodjur för biologisk bekämpning</h2>
+            <p>Arter som används vid planerad utsättning, exempelvis i växthus. Rätt skadegörare, stadium och odlingsmiljö avgör vad som kan fungera.</p>
+            <div class="grid">
+              {purchasedBeneficials.map((entry) => (
+                <div class="search-entry"
+                  data-search={`${entry.data.title} ${entry.data.description} ${entry.data.species} ${entry.data.tags.join(' ')}`.toLocaleLowerCase('sv')}
+                  data-tags={JSON.stringify(entry.data.tags)}
+                >
+                  <Card entry={entry} href={hrefFor(section.collection, entry.id)} />
+                </div>
+              ))}
+            </div>
+          </section>
+        </>
+      ) : entries.map((entry) => (
+        <div class="search-entry"
+          data-search={`${entry.data.title} ${entry.data.description} ${entry.data.species} ${entry.data.tags.join(' ')}`.toLocaleLowerCase('sv')}
           data-tags={JSON.stringify(entry.data.tags)}
         >
           <Card entry={entry} href={hrefFor(section.collection, entry.id)} />
@@ -87,6 +118,9 @@ const breadcrumbs = [
         (!select?.value || tags.includes(select.value));
       entry.hidden = !show;
       if (show) count++;
+    }
+    for (const group of document.querySelectorAll<HTMLElement>('.animal-group')) {
+      group.hidden = !group.querySelector('.search-entry:not([hidden])');
     }
     const counter = document.querySelector('#count');
     if (counter) counter.textContent = `${count} ${document.querySelector<HTMLElement>('[data-result-label]')?.dataset.resultLabel || ''}`;
