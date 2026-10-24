@@ -53,11 +53,9 @@ Hos bladlusätande arter är den mjuka, benlösa larven det stadium som fångar 
 
 ## Miljö genom säsongen och övervintring
 
-Övervintringen är artberoende; larver, puppor eller vuxna kan förekomma beroende på art. Många bladlusätande arter använder skyddad vegetation och förna.
+Vuxna blomflugor behöver blommande växter med nektar och pollen. Försök få en följd av öppna blommor från vår till sensommar. Hos bladlusätande arter behöver larverna också hitta kolonier av sina byten; en liten koloni på en tålig växt behöver inte alltid bekämpas.
 
-För att gynna vuxna blomflugor kan flera sorters öppna blommor vara till hjälp under säsongen. Låt inte varje liten bladluskoloni på en tålig växt automatiskt leda till bred bekämpning.
-
-Planera gärna för öppna blommor under vår, sommar och sensommar så att vuxna har tillgång till nektar och pollen. På tåliga växter kan mindre bladluskolonier ge bytesdjur för de bladlusätande larverna. Bevara skyddad vegetation och förna där det är lämpligt, men övervintringen varierar mellan arter.
+Övervintringen är artberoende: larver, puppor eller vuxna kan förekomma beroende på art. Skyddad vegetation och ostörd förna kan ha betydelse för vissa arter.
 
 <figure>
   <a href="/media/mangfald-nyttodjur-full-800.webp">
