@@ -1,41 +1,41 @@
 ---
 {
-  "title": "Jordlöpare",
-  "description": "Jordlöpare är snabba skalbaggar som ofta jagar nära marken och i förnan. Många är betydelsefulla markrovdjur; hos vissa arter ingår dessutom ogräsfrön i födan. Det är en familj med varierande beteende.",
-  "draft": false,
-  "category": "Nyttodjur",
-  "scientificName": "Carabidae – exempel Pterostichus melanarius",
-  "tags": [
-    "nyttodjur",
-    "biologisk mångfald",
-    "markliv"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "Penn State Extension – Ground and Tiger Beetles (Carabidae)",
-      "url": "https://extension.psu.edu/ground-and-tiger-beetles-coleoptera-carabidae"
-    },
-    {
-      "title": "Pterostichus melanarius – granskad nederländsk årsrytm",
-      "url": "https://natuurtijdschriften.nl/pub/1012219/EB1996056006001.pdf"
-    }
-  ],
-  "related": [
-    {
-      "label": "Jord och kompost",
-      "href": "/odlingsmetoder/jord-och-kompost/"
-    },
-    {
-      "label": "Täckodling",
-      "href": "/odlingsmetoder/tackodling/"
-    },
-    {
-      "label": "Biologisk mångfald",
-      "href": "/odlingsmetoder/biologisk-mangfald/"
-    }
-  ]
+ "title": "Jordlöpare",
+ "description": "Jordlöpare är snabba skalbaggar som ofta jagar nära marken och i förnan. Många är betydelsefulla markrovdjur; hos vissa arter ingår dessutom ogräsfrön i födan. Det är en familj med varierande beteende.",
+ "draft": false,
+ "category": "Nyttodjur",
+ "scientificName": "Carabidae – exempel Pterostichus melanarius",
+ "tags": [
+ "nyttodjur",
+ "biologisk mångfald",
+ "markliv"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "Penn State Extension – Ground and Tiger Beetles (Carabidae)",
+ "url": "https://extension.psu.edu/ground-and-tiger-beetles-coleoptera-carabidae"
+ },
+ {
+ "title": "Pterostichus melanarius – granskad nederländsk årsrytm",
+ "url": "https://natuurtijdschriften.nl/pub/1012219/EB1996056006001.pdf"
+ }
+ ],
+ "related": [
+ {
+ "label": "Jord och kompost",
+ "href": "/odlingsmetoder/jord-och-kompost/"
+ },
+ {
+ "label": "Täckodling",
+ "href": "/odlingsmetoder/tackodling/"
+ },
+ {
+ "label": "Biologisk mångfald",
+ "href": "/odlingsmetoder/biologisk-mangfald/"
+ }
+ ]
 }
 ---
 
@@ -79,12 +79,12 @@ Pterostichus melanarius används som höstförökande exempel. Vårförökande j
 
 I det valda försöket låg huvuddelen av vintern i larvstadium II; i annat material förekommer stadium III. Tiderna är ett nederländskt försöksexempel, inte svenska normalvärden.
 
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. Läs diagrammet medurs. Ringens delar är inte en proportionell tidsskala.
+- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
 
 **Tider och mått är ungefärliga och gäller det tydligt beskrivna artexemplet, inte hela gruppen eller en svensk trädgårdskalender.** Tidsuppgifter från olika försök ska inte behandlas som ett enda uppmätt förlopp. Vuxenliv är skilt från ägg–vuxen-tiden.
 
 ## Jämför bilder och bestäm funktion
 
-[Penn State Extension visar fotografier och artgrupper inom jordlöpare](https://extension.psu.edu/ground-and-tiger-beetles-coleoptera-carabidae). Bilderna är art-/gruppreferenser och inte egna dokumenterade fynd. Förarbetets illustrerade stadier och livscykler finns på Drive men är inte publika artbestämningsbilder; vattenstämplade webbexporter återstår.
+[Penn State Extension visar fotografier och artgrupper inom jordlöpare](https://extension.psu.edu/ground-and-tiger-beetles-coleoptera-carabidae). Bilderna är art-/gruppreferenser och inte egna dokumenterade fynd. 
 
 För ett praktiskt beslut räcker ofta att avgöra om det är ett **sannolikt nyttodjur och vilken grupp det tillhör**. En osäker artbestämning ska inte göras säkrare i efterhand bara för att det finns en liknande bild.
