@@ -54,3 +54,17 @@ test('nyttodjursseriens 13 sidor har rätt SEO-hierarki', async () => {
   ]);
  }
 });
+
+test('skadedjursseriens 15 sidor har rätt SEO-hierarki', async () => {
+ const slugs=['bladloss','grona-bladloss','svarta-bladloss','kalbladlus',
+  'trips','spinnkvalster','mjolloss','sorgmyggor','minerarflugor',
+  'rovfjaril','stor-kalfjaril','kalmal','kalfly','bredkvalster','skoldloss'];
+ for(const id of slugs){
+  const page=await html('skadedjur/'+id);
+  const breadcrumb=schemas(page).find(x=>x['@type']==='BreadcrumbList');
+  assert.ok(breadcrumb,'Saknar SEO-navigering för '+id);
+  assert.deepEqual(breadcrumb.itemListElement.map(x=>new URL(x.item).pathname),[
+   '/biologiskt-vaxtskydd/','/skadedjur/','/skadedjur/'+id+'/'
+  ]);
+ }
+});
