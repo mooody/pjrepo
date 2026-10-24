@@ -45,9 +45,9 @@ Rovlevande trips kan angripa andra trips, kvalster och mjuka leddjur. En del är
 
 ## Miljö genom säsongen och övervintring
 
-Spara lämplig blommande vegetation och undersök tripsen med förstoringsglas innan insatser. Svenska övervintringsstadier varierar sannolikt mellan arter och är inte klarlagda i detta materials artserie.
+Varierad blomning under växtsäsongen kan ge pollenresurser. Innan du griper in vid ett tripsfynd: kontrollera om växten faktiskt har nya skador och om djuret kan vara rovlevande.
 
-En följd av blommande växter kan ge pollenresurser. Undersök om tripsfyndet sammanfaller med färska skador innan du väljer åtgärd. Det är inte klarlagt vilka övervintringsstadier som dominerar för de svenska arter som avses här.
+Övervintringsstadierna hos relevanta svenska arter är inte tillräckligt kartlagda i detta underlag för att ange en gemensam modell.
 
 ## Samspel med andra djur
 
