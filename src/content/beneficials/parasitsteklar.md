@@ -49,21 +49,19 @@ Leta först efter **uppsvällda, ofta brunaktiga bladlusmumier** bland vanliga l
 
 Parasitoidens unge utvecklas i eller på en värd som i slutänden dör. Vid bladlusparasitism kan värden bli en mumie. Rätt parasitoid måste passa den aktuella bladlusarten; effekten är inte universell.
 
-## Börja här när du hittar dem
-
-Spara mumier och erbjud åtkomliga sockerresurser. Matcha inköpt art med bladlusarten: Aphidius colemani passar inte alla stora bladlöss eller kålbladlöss.
-
-## Samspel med andra djur
-
-Nyckelpigor och andra rovdjur kan äta både friska och redan parasiterade bladlöss. Dessutom kan hyperparasitoider utvecklas på andra parasitsteklar. Ett runt utgångshål i en mumie visar kläckning, men inte om det var den avsedda nyttostekeln.
-
-## Miljö och övervintring
+## Miljö genom säsongen och övervintring
 
 Bladlusparasitoider kan övervintra inne i värdmumier, men stadium och strategi är artberoende. I uppvärmd odling krävs rätt levande värdar för fortsatt utveckling.
 
 Spara mumier vid försiktig sanering och undvik att förstöra hela bladluskolonier när plantorna klarar ett mindre angrepp. Inköpt art ska väljas utifrån den aktuella bladlusen: exempelvis är Aphidius colemani inte en universallösning mot större bladlöss eller kålbladlus.
 
-## Livscykel – ett avgränsat exempel
+Spara uppsvällda bladlusmumier vid försiktig sanering. För fortsatt aktivitet behöver parasitoiderna tillgång till rätt värdbladlöss; små åtkomliga sockerresurser kan också spela roll för vuxna. Matcha alltid en eventuell inköpt art med bladlusarten.
+
+## Samspel med andra djur
+
+Nyckelpigor och andra rovdjur kan äta både friska och redan parasiterade bladlöss. Dessutom kan hyperparasitoider utvecklas på andra parasitsteklar. Ett runt utgångshål i en mumie visar kläckning, men inte om det var den avsedda nyttostekeln.
+
+## Livscykel och utveckling
 
 Valt exempel: Aphidius colemani-gruppen. Detaljserien gäller en stam publicerad som A. colemani 1986, vid 21 °C och 65 % relativ luftfuktighet, med Myzus persicae som värd. Modern artidentitet hos den äldre stammen är inte säkerställd.
 
@@ -83,7 +81,7 @@ Den tidigare serien vid 25 °C, med Aphis gossypii som värd, gav ca 10–11 dyg
 
 **Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
 
-## Jämför bilder och bedöm fyndet
+## Bilder och identifiering
 
 [Kansas State beskriver och visar Aphidius-arter som biologiska bekämpare av bladlöss](https://bookstore.ksre.ksu.edu/pubs/aphidius-colemani-and-aphidius-ervi-biological-control-agents-of-aphids_MF3653.pdf). Referensfotografierna visar exempel från källans bestämda djur och livsstadier. De visar inte våra egna fynd. 
 
