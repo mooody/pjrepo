@@ -4,7 +4,8 @@ import ui from '../data/interface.json';
 import imageExports from '../../web-images/index.json';
 import { sitePath } from '../lib/urls';
 import '../styles/global.css';
-const { title, description = settings.description, breadcrumbs = [] } = Astro.props;
+import '../styles/print.css';
+const { title, description = settings.description, breadcrumbs = [], printable = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const colors = settings.colors;
 const share = imageExports.images.find(i => i.id === settings.sharingImage)?.variants.sharing.at(-1);
@@ -60,7 +61,7 @@ const structuredData = [
     <meta name="theme-color" content={colors.earth} />
     <link rel="icon" href={sitePath("/favicon.svg")} type="image/svg+xml" />
   </head>
-  <body>
+  <body class:list={[{ 'printable-page': printable }]} >
     <a class="skip" href="#main">
       {ui.skip}
     </a>

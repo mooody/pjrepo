@@ -1,5 +1,6 @@
 ---
 import { render } from 'astro:content';
+import ArticleTools from '../components/ArticleTools.astro';
 import Base from '../layouts/Base.astro';
 import settings from '../data/settings.json';
 import Image from '../components/Image.astro';
@@ -20,7 +21,8 @@ const breadcrumbs = [
 ];
 ---
 
-<Base title={entry.data.title} description={entry.data.description} breadcrumbs={breadcrumbs}>
+<Base title={entry.data.title} description={entry.data.description} breadcrumbs={breadcrumbs} printable>
+  <ArticleTools />
   <article class="section detail">
     <p class="eyebrow">{settings.name}</p>
     <h1>{entry.data.title}</h1>

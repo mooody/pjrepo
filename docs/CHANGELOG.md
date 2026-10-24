@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-24 – Artikellogga och utskriftslayout, etapp 4 i PR #27
+- Godkänt: Micke bad att ta nästa steg och behålla originalfotona tills vidare. Inget ytterligare ljusarbete utförs.
+- Genomfört: gemensam ArticleTools-komponent i befintliga artikel-/sidmallar, med ”Skriv ut / spara som PDF” och en avsändarrad för utskrift. Nuvarande centrala logga återanvänds; skärmen behåller befintlig logga i sidhuvudet. Utskrift visar logga, namn och canonical-adress. Bilder inväntas innan knappens utskrift öppnas. Standardutskrift fungerar även utan JavaScript.
+- Visning: print.css ger markerade artikelsidor vit bakgrund, mörk text, läsbara bilder och bildtexter, käll-URL:er, anpassade sidbrytningar och dolda navigeringsdelar. Andra sidtyper och produktmallar lämnas orörda. Befintliga foton, illustrationer och vattenstämplar oförändrade.
+- Bas: PR #27 head 88edbf16 och lyckad fullständig kontroll 40075486396; aktuell main och öppna PR:er kontrolleras före införande. Ingen merge eller publicering ingår.
+- Verifiering: befintlig kontroll samt test av utskriftsknapp, logga, bildladdning, ljus utskrift, källor och PDF-export. Faktiskt resultat redovisas efter körning i PR.
+- Dokumentation: AGENTS.md, aktuella PROJECT_RULES.md och Drive-planering lästa. Projektregler kompletterade med artikellogga/utskrift. CMS, schema, bildmetod, server och publiceringsflöde oförändrade.
+
 ## 2026-10-24 – Egna ägg- och larvfoton, etapp 3 i PR #27
 - Godkänt: Micke bad att etapp 3 genomförs i samma PR. Två egna foton införda i guldögonsländans igenkänningsavsnitt, med tydliga bildtexter, bildkrediter och länkar till hela webbversionerna. Benämningen bladluslejon tillagd för larven och kontrollerad mot Lunds universitet; ny källpost i artikeln. Ingen säker artbestämning påstås för fotona.
 - Bilder: ordinarie 3:2-beskärning visar hela äggskaftet respektive larvens kropp och käkar. Tidigare larvillustration behållen som jämförelselänk, vuxenbild och livscykel oförändrade. Två manifestposter, två exportindexposter och 16 vattenstämplade WebP-filer. Bildverktygets ljusförslag underkändes eftersom små detaljer ändrades; de används inte. Exporterna kommer från originalfoton utan ljusändring. Original och AI-försök utanför repositoryt. Se docs/images.md.

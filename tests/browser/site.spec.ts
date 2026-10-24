@@ -257,3 +257,42 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     await expect(page).toHaveURL(/\/biologiskt-vaxtskydd\/$/);
   }
 });
+
+test('artiklar kan skrivas ut med logga, läsbara bilder och källor', async ({ page }) => {
+  for (const route of [
+    '/odlingsmetoder/att-odla-med-naturen/',
+    '/nyttodjur/guldogonslandor/',
+    '/odlingsmetoder/jordens-sma-arbetare/',
+    '/chilifortplantning/',
+  ]) {
+    await page.emulateMedia({ media: 'screen' });
+    await page.goto(route);
+    const button = page.getByRole('button', { name: 'Skriv ut / spara som PDF', exact: true });
+    await expect(button).toBeVisible();
+    await expect(page.locator('.print-masthead')).toBeHidden();
+    await page.evaluate(() => { window.print = () => { document.body.dataset.printCalled = 'yes'; }; });
+    await button.click();
+    await expect(page.locator('body')).toHaveAttribute('data-print-called', 'yes');
+    for (const img of await page.locator('main img').all()) {
+      await expect(img).toHaveJSProperty('complete', true);
+      expect(await img.evaluate((el: HTMLImageElement) => el.naturalWidth)).toBeGreaterThan(0);
+    }
+    await page.emulateMedia({ media: 'print' });
+    await expect(button).toBeHidden();
+    await expect(page.locator('.site-header')).toBeHidden();
+    await expect(page.locator('body > footer')).toBeHidden();
+    await expect(page.locator('.print-masthead')).toBeVisible();
+    await expect(page.locator('.print-masthead img')).toHaveAttribute('src', /tradgardsdrommar-logo\.webp$/);
+    await expect(page.locator('.article-source-url')).toContainText(route);
+    expect(await page.locator('body').evaluate((el) => getComputedStyle(el).backgroundColor)).toBe('rgb(255, 255, 255)');
+    expect(await page.getByRole('heading', { level: 1 }).evaluate((el) => getComputedStyle(el).color)).toBe('rgb(22, 22, 22)');
+    await expect(page.locator('article .prose')).toBeVisible();
+    if (route !== '/chilifortplantning/') {
+      await expect(page.locator('.sources')).toBeVisible();
+      expect(await page.locator('.sources a').first().evaluate((el) => getComputedStyle(el, '::after').content)).toContain('https://');
+    }
+    const pdf = await page.pdf({ format: 'A4', printBackground: true, preferCSSPageSize: true });
+    expect(pdf.subarray(0, 5).toString()).toBe('%PDF-');
+    expect(pdf.length).toBeGreaterThan(10000);
+  }
+});

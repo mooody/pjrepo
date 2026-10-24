@@ -1,5 +1,6 @@
 ---
 import { render } from 'astro:content';
+import ArticleTools from '../../components/ArticleTools.astro';
 import Base from '../../layouts/Base.astro';
 import ui from '../../data/interface.json';
 import { sitePath } from '../../lib/urls';
@@ -39,7 +40,8 @@ const breadcrumbs = [
 ];
 ---
 
-<Base title={d.title} description={d.description} breadcrumbs={breadcrumbs}>
+<Base title={d.title} description={d.description} breadcrumbs={breadcrumbs} printable>
+  <ArticleTools />
   <article class="section detail">
     {(isAnimal || isProtectionGuide) && (
       <nav class="article-breadcrumbs" aria-label="Brödsmulor">

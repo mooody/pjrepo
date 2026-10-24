@@ -21,6 +21,12 @@ Trädgårdsdrömmar är en växande webbplats för odling, chili, nyttodjur, vä
 
 Micke har beställt en egen ingång **Biologiskt växtskydd**, `/biologiskt-vaxtskydd/`, i huvudmenyn. Samlingssidan redigeras som en vanlig sida i befintlig CMS-samling och innehåller i ordning: filosofisk artikel, näringsväv, Skadedjur, Nyttodjur och Köpa in nyttodjur. Ännu oskrivna texter märks tydligt som kommande utan länkar till saknade sidor. Befintliga djurartiklar behåller sina adresser under `/skadedjur/` och `/nyttodjur/`; deras navigeringsförälder är Biologiskt växtskydd. Filosofiartikeln ”Att odla med naturen i stället för bredvid den” använder befintlig samling Odlingsmetoder på `/odlingsmetoder/att-odla-med-naturen/`, med Biologiskt växtskydd som direkt navigeringsförälder. Guiderna under Livet i trädgården finns kvar. Införandet görs i separat PR; detta anger inte att ändringen är mergad eller publicerad.
 
+### Artikellogga och utskrift – beställt 2026-10-24
+
+Alla artikelsidor ska bära Trädgårdsdrömmars logga både på skärm och vid utskrift. På skärm används det gemensamma sidhuvudet. Vid utskrift av artikelmallarna används en separat avsändarrad med samma centrala `settings.logo`, webbplatsens namn och artikelns canonical-adress. Ett framtida byte av logga görs centralt; lägg inte manuella loggor i artikeltexterna. Den nuvarande loggan används tills en ny uttryckligen väljs. Detta ändrar inte bildvattenstämplarna.
+
+`ArticleTools.astro` används i befintliga mallar för samlingsartiklar och Vanliga sidor. Knappen ”Skriv ut / spara som PDF” öppnar webbläsarens utskrift och inväntar artikelbilderna. Ctrl/Cmd+P fungerar också. `print.css` ger de markerade sidorna vit bakgrund, mörk text, logga, läsbara bilder/bildtexter och utskrivna käll-URL:er. Huvudmeny, sidfot och navigeringsknappar döljs. Förhandsgranska faktiska PDF-sidor vid ändringar av utskriftslayouten. Inga nya CMS-fält, PDF-tjänster eller serverdelar införs. Implementerad i PR #27; detta innebär inte merge eller produktionspublicering.
+
 ## 2. Nuvarande arkitektur och platser
 
 | Del | Faktiskt upplägg |
