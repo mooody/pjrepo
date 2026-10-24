@@ -1,45 +1,45 @@
 ---
 {
-  "title": "Blomflugor",
-  "description": "Blomflugor som svävar vid blommorna misstas ibland för getingar. Flera arter är samtidigt värdefulla pollinatörsbesökare som vuxna och bladlusjägare som larver. Men det gäller inte alla blomflugors larver.",
-  "draft": false,
-  "category": "Nyttodjur",
-  "scientificName": "Syrphidae",
-  "tags": [
-    "nyttodjur",
-    "biologisk mångfald",
-    "bladlöss"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "UC IPM – Syrphids: bilder, olika larvtyper och livscykel",
-      "url": "https://ipm.ucanr.edu/natural-enemies/syrphids/"
-    },
-    {
-      "title": "Cornell – Hover Fly Biocontrol Fact Sheet",
-      "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/hover-fly-biocontrol-fact-sheet"
-    },
-    {
-      "title": "Farsi m.fl. (2020) – utveckling hos Episyrphus balteatus",
-      "url": "https://doi.org/10.22117/jesi.2020.342181.1368"
-    }
-  ],
-  "related": [
-    {
-      "label": "Bladlöss",
-      "href": "/skadedjur/bladloss/"
-    },
-    {
-      "label": "Guldögonsländor",
-      "href": "/nyttodjur/guldogonslandor/"
-    },
-    {
-      "label": "Blomning under säsongen",
-      "href": "/odlingsmetoder/blomning-genom-sasongen/"
-    }
-  ]
+ "title": "Blomflugor",
+ "description": "Blomflugor som svävar vid blommorna misstas ibland för getingar. Flera arter är samtidigt värdefulla pollinatörsbesökare som vuxna och bladlusjägare som larver. Men det gäller inte alla blomflugors larver.",
+ "draft": false,
+ "category": "Nyttodjur",
+ "scientificName": "Syrphidae",
+ "tags": [
+ "nyttodjur",
+ "biologisk mångfald",
+ "bladlöss"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "UC IPM – Syrphids: bilder, olika larvtyper och livscykel",
+ "url": "https://ipm.ucanr.edu/natural-enemies/syrphids/"
+ },
+ {
+ "title": "Cornell – Hover Fly Biocontrol Fact Sheet",
+ "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/hover-fly-biocontrol-fact-sheet"
+ },
+ {
+ "title": "Farsi m.fl. (2020) – utveckling hos Episyrphus balteatus",
+ "url": "https://doi.org/10.22117/jesi.2020.342181.1368"
+ }
+ ],
+ "related": [
+ {
+ "label": "Bladlöss",
+ "href": "/skadedjur/bladloss/"
+ },
+ {
+ "label": "Guldögonsländor",
+ "href": "/nyttodjur/guldogonslandor/"
+ },
+ {
+ "label": "Blomning under säsongen",
+ "href": "/odlingsmetoder/blomning-genom-sasongen/"
+ }
+ ]
 }
 ---
 
@@ -48,8 +48,6 @@ Blomflugor som svävar vid blommorna misstas ibland för getingar. Flera arter �
 ## Så känner du igen dem
 
 En vuxen blomfluga har **ett vingpar** och stora ögon, medan getingar har två vingpar. Bladlusätande larver är mjuka och benlösa; de kan vara gröna eller genomskinliga. Arten kan inte avgöras säkert bara av det gula och svarta mönstret.
-
-Många vuxna liknar getingar men har bara ett vingpar. Bladlusätande larver är benlösa och mjuka, ofta gröna eller genomskinliga, och rör sig bland lössen.
 
 ## Roll i odlingen
 
@@ -87,12 +85,12 @@ Flyttblomfluga är exemplet. Endast vissa blomflugor har bladlusätande larver; 
 
 Vuxna kan i andra försök leva flera veckor längre. Nektar och pollen är viktiga.
 
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. Läs diagrammet medurs. Ringens delar är inte en proportionell tidsskala.
+- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
 
 **Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
 
 ## Jämför bilder och bedöm fyndet
 
-[UC IPM visar både vuxna och larver i sin fotoguide](https://ipm.ucanr.edu/natural-enemies/syrphids/). Referensfotografierna visar exempel från källans bestämda djur och livsstadier. De visar inte våra egna fynd. Förarbetets särskilda stadieillustrationer ska först granskas och exporteras som märkta, vattenstämplade webbversioner innan de läggs på sidan.
+[UC IPM visar både vuxna och larver i sin fotoguide](https://ipm.ucanr.edu/natural-enemies/syrphids/). Referensfotografierna visar exempel från källans bestämda djur och livsstadier. De visar inte våra egna fynd. 
 
 Vid en observation räcker ofta en trygg bedömning på **gruppnivå och om djuret är en sannolik hjälpare**, utan att pressa fram en osäker artbestämning.
