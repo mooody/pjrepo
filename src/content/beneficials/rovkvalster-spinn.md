@@ -1,38 +1,38 @@
 ---
 {
-  "title": "Rovkvalster mot spinn",
-  "description": "Det orange-röda rovkvalstret *Phytoseiulus persimilis* är en specialiserad fiende till spinnkvalster. Rätt art och mikroklimat kan göra stor skillnad, men rovkvalstret är ingen garanti när spinnet redan hunnit sprida sig.",
-  "draft": false,
-  "category": "Nyttodjur – biologisk bekämpning",
-  "scientificName": "Phytoseiulus persimilis",
-  "tags": [
-    "nyttodjur",
-    "köpta nyttodjur",
-    "biologisk bekämpning",
-    "spinn"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "Cornell – Phytoseiulus persimilis, spinnspecialist",
-      "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/phytoseiulus-persimilis-predatory-mite"
-    },
-    {
-      "title": "Pakyari och Zemek (2025) – laboratorieutveckling och värmestress",
-      "url": "https://doi.org/10.3390/insects16060596"
-    }
-  ],
-  "related": [
-    {
-      "label": "Biologiskt växtskydd",
-      "href": "/biologiskt-vaxtskydd/"
-    },
-    {
-      "label": "Rovkvalster mot trips",
-      "href": "/nyttodjur/rovkvalster-trips/"
-    }
-  ]
+ "title": "Rovkvalster mot spinn",
+ "description": "Det orange-röda rovkvalstret *Phytoseiulus persimilis* är en specialiserad fiende till spinnkvalster. Rätt art och mikroklimat kan göra stor skillnad, men rovkvalstret är ingen garanti när spinnet redan hunnit sprida sig.",
+ "draft": false,
+ "category": "Nyttodjur – biologisk bekämpning",
+ "scientificName": "Phytoseiulus persimilis",
+ "tags": [
+ "nyttodjur",
+ "köpta nyttodjur",
+ "biologisk bekämpning",
+ "spinn"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "Cornell – Phytoseiulus persimilis, spinnspecialist",
+ "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/phytoseiulus-persimilis-predatory-mite"
+ },
+ {
+ "title": "Pakyari och Zemek (2025) – laboratorieutveckling och värmestress",
+ "url": "https://doi.org/10.3390/insects16060596"
+ }
+ ],
+ "related": [
+ {
+ "label": "Biologiskt växtskydd",
+ "href": "/biologiskt-vaxtskydd/"
+ },
+ {
+ "label": "Rovkvalster mot trips",
+ "href": "/nyttodjur/rovkvalster-trips/"
+ }
+ ]
 }
 ---
 
@@ -82,6 +82,6 @@ Detta ersätter det äldre 20-gradersunderlagets härledda nymftider med separat
 
 ## Bilder och säker identifiering
 
-[Cornell visar foton och kännetecken för Phytoseiulus persimilis](https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/phytoseiulus-persimilis-predatory-mite). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. Förarbetet på Drive innehåller även stadieillustrationer och en livscykel. Dessa ska skyddas, kvalitetsgranskas och exporteras med befintlig vattenstämpel innan de publiceras som webbbilder.
+[Cornell visar foton och kännetecken för Phytoseiulus persimilis](https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/phytoseiulus-persimilis-predatory-mite). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 
 När du bedömer ett djur eller väljer en produkt är det viktigare att veta **vilken skadegörare och vilket livsstadium som angrips** än att försöka bestämma en svår art från en enda liten bild.
