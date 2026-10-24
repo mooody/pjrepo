@@ -4,7 +4,7 @@
  "description": "*Amblyseius swirskii* är ett litet rovkvalster som bland annat kan angripa unga tripslarver, mjöllusägg och unga nymfer. Det används framför allt i lämpliga växthusmiljöer och ska inte förväxlas med rovskinnbaggar som även kan angripa större trips.",
  "draft": false,
  "category": "Nyttodjur – biologisk bekämpning",
- "scientificName": "Amblyseius swirskii – exempel på rovkvalster",
+ "scientificName": "Amblyseius swirskii",
  "tags": [
  "nyttodjur",
  "köpta nyttodjur",
