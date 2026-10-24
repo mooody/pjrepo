@@ -1,41 +1,41 @@
 ---
 {
-  "title": "Rovskinnbaggar",
-  "description": "Små rovskinnbaggar i släktet Orius kan jaga trips även när de är nymfer. De är viktiga i biologiskt växtskydd, men alla skinnbaggar är inte rovdjur och alla Orius-arter har inte samma klimatkrav.",
-  "draft": false,
-  "category": "Nyttodjur",
-  "scientificName": "Orius spp. – exempel Orius majusculus",
-  "tags": [
-    "nyttodjur",
-    "biologisk mångfald",
-    "trips"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "Cornell – Orius: kännetecken, bytesdjur och biologisk bekämpning",
-      "url": "https://biocontrol.entomology.cornell.edu/predators/Orius.php"
-    },
-    {
-      "title": "Hejzlar och Kabíček (2000) – nymfutveckling hos Orius majusculus",
-      "url": "https://www.agriculturejournals.cz/publicFiles/211207.pdf"
-    },
-    {
-      "title": "Mouratidis m.fl. (2022) – Orius majusculus på trips",
-      "url": "https://doi.org/10.1016/j.biocontrol.2022.104954"
-    }
-  ],
-  "related": [
-    {
-      "label": "Bladlöss och deras fiender",
-      "href": "/skadedjur/bladloss/"
-    },
-    {
-      "label": "Blomflugor",
-      "href": "/nyttodjur/blomflugor/"
-    }
-  ]
+ "title": "Rovskinnbaggar",
+ "description": "Små rovskinnbaggar i släktet Orius kan jaga trips även när de är nymfer. De är viktiga i biologiskt växtskydd, men alla skinnbaggar är inte rovdjur och alla Orius-arter har inte samma klimatkrav.",
+ "draft": false,
+ "category": "Nyttodjur",
+ "scientificName": "Orius spp. – exempel Orius majusculus",
+ "tags": [
+ "nyttodjur",
+ "biologisk mångfald",
+ "trips"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "Cornell – Orius: kännetecken, bytesdjur och biologisk bekämpning",
+ "url": "https://biocontrol.entomology.cornell.edu/predators/Orius.php"
+ },
+ {
+ "title": "Hejzlar och Kabíček (2000) – nymfutveckling hos Orius majusculus",
+ "url": "https://www.agriculturejournals.cz/publicFiles/211207.pdf"
+ },
+ {
+ "title": "Mouratidis m.fl. (2022) – Orius majusculus på trips",
+ "url": "https://doi.org/10.1016/j.biocontrol.2022.104954"
+ }
+ ],
+ "related": [
+ {
+ "label": "Bladlöss och deras fiender",
+ "href": "/skadedjur/bladloss/"
+ },
+ {
+ "label": "Blomflugor",
+ "href": "/nyttodjur/blomflugor/"
+ }
+ ]
 }
 ---
 
@@ -77,12 +77,12 @@ Orius majusculus är ett svenskt relevant exempel, inte en belagd vanligast-art 
 
 - Nymftider från Hejzlar & Kabíček (2000), 25 ± 1 °C, 75 ± 5 % relativ luftfuktighet, 16L:8D och humlebladlus som byte. Äggtid och vuxenliv från Mouratidis m.fl. (2022), 25 ± 1 °C, 70 ± 10 % relativ luftfuktighet, 16L:8D och F. occidentalis som föda. Tripsförsöket gav ca 15 dygn från ägg till vuxen, vilket visar att serierna inte är utbytbara.
 
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. Läs diagrammet medurs. Ringens delar är inte en proportionell tidsskala.
+- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
 
 **Tider och mått är ungefärliga och gäller det tydligt beskrivna artexemplet, inte hela gruppen eller en svensk trädgårdskalender.** Tidsuppgifter från olika försök ska inte behandlas som ett enda uppmätt förlopp. Vuxenliv är skilt från ägg–vuxen-tiden.
 
 ## Jämför bilder och bestäm funktion
 
-[Cornells referensbilder och kännetecken för Orius](https://biocontrol.entomology.cornell.edu/predators/Orius.php). Bilderna är art-/gruppreferenser och inte egna dokumenterade fynd. Förarbetets illustrerade stadier och livscykler finns på Drive men är inte publika artbestämningsbilder; vattenstämplade webbexporter återstår.
+[Cornells referensbilder och kännetecken för Orius](https://biocontrol.entomology.cornell.edu/predators/Orius.php). Bilderna är art-/gruppreferenser och inte egna dokumenterade fynd. 
 
 För ett praktiskt beslut räcker ofta att avgöra om det är ett **sannolikt nyttodjur och vilken grupp det tillhör**. En osäker artbestämning ska inte göras säkrare i efterhand bara för att det finns en liknande bild.
