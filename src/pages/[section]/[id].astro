@@ -43,28 +43,6 @@ const breadcrumbs = [
 <Base title={d.title} description={d.description} breadcrumbs={breadcrumbs} printable>
   <ArticleTools />
   <article class="section detail">
-    {(isAnimal || isProtectionGuide) && (
-      <nav class="article-breadcrumbs" aria-label="Brödsmulor">
-        <a href={sitePath('/')}>Startsida</a>
-        <span aria-hidden="true">›</span>
-        <a href={sitePath('/biologiskt-vaxtskydd/')}>Biologiskt växtskydd</a>
-        <span aria-hidden="true">›</span>
-        {isAnimal && <>
-          <a href={sitePath(`/${section.path}/`)}>{section.title}</a>
-          <span aria-hidden="true">›</span>
-        </>}
-        <span aria-current="page">{d.title}</span>
-      </nav>
-    )}
-    {directGardenGuides && (
-      <nav class="article-breadcrumbs" aria-label="Brödsmulor">
-        <a href={sitePath('/')}>Startsida</a>
-        <span aria-hidden="true">›</span>
-        <a href={sitePath('/biologisk-odling/')}>Livet i trädgården</a>
-        <span aria-hidden="true">›</span>
-        <span aria-current="page">{d.title}</span>
-      </nav>
-    )}
     <a class="text-link" href={sitePath(isProtectionGuide ? '/biologiskt-vaxtskydd/' : directGardenGuides ? '/biologisk-odling/' : `/${section.path}/`)}>
       ← {isProtectionGuide ? 'Biologiskt växtskydd' : directGardenGuides ? 'Livet i trädgården' : section.title}
     </a>

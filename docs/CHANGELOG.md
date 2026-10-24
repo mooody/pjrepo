@@ -1,5 +1,12 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-24 – Enhetlig artikelnavigering (brödsmulor)
+- Uppdrag: jämför de nyare sidornas brödsmulor med chilisorternas enklare navigering och rätta inkonsekvent visning.
+- Genomfört i arbetsgrenen `fix/enhetlig-artikelnavigering-20261024`: tog bort dubbla synliga brödsmulor på artiklar om nyttodjur, skadedjur, biologiskt växtskydd och de direktlänkade trädgårdsguiderna. Den befintliga enkla tillbakalänken är kvar och leder till rätt navigeringsförälder, på samma sätt som för chilisorterna. Inga adresser eller innehållssamlingar ändrade.
+- SEO: fullständig BreadcrumbList i JSON-LD behålls med korrekt hierarki; SEO-testet utökades med trädgårdsguider. Webbläsartesterna kontrollerar nu samma enkla navigering för chili-, djur- och trädgårdsartiklar.
+- Kontroller: PR #29 och GitHub Actions `Validate and build` [40087662067](https://github.com/mooody/pjrepo/actions/runs/40087662067) har avslutats med **success** för kodcommit `e28529d1`, inklusive `npm ci`, Chromium, `npm run verify` och godkänd byggartefakt. En efterföljande dokumentationscommit kräver ny Actions-kontroll. Lokal kloning/`npm run verify` var inte möjlig eftersom körmiljön saknar GitHub-nätåtkomst. Ingen sammanslagning eller produktionspublicering.
+- Projektreglerna och AGENTS.md granskade, oförändrade. CMS, server och publiceringsmetod berörs inte; inga ändringar av andra webbplatser.
+
 ## 2026-10-24 – Näringsväven i odlingen, fortsättning efter PR #27
 - Godkänt: Micke bad att det avbrutna nyttodjursarbetet fortsätter utifrån befintlig artikel och beskrivning. Drive-planeringens etapp 17.5 anger näringsväven som nästa artikel. Originalarbetet, planeringen, djurupplägget och aktuell main har kontrollerats.
 - Bas: PR #27 är mergad i main `05a8eb26177456e5a7936000f570fe528ba9143b`. Main-bygge 40079820401 och GitHub Pages-preview 40079820405 är avslutade med success. Öppna dokumentations-PR #14/#19 lämnas orörda. Ingen ny kontroll av STRATO-produktion ingår.

@@ -20,6 +20,8 @@ test('strukturerade brödsmulor pekar till rätt sidor',async()=>{
   ['biologiskt-vaxtskydd',['/','/biologiskt-vaxtskydd/']],
   ['nyttodjur',['/','/biologiskt-vaxtskydd/','/nyttodjur/']],
   ['nyttodjur/guldogonslandor',['/','/biologiskt-vaxtskydd/','/nyttodjur/','/nyttodjur/guldogonslandor/']],
+  ['odlingsmetoder/jord-och-kompost',['/','/biologisk-odling/','/odlingsmetoder/jord-och-kompost/']],
+  ['odlingsmetoder/jordens-sma-arbetare',['/','/biologisk-odling/','/odlingsmetoder/jordens-sma-arbetare/']],
   ['chilisorter/habanero',['/','/chili/','/chilisorter/','/chilisorter/habanero/']],
   ['skadedjur/bladloss',['/','/biologiskt-vaxtskydd/','/skadedjur/','/skadedjur/bladloss/']],
   ['produkter-2026/habanero-lemon',['/','/produkter-2026/','/produkter-2026/habanero-lemon/']],

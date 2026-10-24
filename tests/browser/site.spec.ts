@@ -120,14 +120,14 @@ test('trädgårdsguiderna visas under Livet i trädgården', async ({ page }) =>
     await page.goto(`/odlingsmetoder/${slug}/`);
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(title);
     await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();
-    await expect(page.getByRole('navigation', { name: 'Brödsmulor' }).getByRole('link', { name: 'Livet i trädgården' })).toHaveAttribute('href', /\/biologisk-odling\/$/);
+    await expect(page.locator('article.detail > a.text-link')).toHaveAttribute('href', /\/biologisk-odling\/$/);
     await expect(page.getByRole('link', { name: '← Livet i trädgården' })).toBeVisible();
     await page.goto('/biologisk-odling/');
   }
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
 });
 
-test('trädgårdsguiderna har rätt brödsmulor och publicerade bilder', async ({ page }) => {
+test('trädgårdsguiderna har rätt tillbakalänkar och publicerade bilder', async ({ page }) => {
   for (const [slug, fullImage] of [
     ['jord-och-kompost', 'odlingslott-jord-full-800.webp'],
     ['tackodling', 'tackodling-genomskarning-full-800.webp'],
@@ -135,16 +135,31 @@ test('trädgårdsguiderna har rätt brödsmulor och publicerade bilder', async (
     ['tackodling-genom-aret', 'tackodling-hostlov.webp'],
   ]) {
     await page.goto('/odlingsmetoder/' + slug + '/');
-    const crumbs = page.getByRole('navigation', { name: 'Brödsmulor' });
-    const href = await crumbs.getByRole('link', { name: 'Livet i trädgården' }).getAttribute('href');
-    expect(href?.endsWith('/biologisk-odling/')).toBe(true);
-    await expect(crumbs).not.toContainText('Chiliodling och växtskydd');
+    await expect(page.locator('article.detail > a.text-link')).toHaveAttribute('href', /\/biologisk-odling\/$/);
+    await expect(page.getByRole('navigation', { name: 'Brödsmulor' })).toHaveCount(0);
     const src = await page.locator('article.detail img').first().getAttribute('src');
     expect(src?.endsWith('/media/' + fullImage)).toBe(true);
     await expect(page.getByRole('link', { name: '← Livet i trädgården' })).toBeVisible();
   }
   await page.goto('/biologisk-odling/');
   await expect(page.locator('article.topic img')).toHaveCount(6);
+});
+
+test('nya artiklar använder samma enkla tillbakalänk som chilisorterna', async ({ page }) => {
+  for (const [route, label, destination] of [
+    ['/chilisorter/habanero/', 'Chilisorter', '/chilisorter/'],
+    ['/nyttodjur/guldogonslandor/', 'Nyttodjur', '/nyttodjur/'],
+    ['/skadedjur/bladloss/', 'Skadedjur', '/skadedjur/'],
+    ['/odlingsmetoder/att-odla-med-naturen/', 'Biologiskt växtskydd', '/biologiskt-vaxtskydd/'],
+    ['/odlingsmetoder/jord-och-kompost/', 'Livet i trädgården', '/biologisk-odling/'],
+  ]) {
+    await page.goto(route);
+    const back = page.locator('article.detail > a.text-link');
+    await expect(back).toHaveCount(1);
+    await expect(back).toHaveText('← ' + label);
+    expect(new URL(await back.getAttribute('href') || '', page.url()).pathname).toBe(destination);
+    await expect(page.getByRole('navigation', { name: 'Brödsmulor' })).toHaveCount(0);
+  }
 });
 
 test('guldögonsländans artikel visar läsbilder, förstoring och källor', async ({ page }) => {
@@ -237,8 +252,7 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     await page.getByRole('link', { name: '← Biologiskt växtskydd', exact: true }).click();
     await main.getByRole('link', { name: 'Näringsväven i odlingen – vem lever av vem?', exact: true }).click();
     await expect(page).toHaveURL(/\/odlingsmetoder\/naringsvaven-i-odlingen\/$/);
-    await expect(page.getByRole('navigation', { name: 'Brödsmulor' })
-      .getByRole('link', { name: 'Biologiskt växtskydd' })).toBeVisible();
+    await expect(page.locator('article.detail > a.text-link')).toHaveAttribute('href', /\/biologiskt-vaxtskydd\/$/);
     await expect(page.locator('.sources li')).toHaveCount(6);
     await expect(page.locator('article.detail figure')).toHaveCount(3);
     for (const img of await page.locator('article.detail img').all()) {
@@ -258,16 +272,18 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     await expect(page.getByRole('link', { name: '← Biologiskt växtskydd' })).toBeVisible();
     await page.getByRole('heading', { name: 'Guldögonsländor' }).getByRole('link').click();
     await expect(page).toHaveURL(/\/nyttodjur\/guldogonslandor\/$/);
-    const crumbs = page.getByRole('navigation', { name: 'Brödsmulor' });
-    await expect(crumbs.getByRole('link', { name: 'Biologiskt växtskydd' })).toBeVisible();
-    await expect(crumbs.getByRole('link', { name: 'Nyttodjur', exact: true })).toBeVisible();
+    const back = page.locator('article.detail > a.text-link');
+    await expect(back).toHaveText('← Nyttodjur');
+    await expect(back).toHaveAttribute('href', /\/nyttodjur\/$/);
+    await expect(page.getByRole('navigation', { name: 'Brödsmulor' })).toHaveCount(0);
     const breadcrumbData = await page.locator('script[type="application/ld+json"]').allTextContents();
     expect(breadcrumbData.join('')).toContain('Biologiskt växtskydd');
     expect(breadcrumbData.join('')).not.toContain('Livet i trädgården');
     if (width === 390) await page.getByRole('button', { name: 'Meny' }).click();
     await expect(page.getByRole('navigation', { name: 'Huvudmeny' })
       .getByRole('link', { name: 'Biologiskt växtskydd', exact: true })).toHaveAttribute('aria-current', 'page');
-    await crumbs.getByRole('link', { name: 'Biologiskt växtskydd' }).click();
+    await back.click();
+    await page.getByRole('link', { name: '← Biologiskt växtskydd', exact: true }).click();
     await page.getByRole('link', { name: 'Utforska skadedjuren' }).click();
     await expect(page).toHaveURL(/\/skadedjur\/$/);
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('Skadedjur');
