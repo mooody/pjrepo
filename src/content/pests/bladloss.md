@@ -39,6 +39,13 @@ Bladlöss sitter ofta på unga skott och bladundersidor. Blad kan krulla sig och
 ## Bladlöss på chiliplantor
 På chiliplantor kan bladlöss samlas kring växande skott, blomknoppar och bladens undersidor. Titta särskilt på ny tillväxt när du undersöker plantan. Honungsdagg kan göra blad klibbiga och locka andra insekter. Skadorna kan likna andra problem, så leta efter själva lössen innan du bestämmer dig för en åtgärd.
 
+<figure>
+  <a href="/media/guldogonslanda-larv-foto.webp">
+    <img src="/media/guldogonslanda-larv-foto-full-800.webp" alt="Ett bladluslejon, sannolikt en guldögonsländelarv, med böjda käkar på en blomma." width="800" height="1067" loading="lazy" decoding="async" />
+  </a>
+  <figcaption>En möjlig naturlig fiende till bladlöss: guldögonsländans larv, också kallad bladluslejon. Eget foto, ingen säker artbestämning. <a href="/media/guldogonslanda-larv-foto.webp">Visa större bild</a>.</figcaption>
+</figure>
+
 ## Börja med att observera
 Kontrollera tillväxt, angreppets omfattning och förekomsten av naturliga fiender. Ett mindre antal bladlöss behöver inte alltid kräva en åtgärd.
 
