@@ -11,6 +11,7 @@ const colors = settings.colors;
 const share = imageExports.images.find(i => i.id === settings.sharingImage)?.variants.sharing.at(-1);
 const variables = `--earth:${colors.earth};--olive:${colors.olive};--sand:${colors.sand};--terracotta:${colors.terracotta};--sage:${colors.sage}`;
 const absoluteUrl = (href: string) => new URL(sitePath(href), Astro.site).href;
+const menuBreadcrumbs = breadcrumbs.filter((item: { href: string }) => item.href !== '/');
 // WebSite identifies the preferred name on the homepage; breadcrumb data follows existing routes.
 const structuredData = [
   ...(Astro.url.pathname === sitePath('/') ? [{
@@ -21,10 +22,10 @@ const structuredData = [
     inLanguage: 'sv-SE',
     description: settings.description,
   }] : []),
-  ...(breadcrumbs.length > 1 ? [{
+  ...(menuBreadcrumbs.length > 1 ? [{
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    itemListElement: breadcrumbs.map((item: { name: string; href: string }, i: number) => ({
+    itemListElement: menuBreadcrumbs.map((item: { name: string; href: string }, i: number) => ({
       '@type': 'ListItem',
       position: i + 1,
       name: item.name,
@@ -103,6 +104,22 @@ const structuredData = [
       </nav>
     </header>
     <main id="main">
+      {menuBreadcrumbs.length > 1 && (
+        <nav class="site-breadcrumbs" aria-label="Brödsmulor">
+          <ol>
+            {menuBreadcrumbs.map((item: { name: string; href: string }, index: number) => (
+              <li>
+                {index > 0 && <span class="breadcrumb-separator" aria-hidden="true">›</span>}
+                {index === menuBreadcrumbs.length - 1 ? (
+                  <span aria-current="page">{item.name}</span>
+                ) : (
+                  <a href={sitePath(item.href)}>{item.name}</a>
+                )}
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
       <slot />
     </main>
     <footer>

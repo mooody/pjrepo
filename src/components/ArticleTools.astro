@@ -2,17 +2,23 @@
 import settings from '../data/settings.json';
 import { sitePath } from '../lib/urls';
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const { placement = 'header' } = Astro.props as { placement?: 'header' | 'footer' };
 ---
-<div class="article-tools">
-  <button type="button" class="article-print-button" hidden>Skriv ut / spara som PDF</button>
-  <div class="print-masthead">
-    {settings.logo && <img src={sitePath(settings.logo)} alt="" width="72" height="72" />}
-    <div>
-      <p class="print-site-name">{settings.name}</p>
-      <p class="article-source-url">{canonical}</p>
+{placement === 'footer' ? (
+  <div class="article-tools article-tools-footer">
+    <button type="button" class="article-print-button" hidden>Skriv ut / spara som PDF</button>
+  </div>
+) : (
+  <div class="article-tools article-tools-header">
+    <div class="print-masthead">
+      {settings.logo && <img src={sitePath(settings.logo)} alt="" width="72" height="72" />}
+      <div>
+        <p class="print-site-name">{settings.name}</p>
+        <p class="article-source-url">{canonical}</p>
+      </div>
     </div>
   </div>
-</div>
+)}
 <script>
   const button = document.querySelector<HTMLButtonElement>('.article-print-button');
   const prepareImages = () => {

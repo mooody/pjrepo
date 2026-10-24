@@ -1,6 +1,8 @@
 /* Shared article print layout. Other page types keep their existing styles. */
 .print-masthead { display: none; }
 .article-tools { max-width: 1320px; margin: 1.5rem auto 0; padding: 0 4%; }
+.article-tools-header { display: none; }
+.article-tools-footer { margin: 0 auto 3rem; }
 .article-print-button {
   background: transparent;
   color: var(--sand);
@@ -9,7 +11,6 @@
   padding: .45rem .8rem;
   cursor: pointer;
 }
-.article-tools + article.section { padding-top: 2rem; }
 .article-print-button:disabled { cursor: wait; }
 @media (max-width: 700px) {
   .article-tools { padding: 0 6%; }
@@ -29,11 +30,12 @@
   .printable-page .skip,
   .printable-page button,
   .printable-page .image-pending,
-  .printable-page article > a.text-link { display: none !important; }
+  .printable-page .site-breadcrumbs,
+  .printable-page .article-tools-footer { display: none !important; }
   .printable-page main,
   .printable-page article.section,
   .printable-page .prose { max-width: none; width: auto; margin: 0; padding: 0; }
-  .printable-page .article-tools { max-width: none; padding: 0; margin: 0 0 5mm; }
+  .printable-page .article-tools-header { display: block; max-width: none; padding: 0; margin: 0 0 5mm; }
   .printable-page .print-masthead {
     display: flex;
     align-items: center;

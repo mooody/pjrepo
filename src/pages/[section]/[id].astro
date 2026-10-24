@@ -43,9 +43,6 @@ const breadcrumbs = [
 <Base title={d.title} description={d.description} breadcrumbs={breadcrumbs} printable>
   <ArticleTools />
   <article class="section detail">
-    <a class="text-link" href={sitePath(isProtectionGuide ? '/biologiskt-vaxtskydd/' : directGardenGuides ? '/biologisk-odling/' : `/${section.path}/`)}>
-      ← {isProtectionGuide ? 'Biologiskt växtskydd' : directGardenGuides ? 'Livet i trädgården' : section.title}
-    </a>
     <header>
       <p class="eyebrow">
         {d.category || section.title}
@@ -153,4 +150,5 @@ const breadcrumbs = [
       </aside>
     )}
   </article>
+  <ArticleTools placement="footer" />
 </Base>

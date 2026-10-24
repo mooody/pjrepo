@@ -626,3 +626,12 @@ footer a {
 
 .topic figure { margin:0 0 1rem; }
 .topic figure img { width:100%;height:auto;border-radius:4px; }
+
+/* Menu breadcrumbs. */
+nav.site-breadcrumbs { display:block; max-width:1320px; margin:0 auto; padding:2rem 4% 0; font-size:.9rem; color:var(--sand); }
+.site-breadcrumbs ol { display:flex; flex-wrap:wrap; gap:.45rem; list-style:none; margin:0; padding:0; }
+.site-breadcrumbs li { display:inline-flex; align-items:baseline; gap:.45rem; }
+.site-breadcrumbs a { color:var(--sand); text-decoration:underline; }
+.site-breadcrumbs [aria-current="page"] { color:#f5eddf; }
+.site-breadcrumbs ~ .section { padding-top:1.5rem; }
+
