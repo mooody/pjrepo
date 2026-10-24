@@ -39,9 +39,7 @@
 }
 ---
 
-Små myggor kring chiliplantorna kan tyda på sorgmyggor. Så hittar du larver i substratet och skyddar småplantornas rötter.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 De vuxna sorgmyggorna är små, mörka och långbenta. De vitaktiga, nästan genomskinliga larverna har en tydlig svart huvudkapsel och lever i fuktigt substrat. De är inte samma sak som ättiksflugor kring frukt.
 
@@ -49,19 +47,19 @@ De vuxna sorgmyggorna är små, mörka och långbenta. De vitaktiga, nästan gen
 
 Larver lever ofta av svamp och organiskt material, men kan skada fina rötter och rothalsar när förhållandena är gynnsamma. Småplantor och sticklingar är mer utsatta än kraftigt rotade chiliplantor.
 
-## Börja här när du misstänker angrepp
+## Undersök och begränsa angreppet
 
 Undersök fukten och dräneringen i krukorna. Om växten tål det, låt översta jordskiktet torka något mellan vattningarna. En bit rå potatis på ytan kan användas kortvarigt som larvkontroll och sedan tas bort. Klisterskivor följer främst vuxna.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Nyttiga nematoder av typen *Steinernema feltiae* och jordlevande rovkvalster *Stratiolaelaps scimitus* riktar sig mot larverna i substratet. Kombination, dosering och fukt följer aktuell produktinformation.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Populationer kan fortsätta i fuktig krukjord inomhus. Vilda sorgmyggor omfattar många arter; gruppen kan inte generellt beskrivas som oförmögen att övervintra ute. Det betyder inte att samma vinterförlopp gäller varje art eller varje skyddad odlingsmiljö.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Bradysia impatiens. Tider: ca 21 °C • laboratorieförsök. Arten är ett odlingsexempel; en rangordning som Sveriges vanligaste sorgmygga är inte belagd.
 
