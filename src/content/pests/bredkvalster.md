@@ -83,4 +83,4 @@ Utvecklingstider och mått är **ungefärliga och artspecifika**. De gäller de 
 
 ## Fördjupning och jämförelse
 
-[University of Florida – Broad mite Polyphagotarsonemus latus](https://ask.ifas.ufl.edu/publication/IN340) är ett externt referensunderlag, inte ett eget artbestämt fotografi från odlingen. De granskade livscykelillustrationerna finns i Drive-arbetet och behöver vattenstämplad webbexport innan de kan visas på sidan.
+[University of Florida – Broad mite Polyphagotarsonemus latus](https://ask.ifas.ufl.edu/publication/IN340) är ett externt referensunderlag, inte ett eget artbestämt fotografi från odlingen.
