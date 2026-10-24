@@ -157,9 +157,9 @@ test('artiklar visar menybaserad kedja utan Startsida', async ({ page }) => {
       await page.goto(route);
       const crumbs = page.getByRole('navigation', { name: 'Brödsmulor' });
       await expect(crumbs).toBeVisible();
-      await expect(crumbs.locator('li')).toHaveCount(labels.length);
+      await expect(crumbs.locator('li')).toHaveCount(labels.length - 1);
       await expect(crumbs).not.toContainText('Startsida');
-      await expect(crumbs.locator('[aria-current="page"]')).toHaveText(labels[labels.length - 1]);
+      await expect(crumbs).not.toContainText(labels[labels.length - 1]);
       await expect(page.locator('article.detail > a.text-link')).toHaveCount(0);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     }
@@ -378,8 +378,8 @@ test('alla femton skadedjurssidor visar fakta, källor och korrekt navigering', 
  for(const slug of slugs){
   await page.goto('/skadedjur/'+slug+'/');
   await expect(page.locator('article.detail h1')).toBeVisible();
-  await expect(page.getByRole('heading',{name:'Så känner du igen dem'})).toBeVisible();
-  await expect(page.getByRole('heading',{name:'Samspel med naturliga fiender'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Så känner du igen angreppet'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Naturliga fiender och samspel'})).toBeVisible();
   await expect(page.getByRole('heading',{name:'Källor och granskning'})).toBeVisible();
   const breadcrumbs=page.getByRole('navigation',{name:'Brödsmulor'});
   await expect(breadcrumbs.getByRole('link',{name:'Skadedjur'})).toBeVisible();
