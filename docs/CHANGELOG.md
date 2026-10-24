@@ -2,7 +2,7 @@
 
 ## 2026-10-24 – Synliga brödsmulor och flyttad utskrift
 - Beslut: menybaserade brödsmulor utan startsida och utskriftsknapp efter artikeln.
-- Implementerat i arbetsgren, ej publicerat. SEO, webbläsare och PDF kontrolleras via PR.
+- Implementerat i arbetsgren/PR #30, ej mergat eller publicerat. Kodversion 7f8c5ce verifierades i GitHub Actions [40092266859](https://github.com/mooody/pjrepo/actions/runs/40092266859): `npm ci`, Astro (0 fel), 17 Node-tester, 12 Playwright-tester (inklusive mobil, navigering, A4-PDF) och uppladdad byggartefakt — success. Efterföljande dokumentationscommits får egen kontroll.
 
 ## 2026-10-24 – Enhetlig artikelnavigering (brödsmulor)
 - Uppdrag: jämför de nyare sidornas brödsmulor med chilisorternas enklare navigering och rätta inkonsekvent visning.
