@@ -1,42 +1,42 @@
 ---
 {
-  "title": "Jordlevande rovkvalster",
-  "description": "I krukjordens övre skikt lever små rovlevande kvalster som kan angripa sorgmyggelarver och vissa tripsstadier. Ett vanligt nyttodjur i odlingssubstrat är *Stratiolaelaps scimitus*, som tidigare ofta såldes under handelsnamnet Hypoaspis miles.",
-  "draft": false,
-  "category": "Nyttodjur – biologisk bekämpning",
-  "scientificName": "Stratiolaelaps scimitus",
-  "tags": [
-    "nyttodjur",
-    "köpta nyttodjur",
-    "biologisk bekämpning",
-    "sorgmyggor"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "Penn State Extension – Stratiolaelaps scimitus, tidigare Hypoaspis miles",
-      "url": "https://extension.psu.edu/all-about-stratiolaelaps-scimitus-hypoaspis-miles-predatory-mites"
-    },
-    {
-      "title": "Kansas State – Stratiolaelaps scimitus i biologisk bekämpning",
-      "url": "https://bookstore.ksre.ksu.edu/download/stratiolaelaps-scimitus-biological-control-agent-of-fungus-gnats-and-the-western-flower-thrips_MF3632"
-    },
-    {
-      "title": "Scientific Reports (2020) – utveckling och föda hos S. scimitus",
-      "url": "https://doi.org/10.1038/s41598-020-62643-2"
-    }
-  ],
-  "related": [
-    {
-      "label": "Nematoder mot sorgmyggor",
-      "href": "/nyttodjur/nematoder/"
-    },
-    {
-      "label": "Jord och kompost",
-      "href": "/odlingsmetoder/jord-och-kompost/"
-    }
-  ]
+ "title": "Jordlevande rovkvalster",
+ "description": "I krukjordens övre skikt lever små rovlevande kvalster som kan angripa sorgmyggelarver och vissa tripsstadier. Ett vanligt nyttodjur i odlingssubstrat är *Stratiolaelaps scimitus*, som tidigare ofta såldes under handelsnamnet Hypoaspis miles.",
+ "draft": false,
+ "category": "Nyttodjur – biologisk bekämpning",
+ "scientificName": "Stratiolaelaps scimitus",
+ "tags": [
+ "nyttodjur",
+ "köpta nyttodjur",
+ "biologisk bekämpning",
+ "sorgmyggor"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "Penn State Extension – Stratiolaelaps scimitus, tidigare Hypoaspis miles",
+ "url": "https://extension.psu.edu/all-about-stratiolaelaps-scimitus-hypoaspis-miles-predatory-mites"
+ },
+ {
+ "title": "Kansas State – Stratiolaelaps scimitus i biologisk bekämpning",
+ "url": "https://bookstore.ksre.ksu.edu/download/stratiolaelaps-scimitus-biological-control-agent-of-fungus-gnats-and-the-western-flower-thrips_MF3632"
+ },
+ {
+ "title": "Scientific Reports (2020) – utveckling och föda hos S. scimitus",
+ "url": "https://doi.org/10.1038/s41598-020-62643-2"
+ }
+ ],
+ "related": [
+ {
+ "label": "Nematoder mot sorgmyggor",
+ "href": "/nyttodjur/nematoder/"
+ },
+ {
+ "label": "Jord och kompost",
+ "href": "/odlingsmetoder/jord-och-kompost/"
+ }
+ ]
 }
 ---
 
@@ -84,6 +84,6 @@ Vid 20 °C tar ägg till vuxen ca 18 dygn, vid 15 °C ca 34 dygn.
 
 ## Bilder och säker identifiering
 
-[Penn State beskriver och illustrerar Stratiolaelaps scimitus](https://extension.psu.edu/all-about-stratiolaelaps-scimitus-hypoaspis-miles-predatory-mites). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. Förarbetet på Drive innehåller även stadieillustrationer och en livscykel. Dessa ska skyddas, kvalitetsgranskas och exporteras med befintlig vattenstämpel innan de publiceras som webbbilder.
+[Penn State beskriver och illustrerar Stratiolaelaps scimitus](https://extension.psu.edu/all-about-stratiolaelaps-scimitus-hypoaspis-miles-predatory-mites). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 
 När du bedömer ett djur eller väljer en produkt är det viktigare att veta **vilken skadegörare och vilket livsstadium som angrips** än att försöka bestämma en svår art från en enda liten bild.
