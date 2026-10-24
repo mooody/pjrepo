@@ -147,6 +147,15 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 
 ---
 
+## 2026-10-20 – Uppdaterad driftstatus och plan för framtida SEO/spårning
+- Område/miljö: dokumentation i GitHub och två Google Drive-dokument; inga server-, CMS- eller publiceringsändringar inom detta uppdrag.
+- Genomfört: granskat aktuell `main`, projektregler, drift- och SEO-dokument och lyckade GitHub Actions. Uppdaterat `docs/SERVER_OPERATIONS.md`, statusavsnittet i `docs/PROJECT_RULES.md` samt statusrutan i `docs/SEO_AUDIT.md` så att produkt-PR #13, SEO-PR #12 och den senaste manuella STRATO-publiceringen inte längre anges som väntande.
+- Drive: dokumentet ”STRATO VPS – installation, säkerhet och webbkonfiguration” har fått en daterad aktuell lägesbild framför den äldre installationshistoriken. Ett nytt dokument ”Trädgårdsdrömmar – framtida statistik, spårning och SEO” har skapats i mappen ”Chatgdp - instruktioner”. Dessa Drive-uppdateringar är genomförda; spårningsintegrationen som de beskriver är endast **planerad**.
+- Verifierat i GitHub: `main` `ed93c527c913a7f0b2951d522f59a3c50f277d5f`; [Validate and build #39398262747](https://github.com/mooody/pjrepo/actions/runs/39398262747) `success`; [Publish approved build to STRATO #39398885483](https://github.com/mooody/pjrepo/actions/runs/39398885483) `success` inklusive SSH/rsync-steget. Ingen separat HTTP-kontroll eller SSH-inspektion genomförd.
+- Projektregler: granskade; endast faktiskt statusavsnitt uppdaterat, inga skyddsregler eller godkännandekrav ändrade. Berörda driftprinciper och tekniska inställningar lämnas oförändrade.
+- Status: Drive-dokumenten uppdaterade. GitHub-dokumentationsändringarna ligger i separat PR tills de granskats och godkänts; ingen ny produktionspublicering görs med denna PR.
+- Återstår: granska dokumentations-PR och vid önskemål senare kontrollera servern direkt; välja mätverktyg efter undersökning av eventuell gammal Google-tag och integritetskrav.
+
 ## 2026-10-19 – SEO-granskning och grundoptimering
 - Område: SEO i arbetsgren seo/grundoptimering-20261019, inte publicerat.
 - Gjort: bättre sidtitlar/metabeskrivningar, WebSite- och BreadcrumbList-JSON-LD, sociala metataggar, justerat guidetext och interna länkar för chiliodling och bladlöss.

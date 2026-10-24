@@ -34,7 +34,7 @@ Trädgårdsdrömmar är en växande webbplats för odling, chili, nyttodjur, vä
 
 Driftfiler, certifikat, Nginx-lokalisering och loggar dokumenteras separat i [`docs/SERVER_OPERATIONS.md`](SERVER_OPERATIONS.md). Ändringshistoriken dokumenteras i [`docs/CHANGELOG.md`](CHANGELOG.md).
 
-**Status per 2026-10-16:** STRATO-preview har separat Nginx-konfiguration, HTTPS, HTTP Basic Auth, `robots.txt` med `Disallow: /` och `X-Robots-Tag: noindex, nofollow, noarchive`. **Automatisk publicering till STRATO-preview är ännu inte byggd.** GitHub Pages-preview finns tills vidare som ett separat befintligt workflow. Repositoryt är för närvarande publikt; privat läge är en plan, inte ett genomfört steg. Kontrollera live-status innan du påstår något annat.
+**Status per 2026-10-20:** STRATO-preview har enligt användarverifiering 16 oktober separat Nginx-konfiguration, HTTPS, HTTP Basic Auth, `robots.txt` med `Disallow: /` och `X-Robots-Tag: noindex, nofollow, noarchive`. **Automatisk publicering till STRATO-preview är ännu inte byggd.** GitHub Pages-preview finns fortsatt som separat workflow. Repositoryt verifierades publikt 20 oktober; privat läge är endast en plan. Produkt-PR #13 och SEO-PR #12 är mergade till `main` (commit `ed93c527`). `Validate and build`-körning `39398262747` och separat manuell STRATO-publicering `39398885483` rapporterade `success` för denna commit. Detta bekräftar Actions-status, inte ny direkt VPS-inspektion. Kontrollera live-status innan du påstår något annat.
 
 STRATO-servern kör också **`kumlamark.se`**. Dess filer, DNS, Nginx, certifikat och publicering hör inte till detta uppdrag och får aldrig ändras av misstag.
 

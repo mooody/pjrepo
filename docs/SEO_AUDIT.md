@@ -1,7 +1,9 @@
 # SEO-granskning – Trädgårdsdrömmar
 
 Datum: 2026-10-19. Startversion: main c213a95a5055947ba5aa2be92cd0aef08a5b8d54.
-Status: ändringar endast i separat SEO-branch; ingen merge eller STRATO-publicering gjord.
+Historisk startstatus 2026-10-19: ändringarna fanns då endast i en separat SEO-branch.
+
+**Aktuell status 2026-10-20:** SEO-PR #12 är mergad till `main` (commit `ed93c527c913a7f0b2951d522f59a3c50f277d5f`). `Validate and build` på main ([#39398262747](https://github.com/mooody/pjrepo/actions/runs/39398262747)) och manuell STRATO-publicering ([#39398885483](https://github.com/mooody/pjrepo/actions/runs/39398885483)) är godkända. Siffror från Search Console och direkt HTTP-verifiering av live-domänen har inte granskats i denna dokumentationsuppdatering. Besöksmätning, Bing-registrering och tidigare Google-tag är framtida arbetssteg och har inte införts.
 
 ## Vad som har kontrollerats
 
@@ -64,7 +66,7 @@ Projektreglerna skyddar samlingar, formulärfält, bildrelationer, schemas och p
 - Search Console: https://search.google.com/search-console
 - Test av strukturerad data: https://search.google.com/test/rich-results och https://validator.schema.org/
 
-Projektreglerna är granskade och lämnas oförändrade. Inga VPS-, Nginx-, CMS-, OAuth-, säkerhets-, bildpipeline- eller deploy-ändringar ingår. Efter PR-granskning ska npm run verify vara grön före eventuell merge. STRATO-publicering kräver separat manuellt godkännande.
+Den ursprungliga granskningen påverkade inte VPS, Nginx, CMS, OAuth, säkerhet, bildpipeline eller deployflöde. Efterföljande PR-merge, tester och godkänd manuell publicering redovisas i statusrutan ovan. Alla framtida produktionspubliceringar kräver fortfarande separat uttryckligt godkännande.
 
 ## Faktiskt verifieringsresultat
 

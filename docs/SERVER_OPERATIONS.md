@@ -1,8 +1,23 @@
 # Serverdrift – STRATO VPS, Trädgårdsdrömmar och Kumlamark
 
-**Senast dokumenterat:** 2026-10-16. **Läs först [PROJECT_RULES.md](PROJECT_RULES.md)**, som ensam innehåller projektets bindande arbetsregler. Denna fil är en **driftbeskrivning**, inte ett mandat att ändra servern.
+**Senast dokumenterat:** 2026-10-20. **Läs först [PROJECT_RULES.md](PROJECT_RULES.md)**, som ensam innehåller projektets bindande arbetsregler. Denna fil är en **driftbeskrivning**, inte ett mandat att ändra servern.
 
-**Underlag:** kontrollerade GitHub-filer och serverutskrifter/funktionstester som användaren delade 2026-10-15–16. Uppgifterna om Nginx, Certbot och Basic Auth är från dessa kontroller; assistenten har **inte** gjort en ny direkt SSH-inspektion av VPS:en. Kontrollera därför live-läget innan ingrepp. Dokumentera ändringar i [CHANGELOG.md](CHANGELOG.md).
+**Underlag:** GitHub-filer, bekräftade Actions-körningar den 20 oktober 2026 samt serverutskrifter/funktionstester som användaren delade 15–16 oktober. Uppgifterna om Nginx, Certbot, Fail2ban, Basic Auth och serverresurser bygger på de äldre kontrollerna; ingen ny direkt SSH-inspektion av VPS:en har utförts. Kontrollera därför live-läget innan ingrepp. Dokumentera ändringar i [CHANGELOG.md](CHANGELOG.md).
+
+
+## 2026-10-20 – Senaste verifierade produktionsversion
+
+**Genomfört i GitHub:** Produkt-PR [#13](https://github.com/mooody/pjrepo/pull/13) och SEO-PR [#12](https://github.com/mooody/pjrepo/pull/12) har mergats till `main`. Den sammanlagda versionens commit är `ed93c527c913a7f0b2951d522f59a3c50f277d5f`.
+
+**Verifierat bygge:** [Validate and build #39398262747](https://github.com/mooody/pjrepo/actions/runs/39398262747) avslutades med `success` på detta exakta `main`-SHA. Separat [GitHub Pages-preview #39398262594](https://github.com/mooody/pjrepo/actions/runs/39398262594) avslutades med `success`.
+
+**Verifierad publiceringskörning:** [Publish approved build to STRATO #39398885483](https://github.com/mooody/pjrepo/actions/runs/39398885483) avslutades med `success` för samma commit; stegen för hämtning av godkänd byggartefakt och SSH/rsync-publicering rapporterade `success`. Detta är verifierat via Actions-resultat, **inte** genom ny direkt HTTP- eller SSH-inspektion av serverns slutliga filer.
+
+**Kvarstående kontrollpunkter:** Bekräfta vid behov HTTP-status och innehåll för `https://www.tradgardsdrommar.se/`, produktbilder, `robots.txt` och `sitemap-index.xml`. Förändra inte Nginx eller DNS som del av en vanlig innehållskontroll. Google Search Console har enligt användarens återkoppling hämtat sitemap-filerna; faktisk indexering och söktrafik måste följas separat.
+
+**Historiska kontroller fortsatt gällande med reservation:** Separat lösenordsskyddad STRATO-preview och `kumlamark.se` finns enligt föregående inventering. Ingen automatisk publicering till STRATO-preview är dokumenterad eller införd. Certbot-förnyelsetest, backup, UFW/Fail2ban och övriga VPS-kontroller har **inte** återverifierats i detta dokumentationsuppdrag. Weetech nämns i äldre externa installationsanteckningar men dess senaste driftsstatus har inte inventerats här.
+
+**Planerat (ej infört):** Besöksstatistik, granskning av tidigare Google-spårningskod, Bing Webmaster Tools och fortsatt SEO. Arbetsplan sparad i användarens Drive-mapp ”Chatgdp - instruktioner”. Ingen ny spårning installerad och inget publiceringsflöde ändrat.
 
 ## 1. Översikt och ansvar
 
@@ -80,7 +95,7 @@ Repository för webbplatsen: `mooody/pjrepo` (vid dokumentationen **public**; av
 
 **Ändra inte** detta workflow till auto-deploy och återanvänd inte produktionsskriptet/produktionsmålet för STRATO-preview. För en framtida preview-deploy behövs en separat och granskad lösning med *exakt* preview-målkatalog, lämpliga filrättigheter och utan risk att rsync raderar produktionsfiler. Kräver uttryckligt godkännande enligt [projektreglerna](PROJECT_RULES.md).
 
-Den senaste dokumenterade lyckade produktionsdeployen vid kontrollen 2026-10-16 var GitHub Actions-run `38855960944` för commit `c1d2bb0686ec707382c4206f5c94603d300ace24`. Nyare commits på `main` behöver inte vara publicerade på STRATO. Kontrollera aktuella runs före påståenden om produktionsversion.
+**Senaste verifierade produktionsdeploy per 2026-10-20:** GitHub Actions-run [`39398885483`](https://github.com/mooody/pjrepo/actions/runs/39398885483) slutfördes med `success` efter godkänd main-build [`39398262747`](https://github.com/mooody/pjrepo/actions/runs/39398262747), commit `ed93c527c913a7f0b2951d522f59a3c50f277d5f`. En lyckad Actions-deploy är inte i sig ett live-HTTP-test. Kontrollera alltid aktuella runs och webbplatsen före senare påståenden om produktionsversion.
 
 ## 5. CMS och OAuth i drift
 
