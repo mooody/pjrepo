@@ -55,3 +55,19 @@ De genererade PNG-originalen finns utanför repositoryt. Särskilda exportkopior
 Efter Mickes granskning har `jordliv-rot-mykorrhiza` omarbetats: ett finare, förgrenat nät av svamptrådar visas över en större jordvolym utanför roten. Märkningen ”Svamptrådar (hyfer)” pekar på svamptrådarna i stället för en rot. Separat nedbrytning av dött material finns kvar. Färgerna är pedagogiska och bilden är inte skalenlig; detta framgår av bildtexten.
 
 Befintligt bild-ID och befintlig exportfunktion behålls. De åtta vattenstämplade WebP-varianterna ersätts, och manifestets alt-text samt bildtext uppdateras. Den nya genererade PNG-bilden och den tidigare versionen bevaras utanför repositoryt. Inga ändringar av CMS, bildschema, vattenstämpelinställningar eller exportmetod.
+
+
+## 2026-10-24 – Bild till Att odla med naturen
+
+`odla-med-naturen` återanvänder bilden som är förankrad i slutet av filosofikapitlet i ”Arbetet om nyttodjur”. Dokumentets bildobjekt och placering kontrollerade före hämtning. Motivet visar ordnade grönsaksbäddar, blommande stråk, buskar och växthus. Den publiceras som AI-genererad illustration av en tänkt miljö, utan påstående att det är fotografi av egen odling eller dokumenterad odlingseffekt. Inga detaljer används för artbestämning.
+
+Bildoriginalet hålls utanför repositoryt. Åtta WebP-varianter skapade med befintlig `processImages` och oförändrade vattenstämpelinställningar i separat exportkatalog; tidigare exporter bevarade. Bara metadatafria vattenstämplade exporter samt manifest/index införs. Samma bild används i artikel och automatiskt artikelkort; ingen bildgenerering eller ändring av bildhanteringen ingår.
+
+
+## 2026-10-24 – Egna foton av skaftägg och bladluslejon, etapp 3
+
+Mickes bifogade `6230.jpg` (ägg) och `1792825861124.jpeg` (larv) används som originalunderlag för `guldogonslanda-agg-foto` respektive `guldogonslanda-larv-foto`. Fotograf: Mikael Forsberg. Originalen hålls utanför det publika repositoryt.
+
+Ett försök att justera ljus med bildverktyget gav ändrade små detaljer och underkändes. De AI-bearbetade versionerna används inte på webbplatsen och är inte identifikationsunderlag. Publicerade exporter kommer från användarens original, med enbart ordinarie webbexport: beskärning av kort/hero/delningsbild, förminskning, WebP och befintlig vattenstämpel efter beskärning. Ingen ljusändring införd. Artikeln visar 3:2-beskärningarna med länkar till hela webbversionen. Äggets hela skaft och larvens hela kropp/käkar finns kvar i visningen. Befintlig larvillustration finns kvar och nås som jämförelselänk; livscykeln behålls.
+
+Kännetecken jämförda med UC IPM:s namngivna foton av skaftägg och larv i Green Lacewings. Referensbildernas bildtexter och motiv kontrollerade; inga externa referensfoton återpubliceras. Benämningen bladluslejon kontrollerad mot Lunds universitet, Fråga en biolog. Foton används på grupp-/livsstadienivå, utan påstående om säker artbestämning. Bildmanifest/index kompletterat med två egna foton och 16 exporter genom oförändrad processImages i separat exportkatalog.

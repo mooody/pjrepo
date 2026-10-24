@@ -1,5 +1,6 @@
 ---
 import { render } from 'astro:content';
+import ArticleTools from '../../components/ArticleTools.astro';
 import Base from '../../layouts/Base.astro';
 import ui from '../../data/interface.json';
 import { sitePath } from '../../lib/urls';
@@ -26,18 +27,35 @@ const directGardenGuides = section.collection === 'methods' && [
   'ateranvand-krukjord', 'blomning-genom-sasongen',
 ].includes(entry.id);
 const { Content } = await render(entry);
-const parent = section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
+const isAnimal = ['beneficials', 'pests'].includes(section.collection);
+const isProtectionGuide = section.collection === 'methods' && entry.id === 'att-odla-med-naturen';
+const parent = isAnimal || isProtectionGuide ? [{ name: 'Biologiskt växtskydd', href: '/biologiskt-vaxtskydd/' }]
+  : section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
   : ['beneficials', 'pests', 'methods'].includes(section.collection)
     ? [{ name: 'Livet i trädgården', href: '/biologisk-odling/' }] : [];
 const breadcrumbs = [
   { name: 'Startsida', href: '/' }, ...parent,
-  ...(!directGardenGuides ? [{ name: section.title, href: `/${section.path}/` }] : []),
+  ...(!directGardenGuides && !isProtectionGuide ? [{ name: section.title, href: `/${section.path}/` }] : []),
   { name: d.title, href: `/${section.path}/${entry.id}/` },
 ];
 ---
 
-<Base title={d.title} description={d.description} breadcrumbs={breadcrumbs}>
+<Base title={d.title} description={d.description} breadcrumbs={breadcrumbs} printable>
+  <ArticleTools />
   <article class="section detail">
+    {(isAnimal || isProtectionGuide) && (
+      <nav class="article-breadcrumbs" aria-label="Brödsmulor">
+        <a href={sitePath('/')}>Startsida</a>
+        <span aria-hidden="true">›</span>
+        <a href={sitePath('/biologiskt-vaxtskydd/')}>Biologiskt växtskydd</a>
+        <span aria-hidden="true">›</span>
+        {isAnimal && <>
+          <a href={sitePath(`/${section.path}/`)}>{section.title}</a>
+          <span aria-hidden="true">›</span>
+        </>}
+        <span aria-current="page">{d.title}</span>
+      </nav>
+    )}
     {directGardenGuides && (
       <nav class="article-breadcrumbs" aria-label="Brödsmulor">
         <a href={sitePath('/')}>Startsida</a>
@@ -47,8 +65,8 @@ const breadcrumbs = [
         <span aria-current="page">{d.title}</span>
       </nav>
     )}
-    <a class="text-link" href={sitePath(directGardenGuides ? '/biologisk-odling/' : `/${section.path}/`)}>
-      ← {directGardenGuides ? 'Livet i trädgården' : section.title}
+    <a class="text-link" href={sitePath(isProtectionGuide ? '/biologiskt-vaxtskydd/' : directGardenGuides ? '/biologisk-odling/' : `/${section.path}/`)}>
+      ← {isProtectionGuide ? 'Biologiskt växtskydd' : directGardenGuides ? 'Livet i trädgården' : section.title}
     </a>
     <header>
       <p class="eyebrow">

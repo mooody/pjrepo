@@ -1,0 +1,36 @@
+---
+import settings from '../data/settings.json';
+import { sitePath } from '../lib/urls';
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+---
+<div class="article-tools">
+  <button type="button" class="article-print-button" hidden>Skriv ut / spara som PDF</button>
+  <div class="print-masthead">
+    {settings.logo && <img src={sitePath(settings.logo)} alt="" width="72" height="72" />}
+    <div>
+      <p class="print-site-name">{settings.name}</p>
+      <p class="article-source-url">{canonical}</p>
+    </div>
+  </div>
+</div>
+<script>
+  const button = document.querySelector<HTMLButtonElement>('.article-print-button');
+  const prepareImages = () => {
+    const images = [...document.querySelectorAll<HTMLImageElement>('main img')];
+    images.forEach((image) => { image.loading = 'eager'; });
+    return images;
+  };
+  if (button) {
+    button.hidden = false;
+    button.addEventListener('click', async () => {
+      button.disabled = true;
+      try {
+        await Promise.all(prepareImages().map((image) => image.decode().catch(() => {})));
+        window.print();
+      } finally {
+        button.disabled = false;
+      }
+    });
+  }
+  window.addEventListener('beforeprint', prepareImages);
+</script>

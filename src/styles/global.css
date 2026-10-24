@@ -558,8 +558,8 @@ footer a {
   .menu-toggle { display: none; }
   nav { display: flex; }
   .js .menu-toggle { display: block; }
-  .js nav { display: none; }
-  .js nav.open { display: flex; }
+  .js #navigation { display: none; }
+  .js #navigation.open { display: flex; }
   .section { padding-top: 2.5rem; padding-bottom: 2.5rem; }
   .hero figure img { min-height: 0; max-height: none; }
   .processing { grid-template-columns: 1fr; gap: 1.5rem; }

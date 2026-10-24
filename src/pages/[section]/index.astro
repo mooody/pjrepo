@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { sitePath } from '../../lib/urls';
 import ui from '../../data/interface.json';
 import Card from '../../components/Card.astro';
 import { sections, published, hrefFor } from '../../lib/content';
@@ -13,7 +14,9 @@ export async function getStaticPaths() {
 }
 const { section, entries } = Astro.props;
 const tags = [...new Set(entries.flatMap((e) => e.data.tags))].sort();
-const parent = section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
+const isAnimal = ['beneficials', 'pests'].includes(section.collection);
+const parent = isAnimal ? [{ name: 'Biologiskt växtskydd', href: '/biologiskt-vaxtskydd/' }]
+  : section.collection === 'chilies' ? [{ name: 'Chili', href: '/chili/' }]
   : ['beneficials', 'pests', 'methods'].includes(section.collection)
     ? [{ name: 'Livet i trädgården', href: '/biologisk-odling/' }] : [];
 const breadcrumbs = [
@@ -24,6 +27,11 @@ const breadcrumbs = [
 
 <Base title={section.title} description={section.intro} breadcrumbs={breadcrumbs}>
   <section class="section" data-result-label={ui.resultLabel}>
+    {isAnimal && (
+      <a class="text-link" href={sitePath('/biologiskt-vaxtskydd/')}>
+        ← Biologiskt växtskydd
+      </a>
+    )}
     <p class="eyebrow">{ui.searchEyebrow}</p>
     <h1>{section.title}</h1>
     <p class="lead narrow">{section.intro}</p>
