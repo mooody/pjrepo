@@ -4,7 +4,7 @@
 - Uppdrag: jämför de nyare sidornas brödsmulor med chilisorternas enklare navigering och rätta inkonsekvent visning.
 - Genomfört i arbetsgrenen `fix/enhetlig-artikelnavigering-20261024`: tog bort dubbla synliga brödsmulor på artiklar om nyttodjur, skadedjur, biologiskt växtskydd och de direktlänkade trädgårdsguiderna. Den befintliga enkla tillbakalänken är kvar och leder till rätt navigeringsförälder, på samma sätt som för chilisorterna. Inga adresser eller innehållssamlingar ändrade.
 - SEO: fullständig BreadcrumbList i JSON-LD behålls med korrekt hierarki; SEO-testet utökades med trädgårdsguider. Webbläsartesterna kontrollerar nu samma enkla navigering för chili-, djur- och trädgårdsartiklar.
-- Kontroller: arbetsgren för PR och GitHub Actions-kontroll; lokal `npm ci`/`npm run verify` är inte möjlig i aktuell körmiljö eftersom extern GitHub-kloning saknar nätverksåtkomst. CI-verifiering återstår att bekräfta. Ingen sammanslagning eller produktionspublicering.
+- Kontroller: PR #29 och GitHub Actions `Validate and build` [40087662067](https://github.com/mooody/pjrepo/actions/runs/40087662067) har avslutats med **success** för kodcommit `e28529d1`, inklusive `npm ci`, Chromium, `npm run verify` och godkänd byggartefakt. En efterföljande dokumentationscommit kräver ny Actions-kontroll. Lokal kloning/`npm run verify` var inte möjlig eftersom körmiljön saknar GitHub-nätåtkomst. Ingen sammanslagning eller produktionspublicering.
 - Projektreglerna och AGENTS.md granskade, oförändrade. CMS, server och publiceringsmetod berörs inte; inga ändringar av andra webbplatser.
 
 ## 2026-10-24 – Näringsväven i odlingen, fortsättning efter PR #27
