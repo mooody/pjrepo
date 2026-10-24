@@ -59,6 +59,13 @@ För att gynna vuxna blomflugor kan flera sorters öppna blommor vara till hjäl
 
 Planera gärna för öppna blommor under vår, sommar och sensommar så att vuxna har tillgång till nektar och pollen. På tåliga växter kan mindre bladluskolonier ge bytesdjur för de bladlusätande larverna. Bevara skyddad vegetation och förna där det är lämpligt, men övervintringen varierar mellan arter.
 
+<figure>
+  <a href="/media/mangfald-nyttodjur-full-800.webp">
+    <img src="/media/mangfald-nyttodjur-full-800.webp" alt="Pedagogisk översikt över blommande vegetation och olika livsmiljöer i en trädgård." width="800" height="667" loading="lazy" decoding="async" />
+  </a>
+  <figcaption>Blommande växter och varierade miljöer kan hjälpa flera grupper av nyttodjur. Schematisk illustration, inte bestämningsbild av en blomfluga.</figcaption>
+</figure>
+
 ## Samspel med andra djur
 
 Larverna kan dela en bladluskoloni med nyckelpigor, guldögonsländor och parasitsteklar. Titta på larvens beteende och bytets art innan du bestämmer funktionen. Det finns också blomflugor vars larver lever i vatten eller nedbrytande material.
