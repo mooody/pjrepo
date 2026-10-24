@@ -3,6 +3,8 @@ title: Näringsväven i odlingen – vem lever av vem?
 description: Följ sambanden från växt och bladlus till nyttodjur och markliv. En begriplig guide till näringsväven ovan och under jord.
 draft: false
 category: Biologiskt växtskydd
+image: odla-med-naturen
+imageAlt: Illustration av ordnade odlingsbäddar med blommande stråk och växthus, som exempel på en varierad odlingsmiljö.
 tags:
   - näringsväv
   - nyttodjur

@@ -240,13 +240,13 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     await expect(page.getByRole('navigation', { name: 'Brödsmulor' })
       .getByRole('link', { name: 'Biologiskt växtskydd' })).toBeVisible();
     await expect(page.locator('.sources li')).toHaveCount(6);
-    await expect(page.locator('article.detail figure')).toHaveCount(2);
+    await expect(page.locator('article.detail figure')).toHaveCount(3);
     for (const img of await page.locator('article.detail img').all()) {
       await img.scrollIntoViewIfNeeded();
       await expect(img).toHaveJSProperty('complete', true);
       expect(await img.evaluate((el: HTMLImageElement) => el.naturalWidth)).toBeGreaterThan(0);
     }
-    await expect(page.locator('article.detail figcaption').first()).toContainText('inte ett dokumenterat födointag');
+    await expect(page.locator('article.detail .prose figcaption').first()).toContainText('inte ett dokumenterat födointag');
     if (width === 390) await page.getByRole('button', { name: 'Meny' }).click();
     await expect(page.getByRole('navigation', { name: 'Huvudmeny' })
       .getByRole('link', { name: 'Biologiskt växtskydd', exact: true })).toHaveAttribute('aria-current', 'page');
