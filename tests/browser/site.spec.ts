@@ -166,6 +166,23 @@ test('artiklar visar menybaserad kedja utan Startsida', async ({ page }) => {
   }
 });
 
+test('nyckelpigor har tydliga livsstadier, källor och rätt navigation', async ({ page }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/nyttodjur/nyckelpigor/');
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText('Nyckelpigor');
+    await expect(page.getByRole('navigation', { name: 'Brödsmulor' })
+      .getByRole('link', { name: 'Nyttodjur', exact: true })).toBeVisible();
+    await expect(page.locator('article.detail .prose')).toContainText('tre benpar');
+    await expect(page.locator('article.detail .prose')).toContainText('Coccinella septempunctata');
+    await expect(page.locator('article.detail .prose')).toContainText('21,3 °C');
+    await expect(page.locator('article.detail .prose')).toContainText('ingen normal utvecklingstid');
+    await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+  }
+});
+
 test('guldögonsländans artikel visar läsbilder, förstoring och källor', async ({ page }) => {
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 900 });
