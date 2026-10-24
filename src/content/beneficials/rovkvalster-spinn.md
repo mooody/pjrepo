@@ -36,31 +36,27 @@
 }
 ---
 
-Det orange-röda rovkvalstret *Phytoseiulus persimilis* är en specialiserad fiende till spinnkvalster. Rätt art och mikroklimat kan göra stor skillnad, men rovkvalstret är ingen garanti när spinnet redan hunnit sprida sig.
-
-Den här sidan beskriver främst en **art eller artgrupp som kan köpas in för biologisk bekämpning**. Det är inte ett löfte om att samma art normalt förekommer eller övervintrar i svenska frilandsodlingar.
-
-## Så känner du igen dem
-
-Det vuxna rovkvalstret är mycket litet, ofta orange-rött och snabbrörligt. Nymfer och vuxna har **fyra benpar**, medan larven har tre. Spinnkvalster och andra rovkvalster liknar varandra för blotta ögat; enbart färgen ger inte säker bestämning.
-
-## Roll i odlingen
+## Målskadegörare och stadier
 
 Rovkvalstret söker ägg och rörliga stadier av spinnkvalster. Det är en **specialist**, vilket innebär att dess population kan minska kraftigt om lämpliga byten saknas.
 
-## Börja här vid ett angrepp
+## När metoden passar
 
 Sök först spinnets aktiva härdar på bladundersidor. Kontrollera både spinn och rovkvalster över tid och notera bladens nya skador. Köp och släpp ut enligt leverantörens art- och klimatkrav. Uttorkning och tidigare bekämpningsmedel kan försämra effekten.
 
-## Samspel med andra djur
-
-Andra rovkvalster, nyckelpigor och guldögonsländor kan också angripa små leddjur, men de har olika födoval. Kombinationer behöver planeras i stället för att ske på måfå.
-
-## Miljö och övervintring
+## Förutsättningar och övervintring
 
 Hög temperatur eller torrt mikroklimat nära bladet kan påverka ägg och utveckling. Svensk övervintring av inköpta *P. persimilis* utomhus ska inte förutsättas.
 
-## Livscykel – ett avgränsat exempel
+## Så följer du resultatet
+
+Undersök samma bladundersidor regelbundet. Notera levande spinnkvalster, rovkvalster och hur den **nya bladtillväxten** ser ut. Gamla prickar blir inte gröna igen; trenden är viktigare än ett enda fynd.
+
+## Samspel och kombinationer
+
+Andra rovkvalster, nyckelpigor och guldögonsländor kan också angripa små leddjur, men de har olika födoval. Kombinationer behöver planeras i stället för att ske på måfå.
+
+## Livscykel och utveckling
 
 Vald exempelart: Phytoseiulus persimilis. Ca 25 °C, 75 % RH, föda Tetranychus urticae. Obehandlad kontrollgrupp i ett laboratorieförsök.
 
@@ -80,7 +76,11 @@ Detta ersätter det äldre 20-gradersunderlagets härledda nymftider med separat
 
 **Värdena är ett begränsat laboratorieexempel, inte förväntad svensk normalutveckling.** Vuxenliv är skilt från utvecklingstiden till vuxen. Olika föda och förhållanden kan ändra resultaten.
 
-## Bilder och säker identifiering
+## Kännetecken och kontroll
+
+Det vuxna rovkvalstret är mycket litet, ofta orange-rött och snabbrörligt. Nymfer och vuxna har **fyra benpar**, medan larven har tre. Spinnkvalster och andra rovkvalster liknar varandra för blotta ögat; enbart färgen ger inte säker bestämning.
+
+## Bilder och identifiering
 
 [Cornell visar foton och kännetecken för Phytoseiulus persimilis](https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/phytoseiulus-persimilis-predatory-mite). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 
