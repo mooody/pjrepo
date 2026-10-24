@@ -35,9 +35,7 @@
 }
 ---
 
-Slingrande vita gångar i blad kan avslöja minerarflugor. Så bedömer du om en mina är aktiv och om nyttodjur utvecklas där.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Larverna är bleka och benlösa och äter mellan bladets två ytskikt. En ljus, slingrande mina kan avsluta i en bredare del där larven finns. Vuxna *Liriomyza* är små flugor, ofta med svartgul teckning. Även andra insekter kan göra minor, så gångens utseende är ingen säker artbestämning.
 
@@ -45,19 +43,19 @@ Larverna är bleka och benlösa och äter mellan bladets två ytskikt. En ljus, 
 
 Minorna förbrukar fungerande bladyta och kan försämra växtens tillväxt. En enstaka gammal mina på en stor planta är oftast mindre allvarlig än många nya minor på en småplanta eller en bladgrönsak.
 
-## Börja här vid misstänkt angrepp
+## Undersök och begränsa angreppet
 
 Markera ett blad med en ny mina och se om gången förlängs. Undersök om larven finns kvar innan du plockar bort bladet. Vid mindre avgränsade angrepp kan aktiva blad tas bort, men undvik att förstöra nyttiga parasitoider som redan utvecklas i minan.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 *Diglyphus isaea* angriper lämpliga minerarflugelarver från utsidan, medan *Dacnusa sibirica* utvecklas inuti värden. Båda används i biologisk växthusbekämpning, men är inte utbytbara utan hänsyn till värd och klimat.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Många Liriomyza-arter förpuppas i substrat. Vinteröverlevnaden beror på art och miljö, inte bara på att det finns en mina. Uppgiften gäller de arter och odlingsmiljöer som nämns, inte alla närstående arter.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Liriomyza bryoniae, tomatminerarfluga. Ca 20 °C • tomat • aktiv utveckling. SLU beskriver arten från svensk växthusodling; den används här som relevant exempel.
 
