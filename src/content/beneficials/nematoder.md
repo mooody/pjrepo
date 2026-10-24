@@ -1,38 +1,38 @@
 ---
 {
-  "title": "Nematoder mot sorgmyggelarver",
-  "description": "Nematoder är mikroskopiska rundmaskar, och de allra flesta är inte biologiska bekämpningsmedel. Arten *Steinernema feltiae* kan däremot användas mot sorgmyggelarver genom att infektiösa ungdomsstadier söker upp lämpliga insektsvärdar.",
-  "draft": false,
-  "category": "Nyttodjur – biologisk bekämpning",
-  "scientificName": "Steinernema feltiae – infektiva juveniler (IJ)",
-  "tags": [
-    "nyttodjur",
-    "köpta nyttodjur",
-    "biologisk bekämpning",
-    "sorgmyggor"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "Cornell – Steinernema feltiae, lämpliga mål och hantering",
-      "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/steinernema-feltiae-beneficial-nematode-sf"
-    },
-    {
-      "title": "Flores m.fl. – infektionscykel i laboratorievärd",
-      "url": "https://link.springer.com/article/10.1186/s13071-020-04548-7"
-    }
-  ],
-  "related": [
-    {
-      "label": "Jordlevande rovkvalster",
-      "href": "/nyttodjur/jordlevande-rovkvalster/"
-    },
-    {
-      "label": "Jord och kompost",
-      "href": "/odlingsmetoder/jord-och-kompost/"
-    }
-  ]
+ "title": "Nematoder mot sorgmyggelarver",
+ "description": "Nematoder är mikroskopiska rundmaskar, och de allra flesta är inte biologiska bekämpningsmedel. Arten *Steinernema feltiae* kan däremot användas mot sorgmyggelarver genom att infektiösa ungdomsstadier söker upp lämpliga insektsvärdar.",
+ "draft": false,
+ "category": "Nyttodjur – biologisk bekämpning",
+ "scientificName": "Steinernema feltiae – infektiva juveniler (IJ)",
+ "tags": [
+ "nyttodjur",
+ "köpta nyttodjur",
+ "biologisk bekämpning",
+ "sorgmyggor"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "Cornell – Steinernema feltiae, lämpliga mål och hantering",
+ "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/steinernema-feltiae-beneficial-nematode-sf"
+ },
+ {
+ "title": "Flores m.fl. – infektionscykel i laboratorievärd",
+ "url": "https://link.springer.com/article/10.1186/s13071-020-04548-7"
+ }
+ ],
+ "related": [
+ {
+ "label": "Jordlevande rovkvalster",
+ "href": "/nyttodjur/jordlevande-rovkvalster/"
+ },
+ {
+ "label": "Jord och kompost",
+ "href": "/odlingsmetoder/jord-och-kompost/"
+ }
+ ]
 }
 ---
 
@@ -82,6 +82,6 @@ Alla dagtal räknas från infektionen, inte som separata stadielängder. Sökfas
 
 ## Bilder och säker identifiering
 
-[Cornell visar mikrofotografier och artinformation om Steinernema feltiae](https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/steinernema-feltiae-beneficial-nematode-sf). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. Förarbetet på Drive innehåller även stadieillustrationer och en livscykel. Dessa ska skyddas, kvalitetsgranskas och exporteras med befintlig vattenstämpel innan de publiceras som webbbilder.
+[Cornell visar mikrofotografier och artinformation om Steinernema feltiae](https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/steinernema-feltiae-beneficial-nematode-sf). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 
 När du bedömer ett djur eller väljer en produkt är det viktigare att veta **vilken skadegörare och vilket livsstadium som angrips** än att försöka bestämma en svår art från en enda liten bild.
