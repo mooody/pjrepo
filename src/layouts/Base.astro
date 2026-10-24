@@ -12,6 +12,7 @@ const share = imageExports.images.find(i => i.id === settings.sharingImage)?.var
 const variables = `--earth:${colors.earth};--olive:${colors.olive};--sand:${colors.sand};--terracotta:${colors.terracotta};--sage:${colors.sage}`;
 const absoluteUrl = (href: string) => new URL(sitePath(href), Astro.site).href;
 const menuBreadcrumbs = breadcrumbs.filter((item: { href: string }) => item.href !== '/');
+const visibleBreadcrumbs = menuBreadcrumbs.slice(0, -1);
 // WebSite identifies the preferred name on the homepage; breadcrumb data follows existing routes.
 const structuredData = [
   ...(Astro.url.pathname === sitePath('/') ? [{
@@ -104,17 +105,13 @@ const structuredData = [
       </nav>
     </header>
     <main id="main">
-      {menuBreadcrumbs.length > 1 && (
+      {visibleBreadcrumbs.length > 0 && (
         <nav class="site-breadcrumbs" aria-label="Brödsmulor">
           <ol>
-            {menuBreadcrumbs.map((item: { name: string; href: string }, index: number) => (
+            {visibleBreadcrumbs.map((item: { name: string; href: string }, index: number) => (
               <li>
                 {index > 0 && <span class="breadcrumb-separator" aria-hidden="true">›</span>}
-                {index === menuBreadcrumbs.length - 1 ? (
-                  <span aria-current="page">{item.name}</span>
-                ) : (
-                  <a href={sitePath(item.href)}>{item.name}</a>
-                )}
+                <a href={sitePath(item.href)}>{item.name}</a>
               </li>
             ))}
           </ol>

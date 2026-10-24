@@ -35,8 +35,6 @@
 }
 ---
 
-Trips är inte alltid skadegörare. Vissa rovtrips angriper små leddjur och kan använda pollen som komplement. Just därför bör varje tripsfynd i blomman eller på bladet inte automatiskt behandlas som ett angrepp.
-
 ## Så känner du igen dem
 
 Vissa *Aeolothrips* har **mörka band på de smala vingarna**. Vingbanden är ett stödjande kännetecken, inte ett säkert test för hela gruppen. Små trips behöver ofta förstoring eller mikroskopi för att bestämmas till art.
@@ -45,19 +43,17 @@ Vissa *Aeolothrips* har **mörka band på de smala vingarna**. Vingbanden är et
 
 Rovlevande trips kan angripa andra trips, kvalster och mjuka leddjur. En del är allätare och använder också pollen. De skiljer sig ekologiskt från många växtskadande trips, men får inte automatiskt betraktas som samma art eller som helt ofarliga.
 
-## Börja här vid ett fynd
+## Miljö genom säsongen och övervintring
 
-Bevara varierad blomning och undvik att behandla varje tripsfynd som ett angrepp. Bedöm samtidigt om nya växtskador uppstår.
+Varierad blomning under växtsäsongen kan ge pollenresurser. Innan du griper in vid ett tripsfynd: kontrollera om växten faktiskt har nya skador och om djuret kan vara rovlevande.
+
+Övervintringsstadierna hos relevanta svenska arter är inte tillräckligt kartlagda i detta underlag för att ange en gemensam modell.
 
 ## Samspel med andra djur
 
 Rovtrips kan konkurrera med rovkvalster och rovskinnbaggar om mindre bytesdjur. Samtidigt kan blomresurser gynna vuxna. Om blad får silvriga skador och svarta spillningsprickar behöver orsaken ändå undersökas.
 
-## Miljö och övervintring
-
-Spara lämplig blommande vegetation och undersök tripsen med förstoringsglas innan insatser. Svenska övervintringsstadier varierar sannolikt mellan arter och är inte klarlagda i detta materials artserie.
-
-## Livscykel och ungefärlig tid
+## Livscykel och utveckling
 
 Vald exempelart: Aeolothrips fasciatus. Vald för svensk relevans; separata stadietider har inte verifierats.
 
@@ -81,7 +77,7 @@ A. fasciatus dominerar jämfört med A. intermedius i Wahlbergs svenska material
 
 **Tider och mått är ungefärliga och gäller det tydligt beskrivna artexemplet, inte hela gruppen eller en svensk trädgårdskalender.** Tidsuppgifter från olika försök ska inte behandlas som ett enda uppmätt förlopp. Vuxenliv är skilt från ägg–vuxen-tiden.
 
-## Jämför bilder och bestäm funktion
+## Bilder och identifiering
 
 [UC IPM visar artmärkta fotografier på rovtrips i släktet Aeolothrips](https://ipm.ucanr.edu/natural-enemies/aeolothrips-predatory-thrips/). Bilderna är art-/gruppreferenser och inte egna dokumenterade fynd. 
 

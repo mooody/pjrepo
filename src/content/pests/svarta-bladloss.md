@@ -39,9 +39,7 @@
 }
 ---
 
-Så känner du igen mörka bladluskolonier, ser om de skadar skotten och skyddar deras naturliga fiender.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Svarta eller mörkbruna bladlöss samlas ofta tätt längs späda stjälkar och på bladundersidor. De kan lämna vita ömsningshudar. Bönbladlus, *Aphis fabae*, är ett exempel, men en svart bladlus behöver inte tillhöra just den arten.
 
@@ -49,19 +47,19 @@ Svarta eller mörkbruna bladlöss samlas ofta tätt längs späda stjälkar och 
 
 Växtsaftsugning kan deformera unga blad och minska tillväxten. Honungsdagg gör ytor klibbiga, ger sotdagg fäste och lockar myror. En etablerad planta tål ofta mindre kolonier bättre än en stickling.
 
-## Börja här när du misstänker angrepp
+## Undersök och begränsa angreppet
 
 Undersök flera skott innan du väljer åtgärd. Följ både bladlusmängden och myrtrafiken. Kläm eller spola bort begränsade kolonier när plantan tål det, men spara blad med larver av nyttodjur eller bladlusmumier om det är möjligt.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Myror som vårdar lössen kan störa rovdjur. Nyckelpigor, blomflugor och parasitsteklar kan bidra till naturlig reglering men deras effekt varierar med värdart och miljö.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Livscykeln varierar. Aphis fabae har värdväxling; många Aphis-arter har vinterägg på vedartade värdar. Det betyder inte att samma vinterförlopp gäller varje art eller varje skyddad odlingsmiljö.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Aphis fabae. Ca 20 °C • bönor • sommarcykel.
 

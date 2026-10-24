@@ -1,5 +1,17 @@
 # Djurartiklar – redaktionellt upplägg
 
+## Artikelmodeller och redaktionell genomgång – 24 oktober 2026
+
+Se **[ANIMAL_ARTICLE_TEMPLATE.md](ANIMAL_ARTICLE_TEMPLATE.md)** för tre separata läsarflöden och frivilliga specialavsnitt: skadedjur, naturliga nyttodjur och nyttodjur för biologisk bekämpning. Detta är **en redaktionell överenskommelse, inte en ändring av CMS-samlingar, schema eller URL:er**.
+
+**PR-status:** #31 och #32 är mergade till `main` (24 oktober). De äldre nedanstående raderna som nämner öppna/omergade PR:er är historiska arbetslägen från tidigare samma datum. Detta förbättringsarbete ligger i en **ny PR** eftersom #32 redan är avslutad. Ingen produktionspublicering följer av dokumentationen.
+
+**Justeringar i den nya arbetsgrenen:** synliga brödsmulor visar enbart klickbara *överordnade* nivåer (artikelns rubrik står redan i H1). Fullständig BreadcrumbList i JSON-LD omfattar fortfarande aktuell sida. Ingressen i metadata visas bara en gång; upprepad exakt inledning i Markdown tas bort. Under `/nyttodjur/` finns två redaktionella grupper med filtrering: åtta naturliga nyttodjur och fem för biologisk bekämpning; alla behåller sina URLs och det befintliga `category`-fältet.
+
+Naturliga nyttodjur lyfter nu miljö, föda och skydd över säsongen före långa utseendekataloger. Jordlöparens och de liknande mark-/blomlivsartiklarnas generella ”Börja här”-råd flyttas till habitatavsnittet. Inköpta nyttodjur prioriterar målskadegörare, när metoden passar, etableringsvillkor och hur resultat följs. Skadedjur prioriterar igenkänning av angrepp, nya skador, åtgärder och naturliga fiender. Enskilda art-/studieförbehåll och specialrubriker får stå kvar.
+
+**Bilder:** tre redan publicerade och vattenstämplade webbexporter återanvänds redaktionellt: eget foto av ett sannolikt bladluslejon i den generella bladlusguiden, en tydligt betecknad markmiljöillustration hos jordlöpare och en schematisk miljöillustration hos blomflugor. Detta är *inte* nya artbestämda foton. De 27 Drive-livscyklerna i `Webbguide – förenklade livscykelcirklar` samt djurmapparna finns verifierade; nya filer har ännu **inte** exporterats genom projektets skyddade WebP-/vattenstämpelflöde och är inte publicerade via denna arbetsgren. Sköldlössens omstridda nymfindelning kräver särskild granskning.
+
 Guldögonsländor är den första fullt utvecklade djurartikeln från Drive-förarbetet. Den ligger på befintlig adress `/nyttodjur/guldogonslandor/` i samlingen `beneficials`. Detta dokument beskriver det genomförda innehållsupplägget, inte en ny CMS- eller menystruktur.
 
 ## Genomförande av resterande nyttodjur – 2026-10-24

@@ -35,9 +35,7 @@
 }
 ---
 
-Upptäck spinnkvalster på chili innan fin väv uppstår och lär dig skilja tidiga sugmärken från andra bladskador.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Leta på bladundersidan efter mycket små rörliga kvalster och runda ägg. De vuxna har fyra benpar. Hos växthusspinnkvalster, *Tetranychus urticae*, förekommer ofta två mörka sidofläckar. Fint spinn mellan blad och skott stärker misstanken men syns ibland först vid större angrepp.
 
@@ -45,19 +43,19 @@ Leta på bladundersidan efter mycket små rörliga kvalster och runda ägg. De v
 
 Skadan börjar ofta som många små ljusa prickar och kan sedan ge bronserade, uttorkande blad. Spinnkvalster är spindeldjur, inte insekter. Värme, vattenstress och störda naturliga fiender kan förvärra utbrott.
 
-## Börja här när du misstänker angrepp
+## Undersök och begränsa angreppet
 
 Kontrollera flera angripna blad och närstående plantor. Säkerställ jämn vattning och undvik att plantorna blir uttorkade. Varsam avspolning av tåliga bladundersidor kan hjälpa vid små angrepp; riktad biologisk bekämpning kan vara lämpligare vid större populationer.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 *Phytoseiulus persimilis* är en specialist på spinnkvalster, men andra rovkvalster kan behövas under andra klimatförhållanden. Kontrollera förväntad effekt och bytestillgång innan inköp.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Arten kan övervintra som orange-röda honor i skyddade skrymslen. Varm inomhusodling kan möjliggöra fortsatt utveckling. Det betyder inte att samma vinterförlopp gäller varje art eller varje skyddad odlingsmiljö.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Tetranychus urticae. Ca 20 °C • aktiv utveckling.
 

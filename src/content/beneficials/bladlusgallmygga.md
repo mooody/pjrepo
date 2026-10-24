@@ -35,8 +35,6 @@
 }
 ---
 
-En liten orange larv bland bladlössen kan vara ett rovdjur snarare än en skadegörare. Hos bladlusgallmyggan är larven aktiv bladlusjägare, medan den myggliknande vuxna insekten är svår att upptäcka i dagsljus.
-
 ## Så känner du igen dem
 
 Leta efter **små orange, benlösa larver** mellan levande bladlöss och utsugna rester. De vuxna är smala, myggliknande och främst skymningsaktiva. Färgen ensam ger inte en säker artbestämning.
@@ -45,21 +43,15 @@ Leta efter **små orange, benlösa larver** mellan levande bladlöss och utsugna
 
 Larven angriper bladlöss och kan lämna mörka, hopfallna rester. Vuxna lever bland annat av honungsdagg och förökar sig först när lämpliga bladluskolonier finns.
 
-## Börja här när du hittar dem
+## Miljö genom säsongen och övervintring
 
-Ge ett något fuktigt substrat där larven kan förpuppas och skydd från uttorkning. Korta dagar kan utlösa vintervila. Därför kan ljus och säsong påverka ett inomhusprogram.
+Fullvuxna larver förpuppas i ett lätt fuktigt, syresatt substrat, och vissa kan vila i kokong där. Temperatur och dagslängd påverkar utvecklingen; korta dagar kan utlösa vintervila även i en uppvärmd odling. Vid inköpt utsättning behöver därför både säsong och produktens artanvisningar kontrolleras.
 
 ## Samspel med andra djur
 
 Bladlusgallmyggor fungerar tillsammans med flera andra fiender till bladlössen. Myror som vårdar bladlöss kan påverka förhållandena i kolonin. Andra gallmyggor kan däremot leva i växtvävnad och vara skadegörare.
 
-## Miljö och övervintring
-
-Mogna larver kan gå i vila i kokong i substratet. Fukt, temperatur och dagslängd påverkar; korta dagar kan stoppa fortsatt aktiv förökning.
-
-Fuktig men syresatt yta under plantan är viktig för att fullvuxna larver ska kunna förpuppas. Dagslängden kan styra vintervila även inomhus; följ därför produktens art- och säsongsanvisningar vid utsättning.
-
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: bladlusgallmygga, Aphidoletes aphidimyza. Ungefärliga utvecklingstider vid 25 °C, 16 timmars ljus och 8 timmars mörker, med Aphis craccivora som larvföda.
 
@@ -81,7 +73,7 @@ På friland kan larvstadiet ta ca 1–2 veckor och kokongstadiet upp till ca 3 v
 
 **Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
 
-## Jämför bilder och bedöm fyndet
+## Bilder och identifiering
 
 [Cornell visar ägg, larv och vuxen bladlusgallmygga](https://biocontrol.entomology.cornell.edu/predators/Aphidoletes.php). Referensfotografierna visar exempel från källans bestämda djur och livsstadier. De visar inte våra egna fynd. 
 

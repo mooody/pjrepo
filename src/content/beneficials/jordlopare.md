@@ -39,8 +39,6 @@
 }
 ---
 
-Jordlöpare är snabba skalbaggar som ofta jagar nära marken och i förnan. Många är betydelsefulla markrovdjur; hos vissa arter ingår dessutom ogräsfrön i födan. Det är en familj med varierande beteende.
-
 ## Så känner du igen dem
 
 Titta efter en ofta mörk eller metallisk skalbagge med **långa springben, framåtriktade käkar och hårda täckvingar**. Larverna är långsträckta med tre benpar framtill. Svart färg ensam räcker inte för att bestämma en jordlöpare.
@@ -49,19 +47,24 @@ Titta efter en ofta mörk eller metallisk skalbagge med **långa springben, fram
 
 Många jordlöpare angriper marklevande larver, småkryp och ibland snigelägg eller små sniglar; andra äter i högre grad frön. Man bör inte lova att en viss art bekämpar en viss skadegörare utan observationsstöd.
 
-## Börja här vid ett fynd
+## Miljö genom säsongen och övervintring
 
-Skapa permanenta gräs- och örtkanter, lövförna och skydd som inte störs samtidigt. Marktäckning kan ge mikroklimat; följ även om den gynnar sniglar i just din odling.
+Jordlöpare jagar och gömmer sig ofta vid markytan. Under vår och sommar kan gräs- och örtkanter, stenar och ostörd lövförna ge skydd; många arter är nattaktiva. Låt gärna några sådana partier finnas kvar även under hösten.
+
+Beroende på art kan de övervintra som larver eller vuxna. Marktäckning kan förbättra mikroklimatet för rovdjur, men följ samtidigt om den gynnar sniglar just där.
+
+<figure>
+  <a href="/media/mangfald-stubbe-full-800.webp">
+    <img src="/media/mangfald-stubbe-full-800.webp" alt="En illustrativ trädgårdsmiljö med död ved, växter och ostörd mark runt en stubbe." width="800" height="800" loading="lazy" decoding="async" />
+  </a>
+  <figcaption>Ostörd mark och död ved kan bidra med skyddade platser. Digitalt bearbetad miljöbild, <strong>inte</strong> ett artfoto av jordlöpare.</figcaption>
+</figure>
 
 ## Samspel med andra djur
 
 En marktäckt odlingsbädd kan gynna rovdjur genom fukt och skydd, men samma förhållanden kan också gynna sniglar. Utvärdera därför nyttan utifrån både fynd och skadenivå, inte enbart antal skalbaggar.
 
-## Miljö och övervintring
-
-Låt gärna kantzoner och delar av förnan ligga ostörda. Många arter är nattaktiva och gömmer sig dagtid under stenar, ved och växtrester. Övervintring sker som larv eller vuxen beroende på art.
-
-## Livscykel och ungefärlig tid
+## Livscykel och utveckling
 
 Vald exempelart: Pterostichus melanarius. Utomhus • nederländskt årsvarv.
 
@@ -83,7 +86,7 @@ I det valda försöket låg huvuddelen av vintern i larvstadium II; i annat mate
 
 **Tider och mått är ungefärliga och gäller det tydligt beskrivna artexemplet, inte hela gruppen eller en svensk trädgårdskalender.** Tidsuppgifter från olika försök ska inte behandlas som ett enda uppmätt förlopp. Vuxenliv är skilt från ägg–vuxen-tiden.
 
-## Jämför bilder och bestäm funktion
+## Bilder och identifiering
 
 [Penn State Extension visar fotografier och artgrupper inom jordlöpare](https://extension.psu.edu/ground-and-tiger-beetles-coleoptera-carabidae). Bilderna är art-/gruppreferenser och inte egna dokumenterade fynd. 
 

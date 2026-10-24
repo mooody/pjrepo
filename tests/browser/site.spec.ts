@@ -157,9 +157,9 @@ test('artiklar visar menybaserad kedja utan Startsida', async ({ page }) => {
       await page.goto(route);
       const crumbs = page.getByRole('navigation', { name: 'Brödsmulor' });
       await expect(crumbs).toBeVisible();
-      await expect(crumbs.locator('li')).toHaveCount(labels.length);
+      await expect(crumbs.locator('li')).toHaveCount(labels.length - 1);
       await expect(crumbs).not.toContainText('Startsida');
-      await expect(crumbs.locator('[aria-current="page"]')).toHaveText(labels[labels.length - 1]);
+      await expect(crumbs).not.toContainText(labels[labels.length - 1]);
       await expect(page.locator('article.detail > a.text-link')).toHaveCount(0);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     }
@@ -358,8 +358,15 @@ test('alla tretton nyttodjur finns och har spårbara källor', async ({page}) =>
  await expect(page.locator('#results .search-entry')).toHaveCount(13);
  for(const slug of ['blomflugor','bladlusgallmygga','parasitsteklar','rovskinnbaggar','jordlopare','rovtrips','minerarflugeparasitoid','rovkvalster-spinn','jordlevande-rovkvalster','nematoder','rovkvalster-trips']){
   await page.goto('/nyttodjur/'+slug+'/');
-  await expect(page.getByRole('heading',{name:'Så känner du igen dem'})).toBeVisible();
-  await expect(page.getByRole('heading',{name:'Roll i odlingen'})).toBeVisible();
+  if(['minerarflugeparasitoid','rovkvalster-spinn','jordlevande-rovkvalster','nematoder','rovkvalster-trips'].includes(slug)){
+    await expect(page.getByRole('heading',{name:'Målskadegörare och stadier'})).toBeVisible();
+    await expect(page.getByRole('heading',{name:'Så följer du resultatet'})).toBeVisible();
+    await expect(page.getByRole('heading',{name:'Kännetecken och kontroll'})).toBeVisible();
+  }else{
+    await expect(page.getByRole('heading',{name:'Så känner du igen dem'})).toBeVisible();
+    await expect(page.getByRole('heading',{name:'Roll i odlingen'})).toBeVisible();
+    await expect(page.getByRole('heading',{name:'Miljö genom säsongen och övervintring'})).toBeVisible();
+  }
   await expect(page.getByRole('heading',{name:'Källor och granskning'})).toBeVisible();
   await expect(page.getByRole('navigation',{name:'Brödsmulor'}).getByRole('link',{name:'Nyttodjur'})).toBeVisible();
  }
@@ -378,8 +385,8 @@ test('alla femton skadedjurssidor visar fakta, källor och korrekt navigering', 
  for(const slug of slugs){
   await page.goto('/skadedjur/'+slug+'/');
   await expect(page.locator('article.detail h1')).toBeVisible();
-  await expect(page.getByRole('heading',{name:'Så känner du igen dem'})).toBeVisible();
-  await expect(page.getByRole('heading',{name:'Samspel med naturliga fiender'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Så känner du igen angreppet'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Naturliga fiender och samspel'})).toBeVisible();
   await expect(page.getByRole('heading',{name:'Källor och granskning'})).toBeVisible();
   const breadcrumbs=page.getByRole('navigation',{name:'Brödsmulor'});
   await expect(breadcrumbs.getByRole('link',{name:'Skadedjur'})).toBeVisible();
@@ -389,4 +396,55 @@ test('alla femton skadedjurssidor visar fakta, källor och korrekt navigering', 
  await page.goto('/skadedjur/bredkvalster/');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
  await expect(page.locator('article + .article-tools-footer button')).toBeVisible();
+});
+
+test('nyttodjur har två läsargrupper inom befintlig samling', async ({ page }) => {
+  await page.goto('/nyttodjur/');
+  const natural = page.locator('#naturliga-nyttodjur');
+  const purchased = page.locator('#biologisk-bekampning');
+  await expect(natural.getByRole('heading',{name:'Naturliga nyttodjur'})).toBeVisible();
+  await expect(purchased.getByRole('heading',{name:'Nyttodjur för biologisk bekämpning'})).toBeVisible();
+  await expect(natural.locator('.search-entry')).toHaveCount(8);
+  await expect(purchased.locator('.search-entry')).toHaveCount(5);
+  await page.locator('#search').fill('jordlöpare');
+  await expect(natural).toBeVisible();
+  await expect(purchased).toBeHidden();
+  await expect(page.locator('#count')).toContainText('1');
+  await page.locator('#search').fill('rovkvalster');
+  await expect(natural).toBeHidden();
+  await expect(purchased).toBeVisible();
+});
+
+test('artiklarnas ingress upprepas inte och grupperna har olika upplägg', async ({ page }) => {
+  for(const [route, heading] of [
+    ['/nyttodjur/blomflugor/', 'Miljö genom säsongen och övervintring'],
+    ['/nyttodjur/jordlopare/', 'Miljö genom säsongen och övervintring'],
+    ['/nyttodjur/nematoder/', 'Målskadegörare och stadier'],
+    ['/nyttodjur/rovkvalster-spinn/', 'Så följer du resultatet'],
+    ['/skadedjur/spinnkvalster/', 'Så känner du igen angreppet'],
+    ['/skadedjur/kalbladlus/', 'Miljö, riskperioder och övervintring']
+  ]){
+    await page.goto(route);
+    await expect(page.getByRole('heading', {name: heading})).toBeVisible();
+    const ingress=(await page.locator('article .lead').textContent())?.trim()||'';
+    const article=(await page.locator('article .prose').textContent())||'';
+    expect(article).not.toContain(ingress);
+    const breadcrumbs=page.getByRole('navigation',{name:'Brödsmulor'});
+    await expect(breadcrumbs).not.toContainText(await page.locator('article h1').innerText());
+  }
+});
+
+test('befintliga vattenstämplade bilder används i rätt sammanhang', async ({page}) => {
+  for(const [route, image] of [
+    ['/skadedjur/bladloss/', 'guldogonslanda-larv-foto-full-800.webp'],
+    ['/nyttodjur/jordlopare/', 'mangfald-stubbe-full-800.webp'],
+    ['/nyttodjur/blomflugor/', 'mangfald-nyttodjur-full-800.webp']
+  ]){
+    await page.goto(route);
+    const img=page.locator('article .prose img[src*="'+image+'"]');
+    await expect(img).toBeVisible();
+    await expect(img).toHaveAttribute('alt', /.+/);
+    expect(await img.evaluate((el) => (el as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+    await expect(img.locator('xpath=..').locator('xpath=..').getByText(/illustration|foto|miljöbild/i)).toBeVisible();
+  }
 });

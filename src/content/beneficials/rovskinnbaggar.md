@@ -39,8 +39,6 @@
 }
 ---
 
-Små rovskinnbaggar i släktet Orius kan jaga trips även när de är nymfer. De är viktiga i biologiskt växtskydd, men alla skinnbaggar är inte rovdjur och alla Orius-arter har inte samma klimatkrav.
-
 ## Så känner du igen dem
 
 Vuxna Orius är små, ofta svartvita eller brunspräckliga och har platta hoplagda framvingar. De **vinglösa nymferna** är ljusare och rör sig snabbt. En sugsnabel kan ses i förstoring. Undvik att kalla varje skinnbagge nyttodjur utan att kontrollera fler drag.
@@ -49,19 +47,15 @@ Vuxna Orius är små, ofta svartvita eller brunspräckliga och har platta hoplag
 
 Både nymfer och vuxna kan angripa små trips, kvalster och andra insekter. Pollen och blomresurser kan stödja vissa arter när bytestillgången varierar.
 
-## Börja här vid ett fynd
+## Miljö genom säsongen och övervintring
 
-Bevara blommande och varierad vegetation. I växthus styr art, temperatur och dagslängd etableringen. Följ trips och rovdjur tillsammans.
+Under växtsäsongen kan blommande växter bidra med pollen och andra resurser när bytestillgången varierar. I växthus styr bland annat temperatur, dagslängd och föda etableringen; följ därför både trips och rovskinnbaggar. Vuxna *Orius* kan gå i vintervila. Exempelarten *O. majusculus* förekommer också i Sverige.
 
 ## Samspel med andra djur
 
 Rovskinnbaggar konkurrerar med andra rovdjur på plantan och kan även angripa andra nyttodjur. Därför säger en enda observation inte om populationen växer eller om tripsen minskar.
 
-## Miljö och övervintring
-
-I växthus är temperatur, dagslängd och tillgång till bytesdjur viktiga för etablering. Vuxna Orius kan gå i vintervila. Arten i förarbetets exempel, *Orius majusculus*, förekommer också i Sverige.
-
-## Livscykel och ungefärlig tid
+## Livscykel och utveckling
 
 Vald exempelart: Orius majusculus, bofast och reproducerande i Sverige. Ungefärliga tider vid 25 °C sammanställs från två försök med olika föda. De tidigare uppgifterna för amerikanska O. insidiosus har ersatts.
 
@@ -81,7 +75,7 @@ Orius majusculus är ett svenskt relevant exempel, inte en belagd vanligast-art 
 
 **Tider och mått är ungefärliga och gäller det tydligt beskrivna artexemplet, inte hela gruppen eller en svensk trädgårdskalender.** Tidsuppgifter från olika försök ska inte behandlas som ett enda uppmätt förlopp. Vuxenliv är skilt från ägg–vuxen-tiden.
 
-## Jämför bilder och bestäm funktion
+## Bilder och identifiering
 
 [Cornells referensbilder och kännetecken för Orius](https://biocontrol.entomology.cornell.edu/predators/Orius.php). Bilderna är art-/gruppreferenser och inte egna dokumenterade fynd. 
 

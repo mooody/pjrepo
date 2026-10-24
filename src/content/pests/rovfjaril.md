@@ -39,9 +39,7 @@
 }
 ---
 
-Rovfjärilens gröna larver kan gnaga i kålbladen. Lär dig hitta ensamma ägg, tidiga larver och upptäcka angrepp innan skadorna blir stora.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Rovfjärilen lägger normalt sina gulaktiga ägg ett och ett på korsblommiga växter. Larven är fint behårad, sammetsgrön och ofta svår att skilja från bladet. Den vuxna fjärilen är vit med mörk vingteckning. Honor har ofta två mörka fläckar på vardera framvingen.
 
@@ -49,19 +47,19 @@ Rovfjärilen lägger normalt sina gulaktiga ägg ett och ett på korsblommiga v�
 
 Det är larven som gnager hål i kålbladen. Den kan också komma in mot ett kålhuvuds inre delar, där spillning och gnag blir svåra att upptäcka och avlägsna. Vuxna fjärilar gnager inte på bladen.
 
-## Börja här vid misstänkt angrepp
+## Undersök och begränsa angreppet
 
 Undersök undersidor på rena plantor innan du lägger över insektsnät. Håll nätet tätt så att fjärilar inte kommer in och lägger ägg innanför. Plocka ägg och larver i en liten odling. Vid biologisk behandling behöver medlet vara lämpligt för fjärilslarver och godkänt för användningen.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Parasitoidsteklar och rovdjur kan angripa kållarver och ägg. En parasitoidkokong kan vara värd att lämna kvar i en skyddad miljö. Det går inte att utgå från att alla larver försvinner enbart genom naturliga fiender.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Övervintrar som puppa på skyddade ytor, till exempel staket eller vegetation. Uppgiften gäller de arter och odlingsmiljöer som nämns, inte alla närstående arter.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Pieris rapae, rovfjäril. Tidsunderlaget gäller P. r. crucivora vid ca 20 °C utan vintervila; det är inte svenska försöksvärden.
 

@@ -40,31 +40,27 @@
 }
 ---
 
-Små steklar kan angripa minerarflugelarver inne i de ljusa gångarna på bladet. Det betyder att ett blad med minor kan innehålla både skadegörare och deras naturliga fiender.
-
-Den här sidan beskriver främst en **art eller artgrupp som kan köpas in för biologisk bekämpning**. Det är inte ett löfte om att samma art normalt förekommer eller övervintrar i svenska frilandsodlingar.
-
-## Så känner du igen dem
-
-Vuxna *Diglyphus isaea* är mycket små steklar med metalliskt färgad kropp. Larven utvecklas inne i bladgången, utanför en förlamad minerarflugelarv. Artbestämning kräver förstoring och ofta specialistkunskap; en mina visar inte vilken stekel som finns där.
-
-## Roll i odlingen
+## Målskadegörare och stadier
 
 Honan förlamar minerarflugelarven och lägger ägg intill den. Den nykläckta parasitoidlarven lever av värden från utsidan. Därför skiljer sig dess livscykel från parasitoider som utvecklas **inne i** en värd.
 
-## Börja här vid ett angrepp
+## När metoden passar
 
 Undersök färska och gamla minor innan du tar bort stora mängder blad. Följ om antalet nya miner ökar eller minskar. Vid inköp måste art, målskadegörare och temperatur väljas enligt leverantörens anvisningar; *Dacnusa sibirica* är en annan sorts parasitoid och kan inte likställas med *Diglyphus*.
 
-## Samspel med andra djur
-
-Parasitoiden är beroende av rätt minerarflugelarver och kan själv konkurrera med andra naturliga fiender. Den förlamade värden kan fortsätta synas i bladgången. Äldre miner försvinner inte även om nya angrepp bromsas.
-
-## Miljö och övervintring
+## Förutsättningar och övervintring
 
 I svenska växthus kan populationen utvecklas när värdar och mikroklimat passar. Ingen allmän svensk frilandsövervintring kan utlovas från ett varmt laboratorieförsök.
 
-## Livscykel – ett avgränsat exempel
+## Så följer du resultatet
+
+Följ hur många **nya miner** som uppkommer på samma plantor. Gamla ljusa gångar läker inte. Kontrollera om det finns miner med parasitoidens utvecklingsstadier innan du drar slutsatsen att insatsen inte fungerar.
+
+## Samspel och kombinationer
+
+Parasitoiden är beroende av rätt minerarflugelarver och kan själv konkurrera med andra naturliga fiender. Den förlamade värden kan fortsätta synas i bladgången. Äldre miner försvinner inte även om nya angrepp bromsas.
+
+## Livscykel och utveckling
 
 Vald exempelart: Diglyphus isaea. Ca 25 °C • värd: Liriomyza trifolii.
 
@@ -84,7 +80,11 @@ Andra försök vid 25 °C ger ca 10 dygn totalt. Hela varvet här använder samm
 
 **Värdena är ett begränsat laboratorieexempel, inte förväntad svensk normalutveckling.** Vuxenliv är skilt från utvecklingstiden till vuxen. Olika föda och förhållanden kan ändra resultaten.
 
-## Bilder och säker identifiering
+## Kännetecken och kontroll
+
+Vuxna *Diglyphus isaea* är mycket små steklar med metalliskt färgad kropp. Larven utvecklas inne i bladgången, utanför en förlamad minerarflugelarv. Artbestämning kräver förstoring och ofta specialistkunskap; en mina visar inte vilken stekel som finns där.
+
+## Bilder och identifiering
 
 [UC IPM visar fotografier av olika Diglyphus-stadier i bladgångar](https://interestinginsects.landcareresearch.co.nz/taxa/0d3bc9ec-a6b4-4298-8a36-2201d94d7a66). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 

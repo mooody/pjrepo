@@ -43,8 +43,6 @@
 }
 ---
 
-Blomflugor som svävar vid blommorna misstas ibland för getingar. Flera arter är samtidigt värdefulla pollinatörsbesökare som vuxna och bladlusjägare som larver. Men det gäller inte alla blomflugors larver.
-
 ## Så känner du igen dem
 
 En vuxen blomfluga har **ett vingpar** och stora ögon, medan getingar har två vingpar. Bladlusätande larver är mjuka och benlösa; de kan vara gröna eller genomskinliga. Arten kan inte avgöras säkert bara av det gula och svarta mönstret.
@@ -53,21 +51,24 @@ En vuxen blomfluga har **ett vingpar** och stora ögon, medan getingar har två 
 
 Hos bladlusätande arter är den mjuka, benlösa larven det stadium som fångar bladlöss; de vuxna söker främst pollen och nektar. En vuxen blomfluga vid en växt visar alltså inte säkert att just dess larver äter bladlöss.
 
-## Börja här när du hittar dem
+## Miljö genom säsongen och övervintring
 
-Erbjud små öppna blommor och vindskydd nära odlingen. Spara identifierade rovlarver. En liten bladluskoloni på en tålig växt kan ge föda, men följ så att känsliga grödor inte skadas.
+Vuxna blomflugor behöver blommande växter med nektar och pollen. Försök få en följd av öppna blommor från vår till sensommar. Hos bladlusätande arter behöver larverna också hitta kolonier av sina byten; en liten koloni på en tålig växt behöver inte alltid bekämpas.
+
+Övervintringen är artberoende: larver, puppor eller vuxna kan förekomma beroende på art. Skyddad vegetation och ostörd förna kan ha betydelse för vissa arter.
+
+<figure>
+  <a href="/media/mangfald-nyttodjur-full-800.webp">
+    <img src="/media/mangfald-nyttodjur-full-800.webp" alt="Pedagogisk översikt över blommande vegetation och olika livsmiljöer i en trädgård." width="800" height="667" loading="lazy" decoding="async" />
+  </a>
+  <figcaption>Blommande växter och varierade miljöer kan hjälpa flera grupper av nyttodjur. Schematisk illustration, inte bestämningsbild av en blomfluga.</figcaption>
+</figure>
 
 ## Samspel med andra djur
 
 Larverna kan dela en bladluskoloni med nyckelpigor, guldögonsländor och parasitsteklar. Titta på larvens beteende och bytets art innan du bestämmer funktionen. Det finns också blomflugor vars larver lever i vatten eller nedbrytande material.
 
-## Miljö och övervintring
-
-Övervintringen är artberoende; larver, puppor eller vuxna kan förekomma beroende på art. Många bladlusätande arter använder skyddad vegetation och förna.
-
-För att gynna vuxna blomflugor kan flera sorters öppna blommor vara till hjälp under säsongen. Låt inte varje liten bladluskoloni på en tålig växt automatiskt leda till bred bekämpning.
-
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: flyttblomfluga, Episyrphus balteatus. Utvecklingstider vid 25 ± 1 °C med sallatsbladlus som larvföda. Storlekar och vuxenliv kommer från andra underlag.
 
@@ -89,7 +90,7 @@ Vuxna kan i andra försök leva flera veckor längre. Nektar och pollen är vikt
 
 **Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
 
-## Jämför bilder och bedöm fyndet
+## Bilder och identifiering
 
 [UC IPM visar både vuxna och larver i sin fotoguide](https://ipm.ucanr.edu/natural-enemies/syrphids/). Referensfotografierna visar exempel från källans bestämda djur och livsstadier. De visar inte våra egna fynd. 
 

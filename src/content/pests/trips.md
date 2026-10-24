@@ -39,9 +39,7 @@
 }
 ---
 
-Lär dig upptäcka trips på chili genom silverfläckar, svarta spillningsprickar och kontroll av blommor och blad.
-
-## Så känner du igen dem
+## Så känner du igen angreppet
 
 Trips är mycket små och smala. Vuxna har smala, fransade vingar medan de unga oftast är ljusare och saknar fullt utvecklade vingar. Skaka försiktigt en blomma över ett vitt papper för att se om djur finns i blomman.
 
@@ -49,19 +47,19 @@ Trips är mycket små och smala. Vuxna har smala, fransade vingar medan de unga 
 
 Rasp- och sugskador kan ge silvergrå eller bronstonade fläckar, svarta spillningsprickar och deformering av knoppar och unga blad. Gamla skador läker inte; undersök om ny tillväxt fortfarande blir skadad. Vissa tripsarter kan också överföra växtvirus.
 
-## Börja här när du misstänker angrepp
+## Undersök och begränsa angreppet
 
 Undersök bladundersidor och blommor med lupp. Skilj växtskadande trips från rovtrips innan du bestämmer insatsen. Klisterskivor kan indikera flygande vuxna, men mäter inte ägg och larver och kan fånga nyttodjur.
 
-## Samspel med naturliga fiender
+## Naturliga fiender och samspel
 
 Rovskinnbaggar i släktet *Orius* kan ta både små och större tripsstadier. Rovkvalster som *Amblyseius swirskii* riktar sig främst mot unga larver. Valet beror på art, gröda och mikroklimat.
 
-## Miljö och övervintring
+## Miljö, riskperioder och övervintring
 
 Artberoende: växtrester, mark eller levande värdväxter kan bära olika stadier. En enda vintermodell passar inte gruppen. Det betyder inte att samma vinterförlopp gäller varje art eller varje skyddad odlingsmiljö.
 
-## Livscykel – ett avgränsat exempel
+## Livscykel och utveckling
 
 Vald exempelart: Frankliniella occidentalis. Ca 20 °C • utan säsongsvila.
 
