@@ -1,42 +1,42 @@
 ---
 {
-  "title": "Minerarflugeparasitoider",
-  "description": "Små steklar kan angripa minerarflugelarver inne i de ljusa gångarna på bladet. Det betyder att ett blad med minor kan innehålla både skadegörare och deras naturliga fiender.",
-  "draft": false,
-  "category": "Nyttodjur – biologisk bekämpning",
-  "scientificName": "Diglyphus isaea – ett exempel på ektoparasitoid",
-  "tags": [
-    "nyttodjur",
-    "köpta nyttodjur",
-    "biologisk bekämpning",
-    "minerarflugor"
-  ],
-  "identification": "preliminär",
-  "reviewed": "2026-10-24",
-  "sources": [
-    {
-      "title": "Wageningen – Diglyphus isaea och minerarflugor",
-      "url": "https://edepot.wur.nl/202834"
-    },
-    {
-      "title": "Landcare Research – Diglyphus, artbilder och bestämning",
-      "url": "https://interestinginsects.landcareresearch.co.nz/taxa/0d3bc9ec-a6b4-4298-8a36-2201d94d7a66"
-    },
-    {
-      "title": "Biological Control – försöksdata för Diglyphus isaea",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1049964402001184"
-    }
-  ],
-  "related": [
-    {
-      "label": "Bladlöss och deras fiender",
-      "href": "/skadedjur/bladloss/"
-    },
-    {
-      "label": "Biologiskt växtskydd",
-      "href": "/biologiskt-vaxtskydd/"
-    }
-  ]
+ "title": "Minerarflugeparasitoider",
+ "description": "Små steklar kan angripa minerarflugelarver inne i de ljusa gångarna på bladet. Det betyder att ett blad med minor kan innehålla både skadegörare och deras naturliga fiender.",
+ "draft": false,
+ "category": "Nyttodjur – biologisk bekämpning",
+ "scientificName": "Diglyphus isaea – ett exempel på ektoparasitoid",
+ "tags": [
+ "nyttodjur",
+ "köpta nyttodjur",
+ "biologisk bekämpning",
+ "minerarflugor"
+ ],
+ "identification": "preliminär",
+ "reviewed": "2026-10-24",
+ "sources": [
+ {
+ "title": "Wageningen – Diglyphus isaea och minerarflugor",
+ "url": "https://edepot.wur.nl/202834"
+ },
+ {
+ "title": "Landcare Research – Diglyphus, artbilder och bestämning",
+ "url": "https://ipm.ucanr.edu/natural-enemies/leafminer-diglyphus-parasitoids/"
+ },
+ {
+ "title": "Biological Control – försöksdata för Diglyphus isaea",
+ "url": "https://www.sciencedirect.com/science/article/pii/S1049964402001184"
+ }
+ ],
+ "related": [
+ {
+ "label": "Bladlöss och deras fiender",
+ "href": "/skadedjur/bladloss/"
+ },
+ {
+ "label": "Biologiskt växtskydd",
+ "href": "/biologiskt-vaxtskydd/"
+ }
+ ]
 }
 ---
 
@@ -86,6 +86,6 @@ Andra försök vid 25 °C ger ca 10 dygn totalt. Hela varvet här använder samm
 
 ## Bilder och säker identifiering
 
-[Landcare Research visar bild- och artmaterial om Diglyphus](https://interestinginsects.landcareresearch.co.nz/taxa/0d3bc9ec-a6b4-4298-8a36-2201d94d7a66). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. Förarbetet på Drive innehåller även stadieillustrationer och en livscykel. Dessa ska skyddas, kvalitetsgranskas och exporteras med befintlig vattenstämpel innan de publiceras som webbbilder.
+[UC IPM visar fotografier av olika Diglyphus-stadier i bladgångar](https://interestinginsects.landcareresearch.co.nz/taxa/0d3bc9ec-a6b4-4298-8a36-2201d94d7a66). Det är artreferenser, inte våra egna fynd eller bevis på lyckad utsättning. 
 
 När du bedömer ett djur eller väljer en produkt är det viktigare att veta **vilken skadegörare och vilket livsstadium som angrips** än att försöka bestämma en svår art från en enda liten bild.
