@@ -4,7 +4,7 @@
  "description": "Trips är inte alltid skadegörare. Vissa rovtrips angriper små leddjur och kan använda pollen som komplement. Just därför bör varje tripsfynd i blomman eller på bladet inte automatiskt behandlas som ett angrepp.",
  "draft": false,
  "category": "Nyttodjur",
- "scientificName": "Aeolothripidae – exempel Aeolothrips fasciatus",
+ "scientificName": "Aeolothripidae",
  "tags": [
  "nyttodjur",
  "biologisk mångfald",
