@@ -15,17 +15,16 @@ test('startsidan har tydlig titel, canonical och WebSite',async()=>{
 });
 test('strukturerade brödsmulor pekar till rätt sidor',async()=>{
  const cases=[
-  ['odlingsmetoder/naringsvaven-i-odlingen',['/','/biologiskt-vaxtskydd/','/odlingsmetoder/naringsvaven-i-odlingen/']],
-  ['odlingsmetoder/att-odla-med-naturen',['/','/biologiskt-vaxtskydd/','/odlingsmetoder/att-odla-med-naturen/']],
-  ['biologiskt-vaxtskydd',['/','/biologiskt-vaxtskydd/']],
-  ['nyttodjur',['/','/biologiskt-vaxtskydd/','/nyttodjur/']],
-  ['nyttodjur/guldogonslandor',['/','/biologiskt-vaxtskydd/','/nyttodjur/','/nyttodjur/guldogonslandor/']],
-  ['odlingsmetoder/jord-och-kompost',['/','/biologisk-odling/','/odlingsmetoder/jord-och-kompost/']],
-  ['odlingsmetoder/jordens-sma-arbetare',['/','/biologisk-odling/','/odlingsmetoder/jordens-sma-arbetare/']],
-  ['chilisorter/habanero',['/','/chili/','/chilisorter/','/chilisorter/habanero/']],
-  ['skadedjur/bladloss',['/','/biologiskt-vaxtskydd/','/skadedjur/','/skadedjur/bladloss/']],
-  ['produkter-2026/habanero-lemon',['/','/produkter-2026/','/produkter-2026/habanero-lemon/']],
-  ['chilifortplantning',['/','/chili/','/chilifortplantning/']]
+  ['odlingsmetoder/naringsvaven-i-odlingen',['/biologiskt-vaxtskydd/','/odlingsmetoder/naringsvaven-i-odlingen/']],
+  ['odlingsmetoder/att-odla-med-naturen',['/biologiskt-vaxtskydd/','/odlingsmetoder/att-odla-med-naturen/']],
+  ['nyttodjur',['/biologiskt-vaxtskydd/','/nyttodjur/']],
+  ['nyttodjur/guldogonslandor',['/biologiskt-vaxtskydd/','/nyttodjur/','/nyttodjur/guldogonslandor/']],
+  ['odlingsmetoder/jord-och-kompost',['/biologisk-odling/','/odlingsmetoder/jord-och-kompost/']],
+  ['odlingsmetoder/jordens-sma-arbetare',['/biologisk-odling/','/odlingsmetoder/jordens-sma-arbetare/']],
+  ['chilisorter/habanero',['/chili/','/chilisorter/','/chilisorter/habanero/']],
+  ['skadedjur/bladloss',['/biologiskt-vaxtskydd/','/skadedjur/','/skadedjur/bladloss/']],
+  ['produkter-2026/habanero-lemon',['/produkter-2026/','/produkter-2026/habanero-lemon/']],
+  ['chilifortplantning',['/chili/','/chilifortplantning/']]
  ];
  for(const [route,paths] of cases){
    const data=schemas(await html(route)).find(x=>x['@type']==='BreadcrumbList');
