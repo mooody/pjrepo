@@ -1,5 +1,15 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-26 – Tre nya produkter och beskurna transparenta etiketter (bildimport återstår)
+- **Beställt:** B2610-4 Fermenterad Mangosalsa, B2610-8 Röd Mango och B2610-7 Tropisk Glöd på Produkter 2026 enligt befintlig mall. Etiketterna beskärs vid ramen och ska vara genomskinliga utanför.
+- **Genomfört i arbetsgren `content/produkter-b2610-4-7-8-20261026`:** tre produktposter med korrekta batchnummer, beskrivningar och bildfält samt kompletterat webbetikettsuppslag för katalogen. Samtliga `draft: true` tills bilder är importerade.
+- **Bilder förberedda och verifierade utanför repo:** tre produktbilder, tre illustrerade webbetiketter och tre fullständiga etiketter. PNG-original från Drive bevarade; nio WebP-exporter har alfa/transparens utanför etikettens ram. Originalmotiv och ordalydelse omarbetas inte. Överlämningspaket framtaget med exakt `public/product-images/`-struktur.
+- **Blockerare:** GitHub-anslutningens säkerhets-/storleksgräns hindrade import av fullkvalitativa binära WebP-filer. Bilderna är därför ännu **inte** incheckade; inga sidor aktiveras med trasiga bildlänkar. Återstår: importera nio exporter, granska respektive etikett (särskilt B2610-7 mot slutligt korrektur), `draft: false`, verifiera och granska PR.
+- **Källor:** respektive batchjournal på Drive samt befintliga originalbilder i mappen `Trädgårdsdrömmar - produkter 2026`. B2610-8 är separat från originalet B2610-4. Hållbarhet/livsmedelsprocess är inte slutvaliderade och påstås inte vara det.
+- **Regler och drift:** aktuella PROJECT_RULES.md och AGENTS.md lästa; inga ändringar i CMS/schema, säkerhet, server, delade driftmetoder eller publiceringsflöde. SERVER_OPERATIONS.md saknar anledning till uppdatering. Ej mergat eller publicerat. CI inväntar PR.
+
+
+
 ## 2026-10-24 – Redaktionella djurmodeller, två nyttodjursgrupper, bilder och brödsmulor
 - **Uppdrag:** användargranskning av djurartiklar, bort med dubbel ingress, mindre upprepning av utseende och habitatåtgärder, tre skilda läsarflöden, några relevanta bilder och enbart överordnade synliga brödsmulor.
 - **Status:** PR #31 och #32 verifierades som **redan mergade** i `main` (`c8ce77d4` och `ece78ff7`). Därför ligger detta arbete i en **ny, omergad arbetsgren `content/djurartikel-mallar-och-bilder-20261024`**, inte i den stängda #32. Ingen produktionspublicering.
