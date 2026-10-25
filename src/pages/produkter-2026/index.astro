@@ -10,7 +10,10 @@ const overviewImages: Record<string, string> = {
   "sotsyrliga-jalapenos": "/product-images/sotsyrliga-jalapenos-webbetikett.webp",
   "tradgardseld": "/product-images/tradgardseld-webbetikett.webp",
   "rod-glod": "/product-images/rod-glod-webbetikett.webp",
-  "ghost": "/product-images/ghost-webbetikett.webp"
+  "ghost": "/product-images/ghost-webbetikett.webp",
+  "fermenterad-mangosalsa": "/product-images/fermenterad-mangosalsa-webbetikett.webp",
+  "tropisk-glod": "/product-images/tropisk-glod-webbetikett.webp",
+  "rod-mango": "/product-images/rod-mango-webbetikett.webp"
 };
 const products = (await getCollection('products', ({data}) => !data.draft && data.year === 2026))
   .sort((a,b)=>a.data.order-b.data.order || a.data.title.localeCompare(b.data.title, 'sv'));
