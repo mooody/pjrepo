@@ -4,7 +4,7 @@
 - **Uppdrag:** ersätta sidmallens ”bild saknas” högst upp på `/biologiskt-vaxtskydd/` med Mickes ljusjusterade foto av blommande odlingsbäddar.
 - **Genomfört i arbetsgrenen `content/bild-biologiskt-vaxtskydd-20261026`:** sidan får det befintliga `image`/`imageAlt`-fältet, nytt bild-ID `biologiskt-vaxtskydd-odlingsbadd` i `src/data/images.json` och kompletterat `web-images/index.json`. Åtta optimerade, vattenstämplade WebP-varianter i `web-images/` enligt befintliga bildmått och exportlogik. Eget foto, AI-stödd ljus- och färgbearbetning anges i bildtexten.
 - **Skydd:** användaroriginalet och den bearbetade PNG-filen hålls utanför det offentliga repositoryt; endast färdiga webbexporter sparas. CMS, schema, bildpipeline, server och andra webbplatser är oförändrade.
-- **Kontroller:** lokal kontroll av bildstorlek, WebP-format och synlig vattenstämpel utförd. GitHub Actions `Validate and build` inväntar resultat efter PR-push; inget produktionstest har gjorts.
+- **Kontroller:** lokal kontroll av bildstorlek, WebP-format och synlig vattenstämpel utförd. GitHub Actions [Validate and build #40306991609](https://github.com/mooody/pjrepo/actions/runs/40306991609) för bild- och innehållscommit `9d3522a9` är **success** (verifiering och byggning). Denna efterföljande loggcommit får egen kontroll; inget produktionstest har gjorts.
 - **Dokumentation:** `docs/images.md` uppdaterad. Aktuella `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
 - **Status:** källfiler sparade i arbetsgren för PR-granskning. Inte mergat med `main` och **inte publicerat i produktion**. Återstående steg: verifiera Actions, granska PR och få separat godkännande för senare produktionspublicering.
 
