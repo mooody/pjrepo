@@ -9,7 +9,7 @@ productImage: /product-images/rod-mango-foto.webp
 labelImage: /product-images/rod-mango-etikett.webp
 productImageAlt: "Produktbild av småburkar med Röd Mango"
 labelImageAlt: "Etikett för Röd Mango, batch B2610-8, med styrkeangivelse och ingrediensförteckning"
-draft: true
+draft: false
 ---
 
 Röd Mango är en extra stark variant av den fermenterade mangosåsen, med mer Habanero Red, äppelcidervinäger och en fastare konsistens genom tillsatt pektin.

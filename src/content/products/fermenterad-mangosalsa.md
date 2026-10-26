@@ -9,7 +9,7 @@ productImage: /product-images/fermenterad-mangosalsa-foto.webp
 labelImage: /product-images/fermenterad-mangosalsa-etikett.webp
 productImageAlt: "Produktbild av burkar med Fermenterad Mangosalsa"
 labelImageAlt: "Etikett för Fermenterad Mangosalsa, batch B2610-4, med ingrediensförteckning"
-draft: true
+draft: false
 ---
 
 Fermenterad Mangosalsa kombinerar mango och Habanero Red med gul lök, vitlök och ingefära. Den fruktiga såsen har en syrlig ton från fermenteringen.

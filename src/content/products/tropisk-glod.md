@@ -9,7 +9,7 @@ productImage: /product-images/tropisk-glod-foto.webp
 labelImage: /product-images/tropisk-glod-etikett.webp
 productImageAlt: "Produktbild av flaskor med chilisåsen Tropisk Glöd"
 labelImageAlt: "Etikett för Tropisk Glöd med ingrediensförteckning och batchnummer B2610-7"
-draft: true
+draft: false
 ---
 
 Tropisk Glöd är en ananasbaserad chilisås med Habanero Red, morot, röd paprika och ingefära. Fruktsötman balanseras av äppelcidervinäger och chilihetta.

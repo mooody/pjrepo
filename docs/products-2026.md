@@ -1,6 +1,6 @@
 # Produkter 2026
 
-Produktarkivet finns på `/produkter-2026/` och har sex befintliga publicerade produktposter samt tre nya produktutkast i arbetsgrenen (B2610-4, B2610-7 och B2610-8).
+Produktarkivet finns på `/produkter-2026/` och har sex befintliga produktposter och ytterligare tre nya (B2610-4, B2610-7 och B2610-8) i arbetsgrenen för PR #34.
 
 ## Visning
 
@@ -22,10 +22,11 @@ Produktarkivet finns på `/produkter-2026/` och har sex befintliga publicerade p
 
 Ändringar utvecklas i separat branch och PR. Byggning och tester görs i `Validate and build`. Ingen uppdatering av STRATO-produktion ingår; produktionen använder separat manuellt publiceringsworkflow.
 
-## 2026-10-26 – tre nya produktutkast (väntar på bilder)
+## 2026-10-26 – tre nya produkter och nio webbexporter i PR #34
 
-- Tre Markdown-poster inom befintligt produktschema: `fermenterad-mangosalsa.md` (B2610-4), `tropisk-glod.md` (B2610-7) och `rod-mango.md` (B2610-8). Produkttexterna utgår från respektive batchjournal på Drive. Röd Mango är en **separat** extra stark batch av restsås från B2610-4.
-- `overviewImages` kompletterad med samma tre produkt-ID:n och deras illustrerade webbetiketter. Befintliga sex kort oförändrade.
-- **Bildbearbetning klar lokalt, överföring till GitHub återstår.** Nio optimerade WebP-filer – vardera en produktbild, webbetikett och fullständig etikett per produkt – har skapats från de faktiska Drive-underlagen. Etiketterna har behållit sin text och motiv; genomskinlig bakgrund utanför den yttre ramen verifierad. De nio filerna är samlade i ett överlämningspaket med förväntade paths `public/product-images/<filnamn>.webp`.
-- GitHub-verktygets säkerhets-/storlekskontroll blockerade överföring av fullupplösta binärfiler. Därför är de tre sidorna **`draft: true`** och visas inte i byggd katalog förrän bilderna har lagts in. **För att slutföra:** lägg de nio färdiga WebP-filerna från överlämningspaketet i `public/product-images/`, verifiera bildlänkar och innehåll, sätt `draft: false`, kör `npm run verify` och låt PR gå genom ordinarie granskning. Inga interna mall-/schema- eller publiceringsmetoder ändras.
-- Livsmedelsmärkning och hållbarhet är inte verifierade som försäljningsgodkända; produkttexterna lämnar inga sådana löften. Särskilt Tropisk Glöds fullständiga etikett bör stämmas av mot senast godkända korrektur innan försäljning.
+- Tre produkter har lagts in i befintlig produktmall: Fermenterad Mangosalsa (B2610-4), Tropisk Glöd (B2610-7) och Röd Mango (B2610-8). Alla har `draft: false` **i arbetsgrenen**, efter att bildernas sökvägar blev tillgängliga. Röd Mango är en separat starkare delbatch av B2610-4.
+- Tre produktbilder, tre illustrerade webbetiketter och tre fullständiga etiketter finns nu som WebP i `public/product-images/`. De nio publika exporterna bygger på redan framtagna bilder från Drive och bevarar originaletiketternas text/motiv. Etiketterna är beskurna vid ramen med alfatransparens utanför; produktfotona saknar transparens. Fotografiska original och PNG-underlag har inte checkats in.
+- Produktöversiktens `overviewImages` använder webbetiketterna, detaljsidorna använder produktfoto och fullständig etikett. Befintliga sex produkter, mallar, CMS och bygg-/publiceringsflöden har inte ändrats.
+- **Verifiering:** GitHub-blob- och commitöverföring av alla nio filer har lyckats. Bygg- och webbläsarkontroll för senaste PR-commit ska fortfarande granskas. `draft: false` innebär att dessa produkter ingår i ett lyckat arbetsgrensbygge, **inte** att de publicerats på produktionsservern.
+- Etiketterna är ännu inte försäljnings-/hållbarhetsgodkända genom detta webbuppdrag; särskilt Tropisk Glöds originaletikett bör kontrolleras mot senaste slutkorrektur innan försäljning. Ingen sådan validering eller märkning har ändrats.
+- `docs/PROJECT_RULES.md` och `AGENTS.md` kontrollerades och kräver ingen regeländring. `docs/SERVER_OPERATIONS.md` berörs inte; ingen serverändring eller produktionspublicering utförd.
