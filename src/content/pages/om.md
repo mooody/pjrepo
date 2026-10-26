@@ -26,4 +26,8 @@ Trädgårdsdrömmar knyter ihop odlingen med skapandet i köket. Vi vill ta vara
 
 **odlat med omsorg, förädlat med passion**
 
+## Pågående odling och framtida projekt
+
+Trädgårdsdrömmar utvecklas stegvis. I [Odling & projekt](/projekt/) skiljer vi mellan sådant vi arbetar med redan nu och idéer som ännu saknar färdig plan. Där finns bland annat chiliodlingen och tankar om framtida odlingslösningar.
+
 [Upptäck förädlingen](/foradla/) eller [lär känna våra chilisorter](/chilisorter/).
