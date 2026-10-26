@@ -1,5 +1,14 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-26 – Tre nya produkter, bildimport och transparenta etiketter (PR #34)
+- **Beställt:** B2610-4 Fermenterad Mangosalsa, B2610-7 Tropisk Glöd och B2610-8 Röd Mango i Produkter 2026, enligt befintlig produktmall, med transparens utanför etiketternas yttre ram.
+- **Genomfört i arbetsgrenen `content/produkter-b2610-4-7-8-20261026`:** tre produktposter och tre bildkopplingar i `overviewImages`. Alla tre sidorna aktiverade med `draft: false` i arbetsgrenen efter att de avsedda bildfilerna tillkom.
+- **Bilder:** nio optimerade WebP-filer (produktfoto, webbetikett, fullständig etikett per batch) har importerats till `public/product-images/` i GitHub genom ordinarie Git-objekt och commit. Bland annat transparenta etikettytor kontrollerades lokalt. De färdiga webbexporterna är inte fotografiska original; Drive-underlagen lämnades orörda. Bildimportcommit: `4263765ee61abba294c6c1d51b4144224203e83e`.
+- **Överföring:** en tillfällig mapp i Drive användes enbart som transport för de nio webbexporterna när direkt binärimport inte fungerade. Samtliga tio temporära överföringsfiler (inklusive en liten testfil) och den tillfälliga Drive-mappen har raderats efter bekräftad GitHub-import; originalfilerna i Drive berördes inte. Ingen ändring i webbens bildpipeline eller gemensam teknisk arbetsrutin.
+- **Verifiering:** alla nio bildernas GitHub-filposter och byte-storlekar kontrollerades mot exporterna. Hörnens alfa är 0 för samtliga sex transparenta etiketter; originalmotiv och text kontrollerades visuellt i kontaktsammanställning. `Validate and build` [#40247397221](https://github.com/mooody/pjrepo/actions/runs/40247397221) för aktiveringscommit `b7cdb2ab3aed3497acdf0f7268a60091a618b804` är **success**. Kommande dokumentationscommit behöver separat CI; inga manuella tester av produktionsservern.
+- **Källor:** batchjournalerna och bildunderlag på Drive. B2610-8 är skild från originalbatch B2610-4. Uppgifter om hållbarhet eller färdig livsmedelsvalidering lämnas inte på produktsidorna. Särskilt etiketten B2610-7 ska stämmas av mot korrektur före försäljning.
+- **Regler och drift:** aktuella `docs/PROJECT_RULES.md` och `AGENTS.md` granskade; oförändrade. CMS/schema, säkerhet, server, deployflöde och andra webbplatser orörda. `docs/SERVER_OPERATIONS.md` kräver ingen uppdatering. **PR ej mergad; produktion ej publicerad.**
+
 ## 2026-10-24 – Redaktionella djurmodeller, två nyttodjursgrupper, bilder och brödsmulor
 - **Uppdrag:** användargranskning av djurartiklar, bort med dubbel ingress, mindre upprepning av utseende och habitatåtgärder, tre skilda läsarflöden, några relevanta bilder och enbart överordnade synliga brödsmulor.
 - **Status:** PR #31 och #32 verifierades som **redan mergade** i `main` (`c8ce77d4` och `ece78ff7`). Därför ligger detta arbete i en **ny, omergad arbetsgren `content/djurartikel-mallar-och-bilder-20261024`**, inte i den stängda #32. Ingen produktionspublicering.
