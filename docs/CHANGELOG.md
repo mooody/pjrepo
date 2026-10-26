@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-26 – Bild till Biologiskt växtskydd (arbetsgren, PR för granskning)
+- **Uppdrag:** ersätta sidmallens ”bild saknas” högst upp på `/biologiskt-vaxtskydd/` med Mickes ljusjusterade foto av blommande odlingsbäddar.
+- **Genomfört i arbetsgrenen `content/bild-biologiskt-vaxtskydd-20261026`:** sidan får det befintliga `image`/`imageAlt`-fältet, nytt bild-ID `biologiskt-vaxtskydd-odlingsbadd` i `src/data/images.json` och kompletterat `web-images/index.json`. Åtta optimerade, vattenstämplade WebP-varianter i `web-images/` enligt befintliga bildmått och exportlogik. Eget foto, AI-stödd ljus- och färgbearbetning anges i bildtexten.
+- **Skydd:** användaroriginalet och den bearbetade PNG-filen hålls utanför det offentliga repositoryt; endast färdiga webbexporter sparas. CMS, schema, bildpipeline, server och andra webbplatser är oförändrade.
+- **Kontroller:** lokal kontroll av bildstorlek, WebP-format och synlig vattenstämpel utförd. GitHub Actions `Validate and build` inväntar resultat efter PR-push; inget produktionstest har gjorts.
+- **Dokumentation:** `docs/images.md` uppdaterad. Aktuella `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Status:** källfiler sparade i arbetsgren för PR-granskning. Inte mergat med `main` och **inte publicerat i produktion**. Återstående steg: verifiera Actions, granska PR och få separat godkännande för senare produktionspublicering.
+
 ## 2026-10-26 – Indexeringsuppföljning och interna länkar (SEO-arbetsgren)
 - **Underlag:** separat Search Console-rapport daterad 2026-10-26 och befintlig `docs/SEO_AUDIT.md`. Inget generellt tekniskt indexeringsfel har bekräftats; varningar om canonical-dubbletter och HTTP-omdirigering föranleder ingen serverändring.
 - **Genomfört i grenen `seo/indexeringsuppfoljning-20261026`:** `src/content/pages/om.md` länkar till `/projekt/` som tidigare enbart länkades från det opublicerade utkastet `/odla/`. `src/content/projects/foradling.md` länkar till relevanta publicerade produkter. Ingen ny meny, inget påhittat projektinnehåll.
