@@ -69,3 +69,18 @@ Projektreglerna är granskade och lämnas oförändrade. Inga VPS-, Nginx-, CMS-
 ## Faktiskt verifieringsresultat
 
 GitHub Actions Validate and build, körning 39260913328, avslutades med **success** för SEO-branchen den 19 oktober 2026. Kontrollerna inkluderar npm ci, npm run verify, Astro-byggning, Node-tester, nya SEO-tester och Playwright. Det verifierar arbetsbranchens bygge men inte skarp indexering eller publicering. Körningen: https://github.com/mooody/pjrepo/actions/runs/39260913328
+
+## Uppföljning av Google-indexering 2026-10-26 (arbetsgren)
+
+Underlag: separat granskning av Search Console-skärmbilder från 26 oktober (6 alternativa canonical-adresser, 1 Soft 404, 1 omdirigering och 12 genomsökta men inte indexerade adresser; 10 av de senare var synliga). Den historiska ZIP-exporten och Googles senast renderade sidversioner har **inte** verifierats i detta koduppdrag.
+
+- `http://www.tradgardsdrommar.se/` rapporterades tidigare som Soft 404. Enligt stickprovet 26 oktober ledde adressen vidare till fungerande HTTPS-startsida. Historisk Googlebot-respons är okänd: **ingen spekulativ omdirigeringsändring**.
+- De sex alternativa HTTPS-adresserna utan www hade canonical till motsvarande www-adress. Detta är i sig normalt; Google ska inte behöva indexera båda värdnamnen.
+- `http://tradgardsdrommar.se/` rapporterades som omdirigerad. HTTP-varianten ska inte indexeras separat.
+- Bland de genomsökta men ej indexerade sidorna finns artiklarna `/chilifortplantning/`, `/chilisorter/sipka-zitronen/`, `/chilisorter/okrasny-zvonek-red/`, två produktsidor och fyra korta projektsidor. Inget känt fel i byggd HTML har hittills förklarat Googles val. Två ytterligare adresser syns inte i de tillgängliga bilderna.
+- **Bekräftad internlänkningsbrist i koden:** `/projekt/` länkades från `/odla/`, men `odla.md` är ett utkast (`draft: true`) och dess länk når inte den publicerade sajten. Arbetsgrenen tillför därför en naturlig länk till projektöversikten från `/om/` och länkar förädlingsprojektet till den publicerade produktkatalogen. Ingen ny huvudmeny, inga konstruerade projektfakta.
+- Nytt regressionstest kontrollerar canonical, sitemap och avsaknad av `noindex` i **byggd HTML** för nio prioriterade innehållssidor. Det kontrollerar inte live-HTTP, Googlebot, `X-Robots-Tag` eller faktisk Google-indexering.
+
+**Återstår efter eventuell merge och separat godkänd produktionspublicering:** URL-granska HTTPS-startsidan och Soft 404-adressen i Search Console; jämför Googles valda canonical och hämtade HTML för fem viktigare innehållssidor; identifiera de två saknade adresserna; följ upp senare genomsökning. Begär inte indexering för dubbletter eller HTTP-varianter. Ändra inte Nginx, www-policy, CMS eller deployflöde utan särskilt beslut.
+
+Åtgärderna är innehålls-/teständringar på arbetsgren, **inte** en lösning som garanterar Google-indexering eller en bekräftad produktionsändring. `docs/PROJECT_RULES.md` och `AGENTS.md` har granskats och kräver ingen ändring för detta uppdrag.

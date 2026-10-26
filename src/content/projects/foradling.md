@@ -14,4 +14,6 @@ Chili, grönsaker och frukt möts i våra såser och marmelader. Vi vill lyfta v
 
 Chilisalt, smaksatta oljor och sötsaker är några av idéerna vi vill utveckla vidare. Den egna odlingen ger inspiration till nya kombinationer och fler sätt att ta vara på chilifrukten.
 
-[Upptäck förädlingen](/foradla/).
+[Läs mer om vårt arbete med förädling](/foradla/).
+
+[Se produkterna från 2026](/produkter-2026/) för exempel på såser och marmelader som tagits fram under året.

@@ -68,3 +68,33 @@ test('skadedjursseriens 15 sidor har rätt SEO-hierarki', async () => {
   ]);
  }
 });
+
+test('indexeringsrapportens innehållssidor har korrekta signaler i byggningen', async () => {
+ const routes = [
+  'chilifortplantning',
+  'chilisorter/sipka-zitronen',
+  'chilisorter/okrasny-zvonek-red',
+  'produkter-2026/ghost',
+  'produkter-2026/rod-glod',
+  'projekt/plantskola',
+  'projekt/foradling',
+  'projekt/modulart-vaxthus',
+  'projekt/chiliodling',
+ ];
+ const sitemap = await readFile('dist/sitemap-0.xml', 'utf8');
+ for (const route of routes) {
+  const page = await html(route);
+  const url = 'https://www.tradgardsdrommar.se/' + route + '/';
+  assert.ok(page.includes('rel="canonical" href="' + url + '"'), 'Felaktig canonical: ' + route);
+  assert.doesNotMatch(page, /<meta[^>]*noindex/i, 'Oavsiktlig noindex: ' + route);
+  assert.ok(sitemap.includes('<loc>' + url + '</loc>'), 'Saknas i sitemap: ' + route);
+ }
+});
+
+test('projektöversikten är länkad från en publicerad sida', async () => {
+ const about = await html('om');
+ assert.match(about, /<a[^>]+href="\/projekt\/"/);
+ const projects = await html('projekt');
+ assert.match(projects, /href="\/projekt\/plantskola\/"/);
+ assert.match(projects, /href="\/projekt\/chiliodling\/"/);
+});
