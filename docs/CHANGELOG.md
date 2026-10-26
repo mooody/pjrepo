@@ -1,5 +1,12 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-26 – Indexeringsuppföljning och interna länkar (SEO-arbetsgren)
+- **Underlag:** separat Search Console-rapport daterad 2026-10-26 och befintlig `docs/SEO_AUDIT.md`. Inget generellt tekniskt indexeringsfel har bekräftats; varningar om canonical-dubbletter och HTTP-omdirigering föranleder ingen serverändring.
+- **Genomfört i grenen `seo/indexeringsuppfoljning-20261026`:** `src/content/pages/om.md` länkar till `/projekt/` som tidigare enbart länkades från det opublicerade utkastet `/odla/`. `src/content/projects/foradling.md` länkar till relevanta publicerade produkter. Ingen ny meny, inget påhittat projektinnehåll.
+- **Regression:** `tests/seo.test.mjs` kontrollerar canonical/sitemap/noindex för nio berörda publicerade innehålls-URL:er och att projektöversikten går att nå via publicerad sida. Resultat av GitHub Actions ska kontrolleras efter PR.
+- **Dokumentation:** `docs/SEO_AUDIT.md` kompletterad med kontrollens resultat och uppföljningslista. Aktuella `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; ingen påverkan på `docs/SERVER_OPERATIONS.md`.
+- **Avgränsning:** kodändringarna löser inte i sig Googles indexeringsbeslut. Search Console-URL-granskning och två okända rapportadresser återstår. CMS, OAuth, Nginx, andra sajter och publiceringsflöde oförändrade. **Inte mergat, inte produktionspublicerat.**
+
 ## 2026-10-26 – Tre nya produkter, bildimport och transparenta etiketter (PR #34)
 - **Beställt:** B2610-4 Fermenterad Mangosalsa, B2610-7 Tropisk Glöd och B2610-8 Röd Mango i Produkter 2026, enligt befintlig produktmall, med transparens utanför etiketternas yttre ram.
 - **Genomfört i arbetsgrenen `content/produkter-b2610-4-7-8-20261026`:** tre produktposter och tre bildkopplingar i `overviewImages`. Alla tre sidorna aktiverade med `draft: false` i arbetsgrenen efter att de avsedda bildfilerna tillkom.
