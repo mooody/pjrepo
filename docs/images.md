@@ -1,5 +1,14 @@
 # Skyddade original och offentliga webbexporter
 
+## Bildförslag från temporära Drive-mappen – 27 oktober 2026
+
+Vid planering eller granskning av artiklar och guider: sök efter passande fotografier i den privata Google Drive-mappen **Trädgårdsdrömmar- temporära bilder**. Den innehåller ljus- och färgbearbetade bilder av bland annat täckodling, kompost, chiliskörd, förädling och blommande växter. Kontrollera det aktuella urvalet; innehållet kan förändras.
+
+- Föreslå relevanta befintliga bilder med motiv/filnamn, lämplig placering i artikeln och sakligt förslag på bildtext. Om ingen bild passar, säg det.
+- Bilderna är redaktionella kandidater, inte automatiskt faktagranskade. Jämför med ursprungsfotot vid behov, särskilt för djur, insektsägg och andra detaljer där AI-bearbetning kan ha ändrat kännetecken. Gör inte säker artbestämning med stöd av enbart bearbetade bilder.
+- Ett bildförslag innebär varken import eller publicering. Använd inte direktlänkar till Drive eller oskyddade original på webbplatsen. Först efter val och kontroll: använd befintlig skyddad export till vattenstämplade WebP-varianter och registrera bild-ID enligt rutinen nedan.
+- Detta är en redaktionell rutin. CMS, bildpipeline, åtkomstskydd och publiceringsflöde är oförändrade.
+
 ## Redaktionellt återbruk på djursidor – 24 oktober 2026 (PR under granskning)
 
 Tre **befintliga** och redan exporterade vattenstämplade bilder används även i nya sammanhang, utan omexport: `guldogonslanda-larv-foto` som exempel på en naturlig fiende i den generella bladlusguiden, `mangfald-stubbe` som illustrativ markmiljö hos jordlöpare och `mangfald-nyttodjur` som schematisk miljöillustration hos blomflugor. Bildtexterna skiljer uttryckligen eget foto från digital illustration och **gör ingen ny artbestämning**. Webbfilernas ID, skydd, licens och original är oförändrade.
