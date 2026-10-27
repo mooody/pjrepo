@@ -11,8 +11,6 @@ gallery:
     alt: Flaskor med orangefärgad chilisås
   - image: cowboy-candy
     alt: Glasburk med inlagd chili
-  - image: fermenteringskarl
-    alt: Grönsaker och chili i ett kärl under förädlingsarbetet
 ---
 
 En lyckad odlingssäsong slutar inte när vi plockar det sista från plantorna. Det är då nästa del börjar: att använda det vi odlat medan det är färskt, ta hand om överskottet och upptäcka hur olika metoder förändrar smak, konsistens och användning.
