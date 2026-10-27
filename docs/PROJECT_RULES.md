@@ -114,6 +114,8 @@ GitHub och faktiska driftsfiler är källan till aktuell teknisk status; äldre 
 
 ## 7. Bilder och etiketter
 
+**Bildförslag från egen bildbank:** Vid planering och granskning av nya artiklar ska assistenten kontrollera den privata Google Drive-mappen **Trädgårdsdrömmar- temporära bilder** och föreslå lämpliga redan tillgängliga fotografier med motiv/filnamn och tänkt placering. Förslag är inte godkännande för publicering. Granska bilder och eventuella AI-förändrade kännetecken, särskilt vid djur och ägg. Inför eventuell webbpublicering gäller befintlig skyddad bildexport och vattenstämpel enligt `docs/images.md`.
+
 - **Fotografiska original ska skyddas och hållas utanför det publika repositoryt.** Att döpa en mapp till `private-images` ger inget verkligt skydd. Fortsätt även skydda original när repositoryt blir privat.
 - Egna publicerade fotografier ska vara webbanpassade, korrekt beskurna och försedda med diskret, synlig vattenstämpel. Vattenstämpeln får inte ändras eller tas bort oavsiktligt.
 - Respektera befintliga bild-ID:n, manifest i `src/data/images.json`, exportindex i `web-images/index.json`, bearbetning i `scripts/images.mjs` och rutin i [`docs/images.md`](images.md).
