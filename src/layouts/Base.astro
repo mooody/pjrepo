@@ -94,6 +94,7 @@ const structuredData = [
             href={sitePath(item.href)}
             aria-current={
               Astro.url.pathname.startsWith(sitePath(item.href)) ||
+              (item.href === '/foradla/' && Astro.url.pathname.startsWith(sitePath('/fermentering/'))) ||
               (item.href === '/biologiskt-vaxtskydd/' &&
                 ['/nyttodjur/', '/skadedjur/', '/odlingsmetoder/att-odla-med-naturen/', '/odlingsmetoder/naringsvaven-i-odlingen/'].some((path) => Astro.url.pathname.startsWith(sitePath(path))))
                 ? 'page' : undefined
