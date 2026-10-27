@@ -1,5 +1,11 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-27 – Bildförslag från temporär Drive-mapp (dokumentations-PR)
+- **Beställt:** föreslå passande bilder från Drive-mappen `Trädgårdsdrömmar- temporära bilder` vid framtida artiklar och guider.
+- **Genomfört i arbetsgrenen `docs/drive-bildforslag-20261027`:** kompletterat `docs/PROJECT_RULES.md` och `docs/images.md` med redaktionell rutin för att söka bildkandidater, ange lämplig placering och bildtext samt granska bearbetade foton före eventuell publicering.
+- **Kontrollerat:** mappen finns i privat Google Drive. Original, webbens bild-ID, CMS, server, säkerhet, bildexport och produktionspublicering är oförändrade. `AGENTS.md` granskat utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Status:** ändringarna är gjorda i separat arbetsgren inför PR-granskning. Ej mergat eller publicerat i produktion. GitHub Actions-verifiering återstår.
+
 ## 2026-10-26 – Indexeringsuppföljning och interna länkar (SEO-arbetsgren)
 - **Underlag:** separat Search Console-rapport daterad 2026-10-26 och befintlig `docs/SEO_AUDIT.md`. Inget generellt tekniskt indexeringsfel har bekräftats; varningar om canonical-dubbletter och HTTP-omdirigering föranleder ingen serverändring.
 - **Genomfört i grenen `seo/indexeringsuppfoljning-20261026`:** `src/content/pages/om.md` länkar till `/projekt/` som tidigare enbart länkades från det opublicerade utkastet `/odla/`. `src/content/projects/foradling.md` länkar till relevanta publicerade produkter. Ingen ny meny, inget påhittat projektinnehåll.
