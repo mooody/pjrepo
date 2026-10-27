@@ -1,44 +1,40 @@
 ---
-title: Förädling av chili – såser och marmelader
-description: Så förädlar vi chili från egen odling till såser och marmelader där frukt, grönsaker och kryddor lyfter chilins smak.
+title: Ta vara på skörden
+description: Från nyskördade grönsaker, bär, frukt och chili till förvaring, frysning, torkning, fermentering och mathantverk.
 draft: false
-image: marmeladgrupp
+image: fermenteringskarl
+imageAlt: Grönsaker och chili i ett kärl under arbete med att ta vara på skörden
 gallery:
   - image: burkar
     alt: Grupp med burkar på ett träbord
   - image: chilisas
     alt: Flaskor med orangefärgad chilisås
   - image: cowboy-candy
-    alt: Glasburk märkt Cowboy candy med skivor i orangefärgad vätska
-  - image: cowboy-candy-miljo
-    alt: Glasburk med skivor på en träyta
-  - image: fermenteringskarl
-    alt: Grönsaker och chili i ett kärl under förädlingsarbetet
+    alt: Glasburk med inlagd chili
 ---
-## Låt chilin ta plats
 
-Chili är så mycket mer än hetta. Varje sort har sin egen karaktär, och det är den vi vill lyfta fram när skörden blir till något nytt. Frukt, grönsaker och kryddor får möta chilin i produkter där smakerna hör ihop och ingen ingrediens behöver överrösta de andra.
+En lyckad odlingssäsong slutar inte när vi plockar det sista från plantorna. Det är då nästa del börjar: att använda det vi odlat medan det är färskt, ta hand om överskottet och upptäcka hur olika metoder förändrar smak, konsistens och användning.
 
-## Varje habanero har något eget
+Här samlar vi kunskap om att **ta vara på skörden** – oavsett om den består av några chilifrukter från balkongen, en korg tomater, bär från trädgården eller grönsaker från odlingslotten.
 
-Habanero har en särskild plats i vårt kök. Red, Lemon och Chocolate får bidra med sina olika nyanser. Vi vill hitta kombinationer som låter varje enskild sort komma fram, med hetta som en del av smaken.
+## Börja med råvaran
 
-## Marmelader med en annan sida av chili
+Olika grödor behöver olika behandling. En del vill vi helst äta nyplockade. Andra kan förvaras, frysas, torkas eller bli till något helt nytt. Skick, mognad, vatteninnehåll och hur råvaran ska användas avgör vad som är lämpligt.
 
-I en marmelad möter chilin sötma, frukt och syra. Squash, ingefära, apelsin och mango är några av råvarorna vi använder tillsammans med chili. En liten klick kan ge ostbrickan eller en smörgås en ny smak, utan att allt behöver vara lika starkt.
+Att sortera och planera tidigt kan minska svinnet. Skadade och friska råvaror bör bedömas var för sig; allt som går att skörda lämpar sig inte automatiskt för konservering.
 
-## Såser med egen karaktär
+## Färskt, fryst, torkat eller förädlat?
 
-Såsen kan fånga både chilins smak och dess hetta. Vi arbetar bland annat med fermenterad chili och kombinationer av grönsaker och frukt. Målet är såser som tillför något till maten och där chilin känns igen även när den delar plats med andra råvaror.
+**Förvaring och frysning** hjälper oss att använda skörden senare, men rätt förutsättningar varierar mellan grödor. **Torkning** förändrar både råvarans koncentration och dess användning i köket. **Fermentering** låter mikroorganismer bidra till syra, doft och nya smaknyanser. **Inläggning, tillagning och annan konservering** är ytterligare möjligheter, men olika metoder ställer olika krav på hygien, recept, temperatur och förvaring.
 
-## Salt, oljor och sötsaker
+Vi vill visa både hur metoderna fungerar och när de passar – inte bara presentera färdiga recept.
 
-Planerna sträcker sig vidare till chilisalt, smaksatta oljor, godis och fler sätt att använda chilifrukten. Sött, salt och syrligt öppnar för olika sidor av samma råvara. Det finns många idéer att ta vidare, med chilins skiftande smaker som utgångspunkt.
+## Från odling till mathantverk
 
-## Från vår odling till ditt bord
+Chili är en viktig del av vårt arbete. Den får bland annat möta frukt och grönsaker i såser, marmelader och inläggningar. Men kunskapen bakom förädling gäller mycket mer än chili: hur råvaror hanteras, varför smak förändras och vad som krävs för att en produkt ska bli säker att äta och förvara.
 
-Den egna odlingen och arbetet i köket hör ihop. Vi vill ta vara på den här underbara frukten och skapa sådant som är gott att duka fram, bjuda på och upptäcka tillsammans.
+Våra egna försök och [produkter från 2026](/produkter-2026/) är exempel på vad skörden kan bli, inte allmänna anvisningar om hållbarhet eller livsmedelssäkerhet.
 
-**odlat med omsorg, förädlat med passion**
+## Fördjupa dig
 
-[Lär känna våra chilisorter](/chilisorter/).
+Välj ett ämne nedan. Vi börjar med fermentering och fyller på med fler guider om frysning, torkning, inläggning, konservering och råvarornas väg från skörd till kök.

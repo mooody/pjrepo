@@ -98,3 +98,20 @@ test('projektöversikten är länkad från en publicerad sida', async () => {
  assert.match(projects, /href="\/projekt\/plantskola\/"/);
  assert.match(projects, /href="\/projekt\/chiliodling\/"/);
 });
+
+test('ta vara på skörden har en samlingssida och en länkad fermenteringsartikel', async () => {
+ const settings = JSON.parse(await readFile('src/data/settings.json', 'utf8'));
+ assert.ok(settings.navigation.some(x => x.label === 'Ta vara på skörden' && x.href === '/foradla/'));
+ const hub = await html('foradla');
+ assert.match(hub, /Ta vara på skörden/);
+ assert.match(hub, /href="\/fermentering\/"/);
+ assert.match(hub, /Frysning och torkning/);
+ const article = await html('fermentering');
+ assert.ok(article.includes('rel="canonical" href="https://www.tradgardsdrommar.se/fermentering/"'));
+ assert.match(article, /mjölksyrabakterier/i);
+ const breadcrumb = schemas(article).find(x => x['@type'] === 'BreadcrumbList');
+ assert.ok(breadcrumb);
+ assert.deepEqual(breadcrumb.itemListElement.map(x => new URL(x.item).pathname), ['/foradla/', '/fermentering/']);
+ const sitemap = await readFile('dist/sitemap-0.xml', 'utf8');
+ assert.match(sitemap, /https:\/\/www\.tradgardsdrommar\.se\/fermentering\//);
+});

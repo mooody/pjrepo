@@ -342,3 +342,12 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 - Återstår: inget i detta historiska steg.
 
 **Obs:** Äldre poster är en sammanställning från tillgängliga serverutskrifter och GitHub-historik, inte en fullständig revisionslogg över varje utfört kommando. För framtida ändringar förs löpande logg med verifierad status.
+
+## 2026-10-27 – Ta vara på skörden med fermentering som egen artikel (redaktionell PR)
+- **Beställt:** gör befintliga `Förädla` till en bredare vägledning om att ta hand om hela skörden, med undersidor liknande Chili.
+- **Genomfört i arbetsgren `content/ta-vara-pa-skorden-20261027`:** menyetiketten ändrad till **Ta vara på skörden** med samma fungerande adress `/foradla/`; samlingssidans rubrik, metadata och text utvidgade till grönsaker, frukt, bär och chili. En ny artikel om mjölksyrning har skapats under `/fermentering/`, med sakligt avgränsad säkerhetsinformation och länkar till myndighets- och universitetskällor. Befintliga artikelkortsstilar återanvänds; andra planerade guider visas utan länkar.
+- **Relaterat:** startsidans ingång, projektet `projekt/foradling`, navigeringsmarkering och brödsmulor är anpassade. Nya Node-regressionstester kontrollerar meny, samlingssida, underartikel, canonical/hierarki och sitemap.
+- **Bildhantering:** befintliga bild-ID:n och redan exporterade bilder återanvänds, inga privata Drive-original eller nya oskyddade filer läggs i GitHub.
+- **Regler:** `docs/PROJECT_RULES.md` och `AGENTS.md` lästa och granskade utan behov av metodändring. CMS, schema, bildpipeline, OAuth, Nginx, STRATO, säkerhet, andra webbplatser och deployflöde oförändrade. `docs/SERVER_OPERATIONS.md` behöver inte ändras.
+- **Status:** på arbetsgren inför PR-granskning; ej mergat, ej publicerat i produktion. GitHub Actions-verifiering återstår.
+
