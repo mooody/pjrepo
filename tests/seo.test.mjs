@@ -107,6 +107,7 @@ test('ta vara på skörden har en samlingssida och en länkad fermenteringsartik
  assert.match(hub, /href="\/fermentering\/"/);
  assert.match(hub, /Frysning och torkning/);
  const article = await html('fermentering');
+ assert.ok(article.includes('rel="canonical" href="https://www.tradgardsdrommar.se/fermentering/"'));
  assert.match(article, /mjölksyrabakterier/i);
  const breadcrumb = schemas(article).find(x => x['@type'] === 'BreadcrumbList');
  assert.ok(breadcrumb);
