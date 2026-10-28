@@ -4,6 +4,8 @@
 
 En svensk informationswebbplats för småskalig chiliodling och biologisk mångfald. Astro genererar statiska filer; VPS:en behöver ingen Node-process eller databas. Ingen webbshop eller spårning ingår.
 
+> **Aktuell status och säkerhet:** Denna README innehåller även äldre exempel och startuppgifter som inte beskriver all nuvarande drift. Verifiera faktisk main/PR/Actions och läs [PROJECT_RULES.md](docs/PROJECT_RULES.md) samt [AGENTS.md](AGENTS.md) före ändringar. **AI får förbereda PR men användaren gör alltid merge och produktionspublicering manuellt.**
+
 ## Kom igång
 
 Installera Node.js 24 och Git. I projektkatalogen:
