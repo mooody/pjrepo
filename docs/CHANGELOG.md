@@ -1,5 +1,12 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-31 – Hett Möte (B2610-9), produktarkiv och bilder (PR för granskning)
+- **Beställt:** skapa produkten B2610-9 enligt befintligt produktmönster. Katalogtitel **Hett Möte** följer de befintliga etikett- och produktbilderna; Dundergel är batchjournalens arbetsnamn.
+- **Genomfört i arbetsgrenen `content/hett-mote-b2610-9-20261031`:** ny produktfil `src/content/products/hett-mote.md`, ny bildkoppling i `src/pages/produkter-2026/index.astro` och tre webbanpassade WebP-filer i `public/product-images/`. Produktfoto 1000 × 1000, fullständig etikett 1700 × 519 och webbetikett 1700 × 522; transparenta etikettkanter bevarade och illustrationen/etiketttexten lämnade oförändrade. Privata PNG-underlag i Drive orörda.
+- **Underlag:** batch B2610-9, tillverkningsdag 2026-10-31, 24 rapporterade burkar à nominellt 41 ml, uppmätt pH 3,2, uppskattad CSI ≈ 43 400/styrka 8/10. Faktisk fyllmängd per burk och hållbarhet ej fastställda. Originaletiketten anger 2027-10 som bäst före, men det är inte verifierat. Tillsats E211 och dess tillåtlighet för den aktuella kategorin måste kontrolleras före försäljning.
+- **Avgränsning:** katalogsidan är inte en webbutik. Inga produktions- eller serverändringar, inga nya CMS-fält, ingen ändring av bildrutiner, schema, auth eller publiceringsflöde. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Status:** filer införda i arbetsgren, PR och CI kräver kontroll efter commit. Inte mergat, inte publicerat i produktion.
+
 ## 2026-10-26 – Indexeringsuppföljning och interna länkar (SEO-arbetsgren)
 - **Underlag:** separat Search Console-rapport daterad 2026-10-26 och befintlig `docs/SEO_AUDIT.md`. Inget generellt tekniskt indexeringsfel har bekräftats; varningar om canonical-dubbletter och HTTP-omdirigering föranleder ingen serverändring.
 - **Genomfört i grenen `seo/indexeringsuppfoljning-20261026`:** `src/content/pages/om.md` länkar till `/projekt/` som tidigare enbart länkades från det opublicerade utkastet `/odla/`. `src/content/projects/foradling.md` länkar till relevanta publicerade produkter. Ingen ny meny, inget påhittat projektinnehåll.
