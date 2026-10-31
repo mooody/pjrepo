@@ -13,5 +13,3 @@ draft: false
 ---
 
 Sötsyrliga jalapeños med extra hetta från Red Savina.
-
-Se etiketten längre ned för exakt innehållsförteckning och märkning.

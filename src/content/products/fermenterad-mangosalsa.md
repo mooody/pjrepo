@@ -14,6 +14,4 @@ draft: false
 
 Fermenterad Mangosalsa kombinerar mango och Habanero Red med gul lök, vitlök och ingefära. Den fruktiga såsen har en syrlig ton från fermenteringen.
 
-Batch B2610-4 fylldes i 24 burkar. Den extra starka varianten **Röd Mango**, B2610-8, är en separat batch och ska inte förväxlas med denna originalsås.
-
-Se etiketten nedan för produktens märkning och ingrediensförteckning.
+Batch B2610-4 fylldes i 24 burkar. En starkare variant, **Röd Mango** (B2610-8), tillverkades som en egen batch.

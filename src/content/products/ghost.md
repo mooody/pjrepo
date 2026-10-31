@@ -15,5 +15,3 @@ draft: false
 Ghost är en squash- och ingefärsmarmelad med hetta från chilin Ghost (Bhut Jolokia). Kombinationen ger en söt marmelad med kryddig ingefära och tydlig chilihetta.
 
 Satsen B2610-6 gav 32 burkar.
-
-Se originaletiketten nedan för ingredienser och märkning.

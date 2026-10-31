@@ -14,8 +14,6 @@ draft: false
 
 **Hett Möte** låter Ghost (*Bhut Jolokia*) möta Carolina Reaper i en sötstark chiliegelé med mjuk, geléfast konsistens och synliga bitar av chili. Socker ger sötma medan äppelcidervinäger och citron bidrar med syrlighet. Den mycket kraftiga hettan gör att en liten mängd räcker långt, exempelvis till ost.
 
-Satsen **B2610-9** tillverkades den 31 oktober 2026 och gav 24 burkar av modellen 41 ml. Den angivna volymen avser burkstorleken, inte verifierad nettomängd per burk.
+Satsen **B2610-9** tillverkades den 31 oktober 2026 och gav 24 småburkar av modellen 41 ml.
 
-Styrkan är **preliminärt cirka 8 av 10**, med ett modellberäknat **CSI ≈ 43 400**. Det är en uppskattning baserad på schablonvärden för chilisorterna, inte laboratoriemätt Scoville-styrka.
-
-Etiketten nedan återges oförändrad som produktens befintliga etikettunderlag. Märkning, tillsatsvillkor, förvaring och hållbarhet behöver verifieras separat före försäljning.
+Styrkan uppskattas till **cirka 8 av 10** enligt produktens CSI-modell (**CSI ≈ 43 400**).

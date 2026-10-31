@@ -1,6 +1,6 @@
 # Produkter 2026
 
-Produktarkivet finns på `/produkter-2026/` och har sex befintliga produktposter och ytterligare tre nya (B2610-4, B2610-7 och B2610-8) i arbetsgrenen för PR #34.
+Produktarkivet finns på `/produkter-2026/` och omfattar tio produktposter (2026-10-31), inklusive Hett Möte (B2610-9).
 
 ## Visning
 
@@ -9,6 +9,14 @@ Produktarkivet finns på `/produkter-2026/` och har sex befintliga produktposter
 - Alla färdigställda etiketter visas med bevarad text, proportioner och utformning. Inga nya vattenstämplar har lagts till. Optimerade bilder är enskilda WebP-filer under `public/product-images/`.
 - **B2610-5 Röd Glöd:** produktfotot `röd-glöd-B2610-5.png` hämtades från Drive 2026-10-20 och exporterades till `public/product-images/rod-glod-foto.webp` (1200 × 1200 px, 209 kB). Det visas nu som huvudbild på detaljsidan. Webbetiketten används fortfarande enbart på översiktssidan, och originaletiketten på detaljsidan.
 - **B2610-6 Ghost:** produktfoto, illustrerad webbetikett och riktig etikett finns med.
+
+## Redaktionell ton i produkttexter (2026-10-31)
+
+- Produktbeskrivningarna ska tala till besökaren: smak, råvaror, konsistens, hetta och relevanta batchuppgifter. Undvik intern redaktionell text, såsom att etikettunderlaget har lämnats orört eller att kontroller behöver göras inför försäljning.
+- Varje produktsida visar redan en separat sektion **Etikett och innehåll** med etikettbild och förstoring. Upprepa inte uppmaningen ”Se etiketten nedan” i varje produkttext.
+- Dokumentera frågor om slutlig etikettgranskning, tillsatsvillkor, hållbarhet, nettomängd och produktsäkerhet i respektive batchjournal och projektdokumentation, utan att ta bort dem eller ersätta dem med ogrundade säkerhetslöften på webben.
+- Redovisa beräknad styrka som just uppskattad/beräknad, utan överflödiga metodförklaringar i produkternas löptext. Detta är redaktionell förenkling, inte godkännande av märkning eller produkt.
+- Befintliga etikettbilder och bildrelationer ändras inte i detta arbete.
 
 ## Nya produkter
 

@@ -14,6 +14,4 @@ draft: false
 
 Röd Mango är en extra stark variant av den fermenterade mangosåsen, med mer Habanero Red, äppelcidervinäger och en fastare konsistens genom tillsatt pektin.
 
-Det är en egen batch, **B2610-8**, framställd av kvarvarande sås från B2610-4. Den fylldes i 24 småburkar av typen 41 ml. Beräknad styrka är ungefär 7 av 10 enligt produktens CSI-modell; detta är en uppskattning, inte laboratoriemätt Scoville-styrka.
-
-Se etiketten nedan för produktens märkning och ingrediensförteckning.
+Det är en egen batch, **B2610-8**, framställd av kvarvarande sås från B2610-4. Den fylldes i 24 småburkar av typen 41 ml. Den beräknade styrkan är ungefär 7 av 10 enligt produktens CSI-modell.
