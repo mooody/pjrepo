@@ -1,5 +1,12 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-31 – Redaktionell rensning av alla produkttexter (separat PR)
+- **Beställt:** ta bort interna kommentarer om etikettunderlag, kommande granskning och upprepade uppmaningar att läsa etiketten i produktpresentationerna.
+- **Genomfört i grenen `content/produkttexter-utan-arbetskommentarer-20261031`:** alla tio produktbeskrivningar kontrollerade; upprepade ”Se etiketten ...”-meningar i nio produktfiler och kontrolltexten i Hett Möte borttagna. Kompletterande korta språkjusteringar gör uppgifterna om två batcher och CSI tydligare utan ändrade faktavärden. I den gemensamma produktsidemallen har den överflödiga förklaringen till etikettavsnittet tagits bort, men rubrik, originaletikett och länken till full storlek är kvar.
+- **Dokumentation:** `docs/products-2026.md` kompletterad med redaktionell princip: besökartext fokuserar på produkten, medan oavslutade kontrollfrågor fortsätter dokumenteras internt. De tidigare anteckningarna om B2610-9:s hållbarhet, nettomängd och E211 kvarstår i dokumentationen och batchjournalen.
+- **Teknik:** endast befintligt redaktionellt innehåll och en statisk förklaringsmening i vyn ändrade. Ingen CMS-struktur, etikettbild, ingrediensmärkning, URL, serverfunktion, säkerhet eller driftsättning ändras. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Verifiering och status:** ändringar lagda i arbetsgren för PR och `Validate and build`; resultat redovisas från Actions. Inte mergat, inte produktionspublicerat.
+
 ## 2026-10-31 – Hett Möte (B2610-9), produktarkiv och bilder (PR för granskning)
 - **Beställt:** skapa produkten B2610-9 enligt befintligt produktmönster. Katalogtitel **Hett Möte** följer de befintliga etikett- och produktbilderna; Dundergel är batchjournalens arbetsnamn.
 - **Genomfört i arbetsgrenen `content/hett-mote-b2610-9-20261031`:** ny produktfil `src/content/products/hett-mote.md`, ny bildkoppling i `src/pages/produkter-2026/index.astro` och tre webbanpassade WebP-filer i `public/product-images/`. Produktfoto 1000 × 1000, fullständig etikett 1700 × 519 och webbetikett 1700 × 522; transparenta etikettkanter bevarade och illustrationen/etiketttexten lämnade oförändrade. Privata PNG-underlag i Drive orörda.
