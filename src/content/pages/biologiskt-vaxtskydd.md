@@ -2,6 +2,8 @@
 title: Biologiskt växtskydd
 description: En levande odling med plats för både skörd och smådjur. Utforska biologisk mångfald, skadedjur, nyttodjur och möjligheten att köpa in naturliga fiender.
 draft: false
+image: biologiskt-vaxtskydd-odlingsbadd
+imageAlt: Blommande odlingsbäddar med vallmo, grönsaker och solrosor intill en stenlagd gång.
 ---
 En trädgård ska fungera för både den som odlar och livet som finns där. Här samlar vi kunskap om att förebygga angrepp, lära känna smådjuren och välja åtgärder med omsorg. Det finns plats för små steg, välordnade odlingsbäddar och praktiska kompromisser.
 
