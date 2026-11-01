@@ -83,7 +83,7 @@ Cirkeln samlar larvens tillväxt i en enda ruta. **Alla tider och mått är unge
   <a href="/media/guldogonslanda-livscykel.webp">
     <img src="/media/guldogonslanda-livscykel-full-800.webp" alt="Guldögonsländans fyra huvudfaser visas medurs: skaftägg, en växande larv, kokong med puppa och vuxen. I ett laboratorieexempel vid 24 grader tog utvecklingen till vuxen cirka 24 dygn. Mått och tider är ungefärliga." width="800" height="864" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Förenklad livscykel för carnea-gruppen, som pedagogisk AI-illustration. Uppgiften om 7–8 veckors vuxenliv gäller honor i samma laboratoriestudie, där endast tre vuxenpar följdes. Vuxenlivet ingår inte i tiden från ägg till vuxen. <a href="/media/guldogonslanda-livscykel.webp">Visa större livscykel</a>.</figcaption>
+  <figcaption>Förenklad livscykel för carnea-gruppen. Uppgiften om 7–8 veckors vuxenliv gäller honor i samma laboratoriestudie, där endast tre vuxenpar följdes. Vuxenlivet ingår inte i tiden från ägg till vuxen. <a href="/media/guldogonslanda-livscykel.webp">Visa större livscykel</a>.</figcaption>
 </figure>
 
 ## När du hittar dem

@@ -1,5 +1,13 @@
 # Skyddade original och offentliga webbexporter
 
+## Redaktionella bildtexter – 1 november 2026
+
+Bildtexter på webbplatsen beskriver i första hand motivet och varför det är relevant i artikeln. Normal webboptimering, beskärning och enklare ljus- eller färgjustering behöver inte anges intill varje bild. Tekniskt ursprung, AI-stöd och tidigare bearbetning dokumenteras fortsatt i denna interna bildjournal och i ändringsloggen när det behövs för spårbarhet.
+
+När en bild är en **schematisk illustration** eller visar en **tänkt miljö** används en saklig beskrivning som förhindrar att den förväxlas med ett verifierat fotografi, ett artbestämningsbelägg eller en skalenlig avbildning. Väsentliga osäkerheter om art, livsstadier, storlek och försökstider behålls. Tredjepartsfoto behåller upphovsuppgifter enligt gällande bildrutin. Denna redaktionella förenkling ändrar **inte** bildfiler, upphov, ursprung, licenser, vattenstämplar, CMS eller bildpipeline.
+
+Berörda manifestposter: `odlingslott-jord`, `jordrulle-test`, `mangfald-stubbe`, `mangfald-nyttodjur`, `jordliv-rot-mykorrhiza`, `kompost-tre-stadier`, `tackodling-hostlov`, `guldogonslanda-vuxen`, `guldogonslanda-larv`, `guldogonslanda-livscykel`, `odla-med-naturen`. Artikeltexter för näringsväven, guldögonsländornas livscykel och jordlöparens livsmiljö har motsvarande justeringar; historiska uppgifter om bildursprung nedan bevaras oförändrade.
+
 ## Redaktionellt återbruk på djursidor – 24 oktober 2026 (PR under granskning)
 
 Tre **befintliga** och redan exporterade vattenstämplade bilder används även i nya sammanhang, utan omexport: `guldogonslanda-larv-foto` som exempel på en naturlig fiende i den generella bladlusguiden, `mangfald-stubbe` som illustrativ markmiljö hos jordlöpare och `mangfald-nyttodjur` som schematisk miljöillustration hos blomflugor. Bildtexterna skiljer uttryckligen eget foto från digital illustration och **gör ingen ny artbestämning**. Webbfilernas ID, skydd, licens och original är oförändrade.

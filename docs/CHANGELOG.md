@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-11-01 – Naturligare bildtexter i artiklarna (PR för granskning)
+- **Beställt:** gå igenom återstående artiklar och ta bort tekniska kommentarer om AI-generering, illustrativ eller digital bearbetning och normala ljus-/färgjusteringar från besökartexter.
+- **Granskning:** produkttexterna hade redan fått separat redaktionell genomgång. Återstående innehållssamlingar (odlingsmetoder, chili, nyttodjur, skadedjur, vanliga sidor och projekt) har genomgåtts med fokus på bildtexter. Onödiga formuleringar återfanns främst i det centrala bildmanifestet.
+- **Genomfört i grenen `content/naturliga-bildtexter-20261101`:** 11 bildtexter i `src/data/images.json` förenklade, tre artikelbildtexter justerade i `naringsvaven-i-odlingen.md`, `guldogonslandor.md` och `jordlopare.md`. Webbläsartestet för filosofiartikelns bildtext anpassat. `docs/images.md` förtydligar redaktionell praxis.
+- **Viktiga begränsningar:** illustrationer får fortfarande inte framställas som dokumenterade foton. Där det spelar roll behålls 'illustration', 'schematisk', 'möjlig miljö', 'inte skalenlig' och artbestämningsförbehåll. Uppgifter om bildursprung/AI-stöd bevaras i intern dokumentation. Bilder, bild-ID, upphov/licenser, vattenstämplar, CMS, schema, publiceringsflöde och andra sajter är orörda.
+- **Regler:** `docs/PROJECT_RULES.md` och `AGENTS.md` granskade; inga tekniska metod- eller regeländringar behövs. `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Status:** ändringarna förbereds i isolerad arbetsgren med PR och CI. Inget är mergat eller publicerat på produktionsservern.
+
 ## 2026-10-31 – Redaktionell rensning av alla produkttexter (separat PR)
 - **Beställt:** ta bort interna kommentarer om etikettunderlag, kommande granskning och upprepade uppmaningar att läsa etiketten i produktpresentationerna.
 - **Genomfört i grenen `content/produkttexter-utan-arbetskommentarer-20261031`:** alla tio produktbeskrivningar kontrollerade; upprepade ”Se etiketten ...”-meningar i nio produktfiler och kontrolltexten i Hett Möte borttagna. Kompletterande korta språkjusteringar gör uppgifterna om två batcher och CSI tydligare utan ändrade faktavärden. I den gemensamma produktsidemallen har den överflödiga förklaringen till etikettavsnittet tagits bort, men rubrik, originaletikett och länken till full storlek är kvar.

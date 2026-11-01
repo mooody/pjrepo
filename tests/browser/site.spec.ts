@@ -265,7 +265,7 @@ test('biologiskt växtskydd samlar djuren och visar kommande texter utan tomma l
     await philosophyImage.scrollIntoViewIfNeeded();
     await expect(philosophyImage).toHaveJSProperty('complete', true);
     expect(await philosophyImage.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
-    await expect(page.locator('article.detail figcaption')).toContainText('AI-genererad illustration');
+    await expect(page.locator('article.detail figcaption')).toContainText('Illustrationen visar en möjlig odlingsmiljö');
     await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();
     await expect(page.locator('.sources li')).toHaveCount(4);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);

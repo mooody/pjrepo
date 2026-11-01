@@ -89,7 +89,7 @@ Tabellen visar utvalda samband, inte en fullständig karta över en viss trädg�
   <a href="/media/jordliv-rot-mykorrhiza.webp">
     <img src="/media/jordliv-rot-mykorrhiza-full-800.webp" alt="Illustration av en levande rot med svamptrådar och separat nedbrytning av växtrester vid markytan." width="800" height="533" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Levande rötter och dött växtmaterial bidrar på olika sätt till marklivet. Befintlig AI-genererad illustration från ”Jordens små arbetare”, förenklad och inte skalenlig. Den är ingen fullständig näringsväv. <a href="/media/jordliv-rot-mykorrhiza.webp">Visa större bild</a>.</figcaption>
+  <figcaption>Levande rötter och dött växtmaterial bidrar på olika sätt till marklivet. Illustrationen är förenklad och inte skalenlig. Den är ingen fullständig näringsväv. <a href="/media/jordliv-rot-mykorrhiza.webp">Visa större bild</a>.</figcaption>
 </figure>
 
 När organismer äts och organiskt material bryts ned kan näringsämnen frigöras i former som rötterna kan ta upp. En del binds samtidigt i levande organismer och annat organiskt material. Det är därför ett lövtäcke inte fungerar som en omedelbar, färdigdoserad näringsgiva.
