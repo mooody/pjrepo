@@ -1,19 +1,19 @@
 ---
-title: Förädling av skörden
-description: Chilins olika smaker i såser, marmelader och nya produktidéer.
+title: Ta vara på skörden – odling och mathantverk
+description: Förvaring, fermentering och matlagning med råvaror från vår odling, med chili som en av specialiteterna.
 draft: false
 projectStatus: pågår
 image: fermenteringskarl
 ---
 
-## Från skörd till smak
+## Från odling till användning
 
-Chili, grönsaker och frukt möts i våra såser och marmelader. Vi vill lyfta varje chilisorts karaktär och hitta balansen mellan hetta, sötma och syra.
+Vi odlar för att kunna använda det vi skördar. I köket handlar arbetet både om att ta hand om råvarorna när de är färska och om att prova olika sätt att bevara och förädla dem. Chili är en viktig del, men vi är lika nyfikna på vad vi kan göra med grönsaker, frukt och bär.
 
-## Fler sätt att njuta av chili
+## Våra försök
 
-Chilisalt, smaksatta oljor och sötsaker är några av idéerna vi vill utveckla vidare. Den egna odlingen ger inspiration till nya kombinationer och fler sätt att ta vara på chilifrukten.
+Fermenterad chili, såser, marmelader och inläggningar är några av de arbeten vi utforskar. Vi dokumenterar smak, arbetsmoment och lärdomar, samtidigt som vi skiljer egna försök från granskade metoder för livsmedelssäkerhet.
 
-[Läs mer om vårt arbete med förädling](/foradla/).
+[Läs guiderna om att ta vara på skörden](/foradla/) och börja gärna med [fermentering](/fermentering/).
 
 [Se produkterna från 2026](/produkter-2026/) för exempel på såser och marmelader som tagits fram under året.
