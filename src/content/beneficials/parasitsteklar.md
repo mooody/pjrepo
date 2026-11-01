@@ -75,9 +75,7 @@ Colemani-gruppen är ett pedagogiskt exempel och omfattar arter som numera skilj
 
 Den tidigare serien vid 25 °C, med Aphis gossypii som värd, gav ca 10–11 dygn till vuxen. Den blandas inte med de nya instartiderna. Andra försök vid 21 °C har också gett kortare tider; temperatur ensam förklarar inte skillnaden mellan försöken.
 
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
-
-**Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
+Tiderna är ungefärliga och varierar med art, temperatur och tillgång till föda.
 
 ## Bilder och identifiering
 

@@ -86,9 +86,7 @@ Flyttblomfluga är exemplet. Endast vissa blomflugor har bladlusätande larver; 
 
 Vuxna kan i andra försök leva flera veckor längre. Nektar och pollen är viktiga.
 
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
-
-**Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
+Tiderna är ungefärliga och varierar med art, temperatur och tillgång till föda.
 
 ## Bilder och identifiering
 

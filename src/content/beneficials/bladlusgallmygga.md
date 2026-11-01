@@ -69,9 +69,7 @@ Gäller bladlusgallmyggan, inte gallmyggor i allmänhet. Många andra gallmyggor
 
 På friland kan larvstadiet ta ca 1–2 veckor och kokongstadiet upp till ca 3 veckor; vintervila förlänger mer.
 
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
-
-**Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
+Tiderna är ungefärliga och varierar med art, temperatur och tillgång till föda.
 
 ## Bilder och identifiering
 

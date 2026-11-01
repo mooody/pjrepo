@@ -69,11 +69,7 @@ Vald exempelart: Orius majusculus, bofast och reproducerande i Sverige. Ungefär
 
 Orius majusculus är ett svenskt relevant exempel, inte en belagd vanligast-art för hela gruppen. Andra Orius-arter kan skilja sig i färg, storlek och utveckling. Kort dag kan ge vuxendiapaus och en vinterperiod som inte ingår i det varma varvet.
 
-- Nymftider från Hejzlar & Kabíček (2000), 25 ± 1 °C, 75 ± 5 % relativ luftfuktighet, 16L:8D och humlebladlus som byte. Äggtid och vuxenliv från Mouratidis m.fl. (2022), 25 ± 1 °C, 70 ± 10 % relativ luftfuktighet, 16L:8D och F. occidentalis som föda. Tripsförsöket gav ca 15 dygn från ägg till vuxen, vilket visar att serierna inte är utbytbara.
-
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
-
-**Tider och mått är ungefärliga och gäller det tydligt beskrivna artexemplet, inte hela gruppen eller en svensk trädgårdskalender.** Tidsuppgifter från olika försök ska inte behandlas som ett enda uppmätt förlopp. Vuxenliv är skilt från ägg–vuxen-tiden.
+Utvecklingstiden varierar med temperatur och föda.
 
 ## Bilder och identifiering
 

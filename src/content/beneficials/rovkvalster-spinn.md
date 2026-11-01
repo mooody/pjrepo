@@ -72,9 +72,7 @@ Vald exempelart: Phytoseiulus persimilis. Ca 25 °C, 75 % RH, föda Tetranychus 
 
 Phytoseiulus persimilis är en spinnspecialist. Neoseiulus californicus och andra rovkvalster kan ha andra tider, födobehov och klimattålighet.
 
-Detta ersätter det äldre 20-gradersunderlagets härledda nymftider med separata uppmätta tider från samma kontrollserie vid ca 25 °C.
-
-**Värdena är ett begränsat laboratorieexempel, inte förväntad svensk normalutveckling.** Vuxenliv är skilt från utvecklingstiden till vuxen. Olika föda och förhållanden kan ändra resultaten.
+Utvecklingstiden varierar med temperatur och föda.
 
 ## Kännetecken och kontroll
 
