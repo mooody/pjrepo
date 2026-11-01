@@ -4,6 +4,9 @@
 
 Detta dokument är en gemensam referens för utvecklingschattar och kodassistenter. Läs också [`AGENTS.md`](../AGENTS.md). Dokumentet är ett arbetssätt, inte en teknisk behörighetsspärr. Om användarens aktuella uttryckliga instruktioner avviker från detta dokument, uppmärksamma konflikten och inhämta godkännande innan riskfyllda ändringar.
 
+
+**Överordnad säkerhetsregel (28 oktober 2026):** [Gemensamma säkerhetsregler för AI-agenter](https://docs.google.com/document/d/1zl8zZCzoOOgjZwAjLiITLPGJG6AyWaCrThrKQ716m_E/edit). Full åtkomst ger ingen rätt att genomföra känsliga slutåtgärder. AI får förbereda kod, tester och PR:er, men **användaren gör alltid merge manuellt**, även efter innehållsgodkännande. AI får inte aktivera automerge, committa direkt till main för att kringgå granskningen, starta produktionspublicering, godkänna betalningar eller utöka säkerhetsrättigheter som slutsteg. Säkerhetsgränsen gäller före äldre formuleringar som ”merge efter godkännande”.
+
 > **Huvudregel:** Förbättra innehåll inom befintliga strukturer. Ändra inte fungerande CMS, driftsättning, bildhantering, säkerhet eller gemensam arkitektur utan uttryckligt godkännande.
 
 ## 1. Syfte, språk och kvalitet
@@ -81,7 +84,7 @@ GitHub och faktiska driftsfiler är källan till aktuell teknisk status; äldre 
 2. Kontrollera att annan chatt inte redan arbetar med samma filer eller område. Fortsätt i rätt arbetsgren/PR när det är lämpligt och undvik dubbletter.
 3. Skapa normalt en särskild arbetsgren per uppdrag; gör små, fokuserade commits. Arbeta inte direkt i `main` utan uttrycklig instruktion.
 4. Rör inte orelaterade filer. Undvik massomformatering, breda migreringar, force-push och skrivningar som riskerar annat arbete.
-5. Skapa pull request med sammanfattning, filförteckning, risker och testresultat. Slå inte ihop utan godkännande.
+5. Skapa pull request med sammanfattning, filförteckning, risker och testresultat. AI får aldrig göra merge, även om PR:en är godkänd; användaren genomför merge manuellt.
 6. Kör befintliga kontroller. Vid fel: undersök loggar, rätta grundorsaken och testa om. Kringgå inte säkerhetsgrindar eller ta bort tester för att få grönt.
 7. Redovisa tydligt skillnaden mellan **sparat i arbetsgren**, **PR**, **sammanslaget med main**, **godkänt bygge** och **publicerat på server**.
 8. Använd aldrig gamla bygg-ID:n som om de gällde nya commits; verifiera alltid aktuell commit och Actions-körning.
