@@ -2,11 +2,26 @@
 
 ## 2026-10-26 – Bild till Biologiskt växtskydd (arbetsgren, PR för granskning)
 - **Uppdrag:** ersätta sidmallens ”bild saknas” högst upp på `/biologiskt-vaxtskydd/` med Mickes ljusjusterade foto av blommande odlingsbäddar.
-- **Genomfört i arbetsgrenen `content/bild-biologiskt-vaxtskydd-20261026`:** sidan får det befintliga `image`/`imageAlt`-fältet, nytt bild-ID `biologiskt-vaxtskydd-odlingsbadd` i `src/data/images.json` och kompletterat `web-images/index.json`. Åtta optimerade, vattenstämplade WebP-varianter i `web-images/` enligt befintliga bildmått och exportlogik. Eget foto, AI-stödd ljus- och färgbearbetning anges i bildtexten.
+- **Genomfört i arbetsgrenen `content/bild-biologiskt-vaxtskydd-20261026`:** sidan får det befintliga `image`/`imageAlt`-fältet, nytt bild-ID `biologiskt-vaxtskydd-odlingsbadd` i `src/data/images.json` och kompletterat `web-images/index.json`. Åtta optimerade, vattenstämplade WebP-varianter i `web-images/` enligt befintliga bildmått och exportlogik. Eget foto, med ljus- och färgbearbetning dokumenterad i bildjournalen, medan besökarens bildtext beskriver motivet.
 - **Skydd:** användaroriginalet och den bearbetade PNG-filen hålls utanför det offentliga repositoryt; endast färdiga webbexporter sparas. CMS, schema, bildpipeline, server och andra webbplatser är oförändrade.
 - **Kontroller:** lokal kontroll av bildstorlek, WebP-format och synlig vattenstämpel utförd. GitHub Actions [Validate and build #40306991609](https://github.com/mooody/pjrepo/actions/runs/40306991609) för bild- och innehållscommit `9d3522a9` är **success** (verifiering och byggning). Denna efterföljande loggcommit får egen kontroll; inget produktionstest har gjorts.
 - **Dokumentation:** `docs/images.md` uppdaterad. Aktuella `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
 - **Status:** källfiler sparade i arbetsgren för PR-granskning. Inte mergat med `main` och **inte publicerat i produktion**. Återstående steg: verifiera Actions, granska PR och få separat godkännande för senare produktionspublicering.
+
+
+## 2026-10-31 – Redaktionell rensning av alla produkttexter (separat PR)
+- **Beställt:** ta bort interna kommentarer om etikettunderlag, kommande granskning och upprepade uppmaningar att läsa etiketten i produktpresentationerna.
+- **Genomfört i grenen `content/produkttexter-utan-arbetskommentarer-20261031`:** alla tio produktbeskrivningar kontrollerade; upprepade ”Se etiketten ...”-meningar i nio produktfiler och kontrolltexten i Hett Möte borttagna. Kompletterande korta språkjusteringar gör uppgifterna om två batcher och CSI tydligare utan ändrade faktavärden. I den gemensamma produktsidemallen har den överflödiga förklaringen till etikettavsnittet tagits bort, men rubrik, originaletikett och länken till full storlek är kvar.
+- **Dokumentation:** `docs/products-2026.md` kompletterad med redaktionell princip: besökartext fokuserar på produkten, medan oavslutade kontrollfrågor fortsätter dokumenteras internt. De tidigare anteckningarna om B2610-9:s hållbarhet, nettomängd och E211 kvarstår i dokumentationen och batchjournalen.
+- **Teknik:** endast befintligt redaktionellt innehåll och en statisk förklaringsmening i vyn ändrade. Ingen CMS-struktur, etikettbild, ingrediensmärkning, URL, serverfunktion, säkerhet eller driftsättning ändras. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Verifiering och status:** ändringar lagda i arbetsgren för PR och `Validate and build`; resultat redovisas från Actions. Inte mergat, inte produktionspublicerat.
+
+## 2026-10-31 – Hett Möte (B2610-9), produktarkiv och bilder (PR för granskning)
+- **Beställt:** skapa produkten B2610-9 enligt befintligt produktmönster. Katalogtitel **Hett Möte** följer de befintliga etikett- och produktbilderna; Dundergel är batchjournalens arbetsnamn.
+- **Genomfört i arbetsgrenen `content/hett-mote-b2610-9-20261031`:** ny produktfil `src/content/products/hett-mote.md`, ny bildkoppling i `src/pages/produkter-2026/index.astro` och tre webbanpassade WebP-filer i `public/product-images/`. Produktfoto 1000 × 1000, fullständig etikett 1700 × 519 och webbetikett 1700 × 522; transparenta etikettkanter bevarade och illustrationen/etiketttexten lämnade oförändrade. Privata PNG-underlag i Drive orörda.
+- **Underlag:** batch B2610-9, tillverkningsdag 2026-10-31, 24 rapporterade burkar à nominellt 41 ml, uppmätt pH 3,2, uppskattad CSI ≈ 43 400/styrka 8/10. Faktisk fyllmängd per burk och hållbarhet ej fastställda. Originaletiketten anger 2027-10 som bäst före, men det är inte verifierat. Tillsats E211 och dess tillåtlighet för den aktuella kategorin måste kontrolleras före försäljning.
+- **Avgränsning:** katalogsidan är inte en webbutik. Inga produktions- eller serverändringar, inga nya CMS-fält, ingen ändring av bildrutiner, schema, auth eller publiceringsflöde. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Status:** filer införda i arbetsgren, PR och CI kräver kontroll efter commit. Inte mergat, inte publicerat i produktion.
 
 ## 2026-10-26 – Indexeringsuppföljning och interna länkar (SEO-arbetsgren)
 - **Underlag:** separat Search Console-rapport daterad 2026-10-26 och befintlig `docs/SEO_AUDIT.md`. Inget generellt tekniskt indexeringsfel har bekräftats; varningar om canonical-dubbletter och HTTP-omdirigering föranleder ingen serverändring.

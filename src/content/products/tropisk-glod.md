@@ -15,5 +15,3 @@ draft: false
 Tropisk Glöd är en ananasbaserad chilisås med Habanero Red, morot, röd paprika och ingefära. Fruktsötman balanseras av äppelcidervinäger och chilihetta.
 
 Batch B2610-7 gav 18 flaskor av typen 250 ml.
-
-Se etiketten nedan för produktens märkning och ingrediensförteckning.

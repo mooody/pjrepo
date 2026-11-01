@@ -14,5 +14,3 @@ draft: false
 
 Röd Glöd är en fyllig, het chilisås med fermenterad chili, mango, rödlök och vitlök. Den kombinerar fruktighet med tydlig hetta.
 
-
-Se originaletiketten nedan för ingredienser och märkning.
