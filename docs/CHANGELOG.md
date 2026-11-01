@@ -1,5 +1,12 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-27 – Bildförslag från temporär Drive-mapp (dokumentations-PR)
+- **Beställt:** föreslå passande bilder från Drive-mappen `Trädgårdsdrömmar- temporära bilder` vid framtida artiklar och guider.
+- **Genomfört i arbetsgrenen `docs/drive-bildforslag-20261027`:** kompletterat `docs/PROJECT_RULES.md` och `docs/images.md` med redaktionell rutin för att söka bildkandidater, ange lämplig placering och bildtext samt granska bearbetade foton före eventuell publicering.
+- **Kontrollerat:** mappen finns i privat Google Drive. Original, webbens bild-ID, CMS, server, säkerhet, bildexport och produktionspublicering är oförändrade. `AGENTS.md` granskat utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Konfliktlösning 2026-11-01:** texten har lagts ovanpå aktuella `main` efter merge av PR #39, #38, #36 och #42. Senare ändringar i projektregler, bilder, innehåll och ändringslogg har bevarats. Inga webbplatsfiler, serverinställningar eller originalbilder har ändrats.
+- **Status:** uppdaterat i PR #37 för ny granskning och CI-verifiering. Inte mergat eller publicerat i produktion.
+
 ## 2026-11-01 – Naturligare bildtexter i artiklarna (PR för granskning)
 - **Beställt:** gå igenom återstående artiklar och ta bort tekniska kommentarer om AI-generering, illustrativ eller digital bearbetning och normala ljus-/färgjusteringar från besökartexter.
 - **Granskning:** produkttexterna hade redan fått separat redaktionell genomgång. Återstående innehållssamlingar (odlingsmetoder, chili, nyttodjur, skadedjur, vanliga sidor och projekt) har genomgåtts med fokus på bildtexter. Onödiga formuleringar återfanns främst i det centrala bildmanifestet.
