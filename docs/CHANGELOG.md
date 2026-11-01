@@ -1,5 +1,14 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-10-26 – Bild till Biologiskt växtskydd (arbetsgren, PR för granskning)
+- **Uppdrag:** ersätta sidmallens ”bild saknas” högst upp på `/biologiskt-vaxtskydd/` med Mickes ljusjusterade foto av blommande odlingsbäddar.
+- **Genomfört i arbetsgrenen `content/bild-biologiskt-vaxtskydd-20261026`:** sidan får det befintliga `image`/`imageAlt`-fältet, nytt bild-ID `biologiskt-vaxtskydd-odlingsbadd` i `src/data/images.json` och kompletterat `web-images/index.json`. Åtta optimerade, vattenstämplade WebP-varianter i `web-images/` enligt befintliga bildmått och exportlogik. Eget foto, med ljus- och färgbearbetning dokumenterad i bildjournalen, medan besökarens bildtext beskriver motivet.
+- **Skydd:** användaroriginalet och den bearbetade PNG-filen hålls utanför det offentliga repositoryt; endast färdiga webbexporter sparas. CMS, schema, bildpipeline, server och andra webbplatser är oförändrade.
+- **Kontroller:** lokal kontroll av bildstorlek, WebP-format och synlig vattenstämpel utförd. GitHub Actions [Validate and build #40306991609](https://github.com/mooody/pjrepo/actions/runs/40306991609) för bild- och innehållscommit `9d3522a9` är **success** (verifiering och byggning). Denna efterföljande loggcommit får egen kontroll; inget produktionstest har gjorts.
+- **Dokumentation:** `docs/images.md` uppdaterad. Aktuella `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Status:** källfiler sparade i arbetsgren för PR-granskning. Inte mergat med `main` och **inte publicerat i produktion**. Återstående steg: verifiera Actions, granska PR och få separat godkännande för senare produktionspublicering.
+
+
 ## 2026-10-31 – Redaktionell rensning av alla produkttexter (separat PR)
 - **Beställt:** ta bort interna kommentarer om etikettunderlag, kommande granskning och upprepade uppmaningar att läsa etiketten i produktpresentationerna.
 - **Genomfört i grenen `content/produkttexter-utan-arbetskommentarer-20261031`:** alla tio produktbeskrivningar kontrollerade; upprepade ”Se etiketten ...”-meningar i nio produktfiler och kontrolltexten i Hett Möte borttagna. Kompletterande korta språkjusteringar gör uppgifterna om två batcher och CSI tydligare utan ändrade faktavärden. I den gemensamma produktsidemallen har den överflödiga förklaringen till etikettavsnittet tagits bort, men rubrik, originaletikett och länken till full storlek är kvar.

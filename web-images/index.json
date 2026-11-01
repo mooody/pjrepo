@@ -1659,6 +1659,61 @@
           }
         ]
       }
+    },
+    {
+      "id": "biologiskt-vaxtskydd-odlingsbadd",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "biologiskt-vaxtskydd-odlingsbadd-full-480.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "file": "biologiskt-vaxtskydd-odlingsbadd-full-800.webp",
+            "width": 800,
+            "height": 600
+          },
+          {
+            "file": "biologiskt-vaxtskydd-odlingsbadd.webp",
+            "width": 1448,
+            "height": 1086
+          }
+        ],
+        "card": [
+          {
+            "file": "biologiskt-vaxtskydd-odlingsbadd-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "biologiskt-vaxtskydd-odlingsbadd-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "biologiskt-vaxtskydd-odlingsbadd-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "biologiskt-vaxtskydd-odlingsbadd-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "biologiskt-vaxtskydd-odlingsbadd-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
     }
   ]
 }
