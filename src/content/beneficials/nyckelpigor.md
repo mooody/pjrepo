@@ -75,4 +75,3 @@ Om plantan klarar angreppet kan du följa samma skott under några dagar och fot
 
 Att köpa vuxna nyckelpigor innebär inte säkert att de stannar på plantan. De kan flyga iväg. Kontrollera alltid art, ursprung och livsstadium innan du överväger utsättning. Börja med att undersöka vilka naturliga fiender som redan finns och hur odlingen kan ge dem bättre förutsättningar.
 
-Den detaljerade livscykelillustrationen och stadiebilderna finns i vårt granskade förarbete, men ska exporteras med korrekt märkning och vattenstämpel innan de används här. Tills dess finns fotoreferenserna ovan.

@@ -40,7 +40,7 @@ Pollenkornen kan flyttas med blommans rörelser, luftdrag och insektsbesök. Hum
 
 ![Botanisk illustration av en vit chiliblomma med utmärkta ståndarknappar, ståndarsträngar, pistill, märke, stift, fruktämne, kronblad och foderblad.](/illustrationer/chiliblommans-anatomi.png)
 
-*Chiliblommans anatomi – en schematisk illustration av blommans delar.*
+*Chiliblommans anatomi – blommans olika delar.*
 
 **Praktiskt tips:** När chili blommar inomhus i stillastående luft kan man skaka blommande grenar mycket försiktigt för att hjälpa pollenöverföringen. Det löser däremot inte problem med pollenets livsduglighet, temperatur eller andra odlingsförhållanden.
 
@@ -61,7 +61,7 @@ En frukt innehåller många fröämnen. Vid normal könlig fröbildning behöver
 
 ![Sex steg i chilins dubbla befruktning, från pollen på pistillens märke via pollenslang och två spermieceller till embryo, endosperm, frö och frukt.](/illustrationer/chili-dubbel-befruktning.png)
 
-*Dubbel befruktning – från pollinering till frö- och fruktutveckling (schematiskt, inte skalenligt).*
+*Dubbel befruktning – från pollinering till frö- och fruktutveckling.*
 
 ## 4. Varför faller chiliblommorna av?
 

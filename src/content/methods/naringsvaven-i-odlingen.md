@@ -56,7 +56,7 @@ Blomning kan alltså ge föda åt en vuxen insekt vars larver senare jagar på b
   <a href="/media/guldogonslanda-larv-foto.webp">
     <img src="/media/guldogonslanda-larv-foto-card-800.webp" alt="Långsmal mörkmönstrad larv med ben framtill och två böjda käkar på en blomma." width="800" height="533" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Larven bedöms vara ett bladluslejon, en guldögonsländelarv. Fotot visar ett fynd på en blomma, inte ett dokumenterat födointag. Eget foto: Mikael Forsberg. Arten är inte säkert bestämd. <a href="/media/guldogonslanda-larv-foto.webp">Visa hela larvfotot</a>.</figcaption>
+  <figcaption>Troligen ett bladluslejon, en guldögonsländelarv, på en blomma. Guldögonsländelarver är naturliga fiender till bladlöss. <a href="/media/guldogonslanda-larv-foto.webp">Visa hela larvfotot</a>.</figcaption>
 </figure>
 
 I [artikeln om guldögonsländor](/nyttodjur/guldogonslandor/) finns fler bilder av ägg, larv och vuxen samt en förklaring av livscykeln.
@@ -89,7 +89,7 @@ Tabellen visar utvalda samband, inte en fullständig karta över en viss trädg�
   <a href="/media/jordliv-rot-mykorrhiza.webp">
     <img src="/media/jordliv-rot-mykorrhiza-full-800.webp" alt="Illustration av en levande rot med svamptrådar och separat nedbrytning av växtrester vid markytan." width="800" height="533" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Levande rötter och dött växtmaterial bidrar på olika sätt till marklivet. Illustrationen är förenklad och inte skalenlig. Den är ingen fullständig näringsväv. <a href="/media/jordliv-rot-mykorrhiza.webp">Visa större bild</a>.</figcaption>
+  <figcaption>Rötter samverkar med svampar, medan andra svampar bryter ned döda växtrester. <a href="/media/jordliv-rot-mykorrhiza.webp">Visa större bild</a>.</figcaption>
 </figure>
 
 När organismer äts och organiskt material bryts ned kan näringsämnen frigöras i former som rötterna kan ta upp. En del binds samtidigt i levande organismer och annat organiskt material. Det är därför ett lövtäcke inte fungerar som en omedelbar, färdigdoserad näringsgiva.

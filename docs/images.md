@@ -2,9 +2,9 @@
 
 ## Redaktionella bildtexter – 1 november 2026
 
-Bildtexter på webbplatsen beskriver i första hand motivet och varför det är relevant i artikeln. Normal webboptimering, beskärning och enklare ljus- eller färgjustering behöver inte anges intill varje bild. Tekniskt ursprung, AI-stöd och tidigare bearbetning dokumenteras fortsatt i denna interna bildjournal och i ändringsloggen när det behövs för spårbarhet.
+Bildtexter på webbplatsen beskriver i första hand motivet och varför det är relevant i artikeln. Synligt tecknade illustrationer behöver inte förses med förklaringar om att de är tecknade, AI-genererade, förstorade eller inte skalenliga. Normal webboptimering, beskärning och enklare ljus- eller färgjustering anges inte vid varje bild. Tekniskt ursprung, AI-stöd och tidigare bearbetning dokumenteras fortsatt i denna interna bildjournal för spårbarhet.
 
-När en bild är en **schematisk illustration** eller visar en **tänkt miljö** används en saklig beskrivning som förhindrar att den förväxlas med ett verifierat fotografi, ett artbestämningsbelägg eller en skalenlig avbildning. Väsentliga osäkerheter om art, livsstadier, storlek och försökstider behålls. Tredjepartsfoto behåller upphovsuppgifter enligt gällande bildrutin. Denna redaktionella förenkling ändrar **inte** bildfiler, upphov, ursprung, licenser, vattenstämplar, CMS eller bildpipeline.
+Fördjupade försöksvillkor och metodförbehåll hör inte hemma i varje bildtext. För djur och livscykler prioriteras en lättförståelig överblick med ungefärliga tider när dessa är belagda. Osäkra fynd får däremot inte ges en säker artidentitet, och bilder får inte användas som belägg för något som inte observerats. Tredjepartsfoto behåller upphovsuppgifter enligt gällande bildrutin. Denna redaktionella förenkling ändrar **inte** bildfiler, upphov, ursprung, licenser, vattenstämplar, CMS eller bildpipeline.
 
 Berörda manifestposter: `odlingslott-jord`, `jordrulle-test`, `mangfald-stubbe`, `mangfald-nyttodjur`, `jordliv-rot-mykorrhiza`, `kompost-tre-stadier`, `tackodling-hostlov`, `guldogonslanda-vuxen`, `guldogonslanda-larv`, `guldogonslanda-livscykel`, `odla-med-naturen`. Artikeltexter för näringsväven, guldögonsländornas livscykel och jordlöparens livsmiljö har motsvarande justeringar; historiska uppgifter om bildursprung nedan bevaras oförändrade.
 

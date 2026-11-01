@@ -61,7 +61,7 @@ Vuxna blomflugor behöver blommande växter med nektar och pollen. Försök få 
   <a href="/media/mangfald-nyttodjur-full-800.webp">
     <img src="/media/mangfald-nyttodjur-full-800.webp" alt="Pedagogisk översikt över blommande vegetation och olika livsmiljöer i en trädgård." width="800" height="667" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Blommande växter och varierade miljöer kan hjälpa flera grupper av nyttodjur. Schematisk illustration, inte bestämningsbild av en blomfluga.</figcaption>
+  <figcaption>Blommande växter och varierade miljöer kan ge mat och skydd åt många nyttodjur.</figcaption>
 </figure>
 
 ## Samspel med andra djur
