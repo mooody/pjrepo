@@ -13,5 +13,3 @@ draft: false
 ---
 
 Marmelad med squash, apelsin, ingefära och Habanero Chocolate.
-
-Se etiketten längre ned för exakt innehållsförteckning och märkning.

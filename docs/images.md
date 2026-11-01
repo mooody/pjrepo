@@ -1,5 +1,13 @@
 # Skyddade original och offentliga webbexporter
 
+## Redaktionella bildtexter – 1 november 2026
+
+Bildtexter på webbplatsen beskriver i första hand motivet och varför det är relevant i artikeln. Synligt tecknade illustrationer behöver inte förses med förklaringar om att de är tecknade, AI-genererade, förstorade eller inte skalenliga. Normal webboptimering, beskärning och enklare ljus- eller färgjustering anges inte vid varje bild. Tekniskt ursprung, AI-stöd och tidigare bearbetning dokumenteras fortsatt i denna interna bildjournal för spårbarhet.
+
+Fördjupade försöksvillkor och metodförbehåll hör inte hemma i varje bildtext. För djur och livscykler prioriteras en lättförståelig överblick med ungefärliga tider när dessa är belagda. Osäkra fynd får däremot inte ges en säker artidentitet, och bilder får inte användas som belägg för något som inte observerats. Tredjepartsfoto behåller upphovsuppgifter enligt gällande bildrutin. Denna redaktionella förenkling ändrar **inte** bildfiler, upphov, ursprung, licenser, vattenstämplar, CMS eller bildpipeline.
+
+Berörda manifestposter: `odlingslott-jord`, `jordrulle-test`, `mangfald-stubbe`, `mangfald-nyttodjur`, `jordliv-rot-mykorrhiza`, `kompost-tre-stadier`, `tackodling-hostlov`, `tackodling-genomskarning`, `guldogonslanda-vuxen`, `guldogonslanda-larv`, `guldogonslanda-livscykel`, `odla-med-naturen`, `guldogonslanda-agg-foto`, `guldogonslanda-larv-foto`. Artikeltexter för näringsväven, guldögonsländornas livscykel och jordlöparens livsmiljö har motsvarande justeringar; historiska uppgifter om bildursprung nedan bevaras oförändrade.
+
 ## Bildförslag från temporära Drive-mappen – 27 oktober 2026
 
 Vid planering eller granskning av artiklar och guider: sök efter passande fotografier i den privata Google Drive-mappen **Trädgårdsdrömmar- temporära bilder**. Den innehåller ljus- och färgbearbetade bilder av bland annat täckodling, kompost, chiliskörd, förädling och blommande växter. Kontrollera det aktuella urvalet; innehållet kan förändras.
@@ -86,3 +94,9 @@ Mickes bifogade `6230.jpg` (ägg) och `1792825861124.jpeg` (larv) används som o
 Ett försök att justera ljus med bildverktyget gav ändrade små detaljer och underkändes. De AI-bearbetade versionerna används inte på webbplatsen och är inte identifikationsunderlag. Publicerade exporter kommer från användarens original, med enbart ordinarie webbexport: beskärning av kort/hero/delningsbild, förminskning, WebP och befintlig vattenstämpel efter beskärning. Ingen ljusändring införd. Artikeln visar 3:2-beskärningarna med länkar till hela webbversionen. Äggets hela skaft och larvens hela kropp/käkar finns kvar i visningen. Befintlig larvillustration finns kvar och nås som jämförelselänk; livscykeln behålls.
 
 Kännetecken jämförda med UC IPM:s namngivna foton av skaftägg och larv i Green Lacewings. Referensbildernas bildtexter och motiv kontrollerade; inga externa referensfoton återpubliceras. Benämningen bladluslejon kontrollerad mot Lunds universitet, Fråga en biolog. Foton används på grupp-/livsstadienivå, utan påstående om säker artbestämning. Bildmanifest/index kompletterat med två egna foton och 16 exporter genom oförändrad processImages i separat exportkatalog.
+
+## 2026-10-26 – Sommarträdgård på Biologiskt växtskydd
+
+Den nya webbexporten `biologiskt-vaxtskydd-odlingsbadd` bygger på Mickes fotografi av blommande, upphöjda odlingsbäddar. Det valda motivet har bearbetats digitalt med AI-stöd för jämnare ljus och färger. Bilden används som inledande bild på `/biologiskt-vaxtskydd/` via befintliga vanliga sidors `image`-fält; ingen ny bildkomponent eller CMS-struktur behövs.
+
+Originalfotografiet och bearbetningsfilen lagras utanför det offentliga repositoryt. De åtta publika WebP-versionerna (full, kort, stående huvudbild och delning) har skapats i separat arbetskatalog med webbplatsens befintliga beskärningsmått och diskreta vattenstämpel efter beskärning. Bara färdiga exporter, indexpost och en manifestpost med tomt `source` införs. Bildtexten beskriver odlingsmiljön utan tekniska bearbetningskommentarer; bildens ursprung dokumenteras här. Ingen annan bild har exporterats om.

@@ -2,15 +2,19 @@
 
 **Status:** redaktionell arbetsmodell i PR, inte CMS-schema, ny samling eller ny publiceringsmetod. Alla adresser ligger kvar under `/nyttodjur/` respektive `/skadedjur/`. Tre olika läsarflöden används. Rubriker får anpassas, flyttas eller kompletteras om djurets biologi kräver det. Ingen sida ska fyllas med upprepade standardfraser för att följa mallen.
 
+## Läsarnivå och redaktionell ton
+
+Målet är att väcka intresse och ge odlingsintresserade en begriplig överblick: hur djuret känns igen, vad det gör i trädgården, hur livscykeln ser ut och vad som gynnar eller missgynnar det. Håll stycken och bildtexter korta. Beskriv en typisk utveckling med ungefärliga tider där de är belagda; variationen mellan arter och årstider innebär att det inte går att ge ett enda exakt facit. Vetenskapliga detaljer och försökens villkor används bara när de behövs för att inte vilseleda, och kan annars finnas i källmaterialet. Extra fördjupning i andra specialartiklar, exempelvis chilins befruktning, är möjlig.
+
 ## Gemensamt för alla tre grupper
 
 - **Rubrik och ingress:** en kort `description` (ca 1–2 meningar) visas av artikelmallen direkt under H1 och används som sidbeskrivning. **Skriv inte samma ingress igen som första brödtextstycke.** Brödtext kan däremot börja med ett *nytt* konkret exempel eller en relevant skillnad.
 - **Kännetecken:** kortfattat och praktiskt. Två till fem avgörande drag, var djuret eller skadan syns och vilka förväxlingar som är vanliga. Fördjupade färger, instarlängder och mått flyttas till bildtext/livscykel om de inte är avgörande för identifiering. Illustration är inte bevis för artbestämning.
 - **Miljö och årstid:** förklara var och när djuret finns samt förutsättningar för föda, skydd, reproduktion och vinterstadium. Förebyggande skötsel placeras i detta avsnitt, inte på två ställen.
 - **Samspel:** koppla till relevanta nyttodjur/skadegörare; länka bara till befintliga sidor. Beskriv inte varje möjlig relation som etablerad.
-- **Livscykel:** förenklad huvudcykel med tydligt markerad exempelart och eventuella försöksvillkor; aldrig hitta på saknade stadietider. Vuxenliv räknas inte till ägg–vuxen-tiden. En faktagranskad, förenklad illustration placeras intill förklaringen när en skyddad webbexport finns.
+- **Livscykel:** visa de viktigaste stadierna och gärna ungefärlig utvecklingstid när det finns stöd för den. Beskriv variation mellan arter och temperatur enkelt i löptexten, utan laboratoriedetaljer i bildtexten. Hitta aldrig på saknade tider. En lättläst bild placeras vid livscykeln när den finns som godkänd webbexport.
 - **Källor, granskning och relaterade länkar** hanteras av befintlig sidmall och befintliga metadatafält. Undvik att upprepa dem som samma information i brödtexten.
-- **Bilder:** en relevant bild vid identifiering när sådan finns; livscykelbild vid cykelavsnittet. Källa, korrekt alt-text, begränsning och AI-illustrationsstatus ska framgå. Endast redan skyddade och vattenstämplade webbexporter får refereras i det publika repot.
+- **Bilder:** en relevant bild när sådan finns och gärna en livscykelbild. Bildtexten ska i första hand säga något intressant om motivet. Förklara inte att en synligt tecknad bild är en illustration och upprepa inte AI-generering, förstoring, skala eller vanlig ljusbearbetning. Dokumentera bildursprung i bildjournalen. Osäker artidentitet ska inte framställas som ett säkert fynd. Endast redan skyddade och vattenstämplade webbexporter får refereras i det publika repot.
 - **Specialavsnitt är välkomna:** till exempel hyperparasitoider, sort-/värdväxling, parasitstekelmumier, myror, vinterdiapaus, virusöverföring, skördens kvalitet eller diagnostik med mikroskop.
 
 ## 1. Skadedjur – besluta vad som ska göras

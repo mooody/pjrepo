@@ -1,6 +1,6 @@
 # Produkter 2026
 
-Produktarkivet finns på `/produkter-2026/` och har sex befintliga produktposter och ytterligare tre nya (B2610-4, B2610-7 och B2610-8) i arbetsgrenen för PR #34.
+Produktarkivet finns på `/produkter-2026/` och omfattar tio produktposter (2026-10-31), inklusive Hett Möte (B2610-9).
 
 ## Visning
 
@@ -9,6 +9,14 @@ Produktarkivet finns på `/produkter-2026/` och har sex befintliga produktposter
 - Alla färdigställda etiketter visas med bevarad text, proportioner och utformning. Inga nya vattenstämplar har lagts till. Optimerade bilder är enskilda WebP-filer under `public/product-images/`.
 - **B2610-5 Röd Glöd:** produktfotot `röd-glöd-B2610-5.png` hämtades från Drive 2026-10-20 och exporterades till `public/product-images/rod-glod-foto.webp` (1200 × 1200 px, 209 kB). Det visas nu som huvudbild på detaljsidan. Webbetiketten används fortfarande enbart på översiktssidan, och originaletiketten på detaljsidan.
 - **B2610-6 Ghost:** produktfoto, illustrerad webbetikett och riktig etikett finns med.
+
+## Redaktionell ton i produkttexter (2026-10-31)
+
+- Produktbeskrivningarna ska tala till besökaren: smak, råvaror, konsistens, hetta och relevanta batchuppgifter. Undvik intern redaktionell text, såsom att etikettunderlaget har lämnats orört eller att kontroller behöver göras inför försäljning.
+- Varje produktsida visar redan en separat sektion **Etikett och innehåll** med etikettbild och förstoring. Upprepa inte uppmaningen ”Se etiketten nedan” i varje produkttext.
+- Dokumentera frågor om slutlig etikettgranskning, tillsatsvillkor, hållbarhet, nettomängd och produktsäkerhet i respektive batchjournal och projektdokumentation, utan att ta bort dem eller ersätta dem med ogrundade säkerhetslöften på webben.
+- Redovisa beräknad styrka som just uppskattad/beräknad, utan överflödiga metodförklaringar i produkternas löptext. Detta är redaktionell förenkling, inte godkännande av märkning eller produkt.
+- Befintliga etikettbilder och bildrelationer ändras inte i detta arbete.
 
 ## Nya produkter
 
@@ -30,3 +38,12 @@ Produktarkivet finns på `/produkter-2026/` och har sex befintliga produktposter
 - **Verifiering:** GitHub visar samtliga nio filer. Alla sex etiketternas hörnpixlar har alfavärdet 0, och en visuell kontroll av bilderna har genomförts. `Validate and build` [#40247397221](https://github.com/mooody/pjrepo/actions/runs/40247397221) avslutades med **success** för aktiveringscommit `b7cdb2ab3aed3497acdf0f7268a60091a618b804`. Denna dokumentationsuppdatering måste CI-verifieras separat. `draft: false` innebär visning i PR-bygget, **inte** publicering på produktionsservern.
 - Etiketterna är ännu inte försäljnings-/hållbarhetsgodkända genom detta webbuppdrag; särskilt Tropisk Glöds originaletikett bör kontrolleras mot senaste slutkorrektur innan försäljning. Ingen sådan validering eller märkning har ändrats.
 - `docs/PROJECT_RULES.md` och `AGENTS.md` kontrollerades och kräver ingen regeländring. `docs/SERVER_OPERATIONS.md` berörs inte; ingen serverändring eller produktionspublicering utförd.
+
+## 2026-10-31 – Hett Möte (B2610-9)
+
+- Ny produktpost `src/content/products/hett-mote.md` med kategorin chiligelé, batch B2610-9 och `draft: false`, inom befintlig produktsamling och utan schemaändringar.
+- På produktöversikten används `hett-mote-webbetikett.webp`; på detaljsidan `hett-mote-foto.webp` och den fullständiga `hett-mote-etikett.webp`.
+- Bildunderlag från den privata Drive-mappen: `Produkt-B2610-9`, `webbettikett-B2610-9.png`, `ettikett-B2610-9.png`. Webbexporterna är optimerade WebP-kopior. Etiketttext och bildmotiv är inte redigerade; genomskinliga marginaler är beskurna. Inga original läggs i GitHub.
+- Produktens namn **Hett Möte** är hämtat från båda etiketterna och fotot; **Dundergel** är batchjournalens arbetsnamn. Angiven styrka 8/10 och CSI ≈ 43 400 är preliminära, medan 24 burkar à nominellt 41 ml är rapporterade. Nettomängd per burk är okänd.
+- På befintlig etikett står kylvara och bäst före 2027-10. Det finns ännu ingen verifierad hållbarhetsbedömning eller fullständig kontroll av E211 mot produktkategori och gällande tillsatsvillkor. Före försäljning krävs kontroll av märkning, process, faktisk nettomängd och förvaring. Källjournal: `B2610-9 – Dundergel med Carolina Reaper och Ghost` på Drive.
+- Ändringarna ligger endast i arbetsgren och PR för granskning; ingen merge eller produktionspublicering.

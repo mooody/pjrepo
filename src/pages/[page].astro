@@ -6,6 +6,7 @@ import settings from '../data/settings.json';
 import Image from '../components/Image.astro';
 import ui from '../data/interface.json';
 import { published } from '../lib/content';
+import { sitePath } from '../lib/urls';
 export async function getStaticPaths() {
   return (await published('pages')).map((entry) => ({
     params: { page: entry.id },
@@ -14,9 +15,36 @@ export async function getStaticPaths() {
 }
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+const harvestTopics = [
+  {
+    eyebrow: 'Syrning och smak',
+    title: 'Fermentering',
+    description: 'Hur mjölksyrabakterier förändrar grönsaker och chili – och vad som krävs för en kontrollerad process.',
+    href: '/fermentering/',
+  },
+  {
+    eyebrow: 'Kommande guide',
+    title: 'Frysning och torkning',
+    description: 'Olika sätt att bevara råvaror och vad som händer med kvalitet, smak och användning.',
+    href: null,
+  },
+  {
+    eyebrow: 'Kommande guide',
+    title: 'Inläggning och konservering',
+    description: 'Skillnaden mellan syra, socker, salt, värmebehandling och andra metoder.',
+    href: null,
+  },
+  {
+    eyebrow: 'Kommande guide',
+    title: 'Från skörd till kök',
+    description: 'Sortering, förvaring och idéer för att använda små och stora skördar.',
+    href: null,
+  },
+];
 const breadcrumbs = [
   { name: 'Startsida', href: '/' },
   ...(['chilifortplantning', 'chiliarter'].includes(entry.id) ? [{ name: 'Chili', href: '/chili/' }] : []),
+  ...(entry.id === 'fermentering' ? [{ name: 'Ta vara på skörden', href: '/foradla/' }] : []),
   { name: entry.data.title, href: `/${entry.id}/` },
 ];
 ---
@@ -31,6 +59,28 @@ const breadcrumbs = [
     <div class="prose">
       <Content />
     </div>
+    {entry.id === 'foradla' && (
+      <div class="grid topic-grid" aria-label="Guider om skörd och mathantverk">
+        {harvestTopics.map((topic) => topic.href ? (
+          <a class="card" href={sitePath(topic.href)}>
+            <div class="card-body">
+              <p class="eyebrow">{topic.eyebrow}</p>
+              <h2>{topic.title}</h2>
+              <p>{topic.description}</p>
+              <p class="text-link">Läs artikeln →</p>
+            </div>
+          </a>
+        ) : (
+          <div class="card">
+            <div class="card-body">
+              <p class="eyebrow">{topic.eyebrow}</p>
+              <h2>{topic.title}</h2>
+              <p>{topic.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    )}
     {entry.data.gallery.length > 0 && <div class="gallery">{entry.data.gallery.map(item => <Image id={item.image} alt={item.alt} />)}</div>}
     {entry.id === 'kontakt' && (
       <div class="contact">

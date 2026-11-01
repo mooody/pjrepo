@@ -76,7 +76,7 @@ Stratiolaelaps scimitus är exemplet. Gaeolaelaps aculeifer och andra jordkvalst
 
 Vid 20 °C tar ägg till vuxen ca 18 dygn, vid 15 °C ca 34 dygn.
 
-**Värdena är ett begränsat laboratorieexempel, inte förväntad svensk normalutveckling.** Vuxenliv är skilt från utvecklingstiden till vuxen. Olika föda och förhållanden kan ändra resultaten.
+Utvecklingstiden varierar med temperatur och föda.
 
 ## Kännetecken och kontroll
 

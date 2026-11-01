@@ -45,14 +45,14 @@ Guldögonsländor är en hel familj, och närstående arter kan vara mycket lika
   <a href="/media/guldogonslanda-agg-foto.webp">
     <img src="/media/guldogonslanda-agg-foto-card-800.webp" alt="Ett ljust grönt ovalt ägg på ett tunt skaft som är fäst vid en bladspets." width="709" height="473" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Ett guldögonsländeägg på sitt tunna skaft. Ägget och hela skaftet syns i beskärningen. Eget foto: Mikael Forsberg. Arten är inte bestämd. <a href="/media/guldogonslanda-agg-foto.webp">Visa hela äggfotot</a>.</figcaption>
+  <figcaption>Ett guldögonsländeägg på sitt tunna skaft. <a href="/media/guldogonslanda-agg-foto.webp">Visa hela äggfotot</a>.</figcaption>
 </figure>
 
 <figure>
   <a href="/media/guldogonslanda-larv-foto.webp">
     <img src="/media/guldogonslanda-larv-foto-card-800.webp" alt="Mörkmönstrad långsmal larv med ben framtill och två böjda käkar på en gulvit blomma." width="800" height="533" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Larven på blomman bedöms vara en guldögonsländelarv, ett bladluslejon. Lägg märke till den långsmala kroppen och de böjda käkarna. Eget foto: Mikael Forsberg. Ingen säker artbestämning. <a href="/media/guldogonslanda-larv-foto.webp">Visa hela larvfotot</a>. Jämför gärna med vår <a href="/media/guldogonslanda-larv.webp">pedagogiska larvillustration</a>.</figcaption>
+  <figcaption>Troligen ett bladluslejon, guldögonsländans larv. Lägg märke till kroppen och de böjda käkarna. <a href="/media/guldogonslanda-larv-foto.webp">Visa hela larvfotot</a>. Jämför gärna med vår <a href="/media/guldogonslanda-larv.webp">larvillustration</a>.</figcaption>
 </figure>
 
 ## Roll i odlingen
@@ -77,13 +77,13 @@ Myror som försvarar bladluskolonier kan försvåra jakten. Titta efter både my
 
 Efter kläckningen växer larven och ömsar hud genom tre larvstadier. Sedan spinner den en kokong och förpuppas. Den vuxna insekten lämnar kokongen och kan senare ge upphov till nya ägg.
 
-Cirkeln samlar larvens tillväxt i en enda ruta. **Alla tider och mått är ungefärliga, och stadierna visas i olika förstoring.** Ägg till vuxen tog omkring 24 dygn i det valda laboratorieförsöket vid 24 °C, med särskild föda. Det är inte en tidsprognos för en svensk trädgård.
+Hur snabbt utvecklingen går beror bland annat på art och temperatur. När det är varmt kan det för vissa arter ta omkring tre–fyra veckor från ägg till vuxen.
 
 <figure>
   <a href="/media/guldogonslanda-livscykel.webp">
     <img src="/media/guldogonslanda-livscykel-full-800.webp" alt="Guldögonsländans fyra huvudfaser visas medurs: skaftägg, en växande larv, kokong med puppa och vuxen. I ett laboratorieexempel vid 24 grader tog utvecklingen till vuxen cirka 24 dygn. Mått och tider är ungefärliga." width="800" height="864" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Förenklad livscykel för carnea-gruppen, som pedagogisk AI-illustration. Uppgiften om 7–8 veckors vuxenliv gäller honor i samma laboratoriestudie, där endast tre vuxenpar följdes. Vuxenlivet ingår inte i tiden från ägg till vuxen. <a href="/media/guldogonslanda-livscykel.webp">Visa större livscykel</a>.</figcaption>
+  <figcaption>Guldögonsländans livscykel – ägg, larv, puppa och vuxen insekt. <a href="/media/guldogonslanda-livscykel.webp">Visa större livscykel</a>.</figcaption>
 </figure>
 
 ## När du hittar dem

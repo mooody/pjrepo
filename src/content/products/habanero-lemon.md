@@ -13,5 +13,3 @@ draft: false
 ---
 
 Marmelad med zucchini, ingefära och Habanero Lemon.
-
-Se etiketten längre ned för exakt innehållsförteckning och märkning.

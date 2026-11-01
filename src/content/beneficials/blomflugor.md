@@ -61,7 +61,7 @@ Vuxna blomflugor behöver blommande växter med nektar och pollen. Försök få 
   <a href="/media/mangfald-nyttodjur-full-800.webp">
     <img src="/media/mangfald-nyttodjur-full-800.webp" alt="Pedagogisk översikt över blommande vegetation och olika livsmiljöer i en trädgård." width="800" height="667" loading="lazy" decoding="async" />
   </a>
-  <figcaption>Blommande växter och varierade miljöer kan hjälpa flera grupper av nyttodjur. Schematisk illustration, inte bestämningsbild av en blomfluga.</figcaption>
+  <figcaption>Blommande växter och varierade miljöer kan ge mat och skydd åt många nyttodjur.</figcaption>
 </figure>
 
 ## Samspel med andra djur
@@ -86,9 +86,7 @@ Flyttblomfluga är exemplet. Endast vissa blomflugor har bladlusätande larver; 
 
 Vuxna kan i andra försök leva flera veckor längre. Nektar och pollen är viktiga.
 
-- Vuxenliv och äggläggningsperiod är inte väntetid till en ny generation; fortplantningen överlappar. 
-
-**Tiderna och måtten är ungefärliga studieuppgifter, inte prognoser för svensk frilandsodling.** Olika arter, föda, klimat och utvecklingsstadier ger andra förlopp. Vuxenliv ingår inte i tiden från ägg till vuxen.
+Tiderna är ungefärliga och varierar med art, temperatur och tillgång till föda.
 
 ## Bilder och identifiering
 

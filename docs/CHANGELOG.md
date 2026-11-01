@@ -4,7 +4,44 @@
 - **Beställt:** föreslå passande bilder från Drive-mappen `Trädgårdsdrömmar- temporära bilder` vid framtida artiklar och guider.
 - **Genomfört i arbetsgrenen `docs/drive-bildforslag-20261027`:** kompletterat `docs/PROJECT_RULES.md` och `docs/images.md` med redaktionell rutin för att söka bildkandidater, ange lämplig placering och bildtext samt granska bearbetade foton före eventuell publicering.
 - **Kontrollerat:** mappen finns i privat Google Drive. Original, webbens bild-ID, CMS, server, säkerhet, bildexport och produktionspublicering är oförändrade. `AGENTS.md` granskat utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
-- **Status:** ändringarna är gjorda i separat arbetsgren inför PR-granskning. Ej mergat eller publicerat i produktion. GitHub Actions-verifiering återstår.
+- **Konfliktlösning 2026-11-01:** texten har lagts ovanpå aktuella `main` efter merge av PR #39, #38, #36 och #42. Senare ändringar i projektregler, bilder, innehåll och ändringslogg har bevarats. Inga webbplatsfiler, serverinställningar eller originalbilder har ändrats.
+- **Status:** uppdaterat i PR #37 för ny granskning och CI-verifiering. Inte mergat eller publicerat i produktion.
+
+## 2026-11-01 – Naturligare bildtexter i artiklarna (PR för granskning)
+- **Beställt:** gå igenom återstående artiklar och ta bort tekniska kommentarer om AI-generering, illustrativ eller digital bearbetning och normala ljus-/färgjusteringar från besökartexter.
+- **Granskning:** produkttexterna hade redan fått separat redaktionell genomgång. Återstående innehållssamlingar (odlingsmetoder, chili, nyttodjur, skadedjur, vanliga sidor och projekt) har genomgåtts med fokus på bildtexter. Onödiga formuleringar återfanns främst i det centrala bildmanifestet.
+- **Genomfört i grenen `content/naturliga-bildtexter-20261101`:** 14 bildtexter i `src/data/images.json` förenklade, tre artikelbildtexter justerade i `naringsvaven-i-odlingen.md`, `guldogonslandor.md` och `jordlopare.md`. Webbläsartestet för filosofiartikelns bildtext anpassat. `docs/images.md` förtydligar redaktionell praxis.
+- **Viktiga begränsningar:** bilder får inte framställas som belägg för säkert artbestämda fynd utan underlag; överflödiga kommentarer om teknik, skalor och illustrationer har tagits bort. Uppgifter om bildursprung/AI-stöd bevaras i intern dokumentation. Bilder, bild-ID, upphov/licenser, vattenstämplar, CMS, schema, publiceringsflöde och andra sajter är orörda.
+- **Regler:** `docs/PROJECT_RULES.md` och `AGENTS.md` granskade; inga tekniska metod- eller regeländringar behövs. `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Uppföljning efter läsargranskning (2026-11-01):** ytterligare förenklingar av bildtexter om guldögonsländors livscykel, mykorrhiza, jordlöpare, blomflugor, biologisk mångfald och chilifortplantning. Onödiga laboratorie- och illustrationsförbehåll strukna; artosäkerhet kvar där den är relevant. Den interna arbetskommentaren i nyckelpigeartikeln borttagen. Det redaktionella målet och bildrutinen har förtydligats i `docs/ANIMAL_ARTICLE_TEMPLATE.md` och `docs/images.md`. Ett befintligt test justerat till att kontrollera att bildtext finns utan att kräva särskilda ord. Ingen teknisk metod, bildoriginal, CMS-struktur eller serverinställning ändrad. Källorna behålls, och chilins befruktning behåller sin detaljerade sakförklaring.
+- **Fortsatt redaktionell förenkling:** upprepade forskningsförbehåll och interna uppgifter om jämförelser mellan studier har kortats i nio djurartiklar, utan att ange nya exakta utvecklingstider. Ungefärliga stadietider, exempelarter, viktiga miljöförhållanden och källhänvisningar finns kvar. Detta är en läsarvänlig översiktsnivå, inte ny vetenskaplig bestämning.
+- **Verifieringsrättning:** Efter den redaktionella förkortningen bröts tre tidigare webbläsartester av att de sökte borttagna formuleringar (artbestämning, födointag och generella bildtypsord). Testerna kontrollerar nu att relevanta bildtexter finns i sina figuravsnitt, samtidigt som separata kontroller av bildladdning, bildvägar, alt-text och länkar kvarstår. Omtest i GitHub Actions krävs för denna commit.
+- **Ytterligare testjustering:** en kvarvarande kontroll av ordet ”laboratorieförsöket” ersatt med kontroll av att rubriken ”Livscykel och utveckling” finns. Det gamla uttrycket har tagits bort enligt det redaktionella beslutet.
+- **Konfliktlösning 2026-11-01:** efter användarens manuella merge av PR #39, #38 och #36 har arbetsgrenen uppdaterats mot aktuell `main`. De 14 redaktionella bildtextändringarna har förenats med den nya huvudbilden `biologiskt-vaxtskydd-odlingsbadd` från #36. All nytillkommen drifts-, säkerhets-, meny-, bild- och dokumentationsstatus från `main` har behållits.
+- **Status:** konflikt löst i PR-grenen; ny CI-verifiering krävs. Inte mergat och inte publicerat på produktionsservern.
+
+## 2026-10-26 – Bild till Biologiskt växtskydd (arbetsgren, PR för granskning)
+- **Uppdrag:** ersätta sidmallens ”bild saknas” högst upp på `/biologiskt-vaxtskydd/` med Mickes ljusjusterade foto av blommande odlingsbäddar.
+- **Genomfört i arbetsgrenen `content/bild-biologiskt-vaxtskydd-20261026`:** sidan får det befintliga `image`/`imageAlt`-fältet, nytt bild-ID `biologiskt-vaxtskydd-odlingsbadd` i `src/data/images.json` och kompletterat `web-images/index.json`. Åtta optimerade, vattenstämplade WebP-varianter i `web-images/` enligt befintliga bildmått och exportlogik. Eget foto, med ljus- och färgbearbetning dokumenterad i bildjournalen, medan besökarens bildtext beskriver motivet.
+- **Skydd:** användaroriginalet och den bearbetade PNG-filen hålls utanför det offentliga repositoryt; endast färdiga webbexporter sparas. CMS, schema, bildpipeline, server och andra webbplatser är oförändrade.
+- **Kontroller:** lokal kontroll av bildstorlek, WebP-format och synlig vattenstämpel utförd. GitHub Actions [Validate and build #40306991609](https://github.com/mooody/pjrepo/actions/runs/40306991609) för bild- och innehållscommit `9d3522a9` är **success** (verifiering och byggning). Denna efterföljande loggcommit får egen kontroll; inget produktionstest har gjorts.
+- **Dokumentation:** `docs/images.md` uppdaterad. Aktuella `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Status:** källfiler sparade i arbetsgren för PR-granskning. Inte mergat med `main` och **inte publicerat i produktion**. Återstående steg: verifiera Actions, granska PR och få separat godkännande för senare produktionspublicering.
+
+
+## 2026-10-31 – Redaktionell rensning av alla produkttexter (separat PR)
+- **Beställt:** ta bort interna kommentarer om etikettunderlag, kommande granskning och upprepade uppmaningar att läsa etiketten i produktpresentationerna.
+- **Genomfört i grenen `content/produkttexter-utan-arbetskommentarer-20261031`:** alla tio produktbeskrivningar kontrollerade; upprepade ”Se etiketten ...”-meningar i nio produktfiler och kontrolltexten i Hett Möte borttagna. Kompletterande korta språkjusteringar gör uppgifterna om två batcher och CSI tydligare utan ändrade faktavärden. I den gemensamma produktsidemallen har den överflödiga förklaringen till etikettavsnittet tagits bort, men rubrik, originaletikett och länken till full storlek är kvar.
+- **Dokumentation:** `docs/products-2026.md` kompletterad med redaktionell princip: besökartext fokuserar på produkten, medan oavslutade kontrollfrågor fortsätter dokumenteras internt. De tidigare anteckningarna om B2610-9:s hållbarhet, nettomängd och E211 kvarstår i dokumentationen och batchjournalen.
+- **Teknik:** endast befintligt redaktionellt innehåll och en statisk förklaringsmening i vyn ändrade. Ingen CMS-struktur, etikettbild, ingrediensmärkning, URL, serverfunktion, säkerhet eller driftsättning ändras. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Verifiering och status:** ändringar lagda i arbetsgren för PR och `Validate and build`; resultat redovisas från Actions. Inte mergat, inte produktionspublicerat.
+
+## 2026-10-31 – Hett Möte (B2610-9), produktarkiv och bilder (PR för granskning)
+- **Beställt:** skapa produkten B2610-9 enligt befintligt produktmönster. Katalogtitel **Hett Möte** följer de befintliga etikett- och produktbilderna; Dundergel är batchjournalens arbetsnamn.
+- **Genomfört i arbetsgrenen `content/hett-mote-b2610-9-20261031`:** ny produktfil `src/content/products/hett-mote.md`, ny bildkoppling i `src/pages/produkter-2026/index.astro` och tre webbanpassade WebP-filer i `public/product-images/`. Produktfoto 1000 × 1000, fullständig etikett 1700 × 519 och webbetikett 1700 × 522; transparenta etikettkanter bevarade och illustrationen/etiketttexten lämnade oförändrade. Privata PNG-underlag i Drive orörda.
+- **Underlag:** batch B2610-9, tillverkningsdag 2026-10-31, 24 rapporterade burkar à nominellt 41 ml, uppmätt pH 3,2, uppskattad CSI ≈ 43 400/styrka 8/10. Faktisk fyllmängd per burk och hållbarhet ej fastställda. Originaletiketten anger 2027-10 som bäst före, men det är inte verifierat. Tillsats E211 och dess tillåtlighet för den aktuella kategorin måste kontrolleras före försäljning.
+- **Avgränsning:** katalogsidan är inte en webbutik. Inga produktions- eller serverändringar, inga nya CMS-fält, ingen ändring av bildrutiner, schema, auth eller publiceringsflöde. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` berörs inte.
+- **Status:** filer införda i arbetsgren, PR och CI kräver kontroll efter commit. Inte mergat, inte publicerat i produktion.
 
 ## 2026-10-26 – Indexeringsuppföljning och interna länkar (SEO-arbetsgren)
 - **Underlag:** separat Search Console-rapport daterad 2026-10-26 och befintlig `docs/SEO_AUDIT.md`. Inget generellt tekniskt indexeringsfel har bekräftats; varningar om canonical-dubbletter och HTTP-omdirigering föranleder ingen serverändring.
@@ -348,3 +385,12 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 - Återstår: inget i detta historiska steg.
 
 **Obs:** Äldre poster är en sammanställning från tillgängliga serverutskrifter och GitHub-historik, inte en fullständig revisionslogg över varje utfört kommando. För framtida ändringar förs löpande logg med verifierad status.
+
+## 2026-10-27 – Ta vara på skörden med fermentering som egen artikel (redaktionell PR)
+- **Beställt:** gör befintliga `Förädla` till en bredare vägledning om att ta hand om hela skörden, med undersidor liknande Chili.
+- **Genomfört i arbetsgren `content/ta-vara-pa-skorden-20261027`:** menyetiketten ändrad till **Ta vara på skörden** med samma fungerande adress `/foradla/`; samlingssidans rubrik, metadata och text utvidgade till grönsaker, frukt, bär och chili. En ny artikel om mjölksyrning har skapats under `/fermentering/`, med sakligt avgränsad säkerhetsinformation och länkar till myndighets- och universitetskällor. Befintliga artikelkortsstilar återanvänds; andra planerade guider visas utan länkar.
+- **Relaterat:** startsidans ingång, projektet `projekt/foradling`, navigeringsmarkering och brödsmulor är anpassade. Nya Node-regressionstester kontrollerar meny, samlingssida, underartikel, canonical/hierarki och sitemap.
+- **Bildhantering:** befintliga bild-ID:n och redan exporterade bilder återanvänds, inga privata Drive-original eller nya oskyddade filer läggs i GitHub.
+- **Regler:** `docs/PROJECT_RULES.md` och `AGENTS.md` lästa och granskade utan behov av metodändring. CMS, schema, bildpipeline, OAuth, Nginx, STRATO, säkerhet, andra webbplatser och deployflöde oförändrade. `docs/SERVER_OPERATIONS.md` behöver inte ändras.
+- **Status:** på arbetsgren inför PR-granskning; ej mergat, ej publicerat i produktion. GitHub Actions-verifiering återstår.
+

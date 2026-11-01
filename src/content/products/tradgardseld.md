@@ -13,5 +13,3 @@ draft: false
 ---
 
 Fermenterad chilisås från 2026 års skörd.
-
-Se etiketten längre ned för exakt innehållsförteckning och märkning.

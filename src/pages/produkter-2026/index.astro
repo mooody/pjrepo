@@ -13,7 +13,8 @@ const overviewImages: Record<string, string> = {
   "ghost": "/product-images/ghost-webbetikett.webp",
   "fermenterad-mangosalsa": "/product-images/fermenterad-mangosalsa-webbetikett.webp",
   "tropisk-glod": "/product-images/tropisk-glod-webbetikett.webp",
-  "rod-mango": "/product-images/rod-mango-webbetikett.webp"
+  "rod-mango": "/product-images/rod-mango-webbetikett.webp",
+  "hett-mote": "/product-images/hett-mote-webbetikett.webp"
 };
 const products = (await getCollection('products', ({data}) => !data.draft && data.year === 2026))
   .sort((a,b)=>a.data.order-b.data.order || a.data.title.localeCompare(b.data.title, 'sv'));
