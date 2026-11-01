@@ -206,7 +206,7 @@ test('guldögonsländans artikel visar läsbilder, förstoring och källor', asy
     }
     await expect(page.locator('img[src$="guldogonslanda-agg-foto-card-800.webp"]')).toHaveCount(1);
     await expect(page.locator('img[src$="guldogonslanda-larv-foto-card-800.webp"]')).toHaveCount(1);
-    await expect(page.locator('.prose')).toContainText('laboratorieförsöket');
+    await expect(page.getByRole('heading', { name: 'Livscykel och utveckling' })).toBeVisible();
     await expect(page.locator('.prose')).not.toContainText('Källor och redaktionella anteckningar');
     await expect(page.getByRole('heading', { name: 'Källor och granskning' })).toBeVisible();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
