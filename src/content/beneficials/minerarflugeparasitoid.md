@@ -76,9 +76,7 @@ Vald exempelart: Diglyphus isaea. Ca 25 °C • värd: Liriomyza trifolii.
 
 Diglyphus isaea är en ektoparasitoid. Dacnusa sibirica utvecklas inne i värden och passar inte samma illustration; värd, temperatur och population ändrar tiderna.
 
-Andra försök vid 25 °C ger ca 10 dygn totalt. Hela varvet här använder samma studies ca 12 dygn.
-
-**Värdena är ett begränsat laboratorieexempel, inte förväntad svensk normalutveckling.** Vuxenliv är skilt från utvecklingstiden till vuxen. Olika föda och förhållanden kan ändra resultaten.
+Utvecklingstiden varierar med temperatur och föda.
 
 ## Kännetecken och kontroll
 

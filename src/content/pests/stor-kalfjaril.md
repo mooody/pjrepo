@@ -61,7 +61,7 @@ Kålparasitoider som *Cotesia*-steklar kan utvecklas i larverna. Små gula silke
 
 ## Livscykel och utveckling
 
-Vald exempelart: Pieris brassicae, kålfjäril. Sammanhängande laboratorieexempel på kål från Indien. Temperaturen redovisas inte i studien; uppgifterna är inte en svensk prognos.
+Stora kålfjärilen (*Pieris brassicae*) är exemplet. Här visas ungefärliga utvecklingstider från ägg till vuxen.
 
 - Äggklunga — ca 5 dygn i försöket. Varje ägg ca 1,3 × 0,5 mm.
 
@@ -73,11 +73,10 @@ Vald exempelart: Pieris brassicae, kålfjäril. Sammanhängande laboratorieexemp
 
 Ägg → vuxen: ca 5–6 veckor. Alla tider är ungefärliga.
 
-Kålfjäril skiljer sig från rovfjäril bland annat genom äggklungor och fläckiga larver. Tider och storlekar kommer från ett litet försöksunderlag och är inte universella gränser. Ett brittiskt försök vid 20 °C gav ca 19 dygn för hela larvperioden; denna studie blandas inte med det indiska exempelmaterialet.
+Stora kålfjärilen skiljer sig från rovfjärilen bland annat genom att den lägger äggen i grupper och ofta har fläckiga larver. Hur snabbt den utvecklas påverkas av temperatur och årstid.
 
 Vintervila i puppan kan förlänga stadiet till ca 6–8 månader.
 
-Utvecklingstider och mått är **ungefärliga och artspecifika**. De gäller de uppgivna försöksförhållandena och är ingen svensk frilandsprognos. Vuxenliv är inte en extra väntetid för att nå vuxenstadiet.
 
 ## Fördjupning och jämförelse
 

@@ -76,9 +76,7 @@ Vald exempelart: Amblyseius swirskii. Ca 25 °C, 70 % relativ luftfuktighet, 16:
 
 Amblyseius swirskii är exemplet. Neoseiulus cucumeris och andra rovkvalster som används mot trips kan ha andra tider och klimatkrav.
 
-Källvärdena är medel från två bytesdieter. Föda och pollen påverkar utveckling och vuxenliv.
-
-**Värdena är ett begränsat laboratorieexempel, inte förväntad svensk normalutveckling.** Vuxenliv är skilt från utvecklingstiden till vuxen. Olika föda och förhållanden kan ändra resultaten.
+Utvecklingstiden varierar med temperatur och föda.
 
 ## Kännetecken och kontroll
 

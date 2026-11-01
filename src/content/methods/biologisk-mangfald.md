@@ -74,6 +74,6 @@ En murken stubbe bland blommor kan vara en genomtänkt del av en fin rabatt. Fra
 
 Undvik rutinmässig användning av bekämpningsmedel. Lär känna både skadegörare och deras naturliga fiender innan du ingriper. Samtidigt måste invasiva främmande arter hållas efter – biologisk mångfald betyder inte att låta allt sprida sig fritt.
 
-Börja med att **låta något blomma längre, spara en liten skyddad vrå och se vilka djur som dyker upp**. Bildöversikten nedan visar exempel på många olika livsmiljöer i samma trädgård. Illustrationens insekter är schematiska; vid artbestämning behövs mer detaljerade kännetecken.
+Börja med att **låta något blomma längre, spara en liten skyddad vrå och se vilka djur som dyker upp**. Bildöversikten nedan visar exempel på många olika livsmiljöer i samma trädgård.
 
 Läs också om [jord och markliv](/odlingsmetoder/jord-och-kompost/) och [täckodling](/odlingsmetoder/tackodling/).

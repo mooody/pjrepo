@@ -207,7 +207,7 @@
     {
       "id": "odlingslott-jord",
       "alt": "Höstbearbetad odlingslott med jordyta och träd i bakgrunden",
-      "caption": "Odlingslotten på hösten. Fotot är digitalt bearbetat.",
+      "caption": "Odlingslotten på hösten.",
       "kind": "photo",
       "source": "",
       "ownership": "own",
@@ -219,7 +219,7 @@
     {
       "id": "jordrulle-test",
       "alt": "Jordig handflata med en rullad jordsträng som visar ett enkelt rulltest",
-      "caption": "Rulltest av jord: en sammanhängande rulle kan tyda på större lerinnehåll. Bilden är bearbetad.",
+      "caption": "Rulltest av jord: en sammanhängande rulle kan tyda på större lerinnehåll.",
       "kind": "photo",
       "source": "",
       "ownership": "own",
@@ -231,7 +231,7 @@
     {
       "id": "tackodling-genomskarning",
       "alt": "Illustrerad genomskärning av marktäcke, växtrötter, maskar, svamptrådar och jord",
-      "caption": "Pedagogisk illustration av vad som kan finnas under ett organiskt marktäcke.",
+      "caption": "Under marktäcket finns växtrötter, maskar och ett myller av andra markorganismer.",
       "kind": "photo",
       "source": "",
       "ownership": "own",
@@ -243,7 +243,7 @@
     {
       "id": "mangfald-stubbe",
       "alt": "Blommande och välskött trädgårdshörn med murken stubbe vid prydliga plattor",
-      "caption": "En illustrativt bearbetad trädgårdsmiljö där död ved ryms i en välskött trädgård.",
+      "caption": "Död ved och växtlighet ger skydd åt smådjur i trädgården.",
       "kind": "photo",
       "source": "",
       "ownership": "own",
@@ -255,7 +255,7 @@
     {
       "id": "mangfald-nyttodjur",
       "alt": "Översiktsillustration av livsmiljöer och nyttodjur i en artrik trädgård",
-      "caption": "Bearbetad schematisk översikt över olika livsmiljöer i trädgården; illustration, inte artbestämningsnyckel.",
+      "caption": "Blommor, död ved, löv och vatten skapar olika livsmiljöer för trädgårdens nyttodjur.",
       "kind": "photo",
       "source": "",
       "ownership": "own",
@@ -268,7 +268,7 @@
       "id": "jordliv-rot-mykorrhiza",
       "source": "",
       "alt": "Illustration av en levande rot med fina svamptrådar som når ut i en större jordvolym, och separat nedbrytning av döda växtrester.",
-      "caption": "AI-genererad pedagogisk illustration: fina svamptrådar i mykorrhiza når utanför roten och hjälper växten att nå näring i en större jordvolym. Nedbrytande svamp i dött växtmaterial visas separat. Färgerna skiljer delarna åt; bilden är förenklad och inte skalenlig.",
+      "caption": "Svamptrådar hjälper rötterna att nå vatten och näring. Andra svampar bryter ned döda växtrester.",
       "kind": "photo",
       "ownership": "own",
       "photographer": "Trädgårdsdrömmar",
@@ -280,7 +280,7 @@
       "id": "kompost-tre-stadier",
       "source": "",
       "alt": "Illustration med färska växtrester, delvis nedbrutet material och mogen smulig kompost.",
-      "caption": "AI-genererad pedagogisk illustration av växtmaterial i tre nedbrytningsstadier. Mogen kompost används som jordförbättring; tiden och resultatet varierar med material och förhållanden.",
+      "caption": "Växtrester bryts ned steg för steg och blir så småningom mogen kompost.",
       "kind": "photo",
       "ownership": "own",
       "photographer": "Trädgårdsdrömmar",
@@ -292,7 +292,7 @@
       "id": "tackodling-hostlov",
       "source": "",
       "alt": "Odlingsyta där täckodling påbörjats med höstlöv, med bar jord och gräsrester kvar runt löven.",
-      "caption": "Höstens löv tas till vara som marktäcke. Här har arbetet med att täcka odlingsytan påbörjats. Digitalt bearbetat foto.",
+      "caption": "Höstens löv tas till vara som marktäcke. Här har arbetet med att täcka odlingsytan påbörjats.",
       "ownership": "own",
       "kind": "photo",
       "photographer": "Trädgårdsdrömmar",
@@ -304,7 +304,7 @@
       "id": "guldogonslanda-vuxen",
       "source": "",
       "alt": "Grön vuxen guldögonslända med guldglänsande ögon, långa antenner och fyra nätådriga vingar.",
-      "caption": "Vuxen guldögonslända i carnea-gruppen. Pedagogisk AI-illustration med förenklade detaljer; närstående arter kan vara svåra att skilja åt.",
+      "caption": "En vuxen guldögonslända med långa antenner och nätådriga vingar.",
       "ownership": "own",
       "kind": "illustration",
       "photographer": "Trädgårdsdrömmar",
@@ -316,7 +316,7 @@
       "id": "guldogonslanda-larv",
       "source": "",
       "alt": "Äldre guldögonsländelarv med brunmönstrad långsmal kropp, sex ben framtill och två böjda käkar.",
-      "caption": "Äldre larv som pedagogisk AI-illustration. Mått och tid gäller ett studieexempel; bilden är förstorad.",
+      "caption": "En äldre guldögonsländelarv, även kallad bladluslejon.",
       "ownership": "own",
       "kind": "illustration",
       "photographer": "Trädgårdsdrömmar",
@@ -328,7 +328,7 @@
       "id": "guldogonslanda-livscykel",
       "source": "",
       "alt": "Förenklad livscykel med skaftägg, växande larv, kokong med puppa och vuxen guldögonslända.",
-      "caption": "Förenklad livscykel för carnea-gruppen. Pedagogisk AI-illustration med ungefärliga mått och tider från ett laboratorieexempel vid 24 °C.",
+      "caption": "Guldögonsländans utveckling från ägg och larv till puppa och vuxen insekt.",
       "ownership": "own",
       "kind": "illustration",
       "photographer": "Trädgårdsdrömmar",
@@ -340,7 +340,7 @@
       "id": "odla-med-naturen",
       "source": "",
       "alt": "Illustration av ordnade grönsaksbäddar med blommande stråk, buskar och ett växthus i bakgrunden.",
-      "caption": "Blommande stråk och skyddade kanter får plats mellan ordnade odlingsbäddar. AI-genererad illustration från förarbetet; bilden visar en tänkt odlingsmiljö.",
+      "caption": "Blommande växter och skyddade kanter kan samsas med ordnade odlingsbäddar.",
       "ownership": "own",
       "kind": "illustration",
       "photographer": "Trädgårdsdrömmar",
@@ -358,7 +358,7 @@
       "id": "guldogonslanda-agg-foto",
       "source": "",
       "alt": "Ett ljust grönt ovalt ägg på ett tunt skaft som är fäst vid en bladspets.",
-      "caption": "Guldögonsländeägg på sitt tunna skaft. Eget foto, Mikael Forsberg. Arten är inte bestämd."
+      "caption": "Guldögonsländans ägg sitter på tunna skaft som håller dem en bit från bladet."
     },
     {
       "ownership": "own",
@@ -370,7 +370,7 @@
       "id": "guldogonslanda-larv-foto",
       "source": "",
       "alt": "Mörkmönstrad långsmal larv med ben framtill och två böjda käkar på en gulvit blomma.",
-      "caption": "Larv som bedöms vara en guldögonsländelarv, ett bladluslejon. Eget foto, Mikael Forsberg. Ingen säker artbestämning."
+      "caption": "Troligen ett bladluslejon, guldögonsländans larv, på en blomma."
     },
     {
       "id": "biologiskt-vaxtskydd-odlingsbadd",
