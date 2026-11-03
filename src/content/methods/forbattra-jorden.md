@@ -69,7 +69,11 @@ Sand och grus ersätter inte kompost. Om man blandar lite sand i lerjord kan ler
 
 Biokol tillverkas genom att organiskt material hettas upp med begränsad tillgång till syre. Det är ett beständigt kolrikt material, men egenskaperna varierar med råvaran och tillverkningen.
 
-Det kan påverka hur jorden håller vatten och näringsämnen. Det betyder inte att alla jordar eller växter får bättre tillväxt. Kontrollera vad produkten innehåller, om näring har tillsatts och hur den ska användas. En biokolblandning med kompost är något annat än rent biokol.
+Biokol kan påverka hur jorden håller vatten och näringsämnen, men ger inte alltid bättre tillväxt. Grillkol av rent trä kan likna biokol, men standarden SS-EN 1860-2 gäller grillning och garanterar inte att kolet är lämpligt för odlingsjord. EBC (European Biochar Certificate) är särskilt inriktad på biokol och kontrollerar bland annat föroreningar. FSC handlar om skogsbruk och spårbarhet; inte heller Svanen eller Bra Miljöval är automatiskt likvärdiga med ett biokolspecifikt analysintyg. Välj dokumenterat jordbrukslämpligt kol utan tändmedel och andra tillsatser.
+
+### Näringsladda kolet
+
+Krossa större bitar till mindre korn och fukta dem för att minska dammet. Kolet kan blötläggas i gödselvatten eller blandas med kompost innan det tillförs jorden. Ett hemmaupplägg är att låta det ligga i vatten och en mindre mängd hönsgödsel under en till två veckor. Att använda samma vikt hönsgödsel som kol är en förekommande tumregel, men ingen säker standarddos: gödselns koncentration varierar och för mycket kan ge skadligt hög salthalt. Följ doseringen för gödselprodukten och börja försiktigt.
 
 
 
