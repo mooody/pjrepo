@@ -4,7 +4,8 @@
 
 - **Innehåll:** `src/content/methods/forbattra-jorden.md` rättad om barkmull, mull, sand i lerjord och biokol. Förtydligad skillnad mellan grillkolstandard och EBC samt försiktig näringsladdning med hönsgödsel. Två av användaren angivna avslutande stycken borttagna.
 - **Ny artikel:** `src/content/methods/analysera-din-jord.md` om pH, kalka efter behov, pH-stickor med destillerat vatten, EC, mätmetodernas skillnader och laboratorieanalys. Siffror för EC gäller uttryckligen mättat jordextrakt och inte lakvatten eller direktsensor.
-- **Bild:** tidigare framtagen pH-/EC-illustration är ännu inte importerad via projektets skyddade bildflöde; bildkoppling kvarstår. Ingen bild är felaktigt märkt som publicerad.
+- **Uppföljning 3 november:** EC-artikeln har kompletterats med praktiska råd för direktsonder, skillnaden mellan jordvätske-EC och bulk-EC, metodspecifika referensvärden samt salttolerans för olika grönsaker. Biokolavsnittet anger 50/50 hönsgödsel och kol i vikt som ett recept återgivet från användarens studiebesök hos en svensk jordtillverkare, inte som en standard för alla gödseltyper.
+- **Bild:** `jordmätare_i_grönsakslandet.png` verifierad i privata Drive-mappen `Trädgårdsdrömmar- temporära bilder` (ID `1jnrmPbs5SpkhgPx57aZFeTJuJEB15asm`). Den är fortfarande inte importerad som vattenstämplad webbexport genom projektets bildflöde. Bildkoppling kvarstår; ingen felaktig offentlig originalbild.
 - **Skydd:** ingen CMS-, schema-, server-, säkerhets-, bildpipeline- eller publiceringsändring. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov. `docs/SERVER_OPERATIONS.md` påverkas inte.
 - **Status:** innehåll i arbetsgren för PR. CI och bildimport återstår. Inte mergat, inte publicerat.
 
