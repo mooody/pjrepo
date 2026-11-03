@@ -59,11 +59,11 @@ Jord med lite organiskt material kan ha nytta av mogen kompost. Hur du gör och 
 
 ## Olika material gör olika saker
 
-Barkmull är bearbetad bark som används som jordförbättring. Den ska skiljas från grov täckbark som främst läggs ovanpå marken. Läs användningsområdet på säcken. Materialens storlek och nedbrytningsgrad påverkar hur de fungerar.
+Barkmull består av bark som delvis brutits ned och förmultnat. Den skiljer sig från grov täckbark som främst läggs på markytan. Mull är organiskt material i olika stadier av nedbrytning. Materialets storlek och nedbrytningsgrad påverkar hur det fungerar i jorden.
 
 Torv kan bidra med en lätt och vattenhållande del i en blandning. Rå torv är däremot inte i sig en komplett näringskälla, och en torvprodukt kan vara både kalkad och gödslad. Vad du får beror på den färdiga produkten.
 
-Sand, grus och andra mineralmaterial är inte utbytbara med kompost. Att blanda i lite sand är heller inget allmänt recept för en tung jord. Utgå från ett tydligt behov och en genomtänkt blandning, särskilt om stora mängder jord ska förändras.
+Sand och grus ersätter inte kompost. Om man blandar lite sand i lerjord kan lerpartiklarna fylla tomrummen mellan sandkornen så att jorden blir mycket tät och hård. För att ändra jordarten påtagligt krävs stora sandmängder. I trädgårdslandet är förbättrad struktur med organiskt material vanligen mer praktisk.
 
 ## Biokol – intressant, men ingen universallösning
 
