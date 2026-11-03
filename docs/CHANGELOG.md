@@ -410,3 +410,11 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 - **Regler:** `docs/PROJECT_RULES.md` och `AGENTS.md` lästa och granskade utan behov av metodändring. CMS, schema, bildpipeline, OAuth, Nginx, STRATO, säkerhet, andra webbplatser och deployflöde oförändrade. `docs/SERVER_OPERATIONS.md` behöver inte ändras.
 - **Status:** på arbetsgren inför PR-granskning; ej mergat, ej publicerat i produktion. GitHub Actions-verifiering återstår.
 
+
+## 2026-11-03 – Flytt av mykorrhizabild och ny jordillustration (PR för granskning)
+
+- **Beställt:** flytta befintlig huvudbild från `Jordens små arbetare – samspelet under ytan` till `Efter skörden – vad händer med jorden och mykorrhizan?`, och ersätta den första sidans bild med `Jordens beståndsdelar`.
+- **Genomfört i arbetsgren:** `jordliv-rot-mykorrhiza` återanvänds på efter-skörden-artikeln utan ny export. Den tidigare artikeln använder det nya bild-ID:t `jordens-bestandsdelar` med åtta vattenstämplade WebP-varianter och en ny manifest/indexpost. Källillustrationen (tre cirklar, transparent bakgrund) hålls utanför offentliga GitHub.
+- **Dokumentation:** `docs/images.md` uppdaterad; `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan behov av ändring. `docs/SERVER_OPERATIONS.md` påverkas inte.
+- **Kontroller:** bildvarianter kontrollerade med Sharp för mått, format och metadata. GitHub Actions `Validate and build` samt visuell granskning av webbsidan krävs före merge.
+- **Avgränsning/status:** innehålls- och bildändring i ny arbetsgren/PR, inte mergad, inte publicerad i produktion. CMS, server, andra webbplatser och publiceringsflöde är oförändrade.

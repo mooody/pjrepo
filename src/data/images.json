@@ -383,6 +383,18 @@
       "license": "Fri användning med bibehållen vattenstämpel",
       "licenseUrl": "",
       "position": "centre"
+    },
+    {
+      "id": "jordens-bestandsdelar",
+      "source": "",
+      "alt": "Tre cirkeldiagram som visar ett exempel på jordens mineralpartiklar, luft, vatten och mull samt det organiska materialets rötter och markliv.",
+      "caption": "Jordens olika beståndsdelar och det levande marklivet. Fördelningen är schematisk och varierar med jordart och fuktighet.",
+      "kind": "illustration",
+      "ownership": "own",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
     }
   ]
 }
