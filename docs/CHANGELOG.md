@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-11-03 – Habanero Red B2611-1, produktutkast och två webbexporter (PR för granskning)
+- **Beställt:** förbereda nästa marmelad på Produkter 2026 enligt befintlig produktmall.
+- **Genomfört i grenen `content/habanero-red-b2611-1-20261103`:** ny produktpost `src/content/products/habanero-red-b2611-1.md`, kompletterat `overviewImages` i produktöversikten, två optimerade WebP-bilder samt uppdaterad `docs/products-2026.md`. Källor är batchjournal och två bildfiler från Drive. Inga originalfiler, etikettritningar eller fotografiska detaljer har redigerats; webbetikettens transparenta marginaler har beskärts.
+- **Säkerhetsavgränsning:** separat fullständig etikett saknas. `draft: true` döljer produkten tills fullständig etikett, märkning och livsmedelskontroller har kompletterats. Befintligt obligatoriskt `labelImage` pekar provisoriskt på webbetiketten, och får inte betraktas som färdig märkning. Inga schema-, CMS-, server-, auth- eller deployändringar.
+- **Verifiering:** de två publicerbara webbexporterna kontrollerade lokalt avseende mått, format och alfakanal; GitHub-blobbarna matchar byteinnehållet. GitHub Actions `Validate and build` behöver bekräftas för PR-commit. Ingen produktionsserverkontroll har gjorts.
+- **Regler och driftsdokumentation:** `docs/PROJECT_RULES.md` och `AGENTS.md` granskade, oförändrade. `docs/SERVER_OPERATIONS.md` påverkas inte. Uppgifter om batchens osäkra nettomängd, slut-pH, E211 och hållbarhet finns som interna kontrollpunkter i `docs/products-2026.md` och på Drive.
+- **Status:** underlag för PR, inte mergat och inte publicerat. Användaren ansvarar för slutlig merge och separat produktionspublicering efter kompletterad fullständig etikett.
+
 ## 2026-11-01 – Naturligare bildtexter i artiklarna (PR för granskning)
 - **Beställt:** gå igenom återstående artiklar och ta bort tekniska kommentarer om AI-generering, illustrativ eller digital bearbetning och normala ljus-/färgjusteringar från besökartexter.
 - **Granskning:** produkttexterna hade redan fått separat redaktionell genomgång. Återstående innehållssamlingar (odlingsmetoder, chili, nyttodjur, skadedjur, vanliga sidor och projekt) har genomgåtts med fokus på bildtexter. Onödiga formuleringar återfanns främst i det centrala bildmanifestet.

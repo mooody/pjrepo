@@ -1,6 +1,6 @@
 # Produkter 2026
 
-Produktarkivet finns på `/produkter-2026/` och omfattar tio produktposter (2026-10-31), inklusive Hett Möte (B2610-9).
+Produktarkivet finns på `/produkter-2026/` och omfattar tio aktiva produktposter från oktober 2026, inklusive Hett Möte (B2610-9). Ett ytterligare, ännu opublicerat produktutkast för B2611-1 är förberett i arbetsgren.
 
 ## Visning
 
@@ -47,3 +47,12 @@ Produktarkivet finns på `/produkter-2026/` och omfattar tio produktposter (2026
 - Produktens namn **Hett Möte** är hämtat från båda etiketterna och fotot; **Dundergel** är batchjournalens arbetsnamn. Angiven styrka 8/10 och CSI ≈ 43 400 är preliminära, medan 24 burkar à nominellt 41 ml är rapporterade. Nettomängd per burk är okänd.
 - På befintlig etikett står kylvara och bäst före 2027-10. Det finns ännu ingen verifierad hållbarhetsbedömning eller fullständig kontroll av E211 mot produktkategori och gällande tillsatsvillkor. Före försäljning krävs kontroll av märkning, process, faktisk nettomängd och förvaring. Källjournal: `B2610-9 – Dundergel med Carolina Reaper och Ghost` på Drive.
 - Ändringarna ligger endast i arbetsgren och PR för granskning; ingen merge eller produktionspublicering.
+
+## 2026-11-03 – Habanero Red, mango- och vaniljmarmelad (B2611-1)
+
+- **Underlag:** batchjournal och batchregister i Drive, tillverkad 1 november 2026. Mango, vaniljstång, citron, ingefära, Habanero Red och en liten mängd svartpeppar. 39 fyllda burkar av nominell storlek 106 ml. Faktisk nettovikt/fyllvolym per burk har inte mätts.
+- **Styrka:** preliminärt cirka 4/10 (CSI cirka 3 400); beräkningen förutsätter att alla 54 g Habanero Red användes och använder en ungefärlig slutvikt 3 946 g.
+- **Bilder:** källor i privata Drive-mappen för produktbilder: `produktbild-b2611-1.png` och `B2611-1_Habanero_Red_webbetikett_B2611-1.png`. Webboptimerade exportkopior är `habanero-red-b2611-1-foto.webp` (1057 × 1057) och `habanero-red-b2611-1-webbetikett.webp` (1348 × 846). Webbetikettens motiv och text har inte ändrats; endast helt genomskinliga ytterkanter har beskärts. Originalen i Drive är orörda.
+- **Viktig spärr:** den **fullständiga ingrediensetiketten** har ännu inte hittats i Drive. Därför är `src/content/products/habanero-red-b2611-1.md` markerad `draft: true`, och `labelImage` är tills vidare kopplad till webbetiketten ENBART för att hålla det befintliga schemat och bildvägarna kompletta. Detta är INTE en ersättning för den fullständiga märkningen. Innan `draft` får sättas till `false` måste den faktiska etiketten tillkomma och `labelImage` peka på dess skyddade webbexport.
+- **Livsmedelsuppföljning:** batchjournalen rapporterar pH 3,5 före E211-tillsats, natriumbensoat 2,0 g till omkring 3,946 kg och ett önskat bäst före-datum 2027-11 som **inte är verifierat**. Kontrollera rätt livsmedelskategori, eventuella tillåtna tillsatsnivåer, slutligt pH, nettokvantitet, fyll-/värmeprocess, hållbarhet och märkning före försäljning. Uppgifterna är interna kontrollpunkter och inga försäljningslöften.
+- **Avgränsning och status:** befintlig produktmall, bildvägar och katalogkarta används utan ändring av CMS, schema, säkerhet, VPS eller publiceringsflöde. `docs/PROJECT_RULES.md` och `AGENTS.md` granskades utan behov av regeländring. Inget är mergat eller publicerat till produktion. Användaren gör merge och publicering manuellt efter separat godkännande.
