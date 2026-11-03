@@ -33,7 +33,9 @@
       "label": "Täckodling genom året",
       "href": "/odlingsmetoder/tackodling-genom-aret/"
     }
-  ]
+  ],
+  "image": "jordliv-rot-mykorrhiza",
+  "imageAlt": "Illustration av mykorrhizans svamptrådar kring levande växtrötter och nedbrytning av växtrester."
 }
 ---
 

@@ -410,3 +410,17 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 - **Regler:** `docs/PROJECT_RULES.md` och `AGENTS.md` lästa och granskade utan behov av metodändring. CMS, schema, bildpipeline, OAuth, Nginx, STRATO, säkerhet, andra webbplatser och deployflöde oförändrade. `docs/SERVER_OPERATIONS.md` behöver inte ändras.
 - **Status:** på arbetsgren inför PR-granskning; ej mergat, ej publicerat i produktion. GitHub Actions-verifiering återstår.
 
+
+## 2026-11-03 – Flytt av mykorrhizabild och ny jordillustration (PR för granskning)
+
+- **Beställt:** flytta befintlig huvudbild från `Jordens små arbetare – samspelet under ytan` till `Efter skörden – vad händer med jorden och mykorrhizan?`, och ersätta den första sidans bild med `Jordens beståndsdelar`.
+- **Genomfört i arbetsgren:** `jordliv-rot-mykorrhiza` återanvänds på efter-skörden-artikeln utan ny export. Den tidigare artikeln använder det nya bild-ID:t `jordens-bestandsdelar` med åtta vattenstämplade WebP-varianter och en ny manifest/indexpost. Källillustrationen (tre cirklar, transparent bakgrund) hålls utanför offentliga GitHub.
+- **Dokumentation:** `docs/images.md` uppdaterad; `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan behov av ändring. `docs/SERVER_OPERATIONS.md` påverkas inte.
+- **Kontroller:** bildvarianter kontrollerade med Sharp för mått, format och metadata. Första GitHub Actions [Validate and build #41665434289](https://github.com/mooody/pjrepo/actions/runs/41665434289) visade att alla 22 enhetstester passerade, men ett webbläsartest förväntade felaktigt fortfarande sex guidebilder. `tests/browser/site.spec.ts` har därför uppdaterats till sju bilder och testar uttryckligen de två ändrade artiklarnas bildkopplingar. Omtest i Actions återstår; ingen verifierad produktion.
+- **Avgränsning/status:** innehålls- och bildändring i ny arbetsgren/PR, inte mergad, inte publicerad i produktion. CMS, server, andra webbplatser och publiceringsflöde är oförändrade.
+
+## 2026-11-03 – Korrigerade etiketter i jorddiagrammet (PR #47)
+
+- **Godkänt och gjort i arbetsgren:** ändrat `Hummus` → `Humus` och `Mikro-organismer` → `Mikro- och mesofauna` i originalillustrationen för `jordens-bestandsdelar`. Övriga delar av diagrammet bevarade. Korrigerad källa lagrad privat på Drive och åtta ordinarie vattenstämplade WebP-varianter ersatta under samma bild-ID.
+- **Dokumentation:** `docs/images.md` har teknisk spårbarhet. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade och oförändrade. Ingen ändring av CMS, bildschema, server eller publiceringsmetod.
+- **Status:** commit i PR #47, CI-kontroll återstår. Ej mergad eller publicerad i produktion.
