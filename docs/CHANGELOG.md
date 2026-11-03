@@ -1,5 +1,28 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-11-03 – B2611-1: reviewåtgärd och produktarkiv aktiverat i PR #43
+
+- **Review:** Användaren kommenterade ”Vi tar bort detta” på produktfilens tidigare rad 19. Hela stycket med tillverkningsdag, antal burkar och osäker nettomängd har tagits bort. Satsnumret kvarstår i metadata.
+- **Hobbyverksamhet:** användaren har upplyst att detta ännu är småskalig hobbyverksamhet utan livsmedelsregistrering. Tillfällig försäljning kan enligt Livsmedelsverket vara undantagen från registrering beroende på kontinuitet och organisation. Livsmedlen ska fortfarande vara säkra. Valet att ange natriumbensoat utan ordet ”konserveringsmedel” i den fysiska etiketten är medvetet och lämnas orört. Tidigare tillsats- och hållbarhetskontroll dokumenteras fortsatt internt, utan att påstå att den är myndighetsgodkänd.
+- **Synlighet:** `draft: false` i `src/content/products/habanero-red-b2611-1.md`. Detta gäller produktarkivet, inte en köpbar butik. Synlighet inträder först efter användarens manuella merge och separat godkänd produktionspublicering.
+- **Dokumentation:** `docs/products-2026.md` uppdaterad. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan behov av uppdatering. `docs/SERVER_OPERATIONS.md` påverkas inte; ingen ändring av CMS, bildoriginal, säkerhet, server eller publiceringsflöde.
+- **Verifiering:** nytt `Validate and build` inväntas. Inga filer i produktion ändrade.
+
+## 2026-11-03 – B2611-1: separat etikett tillagd, livsmedelsgranskning dokumenterad (PR #43)
+
+- **Genomfört:** originaletiketten `ettikett-2611-1.png` hittad i privat produktbildsmapp i Google Drive. Bilden kontrollerad visuellt; en webbexport `habanero-red-b2611-1-etikett.webp` (1734 × 848 px, transparens utanför den befintliga ramen) kopplas till `labelImage` i produktutkastet. Motiv, ingredienser och text i själva etiketten är oförändrade. Webbetiketten på produktöversikten är oförändrad.
+- **Granskning:** enligt batchjournalen cirka 3 946 g slutvikt, 2,0 g E211 och pH 3,5 före konserveringsmedel. Uppladdad etikett har fruktmängd ca 65 g/100 g, ”Kylvara” och bäst före 11/2027. Kontrollen visade ofullständiga kategorinamn på pektin/citronsyra/E211, oklar nettomängd, avsändarinformation och fruktmängdsunderlag samt avsaknad av verifierat bäst före-datum och produktspecifikt E211-godkännande. Exakta kontrollpunkter och lagkällor dokumenterade i `docs/products-2026.md`.
+- **Tillstånd:** **`draft: true` behålls** trots att fullständig etikettbild nu finns. Märkningen återges endast som källmaterial och betraktas inte som slutligt godkänd för försäljning. Ingen fysisk etikett, bokförd batch, CMS, server eller produktionspublicering ändras.
+- **Verifiering:** lokal bild-/alfakontroll genomförd. GitHub Actions Validate and build för denna komplettering ska kontrolleras. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade, oförändrade; `docs/SERVER_OPERATIONS.md` inte berörd. Användaren ansvarar för manuell merge och separat produktionspublicering efter uttryckligt godkännande.
+
+## 2026-11-03 – Habanero Red B2611-1, produktutkast och två webbexporter (PR för granskning)
+- **Beställt:** förbereda nästa marmelad på Produkter 2026 enligt befintlig produktmall.
+- **Genomfört i grenen `content/habanero-red-b2611-1-20261103`:** ny produktpost `src/content/products/habanero-red-b2611-1.md`, kompletterat `overviewImages` i produktöversikten, två optimerade WebP-bilder samt uppdaterad `docs/products-2026.md`. Källor är batchjournal och två bildfiler från Drive. Inga originalfiler, etikettritningar eller fotografiska detaljer har redigerats; webbetikettens transparenta marginaler har beskärts.
+- **Säkerhetsavgränsning:** separat fullständig etikett saknas. `draft: true` döljer produkten tills fullständig etikett, märkning och livsmedelskontroller har kompletterats. Befintligt obligatoriskt `labelImage` pekar provisoriskt på webbetiketten, och får inte betraktas som färdig märkning. Inga schema-, CMS-, server-, auth- eller deployändringar.
+- **Verifiering:** de två publicerbara webbexporterna kontrollerade lokalt avseende mått, format och alfakanal; GitHub-blobbarna matchar byteinnehållet. GitHub Actions [Validate and build #41632076762](https://github.com/mooody/pjrepo/actions/runs/41632076762) är **success** för produkt- och bildcommit `50e8b2b2471cbc649695aeeb12b00a2765166883`. Denna efterföljande dokumentationscommit kräver egen CI-kontroll. Ingen produktionsserverkontroll har gjorts.
+- **Regler och driftsdokumentation:** `docs/PROJECT_RULES.md` och `AGENTS.md` granskade, oförändrade. `docs/SERVER_OPERATIONS.md` påverkas inte. Uppgifter om batchens osäkra nettomängd, slut-pH, E211 och hållbarhet finns som interna kontrollpunkter i `docs/products-2026.md` och på Drive.
+- **Status:** underlag för PR, inte mergat och inte publicerat. Användaren ansvarar för slutlig merge och separat produktionspublicering efter kompletterad fullständig etikett.
+
 ## 2026-11-01 – Naturligare bildtexter i artiklarna (PR för granskning)
 - **Beställt:** gå igenom återstående artiklar och ta bort tekniska kommentarer om AI-generering, illustrativ eller digital bearbetning och normala ljus-/färgjusteringar från besökartexter.
 - **Granskning:** produkttexterna hade redan fått separat redaktionell genomgång. Återstående innehållssamlingar (odlingsmetoder, chili, nyttodjur, skadedjur, vanliga sidor och projekt) har genomgåtts med fokus på bildtexter. Onödiga formuleringar återfanns främst i det centrala bildmanifestet.

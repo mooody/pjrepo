@@ -1,6 +1,6 @@
 # Produkter 2026
 
-Produktarkivet finns på `/produkter-2026/` och omfattar tio produktposter (2026-10-31), inklusive Hett Möte (B2610-9).
+Produktarkivet finns på `/produkter-2026/` och omfattar tio aktiva produktposter från oktober 2026, inklusive Hett Möte (B2610-9). Ett ytterligare, ännu opublicerat produktutkast för B2611-1 är förberett i arbetsgren.
 
 ## Visning
 
@@ -47,3 +47,49 @@ Produktarkivet finns på `/produkter-2026/` och omfattar tio produktposter (2026
 - Produktens namn **Hett Möte** är hämtat från båda etiketterna och fotot; **Dundergel** är batchjournalens arbetsnamn. Angiven styrka 8/10 och CSI ≈ 43 400 är preliminära, medan 24 burkar à nominellt 41 ml är rapporterade. Nettomängd per burk är okänd.
 - På befintlig etikett står kylvara och bäst före 2027-10. Det finns ännu ingen verifierad hållbarhetsbedömning eller fullständig kontroll av E211 mot produktkategori och gällande tillsatsvillkor. Före försäljning krävs kontroll av märkning, process, faktisk nettomängd och förvaring. Källjournal: `B2610-9 – Dundergel med Carolina Reaper och Ghost` på Drive.
 - Ändringarna ligger endast i arbetsgren och PR för granskning; ingen merge eller produktionspublicering.
+
+## 2026-11-03 – Habanero Red, mango- och vaniljmarmelad (B2611-1)
+
+- **Underlag:** batchjournal och batchregister i Drive, tillverkad 1 november 2026. Mango, vaniljstång, citron, ingefära, Habanero Red och en liten mängd svartpeppar. 39 fyllda burkar av nominell storlek 106 ml. Faktisk nettovikt/fyllvolym per burk har inte mätts.
+- **Styrka:** preliminärt cirka 4/10 (CSI cirka 3 400); beräkningen förutsätter att alla 54 g Habanero Red användes och använder en ungefärlig slutvikt 3 946 g.
+- **Bilder:** källor i privata Drive-mappen för produktbilder: `produktbild-b2611-1.png` och `B2611-1_Habanero_Red_webbetikett_B2611-1.png`. Webboptimerade exportkopior är `habanero-red-b2611-1-foto.webp` (1057 × 1057) och `habanero-red-b2611-1-webbetikett.webp` (1348 × 846). Webbetikettens motiv och text har inte ändrats; endast helt genomskinliga ytterkanter har beskärts. Originalen i Drive är orörda.
+- **Fullständig etikett tillagd 2026-11-03:** Originalet `ettikett-2611-1.png` hittades i samma privata Drive-mapp (tillagt 3 november). Webbanpassad etikett `habanero-red-b2611-1-etikett.webp` (1734 × 848 px) har kopplats till `labelImage`, medan illustrerad `webbetikett` fortsatt används på översiktskortet. Exporten bevarar text, grafik och typografi; endast den yttre ljusa kanten har gjorts transparent och webbformatet har anpassats. Originalet ligger orört i Drive.
+- **Redaktionell status efter review 2026-11-03:** `draft: false` gör produkten synlig i produktarkivet efter användarens manuella merge och separat godkänd publicering. Webbplatsen säljer inte produkten. Att den visas i arkivet är inte ett myndighetsgodkännande av etiketten eller hållbarhetsdatumet.
+- **Livsmedelsuppföljning:** etiketten anger ”Kylvara”, ”Bäst före utgången av 11 2027” och ”Fruktmängd ca 65 g per 100 g”. Batchjournalen rapporterar pH 3,5 **före** tillsats av E211 och slutmängd cirka 3 946 g med instabil våg. Det är inte en verifiering av hållbarhet eller ett bekräftat värde för varje burks nettomängd. Se detaljerad kontrollista nedan.
+- **Avgränsning och status:** befintlig produktmall, bildvägar och katalogkarta används utan ändring av CMS, schema, säkerhet, VPS eller publiceringsflöde. `docs/PROJECT_RULES.md` och `AGENTS.md` granskades utan behov av regeländring. Inget är mergat eller publicerat till produktion. Användaren gör merge och publicering manuellt efter separat godkännande.
+
+### B2611-1 – kontroll inför försäljning (granskning 3 november 2026)
+
+**Fastställt från journal och den uppladdade etikettbilden**
+
+- 39 fyllda burkar, modell 106 ml; faktisk nettofyllning per burk ej uppmätt.
+- Slutvikt beräknad cirka 3 946 g (osäker). pH 3,5 uppmätt före E211; mätning på färdig tappad produkt saknas.
+- 2,0 g natriumbensoat E211 uppgavs faktiskt tillsatt till cirka 3,946 kg => cirka **507 mg/kg natriumbensoat**, motsvarande cirka **430 mg/kg räknat som fri bensoesyra**. Beräkningen är inte en verifierad analys.
+- Fruktmängden på etiketten är **ca 65 g/100 g** men i batchjournalen finns endast 2 278 g mango säkert invägt; citronvikt och återförda mangobitar är inte säkert dokumenterade. Värdet kan inte låsas som kontrollerat.
+- Etiketten anger kylvara och bäst före utgången av november 2027, men fylltemperatur, koktid, lockbehandling, lagringstemperatur, mikrobiologi, hållbarhetsprövning och eventuell vattenaktivitet/Brix saknas i underlaget.
+
+**Interna kontrollpunkter vid hobbyverksamhet och inför eventuell framtida registrerad försäljning**
+
+1. **E211 och kategori:** Kontrollera rätt klassificering enligt aktuell bilaga II till EU-förordning (EG) nr 1333/2008. E210–E213 med högsta nivå 500 mg/kg räknat som fri syra gäller **endast under särskilda villkor, bl.a. vissa låg-sockerprodukter**, och nivån är en gräns för *tillåten användning*, inte generellt godkännande för vanlig marmelad. Bekräfta att produkten uppfyller rätt kategori och villkor, inklusive eventuella andra tillsatsmängder. Om villkoren inte är uppfyllda kan E211 inte godkännas för satsen genom att bara räkna om mängden.
+2. **Ingrediensmärkning:** Etiketten har ”pektin”, ”citronsyra” och ”natriumbensoat” utan kategorinamn. Kontrollwiki anger att tillsatser måste deklareras med lämpligt kategorinamn och namn eller E-nummer. Exempel att granska mot faktisk funktion: *geleringsmedel: pektin*, *surhetsreglerande medel: citronsyra* samt *konserveringsmedel: natriumbensoat (E211)*. Detta är ett förslag för kommande etikettkorrektur – ändra inte originalbilden automatiskt.
+3. **Marmeladbeteckning/fruktmängd:** Bedöm mot Livsmedelsverkets föreskrifter LIVSFS 2025:6 (gäller från 14 juni 2026, ändrade genom LIVSFS 2026:3). Kontrollera hur mango, citron och chili får räknas i fruktmängden och om ”ca 65 g per 100 g” stöds av faktiska råvaru-/slutvikter. Komplettera eller ersätt osäker siffra i ny godkänd etikettversion.
+4. **Nettokvantitet och avsändare:** Väg representativa färdiga burkar på en stabil våg (tarera tom burk/lock) och dokumentera verklig nettomängd; ”106 ml” är burkmodell, inte uppmätt innehåll. Kontrollera att all obligatorisk livsmedelsinformation, inklusive ansvarig livsmedelsföretagare och kontaktuppgifter, finns på etikett/övriga relevanta försäljningsytor enligt faktisk försäljningsform.
+5. **Process och pH:** Dokumentera temperatur och tid vid kokning/fyllning, rengöring och förslutning samt kontrollmät pH i representativa **färdiga** burkar med kalibrerad pH-mätare. Bedöm om ytterligare risk-/mikrobiologisk kontroll behövs; pH ensamt visar inte hållbarhet.
+6. **Hållbarhet/förvaring:** ”Kylvara” behöver kopplas till definierad och övervakad kyltemperatur; bäst före november 2027 är **inte verifierat**. Dokumentera en realistisk hållbarhetsbedömning med relevanta provningar över tid och tillverknings-/förpackningsdata innan datumet används vid försäljning. Behåll satsen kyld tills säkert förvaringsförfarande bedömts. Ett antaget kortare datum får inte heller presenteras som verifierat utan underlag.
+
+**Myndighets- och lagkällor kontrollerade 2026-11-03**
+
+- [Kontrollwiki – Att använda godkända tillsatser](https://kontrollwiki.livsmedelsverket.se/artikel/143/att-anvanda-godkanda-tillsatser)
+- [Kontrollwiki – Ingredienser (märkning av tillsatser)](https://kontrollwiki.livsmedelsverket.se/artikel/43/ingredienser)
+- [EU-förordning 1333/2008, konsoliderad version 2026-08-18](https://eur-lex.europa.eu/eli/reg/2008/1333/2026-08-18/eng)
+- [Livsmedelsverket – LIVSFS 2025:6, sylt, gelé och marmelad](https://kontrollwiki.livsmedelsverket.se/lagstiftning/538/livsfs-2025-6)
+- [Livsmedelsverket – Vad betyder datummärkningen?](https://www.livsmedelsverket.se/livsmedel-och-innehall/text-pa-forpackning-markning/datummarkning/)
+
+**Status efter review:** Den fullständiga etiketten är kopplad, och produktarkivsposten är aktiverad i arbetsgrenen. Tidigare hållbarhets- och märkningsfrågor finns kvar som intern uppföljning, inte som en spärr för att beskriva produkten i arkivet. Originaletiketten, CMS och schema är oförändrade. Merge och produktion utförs endast manuellt av användaren.
+
+### 2026-11-03 – hobbyverksamhet och reviewbeslut
+
+- Användaren anger att produkterna ännu tillverkas i hobbyverksamhet och att registrering inte är aktuell. Livsmedelsverkets bedömning av registreringsplikt beror på faktisk kontinuitet och organisation. Småskalig tillfällig försäljning vid exempelvis en julmarknad kan falla utanför definitionen av livsmedelsföretag. Även en sådan aktör ansvarar för att livsmedel som släpps ut på marknaden är säkra enligt artikel 14 i förordning (EG) nr 178/2002.
+- Användaren har medvetet valt att skriva natriumbensoat på etiketten utan ordet ”konserveringsmedel”. Den uppladdade etikettbilden ändras inte; märkning, tillsatsvillkor och hållbarhetsfrågor dokumenteras endast som intern kunskap inför fortsatt utveckling och eventuell förändrad försäljningsform.
+- Reviewkommentaren på tidigare rad 19 i produktfilen, ”Vi tar bort detta”, har åtgärdats genom att hela batchstycket tagits bort. Batch finns fortfarande i metadatafältet. `draft: false` är en redaktionell aktivering av produktarkivet, inte ett säkerhetsgodkännande.
+- Källor: [Livsmedelsverket – registrering](https://www.livsmedelsverket.se/foretagande-regler-kontroll/starta-foretag/registrera-foretag/), [Kontrollwiki – livsmedelsföretag](https://kontrollwiki.livsmedelsverket.se/artikel/107/livsme-b-del-b-sforetag-livsme-b-del-b-sforetagare-och-livsme-b-del-b-b-san-b-laggning), [Kontrollwiki – när det inte gäller livsmedelsföretag](https://kontrollwiki.livsmedelsverket.se/artikel/316/atgarder-nar-det-inte-galler-livsmedelsforetag).
