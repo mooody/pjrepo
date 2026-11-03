@@ -12,7 +12,8 @@
     {"title": "UMass Amherst: Electrical Conductivity for Greenhouse Crops", "url": "https://www.umass.edu/agriculture-food-environment/greenhouse-floriculture/fact-sheets/soluble-salts-electrical-conductivity-ec-for-greenhouse-crops"},
     {"title": "University of Florida IFAS: salttolerans hos grönsaker och mätmetoder", "url": "https://ask.ifas.ufl.edu/publication/SS117"},
     {"title": "Colorado State University: Saline Soils och saltkänsliga grödor", "url": "https://extension.colostate.edu/resource/saline-soils/"},
-    {"title": "Purdue University: mäta pH och EC direkt i substrat", "url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-237-w.html"}
+    {"title": "Purdue University: mäta pH och EC direkt i substrat", "url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-237-w.html"},
+    {"title": "FieldScout Direct Soil EC Meter – tillverkarens manual med exempel på direktvärden", "url": "https://www.fieldenvironmental.com/assets/files/Manuals/SpectrumTechnologiesFieldScoutDirectSoilECMeter.pdf"}
   ],
   "related": [{"label": "Förbättra jorden", "href": "/odlingsmetoder/forbattra-jorden/"}]
 }
@@ -45,6 +46,8 @@ En EC-mätare med metallsonder kan sättas direkt i fuktig jord, om den är avse
 **Jämför helst samma mätare, på samma plats och vid liknande jordfuktighet.** Torr jord kan ge missvisande låga direktvärden. Mycket fukt kan samtidigt sänka salthalten i jordvätskan genom utspädning. Temperaturen och jordens egenskaper påverkar också avläsningen.
 
 Det finns två vanliga typer av direktsensorer. Den ena uppskattar ledningsförmågan **i jordvätskan**, alltså det vatten som omger rötterna. Den andra mäter jordens **sammanlagda ledningsförmåga**, där både fasta partiklar, vatten och porer påverkar. Dessa värden är inte utbytbara. En meter med två metallpinnar säger inte i sig vilken typ den är – kontrollera manualen.
+
+**Ett konkret exempel på varför mätaren spelar roll:** i manualen för FieldScout Direct Soil EC anges att en direktavläsning kring **0,7 mS/cm** i en viss gräsmattejord kunde motsvara ungefär **2,7 mS/cm i mättat jordextrakt**. I en annan typ av växthusjord beskrivs en betydligt mindre skillnad. Därför finns inte en tillförlitlig omräkningsfaktor eller en allmän direktmätningstabell för alla jordsonder. Skaffa referensvärden för just din mätare och använd i första hand direktvärdena för att följa trender i den egna bädden.
 
 ### Vilka EC-värden ska man sikta på?
 
