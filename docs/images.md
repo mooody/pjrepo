@@ -1,5 +1,11 @@
 # Skyddade original och offentliga webbexporter
 
+## 2026-11-03 – Ersatt felaktig rulltestbild
+
+Bild-ID `jordrulle-test` i artikeln `src/content/methods/jord-och-kompost.md` har bytts till användarvald korrigerad `rulltest-lerjord.png` i den privata Drive-mappen `Trädgårdsdrömmar- temporära bilder`. Den visar en jordsträng som rullats ut i handflatan. Föregående webbexport var inte en korrekt återgivning för detta rulltest.
+
+Sex WebP-varianter (full 480/800, card 480/800, hero 800, sharing 1200) har exporterats med samma dimensioner, befintliga beskärningsregler och synlig diskret vattenstämpel och ersatt exakt motsvarande filer i `web-images/`. Original-PNG lagras inte i GitHub. Bild-ID, manifest, exportindex, metadata och artikeltext är oförändrade; ingen annan bild ändras. Lokal storleks-, format- och vattenstämpelkontroll utförd, GitHub Actions-kontroll följer PR:n. Inga förändringar av CMS, scripts, server eller publiceringsrutiner.
+
 ## Redaktionella bildtexter – 1 november 2026
 
 Bildtexter på webbplatsen beskriver i första hand motivet och varför det är relevant i artikeln. Synligt tecknade illustrationer behöver inte förses med förklaringar om att de är tecknade, AI-genererade, förstorade eller inte skalenliga. Normal webboptimering, beskärning och enklare ljus- eller färgjustering anges inte vid varje bild. Tekniskt ursprung, AI-stöd och tidigare bearbetning dokumenteras fortsatt i denna interna bildjournal för spårbarhet.
