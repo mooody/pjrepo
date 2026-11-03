@@ -9,7 +9,7 @@
     "biokol",
     "jord"
   ],
-  "reviewed": "2026-10-23",
+  "reviewed": "2026-11-03",
   "sources": [
     {
       "title": "Oregon State University: Improving Garden Soils with Organic Matter – organiskt material, markstruktur och varsam hantering.",
@@ -73,7 +73,7 @@ Biokol kan påverka hur jorden håller vatten och näringsämnen, men ger inte a
 
 ### Näringsladda kolet
 
-Krossa större bitar till mindre korn och fukta dem för att minska dammet. Kolet kan blötläggas i gödselvatten eller blandas med kompost innan det tillförs jorden. Ett hemmaupplägg är att låta det ligga i vatten och en mindre mängd hönsgödsel under en till två veckor. Att använda samma vikt hönsgödsel som kol är en förekommande tumregel, men ingen säker standarddos: gödselns koncentration varierar och för mycket kan ge skadligt hög salthalt. Följ doseringen för gödselprodukten och börja försiktigt.
+Krossa större bitar till mindre korn och fukta dem för att minska dammet. Kolet kan blötläggas i gödselvatten eller blandas med kompost innan det tillförs jorden. Vid ett studiebesök hos en större svensk jordtillverkare beskrevs följande recept för att näringsladda biokol: **blanda lika delar biokol och hönsgödsel räknat i vikt (50/50), tillsätt vatten och låt stå i en till två veckor**. Det är ett konkret exempel från tillverkarens arbetssätt, inte en fastställd standarddos för alla hönsgödselprodukter. Gödselns näringsstyrka, salthalt och vattenmängden spelar roll. Om metoden används hemma bör man känna till gödselns innehåll och vara försiktig med koncentrerade gödselprodukter eller direkt kontakt med späda rötter.
 
 
 
