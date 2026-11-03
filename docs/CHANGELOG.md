@@ -1,5 +1,14 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-11-03 – Jordförbättring och ny artikel om pH/EC (PR för granskning)
+
+- **Innehåll:** `src/content/methods/forbattra-jorden.md` rättad om barkmull, mull, sand i lerjord och biokol. Förtydligad skillnad mellan grillkolstandard och EBC samt försiktig näringsladdning med hönsgödsel. Två av användaren angivna avslutande stycken borttagna.
+- **Ny artikel:** `src/content/methods/analysera-din-jord.md` om pH, kalka efter behov, pH-stickor med destillerat vatten, EC, mätmetodernas skillnader och laboratorieanalys. Siffror för EC gäller uttryckligen mättat jordextrakt och inte lakvatten eller direktsensor.
+- **Bild:** tidigare framtagen pH-/EC-illustration är ännu inte importerad via projektets skyddade bildflöde; bildkoppling kvarstår. Ingen bild är felaktigt märkt som publicerad.
+- **Skydd:** ingen CMS-, schema-, server-, säkerhets-, bildpipeline- eller publiceringsändring. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov. `docs/SERVER_OPERATIONS.md` påverkas inte.
+- **Status:** innehåll i arbetsgren för PR. CI och bildimport återstår. Inte mergat, inte publicerat.
+
+
 ## 2026-11-03 – B2611-1: reviewåtgärd och produktarkiv aktiverat i PR #43
 
 - **Review:** Användaren kommenterade ”Vi tar bort detta” på produktfilens tidigare rad 19. Hela stycket med tillverkningsdag, antal burkar och osäker nettomängd har tagits bort. Satsnumret kvarstår i metadata.
