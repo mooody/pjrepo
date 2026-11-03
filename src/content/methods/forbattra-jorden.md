@@ -71,11 +71,7 @@ Biokol tillverkas genom att organiskt material hettas upp med begränsad tillgå
 
 Det kan påverka hur jorden håller vatten och näringsämnen. Det betyder inte att alla jordar eller växter får bättre tillväxt. Kontrollera vad produkten innehåller, om näring har tillsatts och hur den ska användas. En biokolblandning med kompost är något annat än rent biokol.
 
-Vill du prova kan du behandla en mindre yta och lämna en liknande yta utan tillsats. Odla samma växt och sköt båda lika. Det blir inget vetenskapligt försök, men ger ett bättre underlag för nästa inköp än att ändra hela landet på en gång.
 
-## När ett jordprov är mer hjälpsamt
 
-Du kan känna mycket med handen, men inte hur mycket fosfor jorden innehåller. Om problemen återkommer, eller om du länge har tillfört kompost och gödsel, kan en jordanalys vara ett bättre nästa steg. Ett enkelt pH-test visar surhetsgraden, inte jordens hela näringsinnehåll.
-
-Börja alltså med att undersöka, välj en åtgärd och följ vad som händer. Jordförbättring får gärna vara ett långsamt arbete där du lär känna platsen.
+Vill du mäta pH eller salthalt kan du läsa den separata guiden [Analysera din jord](/odlingsmetoder/analysera-din-jord/).
 
