@@ -6,9 +6,9 @@ category: "Marmelad"
 batch: "B2611-1"
 order: 100
 productImage: /product-images/habanero-red-b2611-1-foto.webp
-labelImage: /product-images/habanero-red-b2611-1-webbetikett.webp
+labelImage: /product-images/habanero-red-b2611-1-etikett.webp
 productImageAlt: "Glasburkar med Habanero Red, mango- och vaniljmarmelad"
-labelImageAlt: "Illustrerad webbetikett för Habanero Red, mango- och vaniljmarmelad, med styrka 4 av 10"
+labelImageAlt: "Etikett för Habanero Red B2611-1 med ingrediensförteckning, styrkeskala och angiven förvaring"
 draft: true
 ---
 

@@ -1,5 +1,12 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-11-03 – B2611-1: separat etikett tillagd, livsmedelsgranskning dokumenterad (PR #43)
+
+- **Genomfört:** originaletiketten `ettikett-2611-1.png` hittad i privat produktbildsmapp i Google Drive. Bilden kontrollerad visuellt; en webbexport `habanero-red-b2611-1-etikett.webp` (1734 × 848 px, transparens utanför den befintliga ramen) kopplas till `labelImage` i produktutkastet. Motiv, ingredienser och text i själva etiketten är oförändrade. Webbetiketten på produktöversikten är oförändrad.
+- **Granskning:** enligt batchjournalen cirka 3 946 g slutvikt, 2,0 g E211 och pH 3,5 före konserveringsmedel. Uppladdad etikett har fruktmängd ca 65 g/100 g, ”Kylvara” och bäst före 11/2027. Kontrollen visade ofullständiga kategorinamn på pektin/citronsyra/E211, oklar nettomängd, avsändarinformation och fruktmängdsunderlag samt avsaknad av verifierat bäst före-datum och produktspecifikt E211-godkännande. Exakta kontrollpunkter och lagkällor dokumenterade i `docs/products-2026.md`.
+- **Tillstånd:** **`draft: true` behålls** trots att fullständig etikettbild nu finns. Märkningen återges endast som källmaterial och betraktas inte som slutligt godkänd för försäljning. Ingen fysisk etikett, bokförd batch, CMS, server eller produktionspublicering ändras.
+- **Verifiering:** lokal bild-/alfakontroll genomförd. GitHub Actions Validate and build för denna komplettering ska kontrolleras. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade, oförändrade; `docs/SERVER_OPERATIONS.md` inte berörd. Användaren ansvarar för manuell merge och separat produktionspublicering efter uttryckligt godkännande.
+
 ## 2026-11-03 – Habanero Red B2611-1, produktutkast och två webbexporter (PR för granskning)
 - **Beställt:** förbereda nästa marmelad på Produkter 2026 enligt befintlig produktmall.
 - **Genomfört i grenen `content/habanero-red-b2611-1-20261103`:** ny produktpost `src/content/products/habanero-red-b2611-1.md`, kompletterat `overviewImages` i produktöversikten, två optimerade WebP-bilder samt uppdaterad `docs/products-2026.md`. Källor är batchjournal och två bildfiler från Drive. Inga originalfiler, etikettritningar eller fotografiska detaljer har redigerats; webbetikettens transparenta marginaler har beskärts.
