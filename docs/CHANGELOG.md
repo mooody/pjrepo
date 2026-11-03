@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-11-03 – B2611-1: reviewåtgärd och produktarkiv aktiverat i PR #43
+
+- **Review:** Användaren kommenterade ”Vi tar bort detta” på produktfilens tidigare rad 19. Hela stycket med tillverkningsdag, antal burkar och osäker nettomängd har tagits bort. Satsnumret kvarstår i metadata.
+- **Hobbyverksamhet:** användaren har upplyst att detta ännu är småskalig hobbyverksamhet utan livsmedelsregistrering. Tillfällig försäljning kan enligt Livsmedelsverket vara undantagen från registrering beroende på kontinuitet och organisation. Livsmedlen ska fortfarande vara säkra. Valet att ange natriumbensoat utan ordet ”konserveringsmedel” i den fysiska etiketten är medvetet och lämnas orört. Tidigare tillsats- och hållbarhetskontroll dokumenteras fortsatt internt, utan att påstå att den är myndighetsgodkänd.
+- **Synlighet:** `draft: false` i `src/content/products/habanero-red-b2611-1.md`. Detta gäller produktarkivet, inte en köpbar butik. Synlighet inträder först efter användarens manuella merge och separat godkänd produktionspublicering.
+- **Dokumentation:** `docs/products-2026.md` uppdaterad. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan behov av uppdatering. `docs/SERVER_OPERATIONS.md` påverkas inte; ingen ändring av CMS, bildoriginal, säkerhet, server eller publiceringsflöde.
+- **Verifiering:** nytt `Validate and build` inväntas. Inga filer i produktion ändrade.
+
 ## 2026-11-03 – B2611-1: separat etikett tillagd, livsmedelsgranskning dokumenterad (PR #43)
 
 - **Genomfört:** originaletiketten `ettikett-2611-1.png` hittad i privat produktbildsmapp i Google Drive. Bilden kontrollerad visuellt; en webbexport `habanero-red-b2611-1-etikett.webp` (1734 × 848 px, transparens utanför den befintliga ramen) kopplas till `labelImage` i produktutkastet. Motiv, ingredienser och text i själva etiketten är oförändrade. Webbetiketten på produktöversikten är oförändrad.
