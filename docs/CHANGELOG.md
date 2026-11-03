@@ -418,3 +418,9 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 - **Dokumentation:** `docs/images.md` uppdaterad; `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan behov av ändring. `docs/SERVER_OPERATIONS.md` påverkas inte.
 - **Kontroller:** bildvarianter kontrollerade med Sharp för mått, format och metadata. Första GitHub Actions [Validate and build #41665434289](https://github.com/mooody/pjrepo/actions/runs/41665434289) visade att alla 22 enhetstester passerade, men ett webbläsartest förväntade felaktigt fortfarande sex guidebilder. `tests/browser/site.spec.ts` har därför uppdaterats till sju bilder och testar uttryckligen de två ändrade artiklarnas bildkopplingar. Omtest i Actions återstår; ingen verifierad produktion.
 - **Avgränsning/status:** innehålls- och bildändring i ny arbetsgren/PR, inte mergad, inte publicerad i produktion. CMS, server, andra webbplatser och publiceringsflöde är oförändrade.
+
+## 2026-11-03 – Korrigerade etiketter i jorddiagrammet (PR #47)
+
+- **Godkänt och gjort i arbetsgren:** ändrat `Hummus` → `Humus` och `Mikro-organismer` → `Mikro- och mesofauna` i originalillustrationen för `jordens-bestandsdelar`. Övriga delar av diagrammet bevarade. Korrigerad källa lagrad privat på Drive och åtta ordinarie vattenstämplade WebP-varianter ersatta under samma bild-ID.
+- **Dokumentation:** `docs/images.md` har teknisk spårbarhet. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade och oförändrade. Ingen ändring av CMS, bildschema, server eller publiceringsmetod.
+- **Status:** commit i PR #47, CI-kontroll återstår. Ej mergad eller publicerad i produktion.
