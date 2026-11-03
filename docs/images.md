@@ -1,5 +1,14 @@
 # Skyddade original och offentliga webbexporter
 
+## Rulltestbild till jordartikeln – 3 november 2026
+
+Den tidigare offentliga bildexporten `jordrulle-test` visade en grövre jordsträng och stämde dåligt med artikelns exempel på att rulla en tunn sammanhängande sträng. Användaren pekade ut den korrekta bilden `rulltest-lerjord.png` i den privata Google Drive-mappen **Trädgårdsdrömmar- temporära bilder** (Drive-ID `17CJz7eu_CqbhyVXv-Dw7QFOWVktTSxyc`). Motiven jämfördes visuellt.
+
+Sex befintliga varianter (`full-480`, `full-800`, `card-480`, `card-800`, `hero-800`, `sharing-1200`) har ersatts med webboptimerade WebP-bilder genom samma Sharp-beskärning, kvalitetsinställning och vattenstämpel som i `scripts/images.mjs`. Bilderna har inget EXIF och vattenstämpeln läggs på efter beskärning. Existerande ID, alt-text, bildtext, manifest och exportindex är oförändrade eftersom bildformat och dimensioner är desamma. Det privata PNG-underlaget finns kvar i Drive och läggs inte i GitHub.
+
+Bara bildvarianterna och den här dokumentationen ändras. CMS, bildpipeline, publiceringsflöde och server påverkas inte. Arbetsgrenen och PR:en är inte produktion.
+
+
 ## Redaktionella bildtexter – 1 november 2026
 
 Bildtexter på webbplatsen beskriver i första hand motivet och varför det är relevant i artikeln. Synligt tecknade illustrationer behöver inte förses med förklaringar om att de är tecknade, AI-genererade, förstorade eller inte skalenliga. Normal webboptimering, beskärning och enklare ljus- eller färgjustering anges inte vid varje bild. Tekniskt ursprung, AI-stöd och tidigare bearbetning dokumenteras fortsatt i denna interna bildjournal för spårbarhet.

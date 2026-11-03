@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-11-03 – Korrigerad rulltestbild i jordartikeln (PR för granskning)
+
+- **Begäran:** den publicerade bilden vid rulltestet på `/odlingsmetoder/jord-och-kompost/` återgav felaktigt en grövre jordsträng. Ersätt med användarens korrekta bild i privata Drive-mappen `Trädgårdsdrömmar- temporära bilder`.
+- **Genomfört i arbetsgrenen `fix/jordrulle-rulltest-bild-20261103`:** sex befintliga WebP-varianter för bild-ID `jordrulle-test` ersatta, med ordinarie beskärning, bildkvalitet och vattenstämpel efter beskärning. Samma filnamn och dimensioner behålls; manifest och artikeltext behöver inte ändras. Underlaget `rulltest-lerjord.png` ligger fortsatt privat på Drive och har inte lagts i repositoryt. Motiven jämfördes visuellt.
+- **Dokumentation:** `docs/images.md` uppdaterad; `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan behov av ändring. Ingen påverkan på `docs/SERVER_OPERATIONS.md`.
+- **Status:** endast separat arbetsgren och PR. Byggkontroll ska verifieras. Ingen ändring av CMS, server, säkerhet, publiceringsflöde eller andra webbplatser. Ingen merge eller produktionspublicering.
+
+
 ## 2026-11-03 – B2611-1: reviewåtgärd och produktarkiv aktiverat i PR #43
 
 - **Review:** Användaren kommenterade ”Vi tar bort detta” på produktfilens tidigare rad 19. Hela stycket med tillverkningsdag, antal burkar och osäker nettomängd har tagits bort. Satsnumret kvarstår i metadata.
