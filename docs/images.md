@@ -1,5 +1,18 @@
 # Skyddade original och offentliga webbexporter
 
+## 2026-11-05 – Jordmätare (pH och EC) till analysartikeln, PR #44
+
+Källfil: `jordmätare_i_grönsakslandet.png` från privata Google Drive-mappen `Trädgårdsdrömmar- temporära bilder` (Drive-ID `1jnrmPbs5SpkhgPx57aZFeTJuJEB15asm`). Illustration med två jordmätare, där EC-mätaren har två metallsonder. Källfilen hålls utanför publikt repo. Åtta webbexporter har gjorts för nytt befintligt-schema bild-ID `jordmatare-ph-ec`: full 480/800/1447, card 480/800, hero 480/800 och sharing 1200. Samma Sharp-beskärning, WebP-kvalitet 82 och diskreta textvattenstämpel (0,55) som nuvarande `scripts/images.mjs`. Ingen EXIF finns i exporterna. Bilden placeras som huvudbild på `src/content/methods/analysera-din-jord.md`. Övriga publika bilder och publiceringsflöden är orörda.
+
+## Rulltestbild till jordartikeln – 3 november 2026
+
+Den tidigare offentliga bildexporten `jordrulle-test` visade en grövre jordsträng och stämde dåligt med artikelns exempel på att rulla en tunn sammanhängande sträng. Användaren pekade ut den korrekta bilden `rulltest-lerjord.png` i den privata Google Drive-mappen **Trädgårdsdrömmar- temporära bilder** (Drive-ID `17CJz7eu_CqbhyVXv-Dw7QFOWVktTSxyc`). Motiven jämfördes visuellt.
+
+Sex befintliga varianter (`full-480`, `full-800`, `card-480`, `card-800`, `hero-800`, `sharing-1200`) har ersatts med webboptimerade WebP-bilder genom samma Sharp-beskärning, kvalitetsinställning och vattenstämpel som i `scripts/images.mjs`. Bilderna har inget EXIF och vattenstämpeln läggs på efter beskärning. Existerande ID, alt-text, bildtext, manifest och exportindex är oförändrade eftersom bildformat och dimensioner är desamma. Det privata PNG-underlaget finns kvar i Drive och läggs inte i GitHub.
+
+Bara bildvarianterna och den här dokumentationen ändras. CMS, bildpipeline, publiceringsflöde och server påverkas inte. Arbetsgrenen och PR:en är inte produktion.
+
+
 ## Redaktionella bildtexter – 1 november 2026
 
 Bildtexter på webbplatsen beskriver i första hand motivet och varför det är relevant i artikeln. Synligt tecknade illustrationer behöver inte förses med förklaringar om att de är tecknade, AI-genererade, förstorade eller inte skalenliga. Normal webboptimering, beskärning och enklare ljus- eller färgjustering anges inte vid varje bild. Tekniskt ursprung, AI-stöd och tidigare bearbetning dokumenteras fortsatt i denna interna bildjournal för spårbarhet.
@@ -91,3 +104,15 @@ Kännetecken jämförda med UC IPM:s namngivna foton av skaftägg och larv i Gre
 Den nya webbexporten `biologiskt-vaxtskydd-odlingsbadd` bygger på Mickes fotografi av blommande, upphöjda odlingsbäddar. Det valda motivet har bearbetats digitalt med AI-stöd för jämnare ljus och färger. Bilden används som inledande bild på `/biologiskt-vaxtskydd/` via befintliga vanliga sidors `image`-fält; ingen ny bildkomponent eller CMS-struktur behövs.
 
 Originalfotografiet och bearbetningsfilen lagras utanför det offentliga repositoryt. De åtta publika WebP-versionerna (full, kort, stående huvudbild och delning) har skapats i separat arbetskatalog med webbplatsens befintliga beskärningsmått och diskreta vattenstämpel efter beskärning. Bara färdiga exporter, indexpost och en manifestpost med tomt `source` införs. Bildtexten beskriver odlingsmiljön utan tekniska bearbetningskommentarer; bildens ursprung dokumenteras här. Ingen annan bild har exporterats om.
+
+## 2026-11-03 – Jordens beståndsdelar och flytt av mykorrhizabild
+
+Den tidigare huvudbilden `jordliv-rot-mykorrhiza` återanvänds utan ändring på `/odlingsmetoder/efter-skorden/`, där huvudbild saknades. I `/odlingsmetoder/jordens-sma-arbetare/` används i stället den i denna konversation framtagna slutversionen `tre_jorddiagram_om_markens_liv.png`: tre cirkeldiagram, utan rubrik och med transparent bakgrund. Detta är en pedagogisk illustration med schematisk procentfördelning, inte en mätning av en särskild jord.
+
+Original-PNG behålls utanför det offentliga repositoryt. Bild-ID `jordens-bestandsdelar` tillkommer i befintligt manifest och index med tom originalsökväg. Åtta WebP-exporter har tillverkats med samma storlekar, beskärningsregler och vattenstämpel som projektets ordinarie Sharp-export och utan EXIF. Den ordinarie bildpipeline, CMS, schema, huvudmeny, server och driftsättningsmetod är oförändrade. Endast de två berörda artikelbilderna ändras. CI-kontroll på PR krävs före manuell merge. Inget i produktion har ändrats.
+
+## 2026-11-03 – Två textkorrigeringar i jorddiagrammet (PR #47)
+
+Efter användarens godkännande har stavningen `Hummus` rättats till `Humus` och `3 % Mikro-organismer` ändrats till `3 % Mikro- och mesofauna` i `jordens-bestandsdelar`. Rättningen utfördes precist mot det ursprungliga transparenta diagrammet, utan att ersätta hela illustrationen eller ändra cirklar, procenttal eller pilar. En alternativ nygenererad bild som förändrade diagrammets uppbyggnad har inte använts.
+
+Den korrigerade PNG-källan är skyddad i Google Drive under `Trädgårdsdrömmar- temporära bilder/tre_jorddiagram_om_markens_liv_korrigerad.png`, jämte den tidigare källan. Åtta tidigare WebP-filer för samma bild-ID har ersatts via oförändrad bildexportmetod med samma beskärning, dimensioner, metadatafria format och befintliga vattenstämpel. Manifest, index och CMS har samma relationer och ändras inte. Ingen produktion har ändrats; verifiering via GitHub Actions görs i PR #47.

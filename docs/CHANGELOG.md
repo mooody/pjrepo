@@ -1,13 +1,19 @@
 # Ändringslogg – Trädgårdsdrömmar
 
-## 2026-11-03 – Jordförbättring och ny artikel om pH/EC (PR för granskning)
+## 2026-11-05 – PR #44: Jordanalysartikel kompletterad med pH-/EC-bild och sammanförd med main
 
-- **Innehåll:** `src/content/methods/forbattra-jorden.md` rättad om barkmull, mull, sand i lerjord och biokol. Förtydligad skillnad mellan grillkolstandard och EBC samt försiktig näringsladdning med hönsgödsel. Två av användaren angivna avslutande stycken borttagna.
-- **Ny artikel:** `src/content/methods/analysera-din-jord.md` om pH, kalka efter behov, pH-stickor med destillerat vatten, EC, mätmetodernas skillnader och laboratorieanalys. Siffror för EC gäller uttryckligen mättat jordextrakt och inte lakvatten eller direktsensor.
-- **Uppföljning 3 november:** EC-artikeln har kompletterats med praktiska råd för direktsonder, skillnaden mellan jordvätske-EC och bulk-EC, metodspecifika referensvärden samt salttolerans för olika grönsaker. Biokolavsnittet anger 50/50 hönsgödsel och kol i vikt som ett recept återgivet från användarens studiebesök hos en svensk jordtillverkare, inte som en standard för alla gödseltyper.
-- **Bild:** `jordmätare_i_grönsakslandet.png` verifierad i privata Drive-mappen `Trädgårdsdrömmar- temporära bilder` (ID `1jnrmPbs5SpkhgPx57aZFeTJuJEB15asm`). Den är fortfarande inte importerad som vattenstämplad webbexport genom projektets bildflöde. Bildkoppling kvarstår; ingen felaktig offentlig originalbild.
-- **Skydd:** ingen CMS-, schema-, server-, säkerhets-, bildpipeline- eller publiceringsändring. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov. `docs/SERVER_OPERATIONS.md` påverkas inte.
-- **Status:** innehåll i arbetsgren för PR. CI och bildimport återstår. Inte mergat, inte publicerat.
+- **Bakgrund:** PR #44 skapades 3 november med förbättrad artikel `src/content/methods/forbattra-jorden.md` och ny `src/content/methods/analysera-din-jord.md` om pH, EC, direktmätning och salttolerans. Artikeln om biokol beskriver 50/50-receptet (biokol och hönsgödsel i vikt) från studiebesök, med doseringsförbehåll.
+- **Genomfört i arbetsgrenen:** korrigerade Drive-illustrationen `jordmätare_i_grönsakslandet.png` används som huvudbild i `Analysera din jord` via nytt bild-ID `jordmatare-ph-ec`. Åtta vattenstämplade webboptimerade WebP-varianter har skapats med befintlig exportmetod. Bilden visar EC-sond med två metallpinnar. Originalet förblir skyddat på Drive och finns inte i GitHub.
+- **Samordning:** grenen har förts samman med den senaste kontrollerade `main` så att tidigare mergade ändringar, inklusive PR #47:s diagram, inte skrivs över. Bildmanifest och exportindex utökade inom befintligt schema. Ett befintligt Playwright-test kontrollerar att den nya artikelbilden laddas.
+- **Dokumentation:** `docs/images.md` uppdaterad. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` påverkas inte.
+- **Status:** genomfört i PR #44:s arbetsgren. Byggkontroll och granskning återstår; inte mergat till main eller publicerat i produktion. Ingen ändring av CMS, säkerhet, Nginx, server eller publiceringsflöde.
+
+## 2026-11-03 – Korrigerad rulltestbild i jordartikeln (PR för granskning)
+
+- **Begäran:** den publicerade bilden vid rulltestet på `/odlingsmetoder/jord-och-kompost/` återgav felaktigt en grövre jordsträng. Ersätt med användarens korrekta bild i privata Drive-mappen `Trädgårdsdrömmar- temporära bilder`.
+- **Genomfört i arbetsgrenen `fix/jordrulle-rulltest-bild-20261103`:** sex befintliga WebP-varianter för bild-ID `jordrulle-test` ersatta, med ordinarie beskärning, bildkvalitet och vattenstämpel efter beskärning. Samma filnamn och dimensioner behålls; manifest och artikeltext behöver inte ändras. Underlaget `rulltest-lerjord.png` ligger fortsatt privat på Drive och har inte lagts i repositoryt. Motiven jämfördes visuellt.
+- **Dokumentation:** `docs/images.md` uppdaterad; `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan behov av ändring. Ingen påverkan på `docs/SERVER_OPERATIONS.md`.
+- **Status:** endast separat arbetsgren och PR. Byggkontroll ska verifieras. Ingen ändring av CMS, server, säkerhet, publiceringsflöde eller andra webbplatser. Ingen merge eller produktionspublicering.
 
 
 ## 2026-11-03 – B2611-1: reviewåtgärd och produktarkiv aktiverat i PR #43
@@ -420,3 +426,17 @@ Registrera även resultat från **manuella ändringar på VPS** när det går, m
 - **Regler:** `docs/PROJECT_RULES.md` och `AGENTS.md` lästa och granskade utan behov av metodändring. CMS, schema, bildpipeline, OAuth, Nginx, STRATO, säkerhet, andra webbplatser och deployflöde oförändrade. `docs/SERVER_OPERATIONS.md` behöver inte ändras.
 - **Status:** på arbetsgren inför PR-granskning; ej mergat, ej publicerat i produktion. GitHub Actions-verifiering återstår.
 
+
+## 2026-11-03 – Flytt av mykorrhizabild och ny jordillustration (PR för granskning)
+
+- **Beställt:** flytta befintlig huvudbild från `Jordens små arbetare – samspelet under ytan` till `Efter skörden – vad händer med jorden och mykorrhizan?`, och ersätta den första sidans bild med `Jordens beståndsdelar`.
+- **Genomfört i arbetsgren:** `jordliv-rot-mykorrhiza` återanvänds på efter-skörden-artikeln utan ny export. Den tidigare artikeln använder det nya bild-ID:t `jordens-bestandsdelar` med åtta vattenstämplade WebP-varianter och en ny manifest/indexpost. Källillustrationen (tre cirklar, transparent bakgrund) hålls utanför offentliga GitHub.
+- **Dokumentation:** `docs/images.md` uppdaterad; `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan behov av ändring. `docs/SERVER_OPERATIONS.md` påverkas inte.
+- **Kontroller:** bildvarianter kontrollerade med Sharp för mått, format och metadata. Första GitHub Actions [Validate and build #41665434289](https://github.com/mooody/pjrepo/actions/runs/41665434289) visade att alla 22 enhetstester passerade, men ett webbläsartest förväntade felaktigt fortfarande sex guidebilder. `tests/browser/site.spec.ts` har därför uppdaterats till sju bilder och testar uttryckligen de två ändrade artiklarnas bildkopplingar. Omtest i Actions återstår; ingen verifierad produktion.
+- **Avgränsning/status:** innehålls- och bildändring i ny arbetsgren/PR, inte mergad, inte publicerad i produktion. CMS, server, andra webbplatser och publiceringsflöde är oförändrade.
+
+## 2026-11-03 – Korrigerade etiketter i jorddiagrammet (PR #47)
+
+- **Godkänt och gjort i arbetsgren:** ändrat `Hummus` → `Humus` och `Mikro-organismer` → `Mikro- och mesofauna` i originalillustrationen för `jordens-bestandsdelar`. Övriga delar av diagrammet bevarade. Korrigerad källa lagrad privat på Drive och åtta ordinarie vattenstämplade WebP-varianter ersatta under samma bild-ID.
+- **Dokumentation:** `docs/images.md` har teknisk spårbarhet. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade och oförändrade. Ingen ändring av CMS, bildschema, server eller publiceringsmetod.
+- **Status:** commit i PR #47, CI-kontroll återstår. Ej mergad eller publicerad i produktion.

@@ -22,8 +22,8 @@
     {"label": "Kompostens kretslopp", "href": "/odlingsmetoder/kompost/"},
     {"label": "Täckodling genom året", "href": "/odlingsmetoder/tackodling-genom-aret/"}
   ],
-  "image": "jordliv-rot-mykorrhiza",
-  "imageAlt": "Illustration av en levande rot med fina svamptrådar som når ut i en större jordvolym, och separat nedbrytning av döda växtrester."
+  "image": "jordens-bestandsdelar",
+  "imageAlt": "Tre cirkeldiagram över jordens mineralpartiklar, luft, vatten, organiskt material och organismer."
 }
 ---
 

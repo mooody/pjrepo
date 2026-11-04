@@ -132,6 +132,9 @@ test('trädgårdsguiderna har korrekta brödsmulor och publicerade bilder', asyn
     ['jord-och-kompost', 'odlingslott-jord-full-800.webp'],
     ['tackodling', 'tackodling-genomskarning-full-800.webp'],
     ['biologisk-mangfald', 'mangfald-stubbe-full-800.webp'],
+    ['jordens-sma-arbetare', 'jordens-bestandsdelar.webp'],
+    ['efter-skorden', 'jordliv-rot-mykorrhiza.webp'],
+    ['analysera-din-jord', 'jordmatare-ph-ec.webp'],
     ['tackodling-genom-aret', 'tackodling-hostlov.webp'],
   ]) {
     await page.goto('/odlingsmetoder/' + slug + '/');
@@ -143,7 +146,7 @@ test('trädgårdsguiderna har korrekta brödsmulor och publicerade bilder', asyn
     await expect(page.locator('article.detail > a.text-link')).toHaveCount(0);
   }
   await page.goto('/biologisk-odling/');
-  await expect(page.locator('article.topic img')).toHaveCount(6);
+  await expect(page.locator('article.topic img')).toHaveCount(7);
 });
 
 test('artiklar visar menybaserad kedja utan Startsida', async ({ page }) => {

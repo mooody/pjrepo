@@ -15,6 +15,8 @@
     {"title": "Purdue University: mäta pH och EC direkt i substrat", "url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-237-w.html"},
     {"title": "FieldScout Direct Soil EC Meter – tillverkarens manual med exempel på direktvärden", "url": "https://www.fieldenvironmental.com/assets/files/Manuals/SpectrumTechnologiesFieldScoutDirectSoilECMeter.pdf"}
   ],
+  "image": "jordmatare-ph-ec",
+  "imageAlt": "Illustration av pH-mätare och EC-mätare med två metallsonder i en odlingsbädd.",
   "related": [{"label": "Förbättra jorden", "href": "/odlingsmetoder/forbattra-jorden/"}]
 }
 ---
