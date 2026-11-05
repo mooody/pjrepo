@@ -1769,6 +1769,61 @@
           }
         ]
       }
+    },
+    {
+      "id": "jordmatare-ph-ec",
+      "ownership": "own",
+      "position": "centre",
+      "variants": {
+        "full": [
+          {
+            "file": "jordmatare-ph-ec-full-480.webp",
+            "width": 480,
+            "height": 361
+          },
+          {
+            "file": "jordmatare-ph-ec-full-800.webp",
+            "width": 800,
+            "height": 601
+          },
+          {
+            "file": "jordmatare-ph-ec.webp",
+            "width": 1447,
+            "height": 1087
+          }
+        ],
+        "card": [
+          {
+            "file": "jordmatare-ph-ec-card-480.webp",
+            "width": 480,
+            "height": 320
+          },
+          {
+            "file": "jordmatare-ph-ec-card-800.webp",
+            "width": 800,
+            "height": 533
+          }
+        ],
+        "hero": [
+          {
+            "file": "jordmatare-ph-ec-hero-480.webp",
+            "width": 480,
+            "height": 600
+          },
+          {
+            "file": "jordmatare-ph-ec-hero-800.webp",
+            "width": 800,
+            "height": 1000
+          }
+        ],
+        "sharing": [
+          {
+            "file": "jordmatare-ph-ec-sharing-1200.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ]
+      }
     }
   ]
 }

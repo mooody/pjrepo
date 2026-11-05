@@ -134,6 +134,7 @@ test('trädgårdsguiderna har korrekta brödsmulor och publicerade bilder', asyn
     ['biologisk-mangfald', 'mangfald-stubbe-full-800.webp'],
     ['jordens-sma-arbetare', 'jordens-bestandsdelar.webp'],
     ['efter-skorden', 'jordliv-rot-mykorrhiza.webp'],
+    ['analysera-din-jord', 'jordmatare-ph-ec.webp'],
     ['tackodling-genom-aret', 'tackodling-hostlov.webp'],
   ]) {
     await page.goto('/odlingsmetoder/' + slug + '/');

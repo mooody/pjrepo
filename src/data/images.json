@@ -395,6 +395,18 @@
       "license": "Fri användning med bibehållen vattenstämpel",
       "licenseUrl": "",
       "position": "centre"
+    },
+    {
+      "id": "jordmatare-ph-ec",
+      "source": "",
+      "alt": "Illustration med en grön pH-mätare och en blå EC-mätare med två metallsonder i ett grönsaksland.",
+      "caption": "pH visar jordens surhetsgrad medan EC visar den elektriska ledningsförmågan. Hur EC-värdet ska tolkas beror på mätinstrument och mätmetod.",
+      "kind": "illustration",
+      "ownership": "own",
+      "photographer": "Trädgårdsdrömmar",
+      "license": "Fri användning med bibehållen vattenstämpel",
+      "licenseUrl": "",
+      "position": "centre"
     }
   ]
 }

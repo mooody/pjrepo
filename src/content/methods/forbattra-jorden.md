@@ -9,7 +9,7 @@
     "biokol",
     "jord"
   ],
-  "reviewed": "2026-10-23",
+  "reviewed": "2026-11-03",
   "sources": [
     {
       "title": "Oregon State University: Improving Garden Soils with Organic Matter – organiskt material, markstruktur och varsam hantering.",
@@ -59,23 +59,23 @@ Jord med lite organiskt material kan ha nytta av mogen kompost. Hur du gör och 
 
 ## Olika material gör olika saker
 
-Barkmull är bearbetad bark som används som jordförbättring. Den ska skiljas från grov täckbark som främst läggs ovanpå marken. Läs användningsområdet på säcken. Materialens storlek och nedbrytningsgrad påverkar hur de fungerar.
+Barkmull består av bark som delvis brutits ned och förmultnat. Den skiljer sig från grov täckbark som främst läggs på markytan. Mull är organiskt material i olika stadier av nedbrytning. Materialets storlek och nedbrytningsgrad påverkar hur det fungerar i jorden.
 
 Torv kan bidra med en lätt och vattenhållande del i en blandning. Rå torv är däremot inte i sig en komplett näringskälla, och en torvprodukt kan vara både kalkad och gödslad. Vad du får beror på den färdiga produkten.
 
-Sand, grus och andra mineralmaterial är inte utbytbara med kompost. Att blanda i lite sand är heller inget allmänt recept för en tung jord. Utgå från ett tydligt behov och en genomtänkt blandning, särskilt om stora mängder jord ska förändras.
+Sand och grus ersätter inte kompost. Om man blandar lite sand i lerjord kan lerpartiklarna fylla tomrummen mellan sandkornen så att jorden blir mycket tät och hård. För att ändra jordarten påtagligt krävs stora sandmängder. I trädgårdslandet är förbättrad struktur med organiskt material vanligen mer praktisk.
 
 ## Biokol – intressant, men ingen universallösning
 
 Biokol tillverkas genom att organiskt material hettas upp med begränsad tillgång till syre. Det är ett beständigt kolrikt material, men egenskaperna varierar med råvaran och tillverkningen.
 
-Det kan påverka hur jorden håller vatten och näringsämnen. Det betyder inte att alla jordar eller växter får bättre tillväxt. Kontrollera vad produkten innehåller, om näring har tillsatts och hur den ska användas. En biokolblandning med kompost är något annat än rent biokol.
+Biokol kan påverka hur jorden håller vatten och näringsämnen, men ger inte alltid bättre tillväxt. Grillkol av rent trä kan likna biokol, men standarden SS-EN 1860-2 gäller grillning och garanterar inte att kolet är lämpligt för odlingsjord. EBC (European Biochar Certificate) är särskilt inriktad på biokol och kontrollerar bland annat föroreningar. FSC handlar om skogsbruk och spårbarhet; inte heller Svanen eller Bra Miljöval är automatiskt likvärdiga med ett biokolspecifikt analysintyg. Välj dokumenterat jordbrukslämpligt kol utan tändmedel och andra tillsatser.
 
-Vill du prova kan du behandla en mindre yta och lämna en liknande yta utan tillsats. Odla samma växt och sköt båda lika. Det blir inget vetenskapligt försök, men ger ett bättre underlag för nästa inköp än att ändra hela landet på en gång.
+### Näringsladda kolet
 
-## När ett jordprov är mer hjälpsamt
+Krossa större bitar till mindre korn och fukta dem för att minska dammet. Kolet kan blötläggas i gödselvatten eller blandas med kompost innan det tillförs jorden. Vid ett studiebesök hos en större svensk jordtillverkare beskrevs följande recept för att näringsladda biokol: **blanda lika delar biokol och hönsgödsel räknat i vikt (50/50), tillsätt vatten och låt stå i en till två veckor**. Det är ett konkret exempel från tillverkarens arbetssätt, inte en fastställd standarddos för alla hönsgödselprodukter. Gödselns näringsstyrka, salthalt och vattenmängden spelar roll. Om metoden används hemma bör man känna till gödselns innehåll och vara försiktig med koncentrerade gödselprodukter eller direkt kontakt med späda rötter.
 
-Du kan känna mycket med handen, men inte hur mycket fosfor jorden innehåller. Om problemen återkommer, eller om du länge har tillfört kompost och gödsel, kan en jordanalys vara ett bättre nästa steg. Ett enkelt pH-test visar surhetsgraden, inte jordens hela näringsinnehåll.
 
-Börja alltså med att undersöka, välj en åtgärd och följ vad som händer. Jordförbättring får gärna vara ett långsamt arbete där du lär känna platsen.
+
+Vill du mäta pH eller salthalt kan du läsa den separata guiden [Analysera din jord](/odlingsmetoder/analysera-din-jord/).
 

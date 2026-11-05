@@ -1,5 +1,9 @@
 # Skyddade original och offentliga webbexporter
 
+## 2026-11-05 – Jordmätare (pH och EC) till analysartikeln, PR #44
+
+Källfil: `jordmätare_i_grönsakslandet.png` från privata Google Drive-mappen `Trädgårdsdrömmar- temporära bilder` (Drive-ID `1jnrmPbs5SpkhgPx57aZFeTJuJEB15asm`). Illustration med två jordmätare, där EC-mätaren har två metallsonder. Källfilen hålls utanför publikt repo. Åtta webbexporter har gjorts för nytt befintligt-schema bild-ID `jordmatare-ph-ec`: full 480/800/1447, card 480/800, hero 480/800 och sharing 1200. Samma Sharp-beskärning, WebP-kvalitet 82 och diskreta textvattenstämpel (0,55) som nuvarande `scripts/images.mjs`. Ingen EXIF finns i exporterna. Bilden placeras som huvudbild på `src/content/methods/analysera-din-jord.md`. Övriga publika bilder och publiceringsflöden är orörda.
+
 ## Rulltestbild till jordartikeln – 3 november 2026
 
 Den tidigare offentliga bildexporten `jordrulle-test` visade en grövre jordsträng och stämde dåligt med artikelns exempel på att rulla en tunn sammanhängande sträng. Användaren pekade ut den korrekta bilden `rulltest-lerjord.png` i den privata Google Drive-mappen **Trädgårdsdrömmar- temporära bilder** (Drive-ID `17CJz7eu_CqbhyVXv-Dw7QFOWVktTSxyc`). Motiven jämfördes visuellt.

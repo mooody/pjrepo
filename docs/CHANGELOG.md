@@ -1,5 +1,13 @@
 # Ändringslogg – Trädgårdsdrömmar
 
+## 2026-11-05 – PR #44: Jordanalysartikel kompletterad med pH-/EC-bild och sammanförd med main
+
+- **Bakgrund:** PR #44 skapades 3 november med förbättrad artikel `src/content/methods/forbattra-jorden.md` och ny `src/content/methods/analysera-din-jord.md` om pH, EC, direktmätning och salttolerans. Artikeln om biokol beskriver 50/50-receptet (biokol och hönsgödsel i vikt) från studiebesök, med doseringsförbehåll.
+- **Genomfört i arbetsgrenen:** korrigerade Drive-illustrationen `jordmätare_i_grönsakslandet.png` används som huvudbild i `Analysera din jord` via nytt bild-ID `jordmatare-ph-ec`. Åtta vattenstämplade webboptimerade WebP-varianter har skapats med befintlig exportmetod. Bilden visar EC-sond med två metallpinnar. Originalet förblir skyddat på Drive och finns inte i GitHub.
+- **Samordning:** grenen har förts samman med den senaste kontrollerade `main` så att tidigare mergade ändringar, inklusive PR #47:s diagram, inte skrivs över. Bildmanifest och exportindex utökade inom befintligt schema. Ett befintligt Playwright-test kontrollerar att den nya artikelbilden laddas.
+- **Dokumentation:** `docs/images.md` uppdaterad. `docs/PROJECT_RULES.md` och `AGENTS.md` granskade utan ändringsbehov; `docs/SERVER_OPERATIONS.md` påverkas inte.
+- **Status:** genomfört i PR #44:s arbetsgren. Byggkontroll och granskning återstår; inte mergat till main eller publicerat i produktion. Ingen ändring av CMS, säkerhet, Nginx, server eller publiceringsflöde.
+
 ## 2026-11-03 – Korrigerad rulltestbild i jordartikeln (PR för granskning)
 
 - **Begäran:** den publicerade bilden vid rulltestet på `/odlingsmetoder/jord-och-kompost/` återgav felaktigt en grövre jordsträng. Ersätt med användarens korrekta bild i privata Drive-mappen `Trädgårdsdrömmar- temporära bilder`.
